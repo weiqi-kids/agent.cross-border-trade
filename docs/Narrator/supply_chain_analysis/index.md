@@ -2,6 +2,7 @@
 layout: default
 title: 供應鏈月報
 nav_order: 3
+has_children: true
 permalink: /supply-chain/
 ---
 
@@ -15,8 +16,8 @@ permalink: /supply-chain/
 
 | 期別 | 報告 |
 |------|------|
-| 2026 年 2 月 | [查看報告](../supply_chain_analysis/2026-02-supply-chain-analysis) |
-| 2026 年 1 月 | [查看報告](../supply_chain_analysis/2026-01-supply-chain-analysis) |
+| 2026 年 2 月 | [查看報告](2026-02-supply-chain-analysis) |
+| 2026 年 1 月 | [查看報告](2026-01-supply-chain-analysis) |
 
 ---
 

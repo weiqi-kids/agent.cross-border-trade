@@ -2,6 +2,7 @@
 layout: default
 title: 貿易動態週報
 nav_order: 2
+has_children: true
 permalink: /trade-briefing/
 ---
 
@@ -15,8 +16,8 @@ permalink: /trade-briefing/
 
 | 期別 | 日期範圍 | 報告 |
 |------|----------|------|
-| 2026-W06 | 02-03 ~ 02-09 | [查看報告](../trade_briefing/2026-W06-trade-briefing) |
-| 2026-W05 | 01-27 ~ 02-02 | [查看報告](../trade_briefing/2026-W05-trade-briefing) |
+| 2026-W06 | 02-03 ~ 02-09 | [查看報告](2026-W06-trade-briefing) |
+| 2026-W05 | 01-27 ~ 02-02 | [查看報告](2026-W05-trade-briefing) |
 
 ---
 
