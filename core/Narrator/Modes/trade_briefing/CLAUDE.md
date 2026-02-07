@@ -26,6 +26,13 @@
 ## 輸出框架
 
 ```markdown
+---
+layout: default
+title: "{YYYY} 年第 {WW} 週"
+parent: 貿易動態週報
+nav_order: {降序編號，最新為 1}
+---
+
 # 貿易動態簡報 — {YYYY} 年第 {WW} 週
 
 > 報告期間：{start_date} — {end_date}

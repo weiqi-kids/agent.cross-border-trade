@@ -30,6 +30,13 @@
 ## 輸出框架
 
 ```markdown
+---
+layout: default
+title: "{YYYY} 年 {M} 月"
+parent: 供應鏈月報
+nav_order: {降序編號，最新為 1}
+---
+
 # 供應鏈分析報告 — {YYYY} 年 {MM} 月
 
 > 報告期間：{YYYY}-{MM}

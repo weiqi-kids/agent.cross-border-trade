@@ -49,7 +49,16 @@ Type B 萃取流程：
 對每個 Mode 依序執行：
 1. 讀取該 Mode 的 `CLAUDE.md` 和 `core/Narrator/CLAUDE.md`
 2. 讀取 CLAUDE.md 中宣告的來源 Layer 資料（`docs/Extractor/{layer}/` 下的 `.md` 檔）
-3. 依照輸出框架產出報告到 `docs/Narrator/{mode}/`
+3. 使用 Qdrant 語意搜尋相關歷史資料
+4. 依照輸出框架產出報告到 `docs/Narrator/{mode}/`
+5. 報告必須包含 Jekyll front matter（layout、title、parent、nav_order）
+
+### 步驟五：更新網站
+
+1. 更新 `docs/Narrator/{mode}/index.md` 的歷史報告表格
+2. 更新 `docs/index.md` 的最新報告連結
+3. 執行 `git add . && git commit && git push`
+4. GitHub Actions 自動部署到 Pages
 
 ---
 
@@ -64,6 +73,7 @@ Type B 萃取流程：
 | 步驟二 | update.sh 執行 | `sonnet` | `Bash` |
 | 步驟三 | 動態發現 Mode | `sonnet` | `Bash` |
 | 步驟四 | Mode 報告產出 | `opus` | `general-purpose` |
+| 步驟五 | 更新網站 | `sonnet` | `Bash` |
 
 **強制規則**：
 - 只有步驟四使用 `opus`，其餘一律 `sonnet`
