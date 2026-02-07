@@ -79,10 +79,40 @@ Type B 萃取流程：
 - 只有步驟四使用 `opus`，其餘一律 `sonnet`
 - 需寫檔的 Task 必須用 `general-purpose`，純腳本執行用 `Bash`
 
-**平行策略**：
-- Type B 萃取可平行分派（如 20 筆一次分派 10 個 Task）
-- 多個 Layer 的 fetch.sh 可平行執行
-- Mode 報告依序執行（後者可能依賴前者）
+**平行策略與背景執行**：
+
+主執行緒保持可用，使用 `run_in_background: true` 讓 sonnet 子代理背景執行：
+
+| 階段 | 背景執行 | 說明 |
+|------|----------|------|
+| 步驟一 | ❌ | 快速掃描，前台即可 |
+| 步驟二 fetch | ✅ | 5 個 Layer 同時背景執行 |
+| 步驟二 analyze | ✅ | Type A 各自背景執行 |
+| 步驟二 NLP 萃取 | ✅ | Type B 批次 5-10 個背景執行 |
+| 步驟二 update | ❌ | 需等 fetch/analyze 完成，依序前台 |
+| 步驟三 | ❌ | 快速掃描，前台即可 |
+| 步驟四 Mode 報告 | ❌ | opus 依序前台執行（需深度推理） |
+| 步驟五 | ✅ | 背景執行，主執行緒立即可用 |
+
+**執行範例**：
+
+```
+# 步驟二：5 個 Layer fetch 同時背景執行
+Task(prompt="執行 bilateral_trade_flows fetch.sh", run_in_background=true)
+Task(prompt="執行 us_trade_census fetch.sh", run_in_background=true)
+Task(prompt="執行 world_macro_indicators fetch.sh", run_in_background=true)
+Task(prompt="執行 open_trade_stats fetch.sh", run_in_background=true)
+Task(prompt="執行 cn_export_control fetch.sh", run_in_background=true)
+
+# 主執行緒用 TaskOutput 監控進度
+TaskOutput(task_id="...", block=false)  # 非阻塞檢查
+TaskOutput(task_id="...", block=true)   # 等待完成
+```
+
+**監控規則**：
+- 背景任務啟動後，主執行緒定期用 `TaskOutput(block=false)` 檢查狀態
+- 使用者有新指令時優先處理，不被背景任務阻塞
+- 所有背景任務完成後才進入下一階段
 
 ---
 
