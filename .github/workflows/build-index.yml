@@ -1,0 +1,42 @@
+name: Build Index
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - 'docs/**/*.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build index.json
+        run: |
+          echo '[]' > /tmp/index.json
+          find docs -name '*.md' -type f | sort | while IFS= read -r file; do
+            title="$(head -1 "$file" | sed 's/^#* *//' | tr -d '\r')"
+            category="$(echo "$file" | cut -d'/' -f2)"
+            layer_or_mode="$(echo "$file" | cut -d'/' -f3)"
+            jq --arg path "$file" \
+               --arg title "$title" \
+               --arg category "$category" \
+               --arg source "$layer_or_mode" \
+               '. += [{path: $path, title: $title, category: $category, source: $source}]' \
+               /tmp/index.json > /tmp/index_new.json
+            mv /tmp/index_new.json /tmp/index.json
+          done
+          mv /tmp/index.json docs/index.json
+
+      - name: Commit index.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/index.json
+          git diff --cached --quiet || git commit -m "chore: rebuild docs/index.json"
+          git push

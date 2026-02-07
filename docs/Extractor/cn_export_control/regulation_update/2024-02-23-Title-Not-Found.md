@@ -1,0 +1,48 @@
+[REVIEW_NEEDED] # Title Not Found
+
+- **Source**: exportcontrol.mofcom.gov.cn
+- **URL**: http://exportcontrol.mofcom.gov.cn/article/zcfg/gnzcfg/zcfggzqd/202402/961.html
+- **Date**: 2024-02-23
+- **Category**: regulation_update
+- **Fetched**: 2026-01-29 07:36:03
+- **confidence**: 高
+
+## Summary
+
+各省、自治区、直辖市及新疆生产建设兵团工业和信息化主管部门、商务主管部门，各直属海关： 根据《中华人民共和国监控化学品管理条例》《&lt;中华人民共和国监控化学品管理条例&gt;实施细则》有关规定，为提升监控化学品进出口管理效能，现决定自2024年2月1日起优化部分低浓度三乙醇胺混合物进出口的监管措施。现将有关事项通知如下： 三乙醇胺含量较低的非医用消毒剂、合成洗涤粉、化妆品、墨水等消费类商品（详见附件），防扩散风险可控，不属于《两用物项和技术进出口许可证管理目录》中三乙醇胺（海关商品编号2922150000）和三乙醇胺混合物（海关商品编号3824999950）项下的管控物项，无需办理监控...
+
+## Key Details
+
+- **Issuing Authority**: Chinese Government
+- **Effective Date**: 2024-02-01
+- **Scope**: China export control regulations
+
+## Key Provisions
+
+各省、自治区、直辖市及新疆生产建设兵团工业和信息化主管部门、商务主管部门，各直属海关：
+
+根据《中华人民共和国监控化学品管理条例》《&lt;中华人民共和国监控化学品管理条例&gt;实施细则》有关规定，为提升监控化学品进出口管理效能，现决定自2024年2月1日起优化部分低浓度三乙醇胺混合物进出口的监管措施。现将有关事项通知如下：
+
+三乙醇胺含量较低的非医用消毒剂、合成洗涤粉、化妆品、墨水等消费类商品（详见附件），防扩散风险可控，不属于《两用物项和技术进出口许可证管理目录》中三乙醇胺（海关商品编号2922150000）和三乙醇胺混合物（海关商品编号3824999950）项下的管控物项，无需办理监控化学品进出口审批手续，无需办理两用物项和技术进出口许可。
+
+执行过程中发现的问题，请及时报国家履行《禁止化学武器公约》工作办公室，以便根据实际情况动态调整监管措施。
+
+附件：不属于《两用物项和技术进出口许可证管理目录》的低浓度三乙醇胺混合物产品清单.pdf
+
+本站转载、编译或摘编文章原文均来自其他媒体，转载、编译或摘编的目的在于传递更多信息，并不代表本站赞同其观点和对其真实性负责。其他媒体、网站或个人转载使用时必须保留本站注明的文章来源，并自负法律责任。
+
+## Supply Chain Impact Assessment
+
+*This section contains speculative analysis based on policy content*
+
+This policy may impact supply chains involving controlled items under Chinese export control regulations. Businesses engaged in cross-border trade should review compliance requirements.
+
+## Notes
+
+- WebFetch Status: partial - no title
+- Extraction Quality: Full content extracted
+
+---
+
+*Source: China Ministry of Commerce Export Control Information Network*
+*Disclaimer: This policy interpretation is for reference only and does not constitute legal advice.*

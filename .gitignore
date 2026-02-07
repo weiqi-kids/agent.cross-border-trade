@@ -1,0 +1,26 @@
+# Environment
+.env
+
+# Raw data (fetched from APIs)
+docs/Extractor/*/raw/
+
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+
+# Temp files
+*.tmp
+*.swp
+
+# Claude CLI
+.claude/
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+vendor/

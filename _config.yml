@@ -1,0 +1,68 @@
+# Site settings
+title: Global Trade Intelligence
+description: 全球貿易與供需智慧分析系統
+url: ""
+baseurl: ""
+
+# Theme
+theme: just-the-docs
+
+# Color scheme
+color_scheme: light
+
+# Aux links (top right)
+aux_links:
+  "GitHub":
+    - "https://github.com/weiqi-kids/agent.cross-border-trade"
+
+aux_links_new_tab: true
+
+# Navigation
+nav_sort: case_insensitive
+
+# Default front matter - apply layout to all markdown files
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Search
+search_enabled: true
+search:
+  heading_level: 3
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+# Footer
+footer_content: "Global Trade Intelligence System &copy; 2026"
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - "*.sh"
+  - "*.jsonl"
+  - "*/raw/*"
+  - CLAUDE.md
+  - explored.md
+  - Extractor
+
+# Keep files
+keep_files:
+  - index.json

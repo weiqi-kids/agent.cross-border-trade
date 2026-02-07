@@ -1,0 +1,44 @@
+[REVIEW_NEEDED] # Title Not Found
+
+- **Source**: exportcontrol.mofcom.gov.cn
+- **URL**: http://exportcontrol.mofcom.gov.cn/article/gndt/202510/1179.html
+- **Date**: 2025-10-15
+- **Category**: regulation_update
+- **Fetched**: 2026-01-29 07:36:22
+- **confidence**: 中
+
+## Summary
+
+有记者问：近日，商务部宣布对韩华海洋株式会社5家美国相关子公司实施反制，请问有何考虑？ 答：美东时间10月14日，美国开始实施对中国海事、物流和造船领域301调查的最终措施，严重违反国际法和国际关系基本准则，严重损害中国企业合法权益。韩华海洋株式会社在美相关子公司协助、支持美国政府对中国海事、物流和造船业开展301调查并采取措施。中方对此强烈不满、坚决反对。为维护自身主权、安全和发展利益，根据《中华人民共和国反外国制裁法》等相关法律法规，经国家反外国制裁工作协调机制批准，中方决定将韩华海洋株式会社5家美国相关子公司列入反制清单，禁止我国境内的组织、个人与其进行有关交易、合作等活动。 中方敦...
+
+## Key Details
+
+- **Issuing Authority**: Ministry of Commerce of PRC (MOFCOM)
+- **Effective Date**: Not specified
+- **Scope**: International export control regulations and China's response
+
+## Key Provisions
+
+有记者问：近日，商务部宣布对韩华海洋株式会社5家美国相关子公司实施反制，请问有何考虑？
+
+答：美东时间10月14日，美国开始实施对中国海事、物流和造船领域301调查的最终措施，严重违反国际法和国际关系基本准则，严重损害中国企业合法权益。韩华海洋株式会社在美相关子公司协助、支持美国政府对中国海事、物流和造船业开展301调查并采取措施。中方对此强烈不满、坚决反对。为维护自身主权、安全和发展利益，根据《中华人民共和国反外国制裁法》等相关法律法规，经国家反外国制裁工作协调机制批准，中方决定将韩华海洋株式会社5家美国相关子公司列入反制清单，禁止我国境内的组织、个人与其进行有关交易、合作等活动。
+
+中方敦促美方及相关企业尊重事实和多边经贸规则，遵守市场经济和公平竞争原则，尽早纠正有关错误做法，停止损害中方利益。
+
+本站转载、编译或摘编文章原文均来自其他媒体，转载、编译或摘编的目的在于传递更多信息，并不代表本站赞同其观点和对其真实性负责。其他媒体、网站或个人转载使用时必须保留本站注明的文章来源，并自负法律责任。
+
+## Supply Chain Impact Assessment
+
+*This section contains speculative analysis based on policy content*
+
+This policy may impact supply chains involving controlled items under Chinese export control regulations. Businesses engaged in cross-border trade should review compliance requirements.
+
+## Notes
+
+- WebFetch Status: partial - no title
+- Extraction Quality: Partial content extracted
+
+---
+
+*Source: China Ministry of Commerce Export Control Information Network*
+*Disclaimer: This policy interpretation is for reference only and does not constitute legal advice.*
