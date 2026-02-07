@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "供應鏈分析報告 — 2026 年 01 月"
+title: "2026 年 1 月"
 parent: 供應鏈月報
 ---
 

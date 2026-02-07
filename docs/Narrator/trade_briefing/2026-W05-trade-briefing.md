@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "貿易動態簡報 — 2026 年第 05 週"
+title: "2026 年第 05 週"
 parent: 貿易動態週報
 ---
 
