@@ -1,14 +1,11 @@
 name: Check Links & Auto-fix 404
 
 on:
-  # 部署完成後檢查
   workflow_run:
     workflows: ["Deploy Jekyll to GitHub Pages"]
     types:
       - completed
-  # 手動觸發
   workflow_dispatch:
-  # 每週一檢查
   schedule:
     - cron: '0 0 * * 1'
 
@@ -27,52 +24,50 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          node-version: '20'
+          ruby-version: '3.2'
+          bundler-cache: true
 
-      - name: Get site URL
-        id: site-url
+      - name: Build site locally
         run: |
-          # 從 GitHub Pages 設定推斷 URL
-          REPO_NAME="${{ github.repository }}"
-          OWNER="${REPO_NAME%%/*}"
-          REPO="${REPO_NAME##*/}"
-          echo "url=https://${OWNER}.github.io/${REPO}" >> $GITHUB_OUTPUT
+          bundle exec jekyll build --source docs --destination _site --config _config.yml
 
-      - name: Check internal links
+      - name: Check all internal links
         id: check-links
         run: |
-          echo "Checking links in docs/"
+          echo "Checking all internal links..."
 
-          # 收集所有 markdown 文件中的內部連結
           BROKEN_LINKS=""
+          FIXES_APPLIED=""
 
-          find docs -name "*.md" -type f | while read -r file; do
-            # 提取 markdown 連結 [text](link)
-            grep -oE '\[([^\]]+)\]\(([^)]+)\)' "$file" 2>/dev/null | while read -r match; do
-              link=$(echo "$match" | sed 's/.*](\([^)]*\))/\1/')
-
-              # 跳過外部連結和錨點
-              if [[ "$link" =~ ^https?:// ]] || [[ "$link" =~ ^# ]] || [[ "$link" =~ ^mailto: ]]; then
+          # 遍歷所有 HTML 文件
+          find _site -name "*.html" -type f | while read -r html_file; do
+            # 提取所有 href 連結
+            grep -oE 'href="[^"]*"' "$html_file" 2>/dev/null | sed 's/href="//;s/"$//' | while read -r link; do
+              # 跳過外部連結、錨點、mailto
+              if [[ "$link" =~ ^https?:// ]] || [[ "$link" =~ ^# ]] || [[ "$link" =~ ^mailto: ]] || [[ -z "$link" ]]; then
                 continue
               fi
 
-              # 計算目標路徑
-              dir=$(dirname "$file")
+              # 處理相對路徑
               if [[ "$link" =~ ^/ ]]; then
-                target="docs${link}"
+                target="_site${link}"
               else
+                dir=$(dirname "$html_file")
                 target="$dir/$link"
               fi
 
-              # 移除 .html 後綴並加上 .md
-              target=$(echo "$target" | sed 's/\.html$//')
+              # 標準化路徑
+              target=$(echo "$target" | sed 's|/\./|/|g' | sed 's|[^/]*/\.\./||g')
 
-              # 檢查文件是否存在
-              if [[ ! -f "${target}.md" ]] && [[ ! -f "$target/index.md" ]] && [[ ! -d "$target" ]]; then
-                echo "BROKEN: $file -> $link (target: $target)" >> /tmp/broken-links.txt
+              # 移除錨點
+              target=$(echo "$target" | sed 's/#.*//')
+
+              # 檢查目標是否存在
+              if [[ ! -f "$target" ]] && [[ ! -f "${target}index.html" ]] && [[ ! -f "${target}/index.html" ]] && [[ ! -d "$target" ]]; then
+                echo "BROKEN|$html_file|$link|$target" >> /tmp/broken-links.txt
               fi
             done
           done
@@ -82,51 +77,83 @@ jobs:
             cat /tmp/broken-links.txt
             echo "has_broken_links=true" >> $GITHUB_OUTPUT
 
-            # 保存到環境變數
-            {
-              echo 'broken_links<<EOF'
-              cat /tmp/broken-links.txt
-              echo 'EOF'
-            } >> $GITHUB_OUTPUT
+            # 統計
+            count=$(wc -l < /tmp/broken-links.txt | tr -d ' ')
+            echo "broken_count=$count" >> $GITHUB_OUTPUT
           else
-            echo "No broken links found"
+            echo "All links are valid!"
             echo "has_broken_links=false" >> $GITHUB_OUTPUT
           fi
 
-      - name: Attempt auto-fix
+      - name: Attempt auto-fix in source files
         if: steps.check-links.outputs.has_broken_links == 'true'
         run: |
-          echo "Attempting to fix broken links..."
+          echo "Attempting to fix broken links in source files..."
 
-          # 讀取損壞的連結
-          while IFS= read -r line; do
-            # 解析: BROKEN: source_file -> link (target: expected_target)
-            source_file=$(echo "$line" | sed 's/BROKEN: \([^ ]*\) -> .*/\1/')
-            link=$(echo "$line" | sed 's/.*-> \([^ ]*\) .*/\1/')
-            target=$(echo "$line" | sed 's/.*(target: \([^)]*\))/\1/')
+          # 建立 HTML 到 MD 的映射
+          declare -A html_to_md
+          find docs -name "*.md" -type f | while read -r md; do
+            # 簡化：假設 docs/X/Y.md -> _site/X/Y.html 或 _site/X/Y/index.html
+            echo "$md"
+          done
 
-            echo "Checking: $source_file -> $link"
+          while IFS='|' read -r status html_file link target; do
+            echo "Processing: $link in $html_file"
 
-            # 嘗試找到正確的文件
-            base_name=$(basename "$link" | sed 's/\.md$//' | sed 's/\.html$//')
+            # 從 HTML 路徑反推 MD 路徑
+            md_path=$(echo "$html_file" | sed 's|^_site/|docs/|' | sed 's|/index\.html$|.md|' | sed 's|\.html$|.md|')
 
-            # 搜尋可能的匹配
-            found=$(find docs -name "${base_name}*.md" -o -name "${base_name}" -type d | head -1)
+            # 如果 MD 不存在，嘗試其他路徑
+            if [[ ! -f "$md_path" ]]; then
+              md_path=$(echo "$html_file" | sed 's|^_site/|docs/|' | sed 's|\.html$|/index.md|')
+            fi
 
-            if [[ -n "$found" ]]; then
-              echo "Found potential match: $found"
+            if [[ ! -f "$md_path" ]]; then
+              echo "Cannot find source MD for $html_file"
+              continue
+            fi
+
+            echo "Source file: $md_path"
+
+            # 提取連結的基本名稱
+            base_name=$(basename "$link" | sed 's/\.html$//' | sed 's/\.md$//')
+
+            # 搜尋可能的正確目標
+            found=$(find docs -type f -name "${base_name}.md" | head -1)
+
+            if [[ -z "$found" ]]; then
+              # 嘗試搜尋目錄
+              found=$(find docs -type d -name "$base_name" | head -1)
+              if [[ -n "$found" ]]; then
+                found="$found/index.md"
+              fi
+            fi
+
+            if [[ -n "$found" ]] && [[ -f "$found" ]]; then
+              echo "Found correct target: $found"
 
               # 計算相對路徑
-              source_dir=$(dirname "$source_file")
-              new_link=$(python3 -c "import os.path; print(os.path.relpath('$found', '$source_dir'))" | sed 's/\.md$//')
+              source_dir=$(dirname "$md_path")
+              new_link=$(python3 -c "
+import os.path
+source = '$source_dir'
+target = '$found'
+rel = os.path.relpath(target, source)
+# 移除 .md 後綴
+rel = rel.replace('.md', '')
+print(rel)
+")
 
-              echo "Suggested fix: $link -> $new_link"
+              echo "New link: $new_link"
 
-              # 執行替換
-              sed -i.bak "s|]($link)|]($new_link)|g" "$source_file"
-              rm -f "${source_file}.bak"
-
-              echo "Fixed in $source_file"
+              # 在 MD 文件中替換連結
+              if grep -q "$link" "$md_path"; then
+                sed -i.bak "s|]($link)|]($new_link)|g" "$md_path"
+                rm -f "${md_path}.bak"
+                echo "Fixed: $link -> $new_link in $md_path"
+              fi
+            else
+              echo "No match found for $base_name"
             fi
           done < /tmp/broken-links.txt
 
@@ -137,36 +164,37 @@ jobs:
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
             echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes made:"
             git diff --stat
           fi
 
-      - name: Create Pull Request
+      - name: Commit fixes directly
         if: steps.check-changes.outputs.has_changes == 'true'
-        uses: peter-evans/create-pull-request@v6
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "fix: auto-fix broken links"
-          title: "🔗 Auto-fix broken links"
-          body: |
-            This PR was automatically created to fix broken links detected in the documentation.
-
-            ## Broken links detected:
-            ```
-            ${{ steps.check-links.outputs.broken_links }}
-            ```
-
-            Please review the changes before merging.
-          branch: fix/broken-links
-          delete-branch: true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "fix: auto-fix broken links detected by check-links workflow"
+          git push
 
       - name: Report status
         if: always()
         run: |
           if [[ "${{ steps.check-links.outputs.has_broken_links }}" == "true" ]]; then
-            echo "::warning::Broken links were detected. Check the workflow output for details."
+            echo "::warning::Found ${{ steps.check-links.outputs.broken_count }} broken links"
             if [[ "${{ steps.check-changes.outputs.has_changes }}" == "true" ]]; then
-              echo "::notice::A PR has been created with suggested fixes."
+              echo "::notice::Fixes have been committed automatically"
+            else
+              echo "::error::Could not auto-fix all broken links. Manual intervention required."
+              cat /tmp/broken-links.txt || true
             fi
           else
             echo "::notice::All links are valid!"
           fi
+
+      - name: Fail if unfixed broken links
+        if: steps.check-links.outputs.has_broken_links == 'true' && steps.check-changes.outputs.has_changes == 'false'
+        run: |
+          echo "Broken links could not be auto-fixed:"
+          cat /tmp/broken-links.txt
+          exit 1

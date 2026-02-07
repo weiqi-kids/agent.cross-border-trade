@@ -20,15 +20,15 @@ Global Trade Intelligence System
 
 | 期別 | 報告 |
 |------|------|
-| 2026 第 06 週 | [2026-W06 貿易動態簡報](/trade-briefing/2026-W06-trade-briefing) |
-| 2026 第 05 週 | [2026-W05 貿易動態簡報](/trade-briefing/2026-W05-trade-briefing) |
+| 2026 第 06 週 | [2026-W06 貿易動態簡報](Narrator/trade_briefing/2026-W06-trade-briefing) |
+| 2026 第 05 週 | [2026-W05 貿易動態簡報](Narrator/trade_briefing/2026-W05-trade-briefing) |
 
 ### 供應鏈月報
 
 | 期別 | 報告 |
 |------|------|
-| 2026 年 2 月 | [2026-02 供應鏈分析](/supply-chain/2026-02-supply-chain-analysis) |
-| 2026 年 1 月 | [2026-01 供應鏈分析](/supply-chain/2026-01-supply-chain-analysis) |
+| 2026 年 2 月 | [2026-02 供應鏈分析](Narrator/supply_chain_analysis/2026-02-supply-chain-analysis) |
+| 2026 年 1 月 | [2026-01 供應鏈分析](Narrator/supply_chain_analysis/2026-01-supply-chain-analysis) |
 
 ---
 
