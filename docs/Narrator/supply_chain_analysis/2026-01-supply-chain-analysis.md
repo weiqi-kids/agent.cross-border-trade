@@ -2,6 +2,7 @@
 layout: default
 title: "2026 年 1 月"
 parent: 供應鏈月報
+nav_order: 2
 ---
 
 
