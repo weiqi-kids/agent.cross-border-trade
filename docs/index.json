@@ -181,7 +181,13 @@
   },
   {
     "path": "docs/Extractor/cn_export_control/administrative-license-law-2021-12-30.md",
-    "title": "中华人民共和国行政许可法 (Administrative License Law of the People's Republic of China)",
+    "title": "中华人民共和国行政许可法（Law of the People's Republic of China on Administrative Licenses）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/administrative-penalty-law-2021-12-30.md",
+    "title": "中华人民共和国行政处罚法（Administrative Penalty Law of the People's Republic of China）",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -192,8 +198,20 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/aerospace-gas-turbine-spacesuit-materials-export-control-2024-06-03.md",
+    "title": "关于对航空航天结构、燃气轮机发动机设备、航天服面窗和超高分子量聚乙烯纤维实施出口管制的公告 (Announcement on Export Controls for Aerospace Structures, Gas Turbine Engine Equipment, Spacesuit Visors and Ultra-High Molecular Weight Polyethylene Fiber)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/aerospace-materials-equipment-export-control-2024.md",
     "title": "对有关物项实施出口管制 (Export Control on Aerospace Materials and Equipment)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/anti-drug-committee-precursor-chemicals-notice-2025-11-11.md",
+    "title": "国家禁毒委员会办公室关于防止制毒物品和非列管化学品及设备流失的提醒通知 (Notice on Preventing Loss of Drug Manufacturing Materials and Non-Listed Chemical Products and Equipment)",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -204,14 +222,38 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/antimony-superhard-materials-export-control-2024-08-26.md",
+    "title": "关于对锑相关物项及超硬材料设备实施出口管制的公告 (Announcement on Export Controls for Antimony-Related Products and Superhard Materials Equipment)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/antimony-superhard-materials-export-control-2024.md",
     "title": "对锑等物项实施出口管制 (Export Control on Antimony and Related Items)",
     "category": "Extractor",
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/ascentech-semiconductor-response-2025-11-04.md",
+    "title": "商务部新闻发言人就安世半导体问题答记者问（Ministry of Commerce Spokesperson Responds to Questions on Ascentech Semiconductor Issue）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/biological-dual-use-items-export-control-2021-12-30.md",
+    "title": "中华人民共和国生物两用品及相关设备和技术出口管制条例（Regulations of the People's Republic of China on Export Control of Biological Dual-Use Items and Related Equipment and Technology）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/biological-dual-use-items-export-control-regulation-2002-repealed.md",
     "title": "中华人民共和国生物两用品及相关设备和技术出口管制条例 (Regulations of the People's Republic of China on Export Control of Biological Dual-Use Items and Related Equipment and Technology)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/biosafety-law-2021-12-30.md",
+    "title": "中华人民共和国生物安全法（Biosafety Law of the People's Republic of China）",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -228,8 +270,20 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/canada-additive-manufacturing-quantum-controls-2025-01-03.md",
+    "title": "加拿大将对增材制造等物项出口实施管制(Canada Implements Export Controls on Additive Manufacturing and Quantum Computing Items)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/china-data-security-law-2021.md",
     "title": "中华人民共和国数据安全法 (Data Security Law of the People's Republic of China)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/china-eu-export-control-dialogue-brussels-2025-11-06.md",
+    "title": "中欧出口管制对话磋商在布鲁塞尔举行（China-EU Export Control Dialogue Consultation Held in Brussels）",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -258,6 +312,12 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/commercial-cryptography-management-2021-12-30.md",
+    "title": "商用密码管理条例（Commercial Cryptography Management Regulations）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/commercial-cryptography-management-regulation-state-council-order-273.md",
     "title": "商用密码管理条例 (Commercial Cryptography Management Regulation)",
     "category": "Extractor",
@@ -266,6 +326,12 @@
   {
     "path": "docs/Extractor/cn_export_control/commercial-cryptography-management-regulations.md",
     "title": "商用密码管理条例 (Commercial Cryptography Management Regulations)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/commercial-encryption-management-2023-06-06.md",
+    "title": "商用密码管理条例（Commercial Encryption Management Regulations）",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -318,8 +384,26 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/counter-foreign-sanctions-implementation-2025-04-08.md",
+    "title": "实施《中华人民共和国反外国制裁法》的规定（Provisions on the Implementation of the Law of the People's Republic of China on Countering Foreign Sanctions）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/counter-foreign-sanctions-law-2021-12-30.md",
+    "title": "中华人民共和国反外国制裁法（Law of the People's Republic of China on Countering Foreign Sanctions）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/countermeasures-eu-banks-2025.md",
     "title": "对欧盟两家金融机构采取反制措施的决定 (Countermeasures Against Two EU Financial Institutions)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/countermeasures-eu-financial-institutions-2025-08-14.md",
+    "title": "商务部令2025年第5号 关于对欧盟两家金融机构实施反制措施的决定（Ministry of Commerce Order No. 5 (2025) - Decision on Countermeasures Against Two EU Financial Institutions）",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -336,6 +420,12 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/cryptography-law-2021-12-30.md",
+    "title": "中华人民共和国密码法（Cryptography Law of the People's Republic of China）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/customs-announcement-2025-61.md",
     "title": "商务部公告2025第61号 公布对境外相关稀土物项实施出口管制的决定 (MOFCOM Announcement No. 61 of 2025: Decision on Implementing Export Controls on Foreign-Related Rare Earth Items)",
     "category": "Extractor",
@@ -348,14 +438,38 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/customs-law-2021-12-30.md",
+    "title": "中华人民共和国海关法（Customs Law of the People's Republic of China）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/customs-law-prc-1987.md",
     "title": "中华人民共和国海关法 (Customs Law of the People's Republic of China)",
     "category": "Extractor",
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/data-security-law-2021-12-30.md",
+    "title": "中华人民共和国数据安全法（Data Security Law of the People's Republic of China）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/drug-control-law-2021-12-30.md",
+    "title": "中华人民共和国禁毒法 (Drug Control Law of the People's Republic of China)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/dual-use-catalog-2024-release.md",
     "title": "关于发布2024年度《两用物项和技术进出口许可证管理目录》的公告 (Announcement on Releasing the 2024 Dual-Use Items and Technology Import-Export License Management Catalog)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/dual-use-export-control-japan-2026-01-06.md",
+    "title": "商务部新闻发言人就加强对日两用物项出口管制答记者问（Ministry of Commerce Spokesperson Answers Questions on Strengthening Dual-Use Items Export Controls to Japan）",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -372,8 +486,32 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/dual-use-items-directory-update-2024-2023-12-29.md",
+    "title": "两用物项和技术进出口许可证管理目录(2024年)公告 (Announcement on Dual-Use Items and Technology Import-Export License Management Directory 2024)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/dual-use-items-export-control-list-2024-11-21.md",
+    "title": "关于发布《中华人民共和国两用物项出口管制清单》的公告 (Notice on Publishing the People's Republic of China Dual-Use Items Export Control List)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/dual-use-items-export-control-regulation-2024-12-01.md",
+    "title": "中华人民共和国两用物项出口管制条例 (Regulation on Export Control of Dual-Use Items of the People's Republic of China)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/dual-use-items-export-control-regulations-2024.md",
     "title": "中华人民共和国两用物项出口管制条例 (Regulations of the People's Republic of China on Export Control of Dual-Use Items)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/dutch-minister-nexperia-response-2025-11-20.md",
+    "title": "商务部新闻发言人就荷兰经济大臣卡雷曼涉安世半导体表态答记者问（Commerce Ministry Spokesperson Responds to Dutch Economic Minister Karreman's Statement on Nexperia Semiconductor Issue）",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -420,8 +558,44 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/eu-dual-use-export-control-annual-report-2025-02-12.md",
+    "title": "欧盟发布两用物项出口管制年度报告(EU Publishes Dual-Use Export Control Annual Report)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/eu-dual-use-items-list-amendment-2024-09-30.md",
+    "title": "欧盟修订两用物项管制清单（EU Amends Dual-Use Items Control List）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/eu-nexperia-statement-response-nov2025.md",
     "title": "商务部新闻发言人就欧方关于安世半导体问题的声明答记者问 (MOFCOM Spokesperson Responds to EU Statement on Nexperia Issue)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/eu-nxp-semiconductor-response-2025-11-11.md",
+    "title": "商务部新闻发言人就欧盟涉安世半导体表态答记者问（Spokesperson of Ministry of Commerce Responds to Reporter Questions on EU Statement Regarding NXP Semiconductors）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/eu-sanctions-response-2025-10-29.md",
+    "title": "商务部新闻发言人就欧盟第19轮对俄制裁列单中国企业答记者问（Ministry of Commerce Spokesperson Responds to EU's 19th Round of Russia Sanctions Targeting Chinese Enterprises）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/export-control-blacklist-adjustment-us-2025-11-06.md",
+    "title": "商务部新闻发言人就调整出口管制黑名单措施答记者问（Commercial Ministry Spokesperson Responds to Questions on Adjusting Export Control Blacklist Measures）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/export-control-law-2021-12-30.md",
+    "title": "中华人民共和国出口管制法（Law of the People's Republic of China on Export Control）",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -432,8 +606,20 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/export-control-list-us-entities-defense-2025-09-26.md",
+    "title": "商务部公告2025年第51号 关于将3家美国实体列入出口管制清单的决定（Ministry of Commerce Announcement 2025 No. 51 - Decision to List 3 U.S. Entities on Export Control List）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/export-control-working-mechanism-document.md",
     "title": "不可靠实体清单工作机制关于将反无人机技术公司等外国实体列入不可靠实体清单的公告 (Announcement of the Unreliable Entity List Working Mechanism on Adding Counter-UAS Technology Companies and Other Foreign Entities to the Unreliable Entity List)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/foreign-trade-law-2023-01-01.md",
+    "title": "中华人民共和国对外贸易法（Foreign Trade Law of the People's Republic of China）",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -450,14 +636,44 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/gbl-containing-products-service-optimization-2024-01-03.md",
+    "title": "关于优化含γ-丁内酯特定产品服务管理措施的公告 (Announcement on Optimizing Service Management Measures for Specific Products Containing γ-Butyrolactone)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/germany-export-control-digitalization-fourth-package-2024-12-20.md",
+    "title": "德国推出第四套措施提高出口管制程序的数字化和效率(Germany Introduces Fourth Package to Enhance Export Control Digitalization and Efficiency)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/germany-export-control-digitalization.md",
     "title": "德国推出第四套措施提高出口管制程序的数字化和效率 (Germany Launches Fourth Set of Measures to Improve Digitalization and Efficiency of Export Control Procedures)",
     "category": "Extractor",
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/graphite-export-control-optimization-2023-10-20.md",
+    "title": "关于优化调整石墨物项临时出口管制措施的公告 (Notice on Optimizing and Adjusting Temporary Export Control Measures for Graphite Items)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/graphite-export-control-optimization.md",
     "title": "关于优化调整石墨物项临时出口管制措施的公告 (Announcement on Optimizing and Adjusting Interim Export Control Measures for Graphite Items)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/hanwha-ocean-countermeasures-2025-10-15.md",
+    "title": "商务部新闻发言人就对韩华海洋株式会社5家美国相关子公司采取反制措施答记者问（Ministry of Commerce Announces Countermeasures Against Five U.S. Subsidiaries of Hanwha Ocean）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/heavy-rare-earth-elements-export-control-2025-10-13.md",
+    "title": "商务部、海关总署公告2025年第57号 关于对钬、铒、铥、铕、镱等重稀土元素实施出口管制的公告（Ministry of Commerce & General Administration of Customs Announcement 2025 No. 57 - Export Control on Heavy Rare Earth Elements: Holmium, Erbium, Thulium, Europium, and Ytterbium）",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -470,6 +686,12 @@
   {
     "path": "docs/Extractor/cn_export_control/implementing-regulations-anti-foreign-sanctions-law-2025-04-08.md",
     "title": "实施《中华人民共和国反外国制裁法》的规定 (Regulations on Implementing the Anti-Foreign Sanctions Law of the People's Republic of China)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/india-expands-gaict-scomet-scope-2024-10-16.md",
+    "title": "印度扩大跨国公司内部转让全球授权(GAICT)所涵盖的SCOMET物项范围（India Expands SCOMET Items Covered by Global Authorization for Intra-Company Transfer）",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -546,6 +768,30 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/ireland-export-control-act-takes-effect-2024-09-18.md",
+    "title": "爱尔兰出口管制法生效（Ireland Export Control Act Takes Effect）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/japan-controlled-goods-designation-uv-328-methoxychlor-dechlorane-2025-02-14.md",
+    "title": "日本修订《经济产业大臣根据出口贸易管理令第4条第2项规定在公告中指定的货物》(Japan Revises Designated Goods Under Export Trade Control Order Article 4(2))",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/japan-end-user-list-response-2025-09-30.md",
+    "title": "商务部新闻发言人就日将我多家实体列入出口管制\"最终用户清单\"事答记者问（Ministry of Commerce Spokesperson Responds to Japan Adding Chinese Entities to Export Control End-User List）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/japan-export-control-list-semiconductor-additive-manufacturing-2025-02-12.md",
+    "title": "日本修改出口管制清单,修订全面管制政策(Japan Revises Export Control List and Catch-All Control Policy)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/japan-export-control-list-semiconductor-additive-manufacturing-catch-all-2025-01.md",
     "title": "日本修改出口管制清單新增半導體增材製造物項並修訂全面管制政策 (Japan Amends Export Control List Adding Semiconductor and Additive Manufacturing Items and Revises Catch-All Control Policy)",
     "category": "Extractor",
@@ -558,8 +804,20 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/japan-export-trade-control-order-schedule-2-7-amendments-2025-04-08.md",
+    "title": "日本修订《根据出口贸易管理令附表2和附表7规定的货物》(Japan Revises Goods Under Export Trade Control Order Schedules 2 and 7)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/japan-export-trade-management-order-annex-2-7-amendment-2025-03.md",
     "title": "日本修訂《出口貿易管理令》附表新增麻醉藥品及精神藥品原材料管制 (Japan Amends Export Trade Management Order Annex Adding Narcotic and Psychotropic Drug Precursors Control)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/japan-foreign-exchange-export-trade-control-orders-amendments-2025-04-08.md",
+    "title": "日本政府修订《外汇令》和《出口贸易管理令》(Japan Amends Foreign Exchange Order and Export Trade Control Order)",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -576,14 +834,38 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/japan-revises-chemical-export-controls-2024-10-16.md",
+    "title": "日本对部分修订《经济产业大臣根据出口贸易管理令第4条第2项规定在公告中指定的货物》草案征求意见（Japan Solicits Comments on Draft Revisions to Designated Goods under Export Trade Control Order）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/lithium-battery-graphite-anode-export-controls.md",
     "title": "商务部 海关总署公告2025年第58号 公布对锂电池和人造石墨负极材料相关物项实施出口管制的决定 (Ministry of Commerce and General Administration of Customs Announcement No. 58 of 2025 - Decision on Implementing Export Controls on Lithium Battery and Synthetic Graphite Anode Material Related Items)",
     "category": "Extractor",
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/lithium-battery-graphite-export-control-2025-10-13.md",
+    "title": "商务部、海关总署公告2025年第58号 关于对锂电池材料和人造石墨负极材料实施出口管制的公告（Ministry of Commerce & General Administration of Customs Announcement 2025 No. 58 - Export Control on Lithium Battery Materials and Artificial Graphite Negative Electrode Materials）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/military-products-export-management-2021-12-30.md",
+    "title": "中华人民共和国军品出口管理条例（Regulations of the People's Republic of China on the Management of Military Products Export）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/military-products-export-management-regulation-1997.md",
     "title": "中华人民共和国军品出口管理条例 (Military Products Export Management Regulation of the People's Republic of China)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/missiles-related-items-export-control-2021-12-30.md",
+    "title": "中华人民共和国导弹及相关物项和技术出口管制条例（Regulations of the People's Republic of China on Export Control of Missiles and Related Items and Technology）",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -654,6 +936,12 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/monitored-chemicals-management-2021-12-30.md",
+    "title": "中华人民共和国监控化学品管理条例（Regulations of the People's Republic of China on the Administration of Monitored Chemicals）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/national-narcotics-control-commission-precursor-chemical-diversion-prevention-notice.md",
     "title": "国家禁毒委员会办公室发布通告 提醒相关企业和个人防范制毒物品和非列管可制毒化学品及设备流失 (National Narcotics Control Commission Office Notice on Prevention of Precursor Chemical and Drug Manufacturing Equipment Diversion)",
     "category": "Extractor",
@@ -662,6 +950,18 @@
   {
     "path": "docs/Extractor/cn_export_control/national-security-law-2015.md",
     "title": "中华人民共和国国家安全法 (National Security Law of the People's Republic of China)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/national-security-law-2021-12-30.md",
+    "title": "中华人民共和国国家安全法（National Security Law of the People's Republic of China）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/netherlands-2023-export-license-statistics-2024-11-21.md",
+    "title": "荷兰公布2023年出口管制许可证颁发情况（Netherlands Publishes 2023 Export Control License Issuance Statistics）",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -678,8 +978,26 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/netherlands-expands-semiconductor-export-controls-2024-09-18.md",
+    "title": "荷兰扩大对先进半导体生产设备的出口管制措施（Netherlands Expands Export Control Measures on Advanced Semiconductor Production Equipment）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/new-zealand-strategic-goods-list-revision-2024-11-21.md",
+    "title": "新西兰修订战略物资清单(New Zealand Revises Strategic Goods List)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/new-zealand-strategic-goods-list-revision.md",
     "title": "新西兰修订战略物资清单 (New Zealand Revises Strategic Goods List)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/nexperia-consultation-beijing-2025-11-20.md",
+    "title": "商务部新闻发言人就安世半导体问题答记者问（Spokesperson of Ministry of Commerce Responds to Questions on Nexperia）",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -702,8 +1020,26 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/nexperia-semiconductor-response-2025-11-11-a.md",
+    "title": "商务部新闻发言人就安世半导体问题答记者问（Ministry of Commerce Spokesperson Answers Questions on Nexperia Semiconductor Issue）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/nsg-dual-use-item-list-modification-2024.md",
     "title": "核供应国集团修改两用品清单(NSG Modifies Dual-Use Item Control List)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/nsg-modifies-dual-use-items-list-2024-09-18.md",
+    "title": "核供应国集团修改两用物项清单（Nuclear Suppliers Group Modifies Dual-Use Items List）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/nuclear-dual-use-items-export-control-2021-12-30.md",
+    "title": "中华人民共和国核两用品及相关技术出口管制条例（Regulations of the People's Republic of China on Export Control of Nuclear Dual-Use Items and Related Technology）",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -714,8 +1050,20 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/nuclear-export-control-regulation-2021-12-30.md",
+    "title": "中华人民共和国核出口管制条例 (Regulation on Nuclear Export Control of the People's Republic of China)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/nuclear-safety-law-2017.md",
     "title": "中华人民共和国核安全法 (Nuclear Safety Law of the People's Republic of China)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/nuclear-safety-law-2021-12-30.md",
+    "title": "中华人民共和国核安全法（Law of the People's Republic of China on Nuclear Safety）",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -794,6 +1142,36 @@
   {
     "path": "docs/Extractor/cn_export_control/precursor-chemical-management-regulation.md",
     "title": "中华人民共和国易制毒化学品管理条例 (Regulations of the People's Republic of China on the Administration of Precursor Chemicals for Drug Manufacturing)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/precursor-chemicals-management-2021-12-30.md",
+    "title": "易制毒化学品管理条例（Regulations of the People's Republic of China on the Administration of Precursor Chemicals）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/rare-earth-export-controls-enhanced-2025-10-09.md",
+    "title": "商务部新闻发言人就加强稀土相关物项出口管制应询答记者问（Ministry of Commerce Spokesperson Responds to Enhanced Export Controls on Rare Earth-Related Items）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/rare-earth-production-equipment-raw-materials-2025-10-09.md",
+    "title": "商务部、海关总署公告2025年第56号 关于对稀土生产设备和原材料实施出口管制的公告（Ministry of Commerce & General Administration of Customs Announcement 2025 No. 56 - Export Control on Rare Earth Production Equipment and Raw Materials）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/rare-earth-reexport-control-2025-10-09.md",
+    "title": "商务部公告2025年第61号 关于稀土出口管制有关事项的公告（Ministry of Commerce Announcement 2025 No. 61 - Announcement on Rare Earth Export Control Matters）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/rare-earth-technology-export-control-2025-10-09.md",
+    "title": "商务部公告2025年第62号 关于稀土相关技术出口管制 (MOFCOM Announcement No. 62 of 2025 on Export Control of Rare Earth-Related Technologies)",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -1512,8 +1890,20 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/superhard-materials-export-control-2025-10-09.md",
+    "title": "商务部、海关总署公告2025年第55号 关于对超硬材料相关物项实施出口管制的公告（Ministry of Commerce & General Administration of Customs Announcement 2025 No. 55 - Export Control on Superhard Materials Related Items）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/superhard-materials-export-control-2025.md",
     "title": "对超硬材料相关物项实施出口管制的决定 (Export Control on Superhard Materials)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/switzerland-export-control-list-adjustment-plan-2024-12-20.md",
+    "title": "瑞士计划调整出口管制清单(Switzerland Plans Export Control List Adjustment)",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -1530,8 +1920,68 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/switzerland-goods-control-ordinance-emerging-tech-amendments-2025-04-08.md",
+    "title": "瑞士调整出口管制清单(Switzerland Adjusts Export Control List for Emerging Technologies)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/triethanolamine-mixture-regulation-optimization.md",
     "title": "优化低浓度三乙醇胺混合物进出口监管措施的通知 (Notice on Optimizing Import-Export Supervision of Low-Concentration Triethanolamine Mixtures)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/triethanolamine-mixtures-supervision-optimization-2024-02-23.md",
+    "title": "关于优化低浓度三乙醇胺混合物进出口监管措施的通知 (Notice on Optimizing Import/Export Supervision Measures for Low-Concentration Triethanolamine Mixtures)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/tungsten-tellurium-bismuth-molybdenum-indium-export-control-2025-02-04.md",
+    "title": "关于对钨、碲、铋、钼、铟相关物项实施出口管制的公告（Announcement on Export Control of Tungsten, Tellurium, Bismuth, Molybdenum, and Indium Related Items）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/uk-sanctions-response-2025-10-29.md",
+    "title": "商务部新闻发言人就英制裁中国企业答记者问（Ministry of Commerce Spokesperson Responds to UK Sanctions Against Chinese Enterprises）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/un-sudan-sanctions-additions-2024-11-21.md",
+    "title": "联合国安理会1591制裁委员会新增制裁2个实体（UN Security Council Resolution 1591 Sanctions Committee Adds 2 Entities）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/un-yemen-sanctions-extension-2024-11-21.md",
+    "title": "联合国安全理事会延长对也门的制裁（UN Security Council Extends Yemen Sanctions）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/unmanned-aerial-vehicles-export-control-2024-08-26.md",
+    "title": "关于对无人驾驶航空飞行器及相关物项实施出口管制的公告 (Announcement on Export Controls for Unmanned Aerial Vehicles and Related Items)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/unreliable-entity-list-adjustment-us-2025-11-06.md",
+    "title": "商务部新闻发言人就调整不可靠实体清单措施答记者问（Spokesperson of Ministry of Commerce Responds to Questions on Adjusting Unreliable Entity List Measures）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/unreliable-entity-list-drone-tech-2025-10-09.md",
+    "title": "不可靠实体清单工作机制关于将反无人机技术公司等外国实体列入不可靠实体清单的公告 (Announcement on Adding Counter-Drone Technology Companies and Other Foreign Entities to the Unreliable Entity List)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/unreliable-entity-list-sanctions-2025-10-09.md",
+    "title": "商务部新闻发言人就不可靠实体清单有关措施答记者问（Ministry of Commerce Spokesperson Announces Unreliable Entity List Sanctions）",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -1548,6 +1998,12 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/unreliable-entity-list-us-marine-tech-2025-09-26.md",
+    "title": "不可靠实体清单工作机制关于将萨罗尼克科技公司等3家美国企业列入不可靠实体清单的公告（Announcement on Adding Three U.S. Enterprises to Unreliable Entity List）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/unsc-1591-sudan-sanctions-entities-added.md",
     "title": "联合国安理会1591制裁委员会新增制裁2个实体 (UN Security Council 1591 Sanctions Committee Adds 2 Entities)",
     "category": "Extractor",
@@ -1556,6 +2012,18 @@
   {
     "path": "docs/Extractor/cn_export_control/unsc-yemen-sanctions-extension.md",
     "title": "联合国安全理事会延长对也门的制裁 (UN Security Council Extends Yemen Sanctions)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/us-companies-unreliable-entity-list-2025-09-26.md",
+    "title": "商务部新闻发言人就将3家美国企业列入不可靠实体清单答记者问（Ministry of Commerce Spokesperson Announces Addition of 3 U.S. Companies to Unreliable Entity List）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/us-entities-added-to-control-list-2025-09-26.md",
+    "title": "商务部新闻发言人就将3家美国实体列入出口管制管控名单答记者问（Ministry of Commerce Spokesperson Announces Addition of Three U.S. Entities to Export Control List）",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -1578,8 +2046,38 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/us-entity-list-response-2025-09-17.md",
+    "title": "商务部新闻发言人就美将我多家实体列入出口管制\"实体清单\"事答记者问（Ministry of Commerce Spokesperson Responds to U.S. Addition of Chinese Entities to Export Control Entity List）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/us-export-control-penetration-rule-suspension-nov2025.md",
     "title": "商务部新闻发言人就美方暂停实施出口管制穿透性规则答记者问 (MOFCOM Spokesperson Responds to US Suspension of Export Control Penetration Rule)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/us-export-control-piercing-rules-response-2025-09-30.md",
+    "title": "商务部新闻发言人就美商务部发布出口管制穿透性规则事答记者问（Ministry of Commerce Spokesperson Responds to U.S. Commerce Department's Export Control Piercing Rules）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/us-military-dual-use-export-restrictions-2024-12-17.md",
+    "title": "关于加强对美出口管制的公告 (Announcement on Strengthening Export Controls on Dual-Use Items to the United States)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/us-piercing-rule-suspension-response-2025-11-12.md",
+    "title": "商务部新闻发言人就美方暂停出口管制穿透性规则答记者问（Commerce Ministry Spokesperson Responds to US Suspension of Export Control Piercing Rule）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/us-quantum-semiconductor-controls-with-license-exceptions-2024-09-18.md",
+    "title": "美国对量子、半导体技术实施管制,但对合作伙伴实施许可例外（U.S. Implements Controls on Quantum and Semiconductor Technologies with License Exceptions for Partners）",
     "category": "Extractor",
     "source": "cn_export_control"
   },
