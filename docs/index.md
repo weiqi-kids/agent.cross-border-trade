@@ -40,4 +40,7 @@ Global Trade Intelligence System
 
 ---
 
-*Powered by Claude Code*
+<p style="text-align: center; color: #666; font-size: 0.9em;">
+最後更新：{{ site.time | date: "%Y-%m-%d %H:%M" }} UTC<br>
+<em>Powered by Claude Code</em>
+</p>
