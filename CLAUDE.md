@@ -221,3 +221,15 @@ TRADE_TARGET_REPORTERS=158,842,156,392,410,276
   - 每個文本限 500 字元（`cut -c1-500`）
   - 批次大小可透過 `QDRANT_BATCH_SIZE` 環境變數調整
   - 使用暫存檔傳遞資料，避免命令行長度問題
+
+**問題四：MOFCOM API 回傳中文為問號**
+
+- **現象**：cn_export_control fetch.sh 產出的 JSONL 中，中文標題顯示為 `????`
+- **原因**：MOFCOM API 需要 `Accept-Language: zh-CN` 標頭才會回傳中文內容
+- **解決方案**：更新 fetch.sh 的 curl 標頭
+  ```bash
+  -H "Accept-Language: zh-CN,zh;q=0.9,en;q=0.8"
+  -H "Accept-Encoding: identity"
+  -H "Referer: ${BASE_URL}/"
+  ```
+- **學習**：中國政府網站 API 可能根據 Accept-Language 標頭決定回傳語言；同時保留 iconv 轉碼函式作為備用

@@ -135,8 +135,7 @@
 
 - **WebFetch 工具解析 MOFCOM HTML 不穩定**：`exportcontrol.mofcom.gov.cn` 的文章內容實際存在於靜態 HTML 的 `<p>` 標籤中（非 JS 動態渲染），但 WebFetch 工具偶爾無法正確解析。
 - **當前影響**：少數文章 WebFetch 失敗時觸發 `[REVIEW_NEEDED]`。
-- **降級策略**：WebFetch 失敗時，改用 `curl` 抓取 HTML 並以 `grep -oP '<p[^>]*>\K.*?(?=</p>)'` 解析 `<p>` 標籤內容，可取得完整文章文本。
-- **JSONL 標題編碼問題**：`fetch.sh` 產出的 JSONL 中，中文標題可能出現亂碼（`?` 替代），但不影響萃取——代理可透過 WebFetch 或 curl 從原始 URL 取得正確標題。
+- **降級策略**：WebFetch 失敗時，改用 `curl` 抓取 HTML 並以 `sed` 解析 `<p>` 標籤內容，可取得完整文章文本。
 
 ## 自我審核 Checklist
 

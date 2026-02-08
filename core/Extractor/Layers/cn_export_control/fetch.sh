@@ -12,6 +12,35 @@ source "$PROJECT_ROOT/lib/core.sh"
 
 require_cmd curl jq
 
+# Check for iconv (optional but recommended for encoding conversion)
+HAVE_ICONV=0
+if command -v iconv >/dev/null 2>&1; then
+  HAVE_ICONV=1
+fi
+
+# Convert file encoding from GBK/GB2312 to UTF-8
+# Usage: convert_to_utf8 <input_file> <output_file>
+# Falls back to copy if iconv fails or is unavailable
+convert_to_utf8() {
+  local input="$1"
+  local output="$2"
+
+  if [[ $HAVE_ICONV -eq 1 ]]; then
+    # Try GBK first (superset of GB2312), fallback to GB2312
+    if iconv -f GBK -t UTF-8 "$input" > "$output" 2>/dev/null; then
+      return 0
+    elif iconv -f GB2312 -t UTF-8 "$input" > "$output" 2>/dev/null; then
+      return 0
+    elif iconv -f GB18030 -t UTF-8 "$input" > "$output" 2>/dev/null; then
+      return 0
+    fi
+  fi
+
+  # Fallback: copy as-is (might already be UTF-8 or iconv unavailable)
+  cp "$input" "$output"
+  return 0
+}
+
 LAYER_NAME="cn_export_control"
 RAW_DIR="$PROJECT_ROOT/docs/Extractor/$LAYER_NAME/raw"
 BASE_URL="http://exportcontrol.mofcom.gov.cn"
@@ -40,17 +69,25 @@ for i in "${!COLUMN_IDS[@]}"; do
 
   echo "Fetching section: $col_label (columnID=$col_id)"
 
+  tmp_raw="$(mktemp)"
   tmp_json="$(mktemp)"
 
   if curl -sS -L \
     -X POST \
-    -H "User-Agent: Mozilla/5.0 (compatible; TradeIntelligenceSystem/1.0)" \
-    -H "Content-Type: application/x-www-form-urlencoded" \
+    -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36" \
+    -H "Content-Type: application/x-www-form-urlencoded; charset=UTF-8" \
+    -H "Accept: application/json, text/javascript, */*; q=0.01" \
+    -H "Accept-Language: zh-CN,zh;q=0.9,en;q=0.8" \
+    -H "Accept-Encoding: identity" \
+    -H "Referer: ${BASE_URL}/article/zcfg/" \
     -d "pageNumber=1&columnID=${col_id}" \
-    -o "$tmp_json" \
+    -o "$tmp_raw" \
     --connect-timeout 30 \
     --max-time 60 \
     "$API_URL" 2>/dev/null; then
+
+    # Convert encoding (fallback in case server sends GBK)
+    convert_to_utf8 "$tmp_raw" "$tmp_json"
 
     # Check if response is valid JSON
     if jq empty "$tmp_json" 2>/dev/null; then
@@ -84,7 +121,7 @@ for i in "${!COLUMN_IDS[@]}"; do
     ERRORS=$(( ERRORS + 1 ))
   fi
 
-  rm -f "$tmp_json"
+  rm -f "$tmp_raw" "$tmp_json"
 
   # Politeness delay
   sleep 2
@@ -102,17 +139,25 @@ for i in "${!NEWS_COLUMN_IDS[@]}"; do
 
   echo "Fetching section: $col_label (columnID=$col_id)"
 
+  tmp_raw="$(mktemp)"
   tmp_json="$(mktemp)"
 
   if curl -sS -L \
     -X POST \
-    -H "User-Agent: Mozilla/5.0 (compatible; TradeIntelligenceSystem/1.0)" \
-    -H "Content-Type: application/x-www-form-urlencoded" \
+    -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36" \
+    -H "Content-Type: application/x-www-form-urlencoded; charset=UTF-8" \
+    -H "Accept: application/json, text/javascript, */*; q=0.01" \
+    -H "Accept-Language: zh-CN,zh;q=0.9,en;q=0.8" \
+    -H "Accept-Encoding: identity" \
+    -H "Referer: ${BASE_URL}/" \
     -d "pageNumber=1&columnID=${col_id}" \
-    -o "$tmp_json" \
+    -o "$tmp_raw" \
     --connect-timeout 30 \
     --max-time 60 \
     "$API_URL" 2>/dev/null; then
+
+    # Convert encoding (fallback in case server sends GBK)
+    convert_to_utf8 "$tmp_raw" "$tmp_json"
 
     if jq empty "$tmp_json" 2>/dev/null; then
       article_count="$(jq '.pageInfo.rows | length // 0' "$tmp_json" 2>/dev/null || echo 0)"
@@ -140,7 +185,7 @@ for i in "${!NEWS_COLUMN_IDS[@]}"; do
     ERRORS=$(( ERRORS + 1 ))
   fi
 
-  rm -f "$tmp_json"
+  rm -f "$tmp_raw" "$tmp_json"
   sleep 2
 done
 
