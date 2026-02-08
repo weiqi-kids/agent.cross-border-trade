@@ -3,7 +3,7 @@
 - **Source**: US Census Bureau (Balance Summary)
 - **Source URL**: https://www.census.gov/foreign-trade/balance/c5830.html
 - **Partner**: Taiwan (5830)
-- **Fetched**: 2026-02-07T23:10:05Z
+- **Fetched**: 2026-02-08T14:05:23Z
 - **confidence**: 高
 
 ## Monthly Trade Balance

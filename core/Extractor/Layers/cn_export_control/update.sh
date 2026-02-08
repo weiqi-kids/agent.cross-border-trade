@@ -137,7 +137,7 @@ if [[ -n "${QDRANT_URL:-}" ]]; then
           fi
         done
         continue
-      fi
+      }
 
       # 組裝批次 points JSON
       points_json="["

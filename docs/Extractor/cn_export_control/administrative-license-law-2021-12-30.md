@@ -1,66 +1,115 @@
-# 中华人民共和国行政许可法 (Administrative License Law of the People's Republic of China)
+# 中华人民共和国行政许可法（Law of the People's Republic of China on Administrative Licenses）
 
 - **Source**: exportcontrol.mofcom.gov.cn
 - **URL**: http://exportcontrol.mofcom.gov.cn/article/zcfg/gnzcfg/flfg/202111/241.html
 - **Date**: 2021-12-30
 - **Category**: policy_guidance
-- **Fetched**: 2026-01-28
-- **Confidence**: 高
+- **Fetched**: 2026-02-08
+- **confidence**: 高
 
 ## Summary
-
-The Administrative License Law of the People's Republic of China establishes the legal framework and procedural requirements for all administrative licensing activities. Originally passed in 2003 and amended in 2019, this foundational law governs how administrative agencies grant permits for controlled activities, including export control licenses, ensuring transparency, fairness, and legal compliance in the licensing process.
+China's Administrative License Law establishes comprehensive procedures for government agencies to grant permissions for specific activities, protecting citizens' equal rights to obtain licenses while maintaining public order. The law mandates standard 20-day decision timelines (with 10-day extension possible), prohibits technology transfer demands as licensing conditions, and enables administrative review or litigation to challenge improper denials.
 
 ## Key Details
-
 - **Issuing Authority**: National People's Congress Standing Committee
-- **Effective Date**: 2004-07-01 (original); 2019-04-23 (latest amendment)
-- **Scope**: Applies to all administrative licensing activities including export control permits, professional credentials, enterprise establishment, natural resource development, equipment inspections, and national security-related activities
+- **Effective Date**: 2004-07-01 (enacted 2003-08-27; amended 2019-04-23)
+- **Scope**: All administrative licenses granted by government agencies for specific activities requiring official permission
 
 ## Key Provisions
 
-**Core Principles:**
-- Administrative licenses must adhere to principles of openness, fairness, justice, and non-discrimination
-- All licensing regulations, conditions, and procedures must be publicly disclosed
-- Protection of applicants' commercial secrets and confidential business information
+### Eight-Chapter Structure
 
-**Procedural Requirements:**
-- Maximum 20-day processing period for license decisions (extendable by 10 days with approval)
-- Administrative agencies must provide application format templates
-- Written decisions required for all license denials with stated reasons
-- Applicants have right to request hearings for discretionary decisions
+**Chapter 1 - General Provisions**
+- Defines administrative license as "permission granted by administrative agencies for citizens, legal persons, or other organizations to engage in specific activities"
+- Establishes principle of equal access: applicants meeting legal conditions have equal rights to obtain licenses
+- Balances economic freedom with regulatory oversight
 
-**Application Process:**
-- Citizens, legal entities, or other organizations may apply for licenses to engage in specific controlled activities
-- Applications undergo lawful examination by competent administrative agencies
-- Agencies must verify authenticity and completeness of submitted materials
+**Chapter 2 - Setting Administrative Licenses**
+Licenses may be established for:
+- Activities involving limited natural resources, public resources, or scarce public goods
+- Activities directly related to public safety, personal health, or property safety requiring special conditions
+- Activities affecting overall economic development requiring coordination
+- Qualified service providers in specific industries
+- Other matters requiring legal basis
 
-**Enforcement Framework:**
-- Administrative penalties for agencies: corrective orders, sanctions for responsible officials, or removal from office for violations
-- Criminal liability for fraud, bribery, or embezzlement in licensing process
-- Applicant penalties: warnings for false applications; one-year reapplication bans for safety-related permit violations
+Prohibitions:
+- Cannot establish licenses for matters that can be regulated by market mechanisms
+- Cannot demand conditions beyond statutory requirements
+
+**Chapter 3 - Implementing Agencies**
+- Specifies which government bodies have licensing authority
+- Requires clear authorization for delegated licensing
+- Prohibits agencies from exceeding jurisdictional scope
+
+**Chapter 4 - Implementation Procedures**
+Key procedural requirements:
+
+1. **Application**: Applicant submits required materials
+2. **Acceptance**: Agency reviews completeness (five-day decision on acceptance)
+3. **Review**: Agency examines substantive compliance
+4. **Decision**:
+   - Standard timeline: **20 days from acceptance**
+   - Extension: additional 10 days with supervisor approval
+   - Simplified: immediate for standardized conditions
+5. **Hearing**: Required for major public interest impact
+6. **Issuance**: License granted if conditions met
+
+**Important Prohibition (Implied)**: Government agencies cannot demand technology transfer as licensing condition
+
+**Chapter 5 - Fees and Costs**
+- Fees must be prescribed by statute
+- Revenue deposited in national treasury (not retained by issuing agency)
+- Prohibition on unauthorized fee collection
+
+**Chapter 6 - Supervision and Inspection**
+- Post-licensing supervision mechanisms
+- Periodic inspection of license holders
+- Authority to revoke licenses for non-compliance
+
+**Chapter 7 - Legal Liability**
+Administrative penalties for officials who:
+- Improperly deny licenses to qualified applicants
+- Grant licenses to unqualified applicants
+- Fail to follow procedures
+- Accept bribes or engage in corruption
+- Demand illegal conditions (e.g., technology transfer)
+
+Range from warnings to dismissal and criminal liability
+
+Applicant remedies:
+- Administrative review (internal appeal)
+- Administrative litigation (judicial review)
+- Compensation for improper denial
+
+**Chapter 8 - Supplementary Provisions**
+- Defines key terms
+- References related laws
+- Implementation authority
 
 ## Supply Chain Impact Assessment
 
-**[Speculative Analysis]**
+### Direct Impact
+- **Export License Applications**: Export control licenses governed by these procedures (20-day standard timeline)
+- **Import Licenses**: Technology imports and controlled items subject to procedural requirements
+- **Technology Transfer Protection**: Prohibition on demanding technology transfer as licensing condition
+- **Predictable Timelines**: Standard 20-day (extendable to 30 days) provides planning certainty
 
-This law provides the foundational legal framework for China's export control licensing system. Key supply chain implications include:
+### Industry-Specific Implications
+- **Export Control**: Export licenses for controlled items follow these procedures; denials subject to administrative review
+- **Foreign Investment**: Investment approvals must comply with equal access and procedural requirements
+- **Technology Licensing**: Foreign technology imports cannot be conditioned on forced technology transfer
+- **Professional Services**: Foreign service providers entering Chinese market subject to licensing procedures
+- **Telecommunications/Media**: Restricted sectors face licensing requirements but with procedural protections
 
-1. **Processing Time Predictability**: The 20-day (plus potential 10-day extension) maximum processing period provides baseline expectations for export license approval timelines, though actual processing may vary based on item sensitivity and review complexity.
-
-2. **Transparency Requirements**: The mandate for public disclosure of licensing regulations and conditions should theoretically enhance compliance planning for exporters, though implementation consistency across different commodities and jurisdictions may vary.
-
-3. **Commercial Confidentiality**: Protection provisions for commercial secrets and undisclosed information may provide some safeguards for proprietary technology details disclosed in license applications, though enforcement effectiveness remains implementation-dependent.
-
-4. **Appeal Mechanisms**: The right to request hearings for discretionary decisions provides potential recourse pathways for denied export license applications, though practical accessibility and success rates are uncertain.
-
-5. **Compliance Risk**: The one-year reapplication ban for false applications creates significant penalty risk for documentation errors or misrepresentations in export control declarations, potentially disrupting supply chains for extended periods.
+### Strategic Considerations
+- Technology transfer prohibition provides legal basis to resist coerced IP sharing (though enforcement uncertain)
+- 20-30 day timeline enables supply chain planning (add buffer for complexity)
+- Administrative review and litigation provide recourse for improper denials, but success uncertain
+- Equal access principle may support foreign applicants challenging discriminatory treatment
+- Hearing requirement for major public interest decisions provides participation opportunity
 
 ## Notes
-
-This article represents foundational administrative law that underpins China's export control licensing framework. While it does not specify controlled items or export control-specific procedures, it establishes the legal principles and procedural requirements that govern all administrative licensing, including export control permits issued under the Export Control Law of 2020.
-
-The 2021-12-30 publication date likely reflects re-publication or citation date on the Ministry of Commerce website rather than a new amendment date.
+Successfully retrieved full text via WebFetch. This law was enacted August 27, 2003, by the 10th National People's Congress Standing Committee (4th Session), took effect July 1, 2004, and was amended April 23, 2019. The Administrative License Law provides the procedural framework for all licensing regimes in China, including export/import licenses, foreign investment approvals, and technology transfer licenses. It works in conjunction with the Administrative Penalty Law to establish comprehensive administrative procedure protections.
 
 ---
 *Source: China Ministry of Commerce Export Control Information Network*

@@ -3,7 +3,7 @@
 - **Source**: World Bank API v2
 - **Country**: China (CHN)
 - **Indicator**: gdp_growth
-- **Fetched**: 2026-02-07T23:10:04Z
+- **Fetched**: 2026-02-08T14:05:24Z
 - **confidence**: 高
 
 ## Time Series
