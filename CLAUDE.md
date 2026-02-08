@@ -186,3 +186,38 @@ TRADE_TARGET_REPORTERS=158,842,156,392,410,276
 4. 若為完整流程，更新 `README.md` 中的健康度儀表板
 
 本系統專為全球貿易情報分析設計，每次執行不需重新詢問用途。
+
+---
+
+## 經驗記錄
+
+### 2026-02-08：效能優化
+
+**問題一：WebFetch 解析特定網站失敗**
+
+- **現象**：cn_export_control Layer 的 MOFCOM 網站，WebFetch 失敗率約 25%
+- **原因**：WebFetch 工具對某些政府網站的 HTML 解析不穩定
+- **解決方案**：在 Layer CLAUDE.md 中定義 curl 降級策略
+  ```bash
+  curl -sS "$url" --max-time 30 | sed -n 's/<p[^>]*>\(.*\)<\/p>/\1/gp' | sed 's/<[^>]*>//g'
+  ```
+- **學習**：Type B Layer 應在 CLAUDE.md 中預先定義降級策略，避免過多 REVIEW_NEEDED
+
+**問題二：update.sh 執行時間過長**
+
+- **現象**：cn_export_control 有 235 個檔案，逐個 embedding + upsert 耗時超過 3 分鐘
+- **解決方案**：
+  1. 新增 `chatgpt_embed_batch` 函式（lib/chatgpt.sh）
+  2. 改用批次處理（預設每批 20 個）
+  3. 使用 `qdrant_upsert_points_batch` 批次寫入
+- **效能提升**：API 呼叫從 470 次降至約 24 次
+- **安全防護**：批次失敗時自動降級為逐個處理
+- **學習**：檔案數 > 100 時應考慮批次處理；批次大小 20 是保守但安全的選擇
+
+**問題三：批次處理的資料長度限制**
+
+- **考量**：OpenAI Embedding API 有 token 限制，Qdrant payload 有大小限制
+- **防護措施**：
+  - 每個文本限 500 字元（`cut -c1-500`）
+  - 批次大小可透過 `QDRANT_BATCH_SIZE` 環境變數調整
+  - 使用暫存檔傳遞資料，避免命令行長度問題
