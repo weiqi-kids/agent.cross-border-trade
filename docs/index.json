@@ -342,12 +342,6 @@
     "source": "cn_export_control"
   },
   {
-    "path": "docs/Extractor/cn_export_control/controlled_item_change/2024-11-21-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
     "path": "docs/Extractor/cn_export_control/controlled_item_change/2024-11-21-商务部-工业和信息化部-海关总署-国家密码局公告2024年第51号-关于发布-中华人民共和国两用物项出口管制清单-的公告.md",
     "title": "商务部 工业和信息化部 海关总署 国家密码局公告2024年第51号 关于发布《中华人民共和国两用物项出口管制清单》的公告",
     "category": "Extractor",
@@ -356,12 +350,6 @@
   {
     "path": "docs/Extractor/cn_export_control/controlled_item_change/2024-12-20-瑞士计划调整出口管制清单.md",
     "title": "瑞士计划调整出口管制清单",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/controlled_item_change/2025-09-30-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -512,12 +500,6 @@
   {
     "path": "docs/Extractor/cn_export_control/dutch-minister-nexperia-response-2025-11-20.md",
     "title": "商务部新闻发言人就荷兰经济大臣卡雷曼涉安世半导体表态答记者问（Commerce Ministry Spokesperson Responds to Dutch Economic Minister Karreman's Statement on Nexperia Semiconductor Issue）",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/enforcement_action/2024-11-21-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -702,12 +684,6 @@
     "source": "cn_export_control"
   },
   {
-    "path": "docs/Extractor/cn_export_control/international_cooperation/2024-09-18-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
     "path": "docs/Extractor/cn_export_control/international_cooperation/2024-09-18-中国出口管制信息网.md",
     "title": "中国出口管制信息网",
     "category": "Extractor",
@@ -720,26 +696,8 @@
     "source": "cn_export_control"
   },
   {
-    "path": "docs/Extractor/cn_export_control/international_cooperation/2024-11-21-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
     "path": "docs/Extractor/cn_export_control/international_cooperation/2024-11-21-荷兰公布2023年出口管制许可证颁发情况.md",
     "title": "荷兰公布2023年出口管制许可证颁发情况",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/international_cooperation/2024-12-20-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/international_cooperation/2025-02-12-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -1074,66 +1032,6 @@
     "source": "cn_export_control"
   },
   {
-    "path": "docs/Extractor/cn_export_control/policy_guidance/2021-12-30-Fetch-Failed.md",
-    "title": "[REVIEW_NEEDED] # Fetch Failed",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/policy_guidance/2024-02-23-Fetch-Failed.md",
-    "title": "[REVIEW_NEEDED] # Fetch Failed",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/policy_guidance/2024-10-23-article-fetch-failed.md",
-    "title": "[REVIEW_NEEDED]",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/policy_guidance/2024-10-28-article-fetch-failed.md",
-    "title": "[REVIEW_NEEDED]",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/policy_guidance/2024-12-03-article-fetch-failed.md",
-    "title": "[REVIEW_NEEDED]",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/policy_guidance/2025-01-02-article-fetch-failed.md",
-    "title": "[REVIEW_NEEDED]",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/policy_guidance/2025-10-09-Fetch-Failed.md",
-    "title": "[REVIEW_NEEDED] # Fetch Failed",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/policy_guidance/2025-10-15-Fetch-Failed.md",
-    "title": "[REVIEW_NEEDED] # Fetch Failed",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/policy_guidance/2025-10-29-Fetch-Failed.md",
-    "title": "[REVIEW_NEEDED] # Fetch Failed",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/policy_guidance/2025-11-11-Fetch-Failed.md",
-    "title": "[REVIEW_NEEDED] # Fetch Failed",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
     "path": "docs/Extractor/cn_export_control/prc-export-control-law-2020.md",
     "title": "中华人民共和国出口管制法 (Export Control Law of the People's Republic of China)",
     "category": "Extractor",
@@ -1182,12 +1080,6 @@
     "source": "cn_export_control"
   },
   {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2021-12-30-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
     "path": "docs/Extractor/cn_export_control/regulation_update/2021-12-30-中华人民共和国军品出口管理条例.md",
     "title": "中华人民共和国军品出口管理条例",
     "category": "Extractor",
@@ -1230,42 +1122,6 @@
     "source": "cn_export_control"
   },
   {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2022-07-11-webfetch-failed.md",
-    "title": "[REVIEW_NEEDED]",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2022-07-29-export-control-regulation-article.md",
-    "title": "[REVIEW_NEEDED]",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2022-12-30-export-control-regulation-article.md",
-    "title": "[REVIEW_NEEDED]",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2023-06-01-export-control-regulation-article.md",
-    "title": "[REVIEW_NEEDED]",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2023-09-11-export-control-regulation-article.md",
-    "title": "[REVIEW_NEEDED]",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2023-10-20-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
     "path": "docs/Extractor/cn_export_control/regulation_update/2023-10-20-中国出口管制信息网.md",
     "title": "中国出口管制信息网",
     "category": "Extractor",
@@ -1274,12 +1130,6 @@
   {
     "path": "docs/Extractor/cn_export_control/regulation_update/2023-10-20-商务部-海关总署关于优化调整石墨物项临时出口管制措施的公告.md",
     "title": "商务部　海关总署关于优化调整石墨物项临时出口管制措施的公告",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2023-12-29-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -1296,12 +1146,6 @@
     "source": "cn_export_control"
   },
   {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2024-01-03-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
     "path": "docs/Extractor/cn_export_control/regulation_update/2024-01-03-中国出口管制信息网.md",
     "title": "中国出口管制信息网",
     "category": "Extractor",
@@ -1314,26 +1158,8 @@
     "source": "cn_export_control"
   },
   {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2024-02-23-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
     "path": "docs/Extractor/cn_export_control/regulation_update/2024-02-23-中国出口管制信息网.md",
     "title": "中国出口管制信息网",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2024-05-10-webfetch-failed.md",
-    "title": "[REVIEW_NEEDED]",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2024-06-03-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -1346,18 +1172,6 @@
   {
     "path": "docs/Extractor/cn_export_control/regulation_update/2024-06-03-商务部-海关总署-中央军委装备发展部公告2024年第21号-关于对有关物项实施出口管制的公告.md",
     "title": "商务部 海关总署 中央军委装备发展部公告2024年第21号 关于对有关物项实施出口管制的公告",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2024-07-01-webfetch-failed.md",
-    "title": "[REVIEW_NEEDED]",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2024-08-26-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -1376,12 +1190,6 @@
   {
     "path": "docs/Extractor/cn_export_control/regulation_update/2024-08-26-商务部-海关总署公告2024年第33号-关于对锑等物项实施出口管制的公告.md",
     "title": "商务部 海关总署公告2024年第33号 关于对锑等物项实施出口管制的公告",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2024-09-18-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -1410,20 +1218,8 @@
     "source": "cn_export_control"
   },
   {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2024-09-30-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
     "path": "docs/Extractor/cn_export_control/regulation_update/2024-09-30-中国出口管制信息网.md",
     "title": "中国出口管制信息网",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2024-10-16-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -1452,12 +1248,6 @@
     "source": "cn_export_control"
   },
   {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2024-11-21-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
     "path": "docs/Extractor/cn_export_control/regulation_update/2024-11-21-中国出口管制信息网.md",
     "title": "中国出口管制信息网",
     "category": "Extractor",
@@ -1466,12 +1256,6 @@
   {
     "path": "docs/Extractor/cn_export_control/regulation_update/2024-11-21-新西兰修订战略物资清单.md",
     "title": "新西兰修订战略物资清单",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2024-12-17-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -1488,12 +1272,6 @@
     "source": "cn_export_control"
   },
   {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2024-12-20-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
     "path": "docs/Extractor/cn_export_control/regulation_update/2024-12-20-中国出口管制信息网.md",
     "title": "中国出口管制信息网",
     "category": "Extractor",
@@ -1502,18 +1280,6 @@
   {
     "path": "docs/Extractor/cn_export_control/regulation_update/2024-12-20-德国推出第四套措施提高出口管制程序的数字化和效率.md",
     "title": "德国推出第四套措施提高出口管制程序的数字化和效率",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2025-01-02-webfetch-failed.md",
-    "title": "[REVIEW_NEEDED]",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2025-01-03-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -1530,12 +1296,6 @@
     "source": "cn_export_control"
   },
   {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2025-02-04-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
     "path": "docs/Extractor/cn_export_control/regulation_update/2025-02-04-中国出口管制信息网.md",
     "title": "中国出口管制信息网",
     "category": "Extractor",
@@ -1544,12 +1304,6 @@
   {
     "path": "docs/Extractor/cn_export_control/regulation_update/2025-02-04-商务部-海关总署公告2025年第10号-公布对钨-碲-铋-钼-铟相关物项-实施出口管制的决定.md",
     "title": "商务部 海关总署公告2025年第10号 公布对钨、碲、铋、钼、铟相关物项 实施出口管制的决定",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2025-02-12-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -1566,12 +1320,6 @@
     "source": "cn_export_control"
   },
   {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2025-02-14-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
     "path": "docs/Extractor/cn_export_control/regulation_update/2025-02-14-中国出口管制信息网.md",
     "title": "中国出口管制信息网",
     "category": "Extractor",
@@ -1580,12 +1328,6 @@
   {
     "path": "docs/Extractor/cn_export_control/regulation_update/2025-02-14-日本修订-经济产业大臣根据出口贸易管理令第4条第2项规定在公告中指定的货物.md",
     "title": "日本修订《经济产业大臣根据出口贸易管理令第4条第2项规定在公告中指定的货物》",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2025-04-08-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -1620,12 +1362,6 @@
     "source": "cn_export_control"
   },
   {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2025-08-14-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
     "path": "docs/Extractor/cn_export_control/regulation_update/2025-08-14-中华人民共和国商务部令二〇二五年第5号-关于对欧盟两家金融机构采取反制措施的决定.md",
     "title": "中华人民共和国商务部令二〇二五年第5号 关于对欧盟两家金融机构采取反制措施的决定",
     "category": "Extractor",
@@ -1638,12 +1374,6 @@
     "source": "cn_export_control"
   },
   {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2025-09-17-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
     "path": "docs/Extractor/cn_export_control/regulation_update/2025-09-17-中国出口管制信息网.md",
     "title": "中国出口管制信息网",
     "category": "Extractor",
@@ -1652,12 +1382,6 @@
   {
     "path": "docs/Extractor/cn_export_control/regulation_update/2025-09-17-商务部新闻发言人就美将我多家实体列入出口管制“实体清单”事答记者问.md",
     "title": "商务部新闻发言人就美将我多家实体列入出口管制“实体清单”事答记者问",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2025-09-26-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -1692,12 +1416,6 @@
     "source": "cn_export_control"
   },
   {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2025-09-30-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
     "path": "docs/Extractor/cn_export_control/regulation_update/2025-09-30-中国出口管制信息网.md",
     "title": "中国出口管制信息网",
     "category": "Extractor",
@@ -1706,12 +1424,6 @@
   {
     "path": "docs/Extractor/cn_export_control/regulation_update/2025-09-30-商务部新闻发言人就美商务部发布出口管制穿透性规则事答记者问.md",
     "title": "商务部新闻发言人就美商务部发布出口管制穿透性规则事答记者问",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2025-10-09-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -1764,24 +1476,6 @@
     "source": "cn_export_control"
   },
   {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2025-10-15-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2025-10-29-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2025-11-04-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
     "path": "docs/Extractor/cn_export_control/regulation_update/2025-11-04-中国出口管制信息网.md",
     "title": "中国出口管制信息网",
     "category": "Extractor",
@@ -1790,12 +1484,6 @@
   {
     "path": "docs/Extractor/cn_export_control/regulation_update/2025-11-04-商务部新闻发言人就安世半导体相关问题应询答记者问.md",
     "title": "商务部新闻发言人就安世半导体相关问题应询答记者问",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2025-11-06-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -1812,12 +1500,6 @@
     "source": "cn_export_control"
   },
   {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2025-11-11-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
     "path": "docs/Extractor/cn_export_control/regulation_update/2025-11-11-中国出口管制信息网.md",
     "title": "中国出口管制信息网",
     "category": "Extractor",
@@ -1830,20 +1512,8 @@
     "source": "cn_export_control"
   },
   {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2025-11-12-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
     "path": "docs/Extractor/cn_export_control/regulation_update/2025-11-12-商务部新闻发言人就美方暂停实施出口管制穿透性规则答记者问.md",
     "title": "商务部新闻发言人就美方暂停实施出口管制穿透性规则答记者问",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2025-11-20-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -1862,12 +1532,6 @@
   {
     "path": "docs/Extractor/cn_export_control/regulation_update/2025-11-20-商务部新闻发言人就荷经济大臣卡雷曼斯就安世半导体问题表态答记者问.md",
     "title": "商务部新闻发言人就荷经济大臣卡雷曼斯就安世半导体问题表态答记者问",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2026-01-06-Title-Not-Found.md",
-    "title": "[REVIEW_NEEDED] # Title Not Found",
     "category": "Extractor",
     "source": "cn_export_control"
   },
