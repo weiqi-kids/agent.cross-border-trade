@@ -294,12 +294,6 @@
     "source": "cn_export_control"
   },
   {
-    "path": "docs/Extractor/cn_export_control/cn-drug-control-law-2007.md",
-    "title": "[REVIEW_NEEDED]",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
     "path": "docs/Extractor/cn_export_control/cn-missile-control-regulation-abolished-2002.md",
     "title": "中华人民共和国导弹及相关物项和技术出口管制条例（已废止）(PRC Missile and Related Items/Technology Export Control Regulation - Abolished)",
     "category": "Extractor",
@@ -356,18 +350,6 @@
   {
     "path": "docs/Extractor/cn_export_control/controlled_item_change/2025-09-30-商务部新闻发言人就日将我多家实体列入出口管制“最终用户清单”事答记者问.md",
     "title": "商务部新闻发言人就日将我多家实体列入出口管制“最终用户清单”事答记者问",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/controlled_item_change/2025-11-06-商务部新闻发言人就调整不可靠实体清单措施答记者问.md",
-    "title": "[REVIEW_NEEDED] # 商务部新闻发言人就调整不可靠实体清单措施答记者问",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/controlled_item_change/2025-11-06-商务部新闻发言人就调整出口管制管控名单措施答记者问.md",
-    "title": "[REVIEW_NEEDED] # 商务部新闻发言人就调整出口管制管控名单措施答记者问",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -578,6 +560,12 @@
   {
     "path": "docs/Extractor/cn_export_control/export-control-law-2021-12-30.md",
     "title": "中华人民共和国出口管制法（Law of the People's Republic of China on Export Control）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/export-control-list-adjustment-us-entities-2025-11-06.md",
+    "title": "商务部新闻发言人就调整出口管制管控名单措施答记者问 (MOFCOM Spokesperson on Adjusting Export Control List Measures)",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -1634,6 +1622,12 @@
   {
     "path": "docs/Extractor/cn_export_control/unreliable-entity-list-adjustment-us-2025-11-06.md",
     "title": "商务部新闻发言人就调整不可靠实体清单措施答记者问（Spokesperson of Ministry of Commerce Responds to Questions on Adjusting Unreliable Entity List Measures）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/unreliable-entity-list-adjustment-us-entities-2025-11-06.md",
+    "title": "商务部新闻发言人就调整不可靠实体清单措施答记者问 (MOFCOM Spokesperson on Adjusting Unreliable Entity List Measures)",
     "category": "Extractor",
     "source": "cn_export_control"
   },
