@@ -312,3 +312,56 @@ chatgpt_embed() {
 
   printf '%s' "$resp" | jq -c '.data[0].embedding'
 }
+
+########################################
+# Batch Embedding
+# 輸入：一個 JSON 陣列的文字
+# 輸出：一個 JSON 陣列的 embedding vectors
+########################################
+chatgpt_embed_batch() {
+  local texts_json="$1"
+  local model="${EMBEDDING_MODEL:-text-embedding-3-small}"
+
+  local tmp_payload tmp_body http_code
+  tmp_payload="$(mktemp)"
+  tmp_body="$(mktemp)"
+
+  # texts_json 應該是 ["text1", "text2", ...]
+  jq -nc --argjson input "$texts_json" --arg model "$model" \
+    '{input: $input, model: $model}' > "$tmp_payload"
+
+  local curl_args=(
+    -sS -X POST "${CHATGPT_BASE_URL%/}/embeddings"
+    -H "Content-Type: application/json"
+    -H "Authorization: Bearer ${CHATGPT_API_KEY}"
+    -d "@${tmp_payload}"
+    -w '%{http_code}' -o "$tmp_body"
+  )
+  if [[ -n "${CHATGPT_PROJECT_ID:-}" ]]; then
+    curl_args+=( -H "OpenAI-Project: ${CHATGPT_PROJECT_ID}" )
+  fi
+
+  http_code="$(curl "${curl_args[@]}" 2>/dev/null)" || {
+    local rc=$?
+    echo "❌ [chatgpt_embed_batch] curl 失敗 exit=${rc}" >&2
+    rm -f "$tmp_payload" "$tmp_body"
+    return 1
+  }
+
+  local resp
+  resp="$(cat "$tmp_body")"
+  rm -f "$tmp_payload" "$tmp_body"
+
+  if [[ "$http_code" != "200" ]]; then
+    echo "❌ [chatgpt_embed_batch] HTTP=${http_code}" >&2
+    if jq -e . >/dev/null 2>&1 <<<"$resp"; then
+      echo "$resp" | jq -C '.' >&2
+    else
+      echo "$resp" >&2
+    fi
+    return 1
+  fi
+
+  # 回傳所有 embedding，按 index 排序
+  printf '%s' "$resp" | jq -c '[.data | sort_by(.index) | .[].embedding]'
+}

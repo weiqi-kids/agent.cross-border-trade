@@ -22,9 +22,10 @@ for category in regulation_update controlled_item_change enforcement_action poli
   mkdir -p "$DOCS_DIR/$category"
 done
 
-# === Qdrant 更新 ===
+# === Qdrant 批次更新 ===
 UPSERT_COUNT=0
 ERROR_COUNT=0
+BATCH_SIZE="${QDRANT_BATCH_SIZE:-20}"  # 每批檔案數，可透過環境變數調整
 
 if [[ -n "${QDRANT_URL:-}" ]]; then
   if qdrant_init_env; then
@@ -40,54 +41,134 @@ if [[ -n "${QDRANT_URL:-}" ]]; then
       done < <(find "$DOCS_DIR" -name "*.md" -type f 2>/dev/null | sort)
     fi
 
-    for md_file in "${MD_FILES[@]}"; do
-      if [[ ! -f "$md_file" ]]; then
+    TOTAL_FILES=${#MD_FILES[@]}
+    echo "Processing $TOTAL_FILES files in batches of $BATCH_SIZE"
+
+    # 批次處理
+    for (( batch_start=0; batch_start < TOTAL_FILES; batch_start += BATCH_SIZE )); do
+      batch_end=$(( batch_start + BATCH_SIZE ))
+      if (( batch_end > TOTAL_FILES )); then
+        batch_end=$TOTAL_FILES
+      fi
+
+      echo "  Batch $((batch_start / BATCH_SIZE + 1)): files $((batch_start + 1))-$batch_end"
+
+      # 收集這批檔案的資料
+      BATCH_TEXTS_JSON="["
+      BATCH_PAYLOADS=()
+      BATCH_IDS=()
+      BATCH_FILES=()
+      first=1
+
+      for (( i=batch_start; i < batch_end; i++ )); do
+        md_file="${MD_FILES[$i]}"
+        if [[ ! -f "$md_file" ]]; then
+          continue
+        fi
+
+        title="$(head -1 "$md_file" | sed 's/^#* *//' | sed 's/\[REVIEW_NEEDED\] *//')"
+        category="$(basename "$(dirname "$md_file")")"
+
+        source_url="$(grep -m1 '^\- \*\*URL\*\*:' "$md_file" | sed 's/.*: //' | tr -d ' ')" || true
+        if [[ -z "$source_url" ]]; then
+          source_url="mofcom://cn_export_control/${category}/$(basename "$md_file" .md)"
+        fi
+
+        content="$(head -20 "$md_file" | tr '\n' ' ' | cut -c1-500)"
+        embed_text="$title $content"
+
+        # 累積 JSON 陣列
+        if [[ $first -eq 1 ]]; then
+          first=0
+        else
+          BATCH_TEXTS_JSON+=","
+        fi
+        BATCH_TEXTS_JSON+="$(printf '%s' "$embed_text" | jq -Rs '.')"
+
+        payload="$(jq -n \
+          --arg source_url "$source_url" \
+          --arg source_layer "$LAYER_NAME" \
+          --arg title "$title" \
+          --arg date "$(date -u '+%Y-%m-%d')" \
+          --arg category "$category" \
+          --arg fetched_at "$(date -u '+%Y-%m-%dT%H:%M:%SZ')" \
+          --arg original_content "$content" \
+          '{
+            source_url: $source_url,
+            source_layer: $source_layer,
+            title: $title,
+            date: $date,
+            category: $category,
+            fetched_at: $fetched_at,
+            original_content: $original_content
+          }'
+        )"
+
+        point_id="$(_qdrant_id_to_uuid "$source_url")"
+
+        BATCH_PAYLOADS+=("$payload")
+        BATCH_IDS+=("$point_id")
+        BATCH_FILES+=("$md_file")
+      done
+
+      BATCH_TEXTS_JSON+="]"
+      BATCH_COUNT=${#BATCH_IDS[@]}
+
+      if [[ $BATCH_COUNT -eq 0 ]]; then
         continue
       fi
 
-      title="$(head -1 "$md_file" | sed 's/^#* *//' | sed 's/\[REVIEW_NEEDED\] *//')"
-      category="$(basename "$(dirname "$md_file")")"
-
-      # Extract URL from markdown metadata
-      source_url="$(grep -m1 '^\- \*\*URL\*\*:' "$md_file" | sed 's/.*: //' | tr -d ' ')" || true
-      if [[ -z "$source_url" ]]; then
-        source_url="mofcom://cn_export_control/${category}/$(basename "$md_file" .md)"
+      # 批次取得 embeddings
+      embeddings_json="$(chatgpt_embed_batch "$BATCH_TEXTS_JSON" 2>/dev/null)" || {
+        echo "Warning: Batch embedding failed, falling back to individual processing" >&2
+        # 降級為逐個處理
+        for (( j=0; j < BATCH_COUNT; j++ )); do
+          md_file="${BATCH_FILES[$j]}"
+          embed_text="$(printf '%s' "$BATCH_TEXTS_JSON" | jq -r ".[$j]")"
+          embedding="$(chatgpt_embed "$embed_text" 2>/dev/null)" || {
+            echo "Warning: Embedding failed for $md_file" >&2
+            ERROR_COUNT=$(( ERROR_COUNT + 1 ))
+            continue
+          }
+          if qdrant_upsert_point "$COLLECTION" "${BATCH_IDS[$j]}" "$embedding" "${BATCH_PAYLOADS[$j]}" 2>/dev/null; then
+            UPSERT_COUNT=$(( UPSERT_COUNT + 1 ))
+          else
+            ERROR_COUNT=$(( ERROR_COUNT + 1 ))
+          fi
+        done
+        continue
       fi
 
-      content="$(head -20 "$md_file" | tr '\n' ' ' | cut -c1-500)"
+      # 組裝批次 points JSON
+      points_json="["
+      for (( j=0; j < BATCH_COUNT; j++ )); do
+        embedding="$(printf '%s' "$embeddings_json" | jq -c ".[$j]")"
+        point_json="$(jq -n \
+          --arg id "${BATCH_IDS[$j]}" \
+          --argjson vector "$embedding" \
+          --argjson payload "${BATCH_PAYLOADS[$j]}" \
+          '{id: $id, vector: $vector, payload: $payload}'
+        )"
+        if [[ $j -gt 0 ]]; then
+          points_json+=","
+        fi
+        points_json+="$point_json"
+      done
+      points_json+="]"
 
-      embedding="$(chatgpt_embed "$title $content" 2>/dev/null)" || {
-        echo "Warning: Embedding failed for $md_file" >&2
-        ERROR_COUNT=$(( ERROR_COUNT + 1 ))
-        continue
-      }
-
-      payload="$(jq -n \
-        --arg source_url "$source_url" \
-        --arg source_layer "$LAYER_NAME" \
-        --arg title "$title" \
-        --arg date "$(date -u '+%Y-%m-%d')" \
-        --arg category "$category" \
-        --arg fetched_at "$(date -u '+%Y-%m-%dT%H:%M:%SZ')" \
-        --arg original_content "$content" \
-        '{
-          source_url: $source_url,
-          source_layer: $source_layer,
-          title: $title,
-          date: $date,
-          category: $category,
-          fetched_at: $fetched_at,
-          original_content: $original_content
-        }'
-      )"
-
-      point_id="$(_qdrant_id_to_uuid "$source_url")"
-
-      if qdrant_upsert_point "$COLLECTION" "$point_id" "$embedding" "$payload" 2>/dev/null; then
-        UPSERT_COUNT=$(( UPSERT_COUNT + 1 ))
+      # 批次 upsert
+      if qdrant_upsert_points_batch "$COLLECTION" "$points_json" 2>/dev/null; then
+        UPSERT_COUNT=$(( UPSERT_COUNT + BATCH_COUNT ))
       else
-        echo "Warning: Qdrant upsert failed for $md_file" >&2
-        ERROR_COUNT=$(( ERROR_COUNT + 1 ))
+        echo "Warning: Batch upsert failed, falling back to individual" >&2
+        for (( j=0; j < BATCH_COUNT; j++ )); do
+          embedding="$(printf '%s' "$embeddings_json" | jq -c ".[$j]")"
+          if qdrant_upsert_point "$COLLECTION" "${BATCH_IDS[$j]}" "$embedding" "${BATCH_PAYLOADS[$j]}" 2>/dev/null; then
+            UPSERT_COUNT=$(( UPSERT_COUNT + 1 ))
+          else
+            ERROR_COUNT=$(( ERROR_COUNT + 1 ))
+          fi
+        done
       fi
     done
   else

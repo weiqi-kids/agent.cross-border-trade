@@ -36,10 +36,10 @@
 
 ## WebFetch 策略
 
-- **策略**: 必用
-- **原因**: 列表頁僅有標題和日期，必須 WebFetch 取得文章全文
-- **降級處理**: WebFetch 失敗時，僅基於標題萃取，並在 notes 標註「僅基於標題，無全文」
-- **降級時必須標記 `[REVIEW_NEEDED]`**
+- **策略**: 必用，含 curl 降級
+- **原因**: 列表頁僅有標題和日期，必須取得文章全文
+- **降級處理**: WebFetch 失敗時，使用 Bash curl 降級抓取（見萃取步驟）
+- **最終降級**: curl 也失敗時，僅基於標題萃取，並標記 `[REVIEW_NEEDED]`
 
 ## 萃取指令
 
@@ -57,9 +57,16 @@
 
 ### 萃取步驟
 
-1. **WebFetch** 取得文章全文（中文）
-2. **分類判定**：根據標題和內容，匹配 category enum
-3. **結構化萃取**：
+1. **嘗試 WebFetch** 取得文章全文（中文）
+2. **若 WebFetch 失敗，改用 Bash curl 降級**：
+   ```bash
+   curl -sS "$url" --max-time 30 | sed -n 's/<p[^>]*>\(.*\)<\/p>/\1/gp' | sed 's/<[^>]*>//g'
+   ```
+   - 此指令解析 MOFCOM HTML 的 `<p>` 標籤內容
+   - 若 curl 成功取得內容，在 Notes 標註「via curl fallback」
+3. **若 curl 也失敗**，才標記 `[REVIEW_NEEDED]` 並僅基於標題萃取
+4. **分類判定**：根據標題和內容，匹配 category enum
+5. **結構化萃取**：
    - 政策名稱（中英文）
    - 發布機構
    - 生效日期
@@ -74,12 +81,13 @@
 ## `[REVIEW_NEEDED]` 觸發規則
 
 以下情況**必須**標記 `[REVIEW_NEEDED]`：
-1. WebFetch 失敗，僅基於標題萃取（內容不完整）
+1. WebFetch 和 curl 降級都失敗，僅基於標題萃取（內容不完整）
 2. 無法判斷 category（標題模糊，未能分類）
 3. 政策涉及立即生效的重大管制變更（需緊急人工確認）
 4. 文章內容與標題不符（可能是網站結構變更）
 
 以下情況**不觸發** `[REVIEW_NEEDED]`：
+- WebFetch 失敗但 curl 降級成功取得全文
 - 政策為常規性更新（例行公告）
 - 中文翻譯的細微差異（這是結構性限制）
 - 缺少具體生效日期（部分政策不公布明確日期）
@@ -139,6 +147,6 @@
 - [ ] 英文翻譯使用國際通用術語
 - [ ] 推測性內容明確標註（如 Supply Chain Impact Assessment）
 - [ ] 發布日期格式正確（YYYY-MM-DD）
-- [ ] WebFetch 狀態在 Notes 中記錄
+- [ ] 內容取得方式在 Notes 中記錄（WebFetch / curl fallback / 僅標題）
 - [ ] 未超出 REVIEW_NEEDED 觸發範圍
 - [ ] 免責聲明：政策解讀僅供參考，不構成法律意見
