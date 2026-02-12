@@ -3,7 +3,7 @@
 - **Source**: UN Comtrade Preview API
 - **Reporter**: Germany (276)
 - **Period**: 2023-2024
-- **Fetched**: 2026-02-08T14:05:23Z
+- **Fetched**: 2026-02-12T23:08:47Z
 - **confidence**: 高
 
 > **Note**: HS commodity-level breakdown is not available from the Preview API.

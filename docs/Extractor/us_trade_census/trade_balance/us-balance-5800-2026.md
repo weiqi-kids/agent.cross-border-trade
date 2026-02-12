@@ -3,7 +3,7 @@
 - **Source**: US Census Bureau (Balance Summary)
 - **Source URL**: https://www.census.gov/foreign-trade/balance/c5800.html
 - **Partner**: South Korea (5800)
-- **Fetched**: 2026-02-08T14:05:23Z
+- **Fetched**: 2026-02-12T23:08:46Z
 - **confidence**: 高
 
 ## Monthly Trade Balance

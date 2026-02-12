@@ -20,6 +20,7 @@ Global Trade Intelligence System
 
 | 期別 | 報告 |
 |------|------|
+| 2026 第 07 週 | [2026-W07 貿易動態簡報]({% link Narrator/trade_briefing/2026-W07-trade-briefing.md %}) |
 | 2026 第 06 週 | [2026-W06 貿易動態簡報]({% link Narrator/trade_briefing/2026-W06-trade-briefing.md %}) |
 | 2026 第 05 週 | [2026-W05 貿易動態簡報]({% link Narrator/trade_briefing/2026-W05-trade-briefing.md %}) |
 
