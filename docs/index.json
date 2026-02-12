@@ -180,6 +180,12 @@
     "source": "bilateral_trade_flows"
   },
   {
+    "path": "docs/Extractor/cn_export_control/SKIPPED-2021-12-30-drug-control-law.md",
+    "title": "[SKIPPED - OUT OF SCOPE]",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/administrative-license-law-2021-12-30.md",
     "title": "中华人民共和国行政许可法（Law of the People's Republic of China on Administrative Licenses）",
     "category": "Extractor",
@@ -354,6 +360,12 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/controlled_item_change/2025-10-13-announcement-2025-no-57-heavy-rare-earth-export-c.md",
+    "title": "商务部 海关总署公告2025年第57号 公布对部分中重稀土相关物项实施出口管制的决定（MOFCOM and GAC Announcement 2025 No. 57: Export Control Implementation on Selected Heavy Rare Earth Related Items）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/counter-foreign-sanctions-implementation-2025-04-08.md",
     "title": "实施《中华人民共和国反外国制裁法》的规定（Provisions on the Implementation of the Law of the People's Republic of China on Countering Foreign Sanctions）",
     "category": "Extractor",
@@ -506,6 +518,18 @@
   {
     "path": "docs/Extractor/cn_export_control/enforcement_action/2025-10-29-商务部新闻发言人就英制裁中国企业答记者问.md",
     "title": "商务部新闻发言人就英制裁中国企业答记者问",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/enforcement_action/2025-11-06-mofcom-spokesperson-on-adjusting-unreliable-entit.md",
+    "title": "商务部新闻发言人就调整不可靠实体清单措施答记者问（Ministry of Commerce Spokesperson Responds to Questions on Adjusting Unreliable Entity List Measures）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/enforcement_action/2025-11-06-spokesman-adjusts-export-control-list-measures.md",
+    "title": "商务部新闻发言人就调整出口管制管控名单措施答记者问（MOFCOM Spokesperson Q&A on Adjusting Export Control List Measures）",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -1020,6 +1044,12 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/policy_guidance/2025-11-11-commerce-ministry-spokesperson-responds-to-eu-statemen.md",
+    "title": "商务部新闻发言人就欧方关于安世半导体问题的声明答记者问（Commerce Ministry Spokesperson Responds to EU Statement on Nexperia Semiconductor Issue）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/prc-export-control-law-2020.md",
     "title": "中华人民共和国出口管制法 (Export Control Law of the People's Republic of China)",
     "category": "Extractor",
@@ -1068,6 +1098,72 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/regulation_update/2021-12-30-biosafety-law-prc.md",
+    "title": "中华人民共和国生物安全法 (Biosafety Law of the People's Republic of China)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/regulation_update/2021-12-30-zhonghua-renmin-gongheguo-haiguan-fa.md",
+    "title": "中华人民共和国海关法 (Customs Law of the People's Republic of China)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/regulation_update/2021-12-30-zhonghua-renmin-gongheguo-he-anquan-fa.md",
+    "title": "中华人民共和国核安全法 (Nuclear Safety Law of the People's Republic of China)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/regulation_update/2021-12-30-zhonghua-renmin-gongheguo-jiankong-huaxuepin-guan.md",
+    "title": "中华人民共和国监控化学品管理条例 (Regulations on Administration of Monitored Chemicals of the People's Republic of China)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/regulation_update/2021-12-30-zhonghua-renmin-gongheguo-mima-fa.md",
+    "title": "中华人民共和国密码法（Cryptography Law of the People's Republic of China）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/regulation_update/2021-12-30-zhonghua-renmin-gongheguo-shuju-anquan-fa.md",
+    "title": "中华人民共和国数据安全法（People's Republic of China Data Security Law）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/regulation_update/2021-12-30-zhonghua-renmin-gongheguo-xingzheng-chufa-fa.md",
+    "title": "中华人民共和国行政处罚法（Administrative Penalty Law of the People's Republic of China）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/regulation_update/2021-12-30-zhonghua-renmin-gongheguo-xingzheng-xuke-fa.md",
+    "title": "中华人民共和国行政许可法（Administrative Licensing Law of the People's Republic of China）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/regulation_update/2021-12-30-zhonghuarenmingongheguofanwaiguozhicaifa.md",
+    "title": "中华人民共和国反外国制裁法（Anti-Foreign Sanctions Law of the People's Republic of China）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/regulation_update/2021-12-30-zhonghuarenmingongheguoguojiaanquanfa.md",
+    "title": "中华人民共和国国家安全法 (National Security Law of the People's Republic of China)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/regulation_update/2021-12-30-zhonghuarenmingongheguoyizhiduhuxuepi.md",
+    "title": "中华人民共和国易制毒化学品管理条例 (Regulation on Control of Precursor Chemicals of the People's Republic of China)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/regulation_update/2021-12-30-中华人民共和国军品出口管理条例.md",
     "title": "中华人民共和国军品出口管理条例",
     "category": "Extractor",
@@ -1106,6 +1202,18 @@
   {
     "path": "docs/Extractor/cn_export_control/regulation_update/2021-12-30-商用密码管理条例.md",
     "title": "商用密码管理条例",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/regulation_update/2023-01-01-zhonghua-renmin-gongheguo-duiwai-maoyi-fa.md",
+    "title": "中华人民共和国对外贸易法 (Foreign Trade Law of the People's Republic of China)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/regulation_update/2023-06-06-commercial-cryptography-management-regulation.md",
+    "title": "商用密码管理条例（Commercial Cryptography Management Regulations）",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -1416,6 +1524,12 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/regulation_update/2025-10-09-mofcom-announcement-2025-no-61-export-control-rare-earth.md",
+    "title": "商务部公告2025第61号 公布对境外相关稀土物项实施出口管制的决定（MOFCOM Announcement 2025 No. 61: Decision on Implementing Export Controls on Foreign-related Rare Earth Items）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/regulation_update/2025-10-09-不可靠实体清单工作机制关于将反无人机技术公司等外国实体列入不可靠实体清单的公告.md",
     "title": "不可靠实体清单工作机制关于将反无人机技术公司等外国实体列入不可靠实体清单的公告",
     "category": "Extractor",
@@ -1484,6 +1598,12 @@
   {
     "path": "docs/Extractor/cn_export_control/regulation_update/2025-11-06-中欧出口管制对话磋商在布鲁塞尔举行.md",
     "title": "中欧出口管制对话磋商在布鲁塞尔举行",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/regulation_update/2025-11-11-national-anti-drug-committee-office-notice-on.md",
+    "title": "[REVIEW_NEEDED]",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -2023,6 +2143,12 @@
   },
   {
     "path": "docs/Narrator/trade_briefing/2026-W06-trade-briefing.md",
+    "title": "---",
+    "category": "Narrator",
+    "source": "trade_briefing"
+  },
+  {
+    "path": "docs/Narrator/trade_briefing/2026-W07-trade-briefing.md",
     "title": "---",
     "category": "Narrator",
     "source": "trade_briefing"
