@@ -678,12 +678,6 @@
     "source": "cn_export_control"
   },
   {
-    "path": "docs/Extractor/cn_export_control/implementing-regulations-anti-foreign-sanctions-law-2025-04-08.md",
-    "title": "实施《中华人民共和国反外国制裁法》的规定 (Regulations on Implementing the Anti-Foreign Sanctions Law of the People's Republic of China)",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
     "path": "docs/Extractor/cn_export_control/india-expands-gaict-scomet-scope-2024-10-16.md",
     "title": "印度扩大跨国公司内部转让全球授权(GAICT)所涵盖的SCOMET物项范围（India Expands SCOMET Items Covered by Global Authorization for Intra-Company Transfer）",
     "category": "Extractor",
@@ -824,12 +818,6 @@
   {
     "path": "docs/Extractor/cn_export_control/military-products-export-management-2021-12-30.md",
     "title": "中华人民共和国军品出口管理条例（Regulations of the People's Republic of China on the Management of Military Products Export）",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
-    "path": "docs/Extractor/cn_export_control/military-products-export-management-regulation-1997.md",
-    "title": "中华人民共和国军品出口管理条例 (Military Products Export Management Regulation of the People's Republic of China)",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -1602,12 +1590,6 @@
     "source": "cn_export_control"
   },
   {
-    "path": "docs/Extractor/cn_export_control/regulation_update/2025-11-11-national-anti-drug-committee-office-notice-on.md",
-    "title": "[REVIEW_NEEDED]",
-    "category": "Extractor",
-    "source": "cn_export_control"
-  },
-  {
     "path": "docs/Extractor/cn_export_control/regulation_update/2025-11-11-中国出口管制信息网.md",
     "title": "中国出口管制信息网",
     "category": "Extractor",
@@ -1652,6 +1634,18 @@
   {
     "path": "docs/Extractor/cn_export_control/regulation_update/2026-01-06-商务部新闻发言人就加强两用物项对日本出口管制答记者问.md",
     "title": "商务部新闻发言人就加强两用物项对日本出口管制答记者问",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/regulation_update/implementing-regulations-anti-foreign-sanctions-law-2025-04-08.md",
+    "title": "实施《中华人民共和国反外国制裁法》的规定 (Regulations on Implementing the Anti-Foreign Sanctions Law of the People's Republic of China)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/regulation_update/military-products-export-management-regulation-1997.md",
+    "title": "中华人民共和国军品出口管理条例 (Military Products Export Management Regulation of the People's Republic of China)",
     "category": "Extractor",
     "source": "cn_export_control"
   },
