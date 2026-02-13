@@ -1,4 +1,16 @@
-# 資料源探索紀錄
+---
+layout: default
+title: 資料來源
+nav_order: 4
+description: "本系統使用的公開資料來源與 API"
+permalink: /data-sources/
+---
+
+# 資料來源
+
+本系統整合多個公開資料源，提供全球貿易情報分析。
+
+---
 
 ## 已採用
 

@@ -10,6 +10,10 @@ theme: just-the-docs
 # Color scheme
 color_scheme: light
 
+# Mermaid diagrams
+mermaid:
+  version: "10.6.0"
+
 # Aux links (top right)
 aux_links:
   "GitHub":
@@ -60,7 +64,6 @@ exclude:
   - "*.jsonl"
   - "*/raw/*"
   - CLAUDE.md
-  - explored.md
   - Extractor
 
 # Keep files
