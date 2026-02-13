@@ -3,6 +3,7 @@ layout: default
 title: "2026 年 2 月"
 parent: 供應鏈月報
 nav_order: 1
+description: "稀土管制域外效力分析；中日雙用物項禁令；半導體供應鏈緊張"
 ---
 
 # 供應鏈分析報告 — 2026 年 02 月

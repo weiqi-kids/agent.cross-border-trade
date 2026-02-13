@@ -2,7 +2,8 @@
 layout: default
 title: "2026 年第 05 週"
 parent: 貿易動態週報
-nav_order: 2
+nav_order: 3
+description: "鋰電池材料出口管制實施；六國 HHI 市場集中度分析"
 ---
 
 
