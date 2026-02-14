@@ -3,7 +3,7 @@
 - **Source**: World Bank API v2
 - **Country**: Germany (DEU)
 - **Indicator**: trade_gdp_ratio
-- **Fetched**: 2026-02-12T23:08:46Z
+- **Fetched**: 2026-02-13T23:51:06Z
 - **confidence**: 高
 
 ## Time Series
