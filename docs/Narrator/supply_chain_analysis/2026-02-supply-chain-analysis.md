@@ -4,6 +4,12 @@ title: "2026 年 2 月"
 parent: 供應鏈月報
 nav_order: 1
 description: "中日雙用物項出口禁令；台灣對美逆差激增；戰略材料管制體系全面運作"
+date: 2026-02-14
+article_section: 月度深度分析
+keywords: "供應鏈分析, 中國, 日本, 台灣, 美國, 出口管制, 稀土, 半導體, 2026"
+related_reports:
+  - "/Narrator/trade_briefing/2026-W07-trade-briefing/"
+  - "/Narrator/supply_chain_analysis/2026-01-supply-chain-analysis/"
 ---
 
 # 供應鏈分析報告 — 2026 年 02 月

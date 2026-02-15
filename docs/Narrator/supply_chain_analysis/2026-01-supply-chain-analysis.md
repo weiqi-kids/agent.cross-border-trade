@@ -4,6 +4,12 @@ title: "2026 年 1 月"
 parent: 供應鏈月報
 nav_order: 2
 description: "戰略材料管制體系全面運作；六國 HHI 集中度評估"
+date: 2026-01-29
+article_section: 月度深度分析
+keywords: "供應鏈分析, 中國, 戰略材料, 出口管制, HHI, 市場集中度, 2026"
+related_reports:
+  - "/Narrator/supply_chain_analysis/2026-02-supply-chain-analysis/"
+  - "/Narrator/trade_briefing/2026-W05-trade-briefing/"
 ---
 
 

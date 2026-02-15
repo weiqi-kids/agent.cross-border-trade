@@ -1,0 +1,129 @@
+{% if page.layout == 'default' and page.seo != false %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "{{ page.url | absolute_url }}#webpage",
+      "url": "{{ page.url | absolute_url }}",
+      "name": "{{ page.title | escape }}",
+      "description": "{{ page.description | default: site.description | escape }}",
+      "inLanguage": "zh-TW",
+      "isPartOf": { "@id": "{{ site.url }}/#website" },
+      "datePublished": "{{ page.date | date_to_xmlschema | default: site.time | date_to_xmlschema }}",
+      "dateModified": "{{ page.last_modified | default: page.date | default: site.time | date_to_xmlschema }}",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".article-summary",
+          ".speakable-content",
+          ".key-takeaway",
+          ".key-answer",
+          ".data-highlight",
+          ".actionable-steps li",
+          ".expert-quote"
+        ]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "{{ page.url | absolute_url }}#article",
+      "mainEntityOfPage": {
+        "@id": "{{ page.url | absolute_url }}#webpage",
+        "significantLink": [
+          {% if page.related_reports %}
+          {% for report in page.related_reports %}"{{ report }}"{% unless forloop.last %},{% endunless %}{% endfor %}
+          {% else %}
+          "{{ site.url }}/",
+          "{{ site.url }}/Narrator/trade_briefing/"
+          {% endif %}
+        ]
+      },
+      "headline": "{{ page.title | escape }}",
+      "description": "{{ page.description | default: site.description | escape }}",
+      "author": { "@id": "{{ site.url }}/about#ai-analyst" },
+      "publisher": { "@id": "{{ site.url }}/#organization" },
+      "datePublished": "{{ page.date | date_to_xmlschema | default: site.time | date_to_xmlschema }}",
+      "dateModified": "{{ page.last_modified | default: page.date | default: site.time | date_to_xmlschema }}",
+      "articleSection": "{{ page.article_section | default: page.parent | default: 'Trade Analysis' }}",
+      "keywords": "{{ page.keywords | default: '國際貿易, 貿易數據, 供應鏈分析' }}",
+      "inLanguage": "zh-TW",
+      "isAccessibleForFree": true,
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "{{ site.url }}/#website",
+        "name": "{{ site.title }}",
+        "description": "{{ site.description }}",
+        "url": "{{ site.url }}/",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "{{ site.url }}/search?q={search_term}",
+          "query-input": "required name=search_term"
+        }
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "{{ site.url }}/about#ai-analyst",
+      "name": "AI 貿易分析師",
+      "url": "{{ site.url }}/about",
+      "description": "基於 Claude 的智慧貿易分析系統，整合 UN Comtrade、US Census、World Bank 等權威數據源，提供即時貿易情報與趨勢分析。",
+      "knowsAbout": [
+        "國際貿易數據分析",
+        "供應鏈風險評估",
+        "關稅政策追蹤",
+        "出口管制法規",
+        "雙邊貿易流向"
+      ],
+      "affiliation": { "@id": "{{ site.url }}/#organization" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "{{ site.url }}/#organization",
+      "name": "全球貿易與供需智慧分析系統",
+      "url": "{{ site.url }}",
+      "description": "自動化貿易情報分析平台，追蹤全球貿易流向、政策變動與供應鏈風險。",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ site.url }}/assets/images/logo.png",
+        "width": 600,
+        "height": 60
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "首頁",
+          "item": "{{ site.url }}/"
+        }
+        {% if page.parent %},
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "{{ page.parent }}",
+          "item": "{{ site.url }}/Narrator/{{ page.parent | slugify }}/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "{{ page.title }}",
+          "item": "{{ page.url | absolute_url }}"
+        }
+        {% endif %}
+      ]
+    }
+  ]
+}
+</script>
+
+{% comment %} Additional meta tags for better SEO {% endcomment %}
+<meta property="article:author" content="AI 貿易分析師" />
+<meta property="article:section" content="{{ page.article_section | default: page.parent | default: 'Trade Analysis' }}" />
+{% if page.keywords %}
+<meta name="keywords" content="{{ page.keywords }}" />
+{% endif %}
+{% endif %}

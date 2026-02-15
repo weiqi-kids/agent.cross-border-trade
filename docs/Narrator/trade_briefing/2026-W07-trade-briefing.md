@@ -4,6 +4,12 @@ title: "2026 年第 07 週"
 parent: 貿易動態週報
 nav_order: 1
 description: "美台貿易逆差激增 72%；中國對日本實施雙用物項出口禁令"
+date: 2026-02-14
+article_section: 週報分析
+keywords: "國際貿易, 美國, 台灣, 中國, 日本, 貿易逆差, 出口管制, 半導體, 2026"
+related_reports:
+  - "/Narrator/trade_briefing/2026-W06-trade-briefing/"
+  - "/Narrator/supply_chain_analysis/2026-02-supply-chain-analysis/"
 ---
 
 # 貿易動態簡報 — 2026 年第 07 週
