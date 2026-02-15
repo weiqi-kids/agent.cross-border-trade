@@ -53,7 +53,23 @@ Type B 萃取流程：
 4. 依照輸出框架產出報告到 `docs/Narrator/{mode}/`
 5. 報告必須包含 Jekyll front matter（layout、title、parent、nav_order）
 
-### 步驟五：更新網站
+### 步驟五：SEO 優化
+
+對 `docs/Narrator/{mode}/` 下新產出的報告執行 SEO 優化：
+
+1. 讀取 `seo/CLAUDE.md`（規則庫）和 `seo/writer/CLAUDE.md`
+2. 對每篇新報告執行 SEO Writer 流程：
+   - 分析頁面內容
+   - 產出 JSON-LD Schema（Article、WebPage、Person、Organization、BreadcrumbList）
+   - 產出 SGE 標記建議
+   - 產出 Meta 標籤建議
+3. 讀取 `seo/review/CLAUDE.md` 執行 Reviewer 檢查
+4. 迭代修正直到 Reviewer 回報 "pass"
+5. 將 SEO 優化結果寫入報告的 front matter 或獨立 JSON 檔
+
+> 詳細規範見 `seo/CLAUDE.md`
+
+### 步驟六：更新網站
 
 1. 更新 `docs/Narrator/{mode}/index.md` 的歷史報告表格
 2. 更新 `docs/index.md` 的最新報告連結
@@ -73,7 +89,8 @@ Type B 萃取流程：
 | 步驟二 | update.sh 執行 | `sonnet` | `Bash` |
 | 步驟三 | 動態發現 Mode | `sonnet` | `Bash` |
 | 步驟四 | Mode 報告產出 | `opus` | `general-purpose` |
-| 步驟五 | 更新網站 | `sonnet` | `Bash` |
+| 步驟五 | SEO 優化 | `sonnet` | `general-purpose` |
+| 步驟六 | 更新網站 | `sonnet` | `Bash` |
 
 **強制規則**：
 - 只有步驟四使用 `opus`，其餘一律 `sonnet`
@@ -92,7 +109,8 @@ Type B 萃取流程：
 | 步驟二 update | ❌ | 需等 fetch/analyze 完成，依序前台 |
 | 步驟三 | ❌ | 快速掃描，前台即可 |
 | 步驟四 Mode 報告 | ❌ | opus 依序前台執行（需深度推理） |
-| 步驟五 | ✅ | 背景執行，主執行緒立即可用 |
+| 步驟五 SEO 優化 | ❌ | sonnet 依序前台執行（需迭代審核） |
+| 步驟六 | ✅ | 背景執行，主執行緒立即可用 |
 
 **執行範例**：
 
