@@ -3,7 +3,7 @@
 - **Source**: UN Comtrade Preview API
 - **Reporter**: Japan (392)
 - **Period**: 2023-2024
-- **Fetched**: 2026-02-13T23:51:07Z
+- **Fetched**: 2026-02-16T23:18:19Z
 - **confidence**: 高
 
 > **Note**: HS commodity-level breakdown is not available from the Preview API.

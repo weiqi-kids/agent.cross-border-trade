@@ -3,7 +3,7 @@
 - **Source**: World Bank API v2
 - **Country**: China (CHN)
 - **Indicator**: trade_gdp_ratio
-- **Fetched**: 2026-02-13T23:51:06Z
+- **Fetched**: 2026-02-16T23:18:18Z
 - **confidence**: 高
 
 ## Time Series

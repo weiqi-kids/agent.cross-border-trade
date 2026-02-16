@@ -4,18 +4,199 @@ title: "2026 年 2 月"
 parent: 供應鏈月報
 nav_order: 1
 description: "中日雙用物項出口禁令；台灣對美逆差激增；戰略材料管制體系全面運作"
-date: 2026-02-14
+date: 2026-02-17
 article_section: 月度深度分析
 keywords: "供應鏈分析, 中國, 日本, 台灣, 美國, 出口管制, 稀土, 半導體, 2026"
 related_reports:
   - "/Narrator/trade_briefing/2026-W07-trade-briefing/"
   - "/Narrator/supply_chain_analysis/2026-01-supply-chain-analysis/"
+seo:
+  json_ld:
+    "@context": "https://schema.org"
+    "@graph":
+      - "@type": "WebPage"
+        "@id": "https://trade.weiqi.kids/Narrator/supply_chain_analysis/2026-02-supply-chain-analysis#webpage"
+        url: "https://trade.weiqi.kids/Narrator/supply_chain_analysis/2026-02-supply-chain-analysis"
+        name: "供應鏈分析報告 — 2026 年 02 月"
+        description: "中日雙用物項出口禁令；台灣對美逆差激增72%；中國戰略材料管制體系全面運作。分析美國、中國、日本、南韓、德國與台灣的供應鏈集中度風險與管制影響。"
+        inLanguage: "zh-TW"
+        isPartOf:
+          "@id": "https://trade.weiqi.kids/#website"
+        primaryImageOfPage:
+          "@type": "ImageObject"
+          url: "https://trade.weiqi.kids/assets/images/supply-chain-analysis-2026-02.png"
+        datePublished: "2026-02-17T00:00:00+08:00"
+        dateModified: "2026-02-17T00:00:00+08:00"
+        speakable:
+          "@type": "SpeakableSpecification"
+          cssSelector:
+            - ".article-summary"
+            - ".speakable-content"
+            - ".key-takeaway"
+            - ".key-answer"
+            - ".expert-quote"
+            - ".actionable-steps li"
+            - ".data-highlight"
+      - "@type": "Article"
+        "@id": "https://trade.weiqi.kids/Narrator/supply_chain_analysis/2026-02-supply-chain-analysis#article"
+        mainEntityOfPage:
+          "@id": "https://trade.weiqi.kids/Narrator/supply_chain_analysis/2026-02-supply-chain-analysis#webpage"
+          significantLink:
+            - "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W07-trade-briefing/"
+            - "https://trade.weiqi.kids/Narrator/supply_chain_analysis/2026-01-supply-chain-analysis/"
+        headline: "供應鏈分析報告 — 2026 年 02 月"
+        description: "中日雙用物項出口禁令；台灣對美逆差激增72%；中國戰略材料管制體系全面運作。分析美國、中國、日本、南韓、德國與台灣的供應鏈集中度風險與管制影響。"
+        image:
+          "@type": "ImageObject"
+          url: "https://trade.weiqi.kids/assets/images/supply-chain-analysis-2026-02.png"
+          width: 1200
+          height: 630
+        author:
+          "@id": "https://trade.weiqi.kids/about#ai-analyst"
+        publisher:
+          "@id": "https://trade.weiqi.kids/#organization"
+        datePublished: "2026-02-17T00:00:00+08:00"
+        dateModified: "2026-02-17T00:00:00+08:00"
+        articleSection: "供應鏈風險評估"
+        keywords: "供應鏈分析, 中國, 日本, 台灣, 美國, 出口管制, 稀土, 半導體, 2026, 雙用物項, 貿易逆差, HHI, 市場集中度, 戰略材料"
+        wordCount: 5800
+        inLanguage: "zh-TW"
+        isAccessibleForFree: true
+        isPartOf:
+          "@type": "WebSite"
+          "@id": "https://trade.weiqi.kids/#website"
+          name: "全球貿易與供需智慧分析系統"
+          potentialAction:
+            "@type": "SearchAction"
+            target: "https://trade.weiqi.kids/search?q={search_term}"
+            query-input: "required name=search_term"
+      - "@type": "Person"
+        "@id": "https://trade.weiqi.kids/about#ai-analyst"
+        name: "AI 貿易分析師"
+        url: "https://trade.weiqi.kids/about"
+        description: "基於 Claude 的智慧貿易分析系統，整合 UN Comtrade、US Census、World Bank 等權威數據源，提供即時貿易情報與趨勢分析。"
+        knowsAbout:
+          - "國際貿易數據分析"
+          - "供應鏈風險評估"
+          - "關稅政策追蹤"
+          - "出口管制法規"
+          - "雙邊貿易流向"
+        affiliation:
+          "@id": "https://trade.weiqi.kids/#organization"
+        sameAs:
+          - "https://github.com/anthropics/claude-code"
+      - "@type": "Organization"
+        "@id": "https://trade.weiqi.kids/#organization"
+        name: "全球貿易與供需智慧分析系統"
+        url: "https://trade.weiqi.kids"
+        logo:
+          "@type": "ImageObject"
+          url: "https://trade.weiqi.kids/assets/images/logo.png"
+          width: 600
+          height: 60
+        description: "自動化貿易情報分析平台，追蹤全球貿易流向、政策變動與供應鏈風險。"
+        sameAs:
+          - "https://github.com/anthropics/claude-code"
+      - "@type": "BreadcrumbList"
+        itemListElement:
+          - "@type": "ListItem"
+            position: 1
+            name: "首頁"
+            item: "https://trade.weiqi.kids/"
+          - "@type": "ListItem"
+            position: 2
+            name: "供應鏈月報"
+            item: "https://trade.weiqi.kids/Narrator/supply_chain_analysis/"
+          - "@type": "ListItem"
+            position: 3
+            name: "供應鏈分析報告 — 2026 年 02 月"
+            item: "https://trade.weiqi.kids/Narrator/supply_chain_analysis/2026-02-supply-chain-analysis"
+      - "@type": "ItemList"
+        "@id": "https://trade.weiqi.kids/Narrator/supply_chain_analysis/2026-02-supply-chain-analysis#itemlist-concentration"
+        name: "出口市場集中度排名（2024）"
+        description: "基於 HHI 指數的六大經濟體出口市場集中度比較，涵蓋美國、中國、日本、南韓、台灣與德國。"
+        numberOfItems: 6
+        itemListElement:
+          - "@type": "ListItem"
+            position: 1
+            name: "中國（HHI 447.18）"
+            description: "低集中度（分散），前三大夥伴佔比 27.34%，出口最為多元化"
+          - "@type": "ListItem"
+            position: 2
+            name: "美國（HHI 723.51）"
+            description: "低集中度（分散），前三大夥伴佔比 40.41%"
+          - "@type": "ListItem"
+            position: 3
+            name: "日本（HHI 894.65）"
+            description: "低集中度（分散），前三大夥伴佔比 44.26%，需關注對美中依賴"
+          - "@type": "ListItem"
+            position: 4
+            name: "南韓（HHI 911.24）"
+            description: "低集中度（分散），前三大夥伴佔比 46.70%，半導體產業復甦強勁"
+          - "@type": "ListItem"
+            position: 5
+            name: "台灣（HHI 1183.15）"
+            description: "低集中度（偏高），前三大夥伴佔比 54.08%，警示等級 — 對中美雙極依賴"
+          - "@type": "ListItem"
+            position: 6
+            name: "德國（HHI 1188.50）"
+            description: "低集中度（偏高），前三大夥伴佔比 53.37%，警示等級 — GDP 連續兩年負增長"
+      - "@type": "ItemList"
+        "@id": "https://trade.weiqi.kids/Narrator/supply_chain_analysis/2026-02-supply-chain-analysis#itemlist-regulations"
+        name: "已生效的中國關鍵管制措施（2025-2026）"
+        description: "按生效日期排序的中國出口管制政策，涵蓋戰略材料、稀土、電池與雙用物項。"
+        numberOfItems: 7
+        itemListElement:
+          - "@type": "ListItem"
+            position: 1
+            name: "鎢、碲、鉍、鉬、銦管制（2025-02-04）"
+            description: "第10號公告，中國市佔率：鎢 ~80%, 銦 ~60%, 鉍 ~80%"
+          - "@type": "ListItem"
+            position: 2
+            name: "反外國制裁法實施規定（2025-04-08）"
+            description: "反制裁操作機制（資產凍結、交易限制）"
+          - "@type": "ListItem"
+            position: 3
+            name: "超硬材料管制（2025-11-08）"
+            description: "第55號，合成鑽石微粉、單晶、線鋸、CVD 設備，中國市佔 >70%"
+          - "@type": "ListItem"
+            position: 4
+            name: "重稀土管制（2025-11-08）"
+            description: "第57號，鈥、鉺、銩、銪、鐿，含金屬、合金、靶材、永磁體，中國市佔 >90%"
+          - "@type": "ListItem"
+            position: 5
+            name: "鋰電池與石墨負極管制（2025-11-08）"
+            description: "第58號，≥300 Wh/kg 電池、六類製造設備、LFP 正極、石墨負極，中國市佔 >90%"
+          - "@type": "ListItem"
+            position: 6
+            name: "稀土再出口管制（2025-12-01）"
+            description: "第61號，含中國成分 0.1% 價值門檻，具域外效力"
+          - "@type": "ListItem"
+            position: 7
+            name: "對日本雙用物項出口禁令（2026-01-06）"
+            description: "全面禁止對日本軍事用戶、軍事用途及增強軍事能力終端用戶的所有雙用物項出口，具域外效力"
+      - "@type": "Table"
+        "@id": "https://trade.weiqi.kids/Narrator/supply_chain_analysis/2026-02-supply-chain-analysis#table-concentration"
+        about: "出口市場集中度與總體經濟概覽"
+        description: "比較美國、中國、日本、南韓、台灣、德國的出口 HHI、集中度等級、前三大夥伴佔比、GDP 成長率與經常帳餘額（2024）"
+      - "@type": "Table"
+        "@id": "https://trade.weiqi.kids/Narrator/supply_chain_analysis/2026-02-supply-chain-analysis#table-us-trade"
+        about: "美國與主要夥伴貿易差額（2024-2025）"
+        description: "美國與中國、台灣、日本、南韓、德國的雙邊貿易額與貿易差額年度變化"
+      - "@type": "Table"
+        "@id": "https://trade.weiqi.kids/Narrator/supply_chain_analysis/2026-02-supply-chain-analysis#table-macro"
+        about: "主要經濟體總體經濟指標（2024）"
+        description: "比較 GDP 成長率、貿易/GDP 比率、經常帳餘額與年度變化"
+      - "@type": "Table"
+        "@id": "https://trade.weiqi.kids/Narrator/supply_chain_analysis/2026-02-supply-chain-analysis#table-impact"
+        about: "管制政策影響評估"
+        description: "評估各項中國出口管制政策對不同產業的影響程度與信心水準"
 ---
 
 # 供應鏈分析報告 — 2026 年 02 月
 
 > 報告期間：2026-02
-> 產出時間：2026-02-14T10:00:00+08:00
+> 產出時間：2026-02-17T00:00:00+08:00
 > 自動化程度：60%（數據計算自動完成，風險評估建議人工審核）
 
 ## 執行摘要

@@ -3,7 +3,7 @@
 - **Source**: World Bank API v2
 - **Country**: United States (USA)
 - **Indicator**: current_account
-- **Fetched**: 2026-02-13T23:51:06Z
+- **Fetched**: 2026-02-16T23:18:18Z
 - **confidence**: 高
 
 ## Time Series

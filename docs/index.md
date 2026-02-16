@@ -12,7 +12,7 @@ permalink: /
 Global Trade Intelligence System
 {: .fs-6 .fw-300 }
 
-> 最後更新：{{ site.time | date: "%Y-%m-%d" }} | 資料期間：2026 第 07 週
+> 最後更新：{{ site.time | date: "%Y-%m-%d" }} | 資料期間：2026 第 08 週
 
 ---
 
@@ -20,9 +20,10 @@ Global Trade Intelligence System
 
 | 信號 | 重點 | 說明 | 來源 |
 |:----:|------|------|:----:|
-| 🔺 | **美台逆差激增** | 2025 全年 USD 1,268 億，較 2024 年 +72% | [W07]({% link Narrator/trade_briefing/2026-W07-trade-briefing.md %}) |
-| ⚠️ | **中日出口管制** | 禁止雙用物項出口至日本軍事用戶（2026-01-06 生效） | [W07]({% link Narrator/trade_briefing/2026-W07-trade-briefing.md %}) |
-| 🔄 | **安世半導體爭議** | 中荷持續磋商，半導體供應鏈緊張態勢未解 | [W07]({% link Narrator/trade_briefing/2026-W07-trade-briefing.md %}) |
+| 🔺 | **美台逆差激增** | 2025 全年 USD 1,269 億，較 2024 年 +72% | [W08]({% link Narrator/trade_briefing/2026-W08-trade-briefing.md %}) |
+| ⚠️ | **中日出口管制持續執行** | 禁止雙用物項出口至日本軍事用戶（已執行約 6 週） | [W08]({% link Narrator/trade_briefing/2026-W08-trade-briefing.md %}) |
+| 🔻 | **美中逆差收窄** | 2025 全年 USD 1,894 億，較 2024 年收窄 36% | [W08]({% link Narrator/trade_briefing/2026-W08-trade-briefing.md %}) |
+| 🔄 | **安世半導體爭議** | 中荷磋商進展有限，荷方立場強硬 | [W08]({% link Narrator/trade_briefing/2026-W08-trade-briefing.md %}) |
 
 ---
 
@@ -73,6 +74,7 @@ pie showData
 
 | 期別 | 日期範圍 | 重點 | 連結 |
 |------|----------|------|:----:|
+| W08 | 02-17 ~ 02-23 | 美台逆差 +72%、美中逆差收窄 36%、安世爭議 | [查看]({% link Narrator/trade_briefing/2026-W08-trade-briefing.md %}) |
 | W07 | 02-10 ~ 02-16 | 美台逆差 +72%、中日出口管制 | [查看]({% link Narrator/trade_briefing/2026-W07-trade-briefing.md %}) |
 | W06 | 02-03 ~ 02-09 | 重稀土管制生效、FDPR 暫停延長 | [查看]({% link Narrator/trade_briefing/2026-W06-trade-briefing.md %}) |
 | W05 | 01-27 ~ 02-02 | 鋰電池材料出口管制實施 | [查看]({% link Narrator/trade_briefing/2026-W05-trade-briefing.md %}) |
