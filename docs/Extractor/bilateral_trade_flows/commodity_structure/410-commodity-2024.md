@@ -3,7 +3,7 @@
 - **Source**: UN Comtrade Preview API
 - **Reporter**: South Korea (410)
 - **Period**: 2023-2024
-- **Fetched**: 2026-02-16T23:18:19Z
+- **Fetched**: 2026-02-17T23:23:31Z
 - **confidence**: 高
 
 > **Note**: HS commodity-level breakdown is not available from the Preview API.

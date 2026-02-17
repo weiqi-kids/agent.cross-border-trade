@@ -3,7 +3,7 @@
 - **Source**: World Bank API v2
 - **Country**: Germany (DEU)
 - **Indicator**: gdp_growth
-- **Fetched**: 2026-02-16T23:18:18Z
+- **Fetched**: 2026-02-17T23:23:31Z
 - **confidence**: 高
 
 ## Time Series

@@ -4,7 +4,7 @@ title: "2026 年 2 月"
 parent: 供應鏈月報
 nav_order: 1
 description: "中日雙用物項出口禁令；台灣對美逆差激增；戰略材料管制體系全面運作"
-date: 2026-02-17
+date: 2026-02-18
 article_section: 月度深度分析
 keywords: "供應鏈分析, 中國, 日本, 台灣, 美國, 出口管制, 稀土, 半導體, 2026"
 related_reports:
@@ -25,8 +25,8 @@ seo:
         primaryImageOfPage:
           "@type": "ImageObject"
           url: "https://trade.weiqi.kids/assets/images/supply-chain-analysis-2026-02.png"
-        datePublished: "2026-02-17T00:00:00+08:00"
-        dateModified: "2026-02-17T00:00:00+08:00"
+        datePublished: "2026-02-18T00:00:00+08:00"
+        dateModified: "2026-02-18T00:00:00+08:00"
         speakable:
           "@type": "SpeakableSpecification"
           cssSelector:
@@ -55,8 +55,8 @@ seo:
           "@id": "https://trade.weiqi.kids/about#ai-analyst"
         publisher:
           "@id": "https://trade.weiqi.kids/#organization"
-        datePublished: "2026-02-17T00:00:00+08:00"
-        dateModified: "2026-02-17T00:00:00+08:00"
+        datePublished: "2026-02-18T00:00:00+08:00"
+        dateModified: "2026-02-18T00:00:00+08:00"
         articleSection: "供應鏈風險評估"
         keywords: "供應鏈分析, 中國, 日本, 台灣, 美國, 出口管制, 稀土, 半導體, 2026, 雙用物項, 貿易逆差, HHI, 市場集中度, 戰略材料"
         wordCount: 5800
@@ -196,7 +196,7 @@ seo:
 # 供應鏈分析報告 — 2026 年 02 月
 
 > 報告期間：2026-02
-> 產出時間：2026-02-17T00:00:00+08:00
+> 產出時間：2026-02-18T00:00:00+08:00
 > 自動化程度：60%（數據計算自動完成，風險評估建議人工審核）
 
 ## 執行摘要
