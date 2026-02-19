@@ -3,7 +3,7 @@
 - **Source**: US Census Bureau (Balance Summary)
 - **Source URL**: https://www.census.gov/foreign-trade/balance/c5880.html
 - **Partner**: Japan (5880)
-- **Fetched**: 2026-02-17T23:23:31Z
+- **Fetched**: 2026-02-19T02:38:20Z
 - **confidence**: 高
 
 ## Monthly Trade Balance

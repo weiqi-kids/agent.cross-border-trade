@@ -27,7 +27,7 @@ permalink: /trade-compliance-digest/
 
 | 期別 | 報告 | 重點 |
 |------|------|------|
-| *尚無歷史報告* | — | 首份報告將於下次完整流程執行時產出 |
+| W07-W08 | [2026 年第 07-08 週]({% link Narrator/trade_compliance_digest/2026-W07-W08-trade-compliance-digest.md %}) | 日本兩用物項禁令、稀土境外管制、鋰電池材料管制 |
 
 ---
 

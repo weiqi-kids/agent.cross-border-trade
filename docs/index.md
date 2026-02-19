@@ -108,25 +108,25 @@ pie showData
 
 | 期別 | 重點 | 連結 |
 |------|------|:----:|
-| *即將推出* | 首份報告將於下次完整流程執行時產出 | [前往](/policy-tracker/) |
+| 2026-02 | 日本兩用物項禁令深度分析、稀土境外管制實施 | [查看]({% link Narrator/policy_tracker/2026-02-policy-tracker.md %}) |
 
 ### 投資視角貿易分析
 
 | 期別 | 重點 | 連結 |
 |------|------|:----:|
-| *即將推出* | 首份報告將於下次完整流程執行時產出 | [前往](/investment-insight/) |
+| 2026-Q1 | 全球貿易分化加劇、關鍵材料管制深化、供應鏈重組投資主題 | [查看]({% link Narrator/investment_insight/2026-Q1-investment-insight.md %}) |
 
 ### 貿易合規摘要
 
 | 期別 | 重點 | 連結 |
 |------|------|:----:|
-| *即將推出* | 首份報告將於下次完整流程執行時產出 | [前往](/trade-compliance-digest/) |
+| W07-W08 | 日本兩用物項禁令、稀土境外管制、鋰電池材料管制 | [查看]({% link Narrator/trade_compliance_digest/2026-W07-W08-trade-compliance-digest.md %}) |
 
 ### 財經媒體簡報
 
 | 期別 | 頭條數據 | 連結 |
 |------|----------|:----:|
-| *即將推出* | 首份報告將於下次完整流程執行時產出 | [前往](/media-briefing/) |
+| W08 | 中國對日兩用物項禁令、美中逆差收窄 44.6%、台灣 HHI 1183 | [查看]({% link Narrator/media_briefing/2026-W08-media-briefing.md %}) |
 
 ---
 

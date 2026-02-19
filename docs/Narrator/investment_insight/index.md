@@ -27,7 +27,7 @@ permalink: /investment-insight/
 
 | 期別 | 報告 | 重點 |
 |------|------|------|
-| *尚無歷史報告* | — | 首份報告將於下次完整流程執行時產出 |
+| 2026-Q1 | [2026 年 Q1]({% link Narrator/investment_insight/2026-Q1-investment-insight.md %}) | 全球貿易分化加劇、關鍵材料管制深化、供應鏈重組投資主題 |
 
 ---
 
