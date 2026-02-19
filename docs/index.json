@@ -2112,6 +2112,18 @@
     "source": "world_macro_indicators"
   },
   {
+    "path": "docs/Narrator/investment_insight/index.md",
+    "title": "---",
+    "category": "Narrator",
+    "source": "investment_insight"
+  },
+  {
+    "path": "docs/Narrator/policy_tracker/index.md",
+    "title": "---",
+    "category": "Narrator",
+    "source": "policy_tracker"
+  },
+  {
     "path": "docs/Narrator/supply_chain_analysis/2026-01-supply-chain-analysis.md",
     "title": "---",
     "category": "Narrator",
