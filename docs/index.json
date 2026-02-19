@@ -2112,16 +2112,34 @@
     "source": "world_macro_indicators"
   },
   {
+    "path": "docs/Narrator/investment_insight/2026-Q1-investment-insight.md",
+    "title": "---",
+    "category": "Narrator",
+    "source": "investment_insight"
+  },
+  {
     "path": "docs/Narrator/investment_insight/index.md",
     "title": "---",
     "category": "Narrator",
     "source": "investment_insight"
   },
   {
+    "path": "docs/Narrator/media_briefing/2026-W08-media-briefing.md",
+    "title": "---",
+    "category": "Narrator",
+    "source": "media_briefing"
+  },
+  {
     "path": "docs/Narrator/media_briefing/index.md",
     "title": "---",
     "category": "Narrator",
     "source": "media_briefing"
+  },
+  {
+    "path": "docs/Narrator/policy_tracker/2026-02-policy-tracker.md",
+    "title": "---",
+    "category": "Narrator",
+    "source": "policy_tracker"
   },
   {
     "path": "docs/Narrator/policy_tracker/index.md",
@@ -2176,6 +2194,12 @@
     "title": "---",
     "category": "Narrator",
     "source": "trade_briefing"
+  },
+  {
+    "path": "docs/Narrator/trade_compliance_digest/2026-W07-W08-trade-compliance-digest.md",
+    "title": "---",
+    "category": "Narrator",
+    "source": "trade_compliance_digest"
   },
   {
     "path": "docs/Narrator/trade_compliance_digest/index.md",
