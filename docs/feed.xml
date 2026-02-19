@@ -1,0 +1,36 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.title }}</title>
+  <subtitle>{{ site.description }}</subtitle>
+  <link href="{{ site.url }}/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="{{ site.url }}/" rel="alternate" type="text/html"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}/</id>
+  <author>
+    <name>AI 貿易分析師</name>
+  </author>
+  {% assign reports = site.pages | where_exp: "page", "page.layout == 'default'" | where_exp: "page", "page.parent != nil" | sort: "date" | reverse %}
+  {% for post in reports limit:20 %}
+  {% if post.title and post.url contains "Narrator" %}
+  <entry>
+    <title>{{ post.title | xml_escape }}</title>
+    <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}"/>
+    <published>{{ post.date | default: site.time | date_to_xmlschema }}</published>
+    <updated>{{ post.last_modified | default: post.date | default: site.time | date_to_xmlschema }}</updated>
+    <id>{{ post.url | absolute_url }}</id>
+    <content type="html" xml:base="{{ post.url | absolute_url }}">
+      {{ post.description | default: site.description | xml_escape }}
+    </content>
+    <author>
+      <name>AI 貿易分析師</name>
+    </author>
+    {% if post.parent %}
+    <category term="{{ post.parent | xml_escape }}"/>
+    {% endif %}
+  </entry>
+  {% endif %}
+  {% endfor %}
+</feed>

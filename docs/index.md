@@ -14,6 +14,20 @@ Global Trade Intelligence System
 
 > 最後更新：{{ site.time | date: "%Y-%m-%d" }} | 資料期間：2026 第 08 週
 
+<details>
+<summary><strong>📖 符號說明</strong></summary>
+
+| 符號 | 含義 |
+|:----:|------|
+| 🔺 | 上升/增加趨勢 |
+| 🔻 | 下降/減少趨勢 |
+| ⚠️ | 需關注/接近風險閾值 |
+| 🔄 | 持續追蹤中的議題 |
+| ✅ | 正常/低風險 |
+| → | 趨勢持平 |
+
+</details>
+
 ---
 
 ## 找到適合你的報告
@@ -43,6 +57,9 @@ Global Trade Intelligence System
 | 🔻 | **美中逆差收窄** | 2025 全年 USD 1,894 億，較 2024 年收窄 36% | [W08]({% link Narrator/trade_briefing/2026-W08-trade-briefing.md %}) |
 | 🔄 | **安世半導體爭議** | 中荷磋商進展有限，荷方立場強硬 | [W08]({% link Narrator/trade_briefing/2026-W08-trade-briefing.md %}) |
 
+{: .fs-2 .text-grey-dk-000 }
+> 📊 數據來源：[US Census Bureau](https://www.census.gov/foreign-trade/) 貿易統計、[中國商務部](http://exportcontrol.mofcom.gov.cn/) 出口管制政策
+
 ---
 
 ## 風險信號
@@ -61,6 +78,9 @@ Global Trade Intelligence System
 {: .note }
 > HHI < 1,500 為低集中度，1,500-2,500 為中度，> 2,500 為高度。台灣與德國接近中度門檻，需關注市場多元化。
 
+{: .fs-2 .text-grey-dk-000 }
+> 📊 數據來源：[UN Comtrade](https://comtradeplus.un.org/) 2024 年度出口數據計算
+
 ### 政策動態統計
 
 | 類別 | 2026 年新增 | 追蹤中 |
@@ -68,6 +88,9 @@ Global Trade Intelligence System
 | 法規更新 (regulation_update) | 3 | 15 |
 | 執法行動 (enforcement_action) | 2 | 8 |
 | 管制清單變更 (controlled_item_change) | 1 | 5 |
+
+{: .fs-2 .text-grey-dk-000 }
+> 📊 數據來源：[中國商務部出口管制資訊網](http://exportcontrol.mofcom.gov.cn/) 統計至 2026-02-19
 
 ---
 
@@ -83,6 +106,9 @@ pie showData
     "日本 685" : 685
     "其他 2,838" : 2838
 ```
+
+{: .fs-2 .text-grey-dk-000 }
+> 📊 數據來源：[US Census Bureau](https://www.census.gov/foreign-trade/) 2025 年 1-12 月累計貿易統計
 
 ---
 
@@ -127,6 +153,24 @@ pie showData
 | 期別 | 頭條數據 | 連結 |
 |------|----------|:----:|
 | W08 | 中國對日兩用物項禁令、美中逆差收窄 44.6%、台灣 HHI 1183 | [查看]({% link Narrator/media_briefing/2026-W08-media-briefing.md %}) |
+
+---
+
+## 如何使用本站
+
+{: .highlight }
+> **3 步驟快速上手**
+
+1. **找到你的報告** — 從上方「找到適合你的報告」選擇你的角色，點擊對應報告
+2. **追蹤關鍵信號** — 「本週重點」區塊顯示最新的重大變化（🔺 上升、🔻 下降、⚠️ 警示）
+3. **深入分析** — 點擊報告連結閱讀完整分析，查看數據來源和相關報告
+
+**訂閱更新**：
+- 使用 [RSS Feed](/feed.xml) 訂閱最新報告
+- 每週一發布貿易動態週報，每月初發布供應鏈月報
+
+**引用建議**：
+引用本站數據時，請標註「資料來源：全球貿易情報分析系統，原始數據來自 [UN Comtrade/US Census/...]」
 
 ---
 
