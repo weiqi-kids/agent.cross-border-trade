@@ -21,22 +21,26 @@ related_reports:
 ---
 
 ## 摘要
+{: .article-summary .speakable-content}
 
-本週數據更新涵蓋六大報告國（美國、中國、日本、南韓、德國、台灣）的雙邊貿易流量（UN Comtrade 2023-2024 年度彙總）及美國對主要貿易夥伴的月度進出口明細（US Census Bureau 2025 年全年累計）。**本週重點**：（1）美國對台灣貿易逆差大幅擴大至 USD 1,269 億（2025 全年，較 2024 年 USD 737 億增長 72%），主要受半導體進口激增驅動；（2）美國對中國貿易逆差 USD 1,894 億（2025 全年），較 2024 年 USD 2,955 億收窄 36%，反映供應鏈調整持續進行；（3）2026 年 1 月 6 日中國宣布加強對日本兩用物項出口管制，禁止向日本軍事用戶及有助提升日本軍事實力的最終用戶出口，為中日貿易關係增添新變數；（4）安世半導體（Nexperia）爭議持續發酵，中荷雙方磋商中，半導體供應鏈緊張態勢未解。
+<div class="key-takeaway" markdown="1">
+本週數據更新涵蓋六大報告國（美國、中國、日本、南韓、德國、台灣）的雙邊貿易流量（UN Comtrade 2023-2024 年度彙總）及美國對主要貿易夥伴的月度進出口明細（US Census Bureau 2025 年全年累計）。**本週重點**：（1）美國對台灣貿易逆差大幅擴大至 <span class="data-highlight">USD 1,269 億</span>（2025 全年，較 2024 年 USD 737 億增長 <span class="data-highlight">72%</span>），主要受半導體進口激增驅動；（2）美國對中國貿易逆差 <span class="data-highlight">USD 1,894 億</span>（2025 全年），較 2024 年 USD 2,955 億收窄 <span class="data-highlight">36%</span>，反映供應鏈調整持續進行；（3）2026 年 1 月 6 日中國宣布加強對日本兩用物項出口管制，禁止向日本軍事用戶及有助提升日本軍事實力的最終用戶出口，為中日貿易關係增添新變數；（4）安世半導體（Nexperia）爭議持續發酵，中荷雙方磋商中，半導體供應鏈緊張態勢未解。
+</div>
 
 ---
 
 ## 一、出口重點
+{: .key-answer data-question="2026 年第 07 週全球主要經濟體的出口趨勢如何？"}
 
 ### 主要變化
 
 **台灣出口**（來源：bilateral_trade_flows/export_flow/158-export-2024.md）
 
-台灣（158）出口數據維持高可信度（221 個夥伴群組）。前三大出口市場為中國（Partner 156，USD 1,926 億）、美國（Partner 842，USD 1,878 億）與香港（Partner 344，USD 1,100 億），合計占比 54.08%。台灣出口 HHI 為 1183.15（低集中度，但接近中度門檻 1500），反映對中、美市場的雙重依賴（合占 41.96%）。
+台灣（158）出口數據維持高可信度（221 個夥伴群組）。前三大出口市場為中國（Partner 156，<span class="data-highlight">USD 1,926 億</span>）、美國（Partner 842，<span class="data-highlight">USD 1,878 億</span>）與香港（Partner 344，<span class="data-highlight">USD 1,100 億</span>），合計占比 <span class="data-highlight">54.08%</span>。台灣出口 HHI 為 <span class="data-highlight">1183.15</span>（低集中度，但接近中度門檻 1500），反映對中、美市場的雙重依賴（合占 <span class="data-highlight">41.96%</span>）。
 
 **美國出口**（來源：bilateral_trade_flows/export_flow/842-export-2024.md、us_trade_census）
 
-美國 2023-2024 年度前三大出口目的地為加拿大（USD 7,012 億）、墨西哥（USD 6,573 億）與中國（USD 2,914 億），三國合占 40.41%。US Census 2025 年全年數據顯示美國對中國出口累計 USD 979 億，較 2024 全年（USD 1,432 億）減少 31.6%，對中出口持續下滑趨勢明顯。
+美國 2023-2024 年度前三大出口目的地為加拿大（<span class="data-highlight">USD 7,012 億</span>）、墨西哥（<span class="data-highlight">USD 6,573 億</span>）與中國（<span class="data-highlight">USD 2,914 億</span>），三國合占 <span class="data-highlight">40.41%</span>。US Census 2025 年全年數據顯示美國對中國出口累計 <span class="data-highlight">USD 979 億</span>，較 2024 全年（USD 1,432 億）減少 <span class="data-highlight">31.6%</span>，對中出口持續下滑趨勢明顯。
 
 **中國出口**（來源：bilateral_trade_flows/export_flow/156-export-2024.md）
 
@@ -64,6 +68,7 @@ related_reports:
 | 南韓 (410) | 中國、美國、越南 | 46.70% | 911.24 | 越南第三大市場 |
 | 德國 (276) | 中國、波蘭、英國 | 53.37% | 1188.50 | 數據覆蓋較窄 |
 | 台灣 (158) | 中國、美國、香港 | 54.08% | 1183.15 | 接近中度集中度 |
+{: .comparison-table}
 
 > 註：出口額為 UN Comtrade 2023-2024 年度彙總（2 年累計），非單年度數字。
 > 來源：bilateral_trade_flows/export_flow、bilateral_trade_flows/market_concentration
@@ -71,17 +76,20 @@ related_reports:
 ---
 
 ## 二、進口重點
+{: .key-answer data-question="2026 年第 07 週六大經濟體進口動態有哪些變化？"}
 
 ### 主要變化
 
 **美國進口**（來源：bilateral_trade_flows/import_flow/842-import-2024.md、us_trade_census）
 
-美國最大進口來源維持為墨西哥（USD 9,900 億）、中國（USD 9,106 億）、加拿大（USD 8,508 億）。US Census 2025 年全年數據顯示重要結構變化：
+<div class="key-takeaway" markdown="1">
+美國最大進口來源維持為墨西哥（<span class="data-highlight">USD 9,900 億</span>）、中國（<span class="data-highlight">USD 9,106 億</span>）、加拿大（<span class="data-highlight">USD 8,508 億</span>）。US Census 2025 年全年數據顯示重要結構變化：
 
-- **從中國進口**：USD 2,873 億，較 2024 全年（USD 4,387 億）減少 34.5%，連續第三年下滑
-- **從台灣進口**：USD 1,767 億，較 2024 全年（USD 1,163 億）增長 52%，半導體進口激增
+- **從中國進口**：<span class="data-highlight">USD 2,873 億</span>，較 2024 全年（USD 4,387 億）減少 <span class="data-highlight">34.5%</span>，連續第三年下滑
+- **從台灣進口**：<span class="data-highlight">USD 1,767 億</span>，較 2024 全年（USD 1,163 億）增長 <span class="data-highlight">52%</span>，半導體進口激增
 
-美台貿易逆差擴大至 USD 1,269 億（2025 全年），較 2024 年 USD 737 億增長 72%，反映半導體供應鏈向台灣集中的趨勢加速。2025 年 10 月單月逆差達 USD 174 億，為歷史新高。
+美台貿易逆差擴大至 <span class="data-highlight">USD 1,269 億</span>（2025 全年），較 2024 年 USD 737 億增長 <span class="data-highlight">72%</span>，反映半導體供應鏈向台灣集中的趨勢加速。2025 年 10 月單月逆差達 <span class="data-highlight">USD 174 億</span>，為歷史新高。
+</div>
 
 **台灣進口**（來源：bilateral_trade_flows/import_flow/158-import-2024.md）
 
@@ -101,12 +109,14 @@ related_reports:
 | 南韓 (410) | 中國 (156) | 2,827 億 | -252 億（逆差） | 中間財進口為主 |
 | 德國 (276) | 斯洛伐克 (703) | 218 億 | 數據偏低 | 數據覆蓋可能不完整 |
 | 台灣 (158) | 中國 (156) | 1,496 億 | +430 億（順差） | 中間財雙向貿易 |
+{: .comparison-table}
 
 > 來源：bilateral_trade_flows/import_flow、us_trade_census/trade_balance、us_trade_census/country_detail
 
 ---
 
 ## 三、政策更新
+{: .key-answer data-question="2026 年第 07 週有哪些重要的貿易政策更新？"}
 
 > **建議人工審核** — 以下政策解讀為系統分析結果，涉及法規詮釋與戰略判斷，建議專業人士覆核。
 
@@ -153,6 +163,7 @@ related_reports:
 | 鋰電池材料管制 | 2025-11-08 | 高能量密度電池（≥300 Wh/kg）、正負極材料、製造設備 | 2025-10-13-lithium-battery-export-control.md |
 | 鎢碲鉍鉬銦管制 | 2025-02-04 | 原材料、加工品、化合物及生產技術 | 2025-02-04-中国出口管制信息网.md |
 | 穿透性規則暫停 | 2025-11-10 ~ 2026-11-09 | 實體清單企業及 >50% 持股關聯企業暫不受追加制裁 | 2025-11-12-商务部新闻发言人就美方暂停实施出口管制穿透性规则答记者问.md |
+{: .comparison-table}
 
 ### 潛在供應鏈影響
 
@@ -169,6 +180,7 @@ related_reports:
 ---
 
 ## 四、市場集中度變化
+{: .key-answer data-question="六大經濟體的出口市場集中度如何？"}
 
 以下為各報告國出口市場的 HHI（Herfindahl-Hirschman Index）指數，基於 UN Comtrade 2023-2024 年度數據計算。
 
@@ -180,6 +192,7 @@ related_reports:
 | 南韓 (410) | 911.24 | 低 | 46.70% | 225 | 越南崛起第三大 |
 | 台灣 (158) | 1183.15 | 低（接近中度） | 54.08% | 221 | 對中美合占 42% |
 | 德國 (276) | 1188.50 | 低（接近中度） | 53.37% | 62 | 數據覆蓋待確認 |
+{: .comparison-table}
 
 > HHI 參考值：<1500 低集中度（分散）；1500-2500 中度集中；>2500 高集中度（依賴）
 >
@@ -193,14 +206,15 @@ related_reports:
 ---
 
 ## 五、觀察清單
+{: .key-answer data-question="本週需要持續追蹤的貿易風險與機會有哪些？"}
 
 以下為基於本週數據更新需持續關注的項目，每項均附數據依據：
 
-1. **美台貿易逆差激增關注** — 美國對台灣貿易逆差 USD 1,269 億（2025 全年），較 2024 年增長 72%。台灣對美出口集中於半導體（推測），此極端集中性在地緣政治情境下構成供應鏈風險。
+1. **美台貿易逆差激增關注** — 美國對台灣貿易逆差 <span class="data-highlight">USD 1,269 億</span>（2025 全年），較 2024 年增長 <span class="data-highlight">72%</span>。台灣對美出口集中於半導體（推測），此極端集中性在地緣政治情境下構成供應鏈風險。
    *依據：us_trade_census/country_detail/us-detail-5830-2026.md*
    *（風險評估為推測，建議人工審核）*
 
-2. **中日關係緊張升級** — 2026-01-06 中國禁止所有兩用物項向日本軍事用戶出口，為近年來對日最嚴厲措施之一。日本對中出口 USD 2,511 億（占日本總出口 17.61%）可能面臨對等限制。
+2. **中日關係緊張升級** — 2026-01-06 中國禁止所有兩用物項向日本軍事用戶出口，為近年來對日最嚴厲措施之一。日本對中出口 <span class="data-highlight">USD 2,511 億</span>（占日本總出口 <span class="data-highlight">17.61%</span>）可能面臨對等限制。
    *依據：cn_export_control/regulation_update/2026-01-06-中国出口管制信息网.md*
    *（影響評估為推測，建議人工審核）*
 
@@ -208,7 +222,7 @@ related_reports:
    *依據：cn_export_control/regulation_update/2025-11-20-商务部新闻发言人就荷经济大臣卡雷曼斯就安世半导体问题表态答记者问.md*
    *（發展評估為推測）*
 
-4. **美國對中貿易逆差收窄趨勢** — 2025 全年對中逆差 USD 1,894 億，較 2024 年（USD 2,955 億）收窄 36%。從中國進口下降 34.5%，顯示供應鏈調整持續進行。
+4. **美國對中貿易逆差收窄趨勢** — 2025 全年對中逆差 <span class="data-highlight">USD 1,894 億</span>，較 2024 年（USD 2,955 億）收窄 <span class="data-highlight">36%</span>。從中國進口下降 <span class="data-highlight">34.5%</span>，顯示供應鏈調整持續進行。
    *依據：us_trade_census/country_detail/us-detail-5700-2026.md*
 
 5. **穿透性規則暫停到期關注** — 暫停期至 2026-11-09 屆滿，距今約 9 個月。實體清單企業應利用窗口期評估供應鏈重組方案。
@@ -225,6 +239,7 @@ related_reports:
 ---
 
 ## 與上週（W06）比較
+{: .key-answer data-question="本週與上週相比有哪些重要變化？"}
 
 | 項目 | W06 狀態 | W07 狀態 | 變化 |
 |------|---------|---------|------|
@@ -234,6 +249,7 @@ related_reports:
 | 中日關係 | 無重大更新 | 對日兩用物項出口管制 | 新增（2026-01-06） |
 | 安世半導體 | 磋商中 | 持續磋商中 | 持平 |
 | 重稀土/鋰電池管制 | 2025-11-08 已生效 | 執行中（約 3 個月） | 持平 |
+{: .comparison-table}
 
 ---
 
@@ -278,3 +294,5 @@ related_reports:
 - 中國商務部出口管制資訊網 (http://exportcontrol.mofcom.gov.cn/) — cn_export_control Layer
   - 本報告引用 7 筆政策文件（詳見「政策更新」章節各項來源標註）
   - 重點新增：2026-01-06 對日本兩用物項出口管制
+
+{% include report-nav.html prev="/Narrator/trade_briefing/2026-W06-trade-briefing/" prev_title="2026 年第 06 週" next="/Narrator/trade_briefing/2026-W08-trade-briefing/" next_title="2026 年第 08 週" %}

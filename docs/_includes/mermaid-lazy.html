@@ -1,0 +1,40 @@
+{% comment %}
+Lazy-load Mermaid diagrams to improve TBT (Total Blocking Time)
+Include this at the bottom of pages with Mermaid diagrams
+{% endcomment %}
+
+<script>
+// Lazy load Mermaid only when diagrams are in viewport
+document.addEventListener('DOMContentLoaded', function() {
+  const mermaidBlocks = document.querySelectorAll('.language-mermaid, pre code.language-mermaid');
+
+  if (mermaidBlocks.length === 0) return;
+
+  // Create intersection observer
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        loadMermaid();
+        observer.disconnect();
+      }
+    });
+  }, { rootMargin: '200px' });
+
+  // Observe first mermaid block
+  observer.observe(mermaidBlocks[0]);
+
+  function loadMermaid() {
+    const script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/npm/mermaid@10.6.0/dist/mermaid.min.js';
+    script.onload = function() {
+      mermaid.initialize({
+        startOnLoad: true,
+        theme: 'default',
+        securityLevel: 'loose'
+      });
+      mermaid.init(undefined, mermaidBlocks);
+    };
+    document.head.appendChild(script);
+  }
+});
+</script>

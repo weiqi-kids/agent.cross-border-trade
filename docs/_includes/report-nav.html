@@ -1,0 +1,24 @@
+{% comment %}
+Report navigation component - shows previous/next report links
+Usage: {% include report-nav.html prev="/path/to/prev" prev_title="上一期標題" next="/path/to/next" next_title="下一期標題" %}
+{% endcomment %}
+
+<div class="report-navigation" style="display: flex; justify-content: space-between; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #e1e4e8;">
+  {% if include.prev %}
+  <a href="{{ include.prev }}" style="text-decoration: none;">
+    <span style="color: #6a737d;">← 上一期</span><br>
+    <span style="color: #0366d6;">{{ include.prev_title | default: "查看上一期" }}</span>
+  </a>
+  {% else %}
+  <span></span>
+  {% endif %}
+
+  {% if include.next %}
+  <a href="{{ include.next }}" style="text-decoration: none; text-align: right;">
+    <span style="color: #6a737d;">下一期 →</span><br>
+    <span style="color: #0366d6;">{{ include.next_title | default: "查看下一期" }}</span>
+  </a>
+  {% else %}
+  <span></span>
+  {% endif %}
+</div>

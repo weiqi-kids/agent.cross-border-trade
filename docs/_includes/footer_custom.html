@@ -1,0 +1,52 @@
+{% comment %} Custom footer scripts - loaded after main content {% endcomment %}
+
+{% comment %} Lazy-load Mermaid for better TBT performance {% endcomment %}
+<script>
+(function() {
+  // Check if there are any mermaid code blocks
+  var mermaidBlocks = document.querySelectorAll('pre code.language-mermaid, .language-mermaid');
+  if (mermaidBlocks.length === 0) return;
+
+  // Convert code blocks to mermaid divs
+  mermaidBlocks.forEach(function(block) {
+    var pre = block.tagName === 'PRE' ? block : block.parentElement;
+    var div = document.createElement('div');
+    div.className = 'mermaid';
+    div.textContent = block.textContent;
+    pre.parentNode.replaceChild(div, pre);
+  });
+
+  // Intersection Observer for lazy loading
+  var mermaidDivs = document.querySelectorAll('.mermaid');
+  var loaded = false;
+
+  var observer = new IntersectionObserver(function(entries) {
+    if (loaded) return;
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        loaded = true;
+        loadMermaid();
+        observer.disconnect();
+      }
+    });
+  }, { rootMargin: '100px' });
+
+  mermaidDivs.forEach(function(div) {
+    observer.observe(div);
+  });
+
+  function loadMermaid() {
+    var script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/npm/mermaid@10.6.0/dist/mermaid.min.js';
+    script.onload = function() {
+      mermaid.initialize({
+        startOnLoad: true,
+        theme: 'default',
+        securityLevel: 'loose',
+        flowchart: { useMaxWidth: true }
+      });
+    };
+    document.head.appendChild(script);
+  }
+})();
+</script>

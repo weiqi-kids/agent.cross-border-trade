@@ -18,25 +18,33 @@ related_reports:
 > 自動化程度：60%（數據計算自動完成，風險評估建議人工審核）
 
 ## 執行摘要
+{: .article-summary .speakable-content}
 
+<div class="key-takeaway" markdown="1">
 本月報告基於五大資料來源（bilateral_trade_flows 30 份、us_trade_census 20 份、world_macro_indicators 20 份、cn_export_control 84+ 份、open_trade_stats 2 份），涵蓋 UN Comtrade 雙邊貿易流量（2023-2024 年度）、美國人口普查局月度貿易數據（2025 年前 10 個月，含 HS2 商品層級）、世界銀行總體經濟指標（至 2024 年）、中國出口管制政策文件、以及 Open Trade Statistics 數據（本期僅有空值回傳）。分析美國、中國、日本、南韓、德國與台灣的供應鏈結構與風險。
+</div>
 
-關鍵發現如下：（1）美國對所有六個主要貿易夥伴均呈現貿易逆差，其中對中國逆差 1,754 億美元（2025 年 1-10 月）最大，但對台灣逆差 1,119 億美元幾乎完全由 HS84（機械/半導體）單一品類驅動，佔逆差 82%，構成極端商品集中風險。（2）中國在 2024 年 8 月至 2025 年 11 月期間密集出台戰略材料出口管制，覆蓋銻、鎢、碲、鉍、鉬、銦、重稀土、鋰電池、石墨負極材料與超硬材料，形成系統性管制體系；但 2025 年 11 月中美吉隆坡磋商後出現階段性緩和，美方暫停穿透性規則（FDPR）一年，中方調整不可靠實體清單與出口管制名單。（3）德國 GDP 連續兩年負增長，出口集中度為六國最高（HHI 1188.5），結構性困境持續。（4）美國經常帳赤字擴大至 1.185 兆美元歷史新高，中國經常帳順差同步擴大至 4,239 億美元，結構性失衡加劇。（5）韓國經常帳順差從 328 億急升至 990 億美元，反映半導體週期復甦。（6）台灣出口 HHI 為 1183.15，Top 3 夥伴佔 54.08%，出口市場集中度與德國相近，且對中國出口佔比達 21.24%。
+<div class="key-takeaway" markdown="1">
+關鍵發現如下：（1）美國對所有六個主要貿易夥伴均呈現貿易逆差，其中對中國逆差 <span class="data-highlight">1,754 億美元</span>（2025 年 1-10 月）最大，但對台灣逆差 <span class="data-highlight">1,119 億美元</span>幾乎完全由 HS84（機械/半導體）單一品類驅動，佔逆差 <span class="data-highlight">82%</span>，構成極端商品集中風險。（2）中國在 2024 年 8 月至 2025 年 11 月期間密集出台戰略材料出口管制，覆蓋銻、鎢、碲、鉍、鉬、銦、重稀土、鋰電池、石墨負極材料與超硬材料，形成系統性管制體系；但 2025 年 11 月中美吉隆坡磋商後出現階段性緩和，美方暫停穿透性規則（FDPR）一年，中方調整不可靠實體清單與出口管制名單。（3）德國 GDP 連續兩年負增長，出口集中度為六國最高（HHI <span class="data-highlight">1188.5</span>），結構性困境持續。（4）美國經常帳赤字擴大至 <span class="data-highlight">1.185 兆美元</span>歷史新高，中國經常帳順差同步擴大至 <span class="data-highlight">4,239 億美元</span>，結構性失衡加劇。（5）韓國經常帳順差從 <span class="data-highlight">328 億</span>急升至 <span class="data-highlight">990 億美元</span>，反映半導體週期復甦。（6）台灣出口 HHI 為 <span class="data-highlight">1183.15</span>，Top 3 夥伴佔 <span class="data-highlight">54.08%</span>，出口市場集中度與德國相近，且對中國出口佔比達 <span class="data-highlight">21.24%</span>。
+</div>
 
 ## 一、關鍵發現
+{: .key-answer data-question="2026年1月供應鏈分析的關鍵發現是什麼?"}
 
 ### 1.1 數據摘要
+{: .key-answer data-question="主要經濟體的出口市場集中度如何?"}>
 
 **出口市場集中度與總體經濟概覽：**
 
 | 經濟體 | 出口 HHI | 集中度等級 | 前三大夥伴佔比 | 夥伴數 | GDP 成長率 (2024) | 經常帳餘額 (2024, USD) |
 |--------|----------|-----------|---------------|--------|-------------------|----------------------|
-| 美國 (842) | 723.51 | 低 | 40.41% | 223 | 2.79% | -1.19 兆 |
-| 中國 (156) | 447.18 | 低 | 27.34% | 220 | 4.98% | +4,239 億 |
-| 日本 (392) | 894.65 | 低 | 44.26% | 218 | 0.10% | +1,943 億 |
-| 南韓 (410) | 911.24 | 低 | 46.70% | 225 | 2.00% | +990 億 |
-| 台灣 (158) | 1183.15 | 低（偏高） | 54.08% | 221 | — | — |
-| 德國 (276) | 1188.50 | 低（偏高） | 53.37% | 62 | -0.50% | +2,704 億 |
+| 美國 (842) | <span class="data-highlight">723.51</span> | 低 | <span class="data-highlight">40.41%</span> | 223 | <span class="data-highlight">2.79%</span> | <span class="data-highlight">-1.19 兆</span> |
+| 中國 (156) | <span class="data-highlight">447.18</span> | 低 | <span class="data-highlight">27.34%</span> | 220 | <span class="data-highlight">4.98%</span> | <span class="data-highlight">+4,239 億</span> |
+| 日本 (392) | <span class="data-highlight">894.65</span> | 低 | <span class="data-highlight">44.26%</span> | 218 | <span class="data-highlight">0.10%</span> | <span class="data-highlight">+1,943 億</span> |
+| 南韓 (410) | <span class="data-highlight">911.24</span> | 低 | <span class="data-highlight">46.70%</span> | 225 | <span class="data-highlight">2.00%</span> | <span class="data-highlight">+990 億</span> |
+| 台灣 (158) | <span class="data-highlight">1183.15</span> | 低（偏高） | <span class="data-highlight">54.08%</span> | 221 | — | — |
+| 德國 (276) | <span class="data-highlight">1188.50</span> | 低（偏高） | <span class="data-highlight">53.37%</span> | 62 | <span class="data-highlight">-0.50%</span> | <span class="data-highlight">+2,704 億</span> |
+{: .comparison-table}
 
 > 來源：`bilateral_trade_flows/market_concentration/` 各國 HHI 檔案、`world_macro_indicators/gdp_growth/` 及 `world_macro_indicators/current_account/` 各國檔案
 
@@ -46,11 +54,12 @@ related_reports:
 
 | 對象 | 美國出口前三大商品（HS2, USD） | 美國進口前三大商品（HS2, USD） |
 |------|-------------------------------|-------------------------------|
-| 中國 | 電機設備 137.6億、航太 136.7億、機械 90.9億 | 電機設備 698.5億、機械 440.8億、玩具 165.0億 |
-| 日本 | 礦物燃料 105.2億、機械 69.0億、藥品 61.8億 | 車輛 374.1億、機械 274.4億、電機設備 187.6億 |
-| 南韓 | 礦物燃料 143.8億、機械 69.7億、電機設備 46.6億 | 車輛 314.4億、機械 202.9億、電機設備 177.6億 |
-| 台灣 | 機械 133.4億、電機設備 86.3億、礦物燃料 55.9億 | 機械 1,051.5億、電機設備 288.9億、鋼鐵製品 25.8億 |
-| 德國 | 航太 95.8億、藥品 86.7億、車輛 77.1億 | 機械 253.3億、車輛 227.1億、藥品 187.0億 |
+| 中國 | 電機設備 <span class="data-highlight">137.6億</span>、航太 <span class="data-highlight">136.7億</span>、機械 <span class="data-highlight">90.9億</span> | 電機設備 <span class="data-highlight">698.5億</span>、機械 <span class="data-highlight">440.8億</span>、玩具 <span class="data-highlight">165.0億</span> |
+| 日本 | 礦物燃料 <span class="data-highlight">105.2億</span>、機械 <span class="data-highlight">69.0億</span>、藥品 <span class="data-highlight">61.8億</span> | 車輛 <span class="data-highlight">374.1億</span>、機械 <span class="data-highlight">274.4億</span>、電機設備 <span class="data-highlight">187.6億</span> |
+| 南韓 | 礦物燃料 <span class="data-highlight">143.8億</span>、機械 <span class="data-highlight">69.7億</span>、電機設備 <span class="data-highlight">46.6億</span> | 車輛 <span class="data-highlight">314.4億</span>、機械 <span class="data-highlight">202.9億</span>、電機設備 <span class="data-highlight">177.6億</span> |
+| 台灣 | 機械 <span class="data-highlight">133.4億</span>、電機設備 <span class="data-highlight">86.3億</span>、礦物燃料 <span class="data-highlight">55.9億</span> | 機械 <span class="data-highlight">1,051.5億</span>、電機設備 <span class="data-highlight">288.9億</span>、鋼鐵製品 <span class="data-highlight">25.8億</span> |
+| 德國 | 航太 <span class="data-highlight">95.8億</span>、藥品 <span class="data-highlight">86.7億</span>、車輛 <span class="data-highlight">77.1億</span> | 機械 <span class="data-highlight">253.3億</span>、車輛 <span class="data-highlight">227.1億</span>、藥品 <span class="data-highlight">187.0億</span> |
+{: .comparison-table}
 
 > 來源：`us_trade_census/monthly_export/` 及 `us_trade_census/monthly_import/` 各經濟體文件
 
@@ -58,15 +67,17 @@ related_reports:
 
 | 經濟體 | GDP 成長率 | 貿易/GDP 比率 | 經常帳餘額 (USD) |
 |--------|-----------|--------------|----------------|
-| 美國 | 2.79% | 25.4% | -1.185 兆 |
-| 中國 | 4.98% | 37.2% | +4,239 億 |
-| 日本 | 0.10% | 46.4% | +1,943 億 |
-| 南韓 | 2.00% | 84.6% | +990 億 |
-| 德國 | -0.50% | 79.1% | +2,704 億 |
+| 美國 | <span class="data-highlight">2.79%</span> | <span class="data-highlight">25.4%</span> | <span class="data-highlight">-1.185 兆</span> |
+| 中國 | <span class="data-highlight">4.98%</span> | <span class="data-highlight">37.2%</span> | <span class="data-highlight">+4,239 億</span> |
+| 日本 | <span class="data-highlight">0.10%</span> | <span class="data-highlight">46.4%</span> | <span class="data-highlight">+1,943 億</span> |
+| 南韓 | <span class="data-highlight">2.00%</span> | <span class="data-highlight">84.6%</span> | <span class="data-highlight">+990 億</span> |
+| 德國 | <span class="data-highlight">-0.50%</span> | <span class="data-highlight">79.1%</span> | <span class="data-highlight">+2,704 億</span> |
+{: .comparison-table}
 
 > 來源：`world_macro_indicators/gdp_growth/`、`world_macro_indicators/trade_gdp_ratio/`、`world_macro_indicators/current_account/` 各國檔案
 
 ### 1.2 重要信號
+{: .key-answer data-question="本月最重要的供應鏈風險信號有哪些?"}
 
 1. **台灣半導體出口對美國的絕對主導地位** — 美國自台灣進口中，HS84（機械，含半導體）達 1,051.5 億美元（10 個月），佔美國自台灣總進口約 67.2%。台灣 HS84 + HS85 合計佔比約 85.7%，反映美國在先進半導體方面對台灣的極端依賴，構成全球供應鏈最顯著的單點故障風險。（來源：`us_trade_census/monthly_import/us-import-5830-2026.md`）
 
@@ -83,19 +94,22 @@ related_reports:
 7. **台灣出口市場集中度偏高** — 台灣出口 HHI 為 1183.15，Top 3 夥伴（中國 21.24%、美國 20.71%、香港 12.13%）合計佔 54.08%。台灣對中國出口佔比為所有分析經濟體中對單一市場依賴最高者，在兩岸關係緊張背景下構成風險。（來源：`bilateral_trade_flows/market_concentration/158-hhi-2024.md`、`bilateral_trade_flows/commodity_structure/158-commodity-2024.md`）
 
 ## 二、集中度風險分析
+{: .key-answer data-question="六大經濟體的出口市場集中度風險如何評估?"}
 
 ### 2.1 出口市場集中度
+{: .key-answer data-question="哪些國家的出口市場集中度最高?"}
 
 *基於 bilateral_trade_flows/market_concentration Layer，UN Comtrade 2023-2024 數據*
 
 | 國家 | HHI | 等級 | Top 3 份額 | Top 3 夥伴（代碼/佔比） | 趨勢 |
 |------|-----|------|-----------|------------------------|------|
-| 中國 | 447.18 | 低（分散） | 27.34% | 美國(842) 14.76%, 香港(344) 8.13%, 日本(392) 4.45% | 穩定 — 全球最分散的出口市場結構 |
-| 美國 | 723.51 | 低（分散） | 40.41% | 加拿大(124) 17.18%, 墨西哥(484) 16.10%, 中國(156) 7.14% | 穩定 — USMCA 北美集中 |
-| 日本 | 894.65 | 低（分散） | 44.26% | 美國(842) 20.11%, 中國(156) 17.61%, 南韓(410) 6.54% | 需關注 — 中美合計近四成 |
-| 南韓 | 911.24 | 低（分散） | 46.70% | 中國(156) 19.59%, 美國(842) 18.61%, 越南(704) 8.50% | 需關注 — 中美高度依賴 |
-| 台灣 | 1183.15 | 低（接近中等） | 54.08% | 中國(156) 21.24%, 美國(842) 20.71%, 香港(344) 12.13% | 警示 — 對中國依賴最高 |
-| 德國 | 1188.50 | 低（接近中等） | 53.37% | 中國(156) 19.62%, 波蘭(616) 17.94%, 英國(826) 15.81% | 警示 — 集中度最高，數據覆蓋偏窄 |
+| 中國 | <span class="data-highlight">447.18</span> | 低（分散） | <span class="data-highlight">27.34%</span> | 美國(842) <span class="data-highlight">14.76%</span>, 香港(344) <span class="data-highlight">8.13%</span>, 日本(392) <span class="data-highlight">4.45%</span> | 穩定 — 全球最分散的出口市場結構 |
+| 美國 | <span class="data-highlight">723.51</span> | 低（分散） | <span class="data-highlight">40.41%</span> | 加拿大(124) <span class="data-highlight">17.18%</span>, 墨西哥(484) <span class="data-highlight">16.10%</span>, 中國(156) <span class="data-highlight">7.14%</span> | 穩定 — USMCA 北美集中 |
+| 日本 | <span class="data-highlight">894.65</span> | 低（分散） | <span class="data-highlight">44.26%</span> | 美國(842) <span class="data-highlight">20.11%</span>, 中國(156) <span class="data-highlight">17.61%</span>, 南韓(410) <span class="data-highlight">6.54%</span> | 需關注 — 中美合計近四成 |
+| 南韓 | <span class="data-highlight">911.24</span> | 低（分散） | <span class="data-highlight">46.70%</span> | 中國(156) <span class="data-highlight">19.59%</span>, 美國(842) <span class="data-highlight">18.61%</span>, 越南(704) <span class="data-highlight">8.50%</span> | 需關注 — 中美高度依賴 |
+| 台灣 | <span class="data-highlight">1183.15</span> | 低（接近中等） | <span class="data-highlight">54.08%</span> | 中國(156) <span class="data-highlight">21.24%</span>, 美國(842) <span class="data-highlight">20.71%</span>, 香港(344) <span class="data-highlight">12.13%</span> | 警示 — 對中國依賴最高 |
+| 德國 | <span class="data-highlight">1188.50</span> | 低（接近中等） | <span class="data-highlight">53.37%</span> | 中國(156) <span class="data-highlight">19.62%</span>, 波蘭(616) <span class="data-highlight">17.94%</span>, 英國(826) <span class="data-highlight">15.81%</span> | 警示 — 集中度最高，數據覆蓋偏窄 |
+{: .comparison-table}
 
 > 來源：`bilateral_trade_flows/market_concentration/` 及 `bilateral_trade_flows/commodity_structure/` 各經濟體文件
 
@@ -106,16 +120,18 @@ related_reports:
 - **德國 HHI 最高**（1188.50），但需注意其夥伴群組僅 62 個（可能為 API 回傳限制），實際 HHI 可能低於此值。
 
 ### 2.2 進口來源集中度
+{: .key-answer data-question="台灣和中國的進口來源集中度如何?"}
 
 **台灣進口來源結構（前 5 大，2023-2024 合計）：**
 
 | 排名 | 來源國（代碼） | 進口額 (USD) |
 |------|--------------|-------------|
-| 1 | 中國 (156) | 1,496 億 |
-| 2 | 日本 (392) | 907 億 |
-| 3 | 美國 (842) | 876 億 |
-| 4 | 南韓 (410) | 722 億 |
-| 5 | 其他亞洲地區 (490) | 407 億 |
+| 1 | 中國 (156) | <span class="data-highlight">1,496 億</span> |
+| 2 | 日本 (392) | <span class="data-highlight">907 億</span> |
+| 3 | 美國 (842) | <span class="data-highlight">876 億</span> |
+| 4 | 南韓 (410) | <span class="data-highlight">722 億</span> |
+| 5 | 其他亞洲地區 (490) | <span class="data-highlight">407 億</span> |
+{: .comparison-table}
 
 > 來源：`bilateral_trade_flows/import_flow/158-import-2024.md`
 
@@ -123,35 +139,40 @@ related_reports:
 
 | 排名 | 來源國（代碼） | 進口額 (USD) |
 |------|--------------|-------------|
-| 1 | 其他亞洲地區 (490) | 4,171 億 |
-| 2 | 南韓 (410) | 3,432 億 |
-| 3 | 美國 (842) | 3,297 億 |
-| 4 | 日本 (392) | 3,167 億 |
-| 5 | 澳大利亞 (36) | 2,964 億 |
+| 1 | 其他亞洲地區 (490) | <span class="data-highlight">4,171 億</span> |
+| 2 | 南韓 (410) | <span class="data-highlight">3,432 億</span> |
+| 3 | 美國 (842) | <span class="data-highlight">3,297 億</span> |
+| 4 | 日本 (392) | <span class="data-highlight">3,167 億</span> |
+| 5 | 澳大利亞 (36) | <span class="data-highlight">2,964 億</span> |
+{: .comparison-table}
 
 > 來源：`bilateral_trade_flows/import_flow/156-import-2024.md`
 
 台灣進口來源相對分散，但對中國仍有顯著依賴（約 20%）。中國進口來源較為分散，但對韓日兩國的半導體設備與零件依賴顯著。
 
 ### 2.3 商品集中度
+{: .key-answer data-question="美國從各國進口的商品集中度如何?"}
 
 *基於 US Census 月度數據（2025 年 1-10 月），分析美國與主要貿易夥伴的進口商品結構*
 
 | 國家/地區 | 最大進口品項 | 佔對美出口比 | 風險等級 |
 |----------|------------|------------|---------|
-| 台灣 | HS84 機械（含半導體） | ~67%（1,051億/1,565億） | **極高** — 半導體供應鏈單一依賴 |
-| 日本 | HS87 車輛 | ~31%（374億/1,220億估） | 中高 — 汽車產業為主但品項多元 |
-| 南韓 | HS87 車輛 | ~30%（314億/1,047億估） | 中高 — 汽車與半導體並重 |
-| 中國 | HS85 電機設備 | ~26%（698億/2,663億） | 中高 — 品項最為分散 |
-| 德國 | HS84 機械 | ~20%（253億/1,273億估） | 中等 — 機械、汽車、藥品三足鼎立 |
+| 台灣 | HS84 機械（含半導體） | <span class="data-highlight">~67%</span>（<span class="data-highlight">1,051億</span>/1,565億） | **極高** — 半導體供應鏈單一依賴 |
+| 日本 | HS87 車輛 | <span class="data-highlight">~31%</span>（<span class="data-highlight">374億</span>/1,220億估） | 中高 — 汽車產業為主但品項多元 |
+| 南韓 | HS87 車輛 | <span class="data-highlight">~30%</span>（<span class="data-highlight">314億</span>/1,047億估） | 中高 — 汽車與半導體並重 |
+| 中國 | HS85 電機設備 | <span class="data-highlight">~26%</span>（<span class="data-highlight">698億</span>/2,663億） | 中高 — 品項最為分散 |
+| 德國 | HS84 機械 | <span class="data-highlight">~20%</span>（<span class="data-highlight">253億</span>/1,273億估） | 中等 — 機械、汽車、藥品三足鼎立 |
+{: .comparison-table}
 
 > 來源：`us_trade_census/monthly_import/` 各經濟體文件
 
 **關鍵風險：** 台灣對美出口的極端商品集中度（HS84 + HS85 合計佔比約 85.7%）構成全球半導體供應鏈最顯著的單點故障風險。HS84 單一類別即貢獻美台貿易逆差的 82%（918 億美元）。**建議人工審核**此項評估。
 
 ## 三、管制影響評估
+{: .key-answer data-question="中國出口管制政策對全球供應鏈有什麼影響?"}
 
 ### 3.1 本月管制政策更新
+{: .key-answer data-question="2024至2025年間中國出台了哪些重要的出口管制政策?"}
 
 *基於 cn_export_control Layer，共 84+ 份萃取文件*
 
@@ -169,6 +190,7 @@ related_reports:
 | 2025-10-09 | 不可靠實體清單 | 增列反無人機系統公司、TechInsights 及關聯機構 | 中高 |
 | 2025-10-13 | 第57號公告 | 重稀土（鈥、鉺、銩、銪、鐿），含金屬、合金、靶材、晶體、永磁體 | 極高 |
 | 2025-10-13 | 第58號公告 | 鋰電池（≥300 Wh/kg）、六類製造設備、LFP 正極、石墨負極 | 極高 |
+{: .comparison-table}
 
 > 來源：`cn_export_control/antimony-superhard-materials-export-control-2024.md`、`critical-minerals-export-control-2025.md`、`implementing-regulations-anti-foreign-sanctions-law-2025-04-08.md`、`superhard-materials-export-control-2025.md`、`mofcom-rare-earth-export-control-strengthening-oct2025.md`、`mofcom-unreliable-entity-list-additions-oct2025.md`、`heavy-rare-earth-export-controls.md`、`lithium-battery-graphite-anode-export-controls.md`
 
@@ -179,27 +201,33 @@ related_reports:
 | 2025-11-06 | 出口管制名單調整 | 暫停對 15 家美國實體的管制措施（第13號公告），延長 16 家暫停一年（第21號公告） | 正面但有限 |
 | 2025-11-06 | 不可靠實體清單調整 | 終止 2025-03-04 措施，暫停 2025-04-04 措施一年 | 正面但有限 |
 | 2025-11-12 | 回應美方暫停穿透性規則 | 美方暫停 FDPR 一年（2025-11-10 至 2026-11-09），實體清單企業及 50%+ 持股關聯企業免受追加制裁 | 正面 — 短期紓壓 |
+{: .comparison-table}
 
 > 來源：`cn_export_control/mofcom-export-control-list-adjustment-nov2025.md`、`mofcom-unreliable-entity-list-adjustment-nov2025.md`、`us-export-control-penetration-rule-suspension-nov2025.md`
 
 ### 3.2 影響分析
+{: .key-answer data-question="各項管制政策對哪些產業影響最大?"}
 
 > **注意**：以下影響評估為推測性分析，建議人工審核。
 
 | 政策 | 受影響產業 | 影響程度 | 信心水準 |
 |------|----------|---------|---------|
-| 鎢/碲/鉍/鉬/銦管制（第10號） | 半導體（InP 基 III-V）、紅外成像、國防航太、醫學影像 | **極高** — 中國佔全球鎢 ~80%、銦 ~60%、鉍 ~80% | 高 |
-| 重稀土管制（第57號） | 半導體靶材、光纖通信（EDFA）、顯示器、永磁體、雷射系統 | **極高** — 中國佔全球重稀土 >90%，替代來源極度有限 | 高 |
+| 鎢/碲/鉍/鉬/銦管制（第10號） | 半導體（InP 基 III-V）、紅外成像、國防航太、醫學影像 | **極高** — 中國佔全球鎢 <span class="data-highlight">~80%</span>、銦 <span class="data-highlight">~60%</span>、鉍 <span class="data-highlight">~80%</span> | 高 |
+| 重稀土管制（第57號） | 半導體靶材、光纖通信（EDFA）、顯示器、永磁體、雷射系統 | **極高** — 中國佔全球重稀土 <span class="data-highlight">>90%</span>，替代來源極度有限 | 高 |
 | 稀土外國含中國成分管制 | 永磁體再出口、EV 電機、風力發電機 | **高** — 具域外效力，首次將管制延伸至外國產品 | 中 |
 | 鋰電池/石墨負極管制（第58號） | EV 製造（≥300 Wh/kg 次世代電池）、儲能、航空電池 | **高** — 涵蓋電池、設備、正極、負極全產業鏈 | 高 |
-| 銻管制（第33號） | 阻燃劑（佔全球消費 ~60%）、鉛酸電池、軍事彈藥、III-V 半導體 | **高** — 中國 ~48%、俄羅斯受制裁，替代有限 | 高 |
+| 銻管制（第33號） | 阻燃劑（佔全球消費 <span class="data-highlight">~60%</span>）、鉛酸電池、軍事彈藥、III-V 半導體 | **高** — 中國 <span class="data-highlight">~48%</span>、俄羅斯受制裁，替代有限 | 高 |
 | 超硬材料管制（第55號） | 半導體晶圓加工、精密切割、合成鑽石 CVD 設備 | **中高** — 影響下游製造工具供應 | 中 |
 | 反外國制裁法實施規定 | 所有對華貿易企業（反制清單企業面臨資產凍結、交易限制） | **中** — 建立全面法律框架，強化反制裁工具 | 中 |
 | 中美緩和措施（11月） | 實體清單企業、雙用物項出口 | **正面但有限** — 暫停期一年，不確定性高 | 中 |
+{: .comparison-table}
 
+<div class="key-takeaway" markdown="1">
 **綜合評估：** 中國已建立覆蓋關鍵礦物（鎢、銻、銦、稀土、重稀土）、先進材料（超硬材料、石墨）、能源技術（鋰電池）的系統性出口管制體系。管制的核心特徵為：（1）涵蓋原材料、加工品、化合物與生產技術全鏈條；（2）設定高純度/高性能技術門檻，精準針對先進技術應用；（3）利用中國在全球供應鏈的主導地位作為戰略槓桿；（4）管制生產技術以抑制替代供應鏈建設。2025 年 11 月的緩和措施提供短期喘息空間，但所有關鍵礦物管制均未鬆動，顯示材料管制已成為中國的長期戰略工具。*（建議人工審核）*
+</div>
 
 ## 四、多元化機會
+{: .key-answer data-question="面對中國管制，有哪些替代供應來源?"}
 
 ### 4.1 替代供應來源
 
@@ -207,13 +235,14 @@ related_reports:
 
 | 管制材料 | 中國市佔率 | 潛在替代來源 | 產能限制與時程估算 |
 |----------|----------|-------------|------------------|
-| 鎢 | ~80% | 越南、葡萄牙、奧地利、俄羅斯（受制裁） | 越南產能有限；俄羅斯受西方制裁；短期（1-2年）難以替代 |
-| 銻 | ~48% | 塔吉克斯坦、緬甸、玻利維亞 | 全球第二大生產國俄羅斯受制裁；替代產能建設需 3-5 年 |
-| 銦 | ~60% | 加拿大、韓國、日本（鋅礦副產品） | 銦為鋅礦副產品，產能受鋅開採限制；回收技術可部分補充 |
-| 重稀土 | >90% | 緬甸、越南、澳洲（Lynas） | 採礦可替代，但分離加工能力仍高度依賴中國；3-7 年 |
-| 石墨負極 | >70% | 日本（昭和電工）、韓國、莫三比克天然石墨 | 球化加工產能不足；人造石墨能耗高 |
+| 鎢 | <span class="data-highlight">~80%</span> | 越南、葡萄牙、奧地利、俄羅斯（受制裁） | 越南產能有限；俄羅斯受西方制裁；短期（<span class="data-highlight">1-2年</span>）難以替代 |
+| 銻 | <span class="data-highlight">~48%</span> | 塔吉克斯坦、緬甸、玻利維亞 | 全球第二大生產國俄羅斯受制裁；替代產能建設需 <span class="data-highlight">3-5 年</span> |
+| 銦 | <span class="data-highlight">~60%</span> | 加拿大、韓國、日本（鋅礦副產品） | 銦為鋅礦副產品，產能受鋅開採限制；回收技術可部分補充 |
+| 重稀土 | <span class="data-highlight">>90%</span> | 緬甸、越南、澳洲（Lynas） | 採礦可替代，但分離加工能力仍高度依賴中國；<span class="data-highlight">3-7 年</span> |
+| 石墨負極 | <span class="data-highlight">>70%</span> | 日本（昭和電工）、韓國、莫三比克天然石墨 | 球化加工產能不足；人造石墨能耗高 |
 | 鋰電池（≥300 Wh/kg） | 主導 | 韓國（LG/Samsung SDI）、日本（Panasonic） | 高能量密度電池量產有限；固態電池尚在研發 |
 | 超硬材料 | 主導 | 俄羅斯、愛爾蘭、印度 | CVD 設備管制限制替代產能擴張 |
+{: .comparison-table}
 
 ### 4.2 新興市場趨勢
 
@@ -329,3 +358,5 @@ related_reports:
 - World Bank Open Data (https://data.worldbank.org/)
 - Open Trade Statistics (https://tradestatistics.io/)
 - 中國商務部出口管制資訊網 (http://exportcontrol.mofcom.gov.cn/)
+
+{% include report-nav.html next="/Narrator/supply_chain_analysis/2026-02-supply-chain-analysis/" next_title="2026 年 2 月" %}

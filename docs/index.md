@@ -48,6 +48,22 @@ Global Trade Intelligence System
 
 ---
 
+## 為什麼選擇我們
+
+{: .important-title }
+> 四大差異化優勢
+>
+> 與其他貿易數據平台相比，我們提供獨特價值。
+
+| 優勢 | 說明 |
+|:-----|:-----|
+| **🌐 雙語政策追蹤** | 同時追蹤中國商務部（中文）與國際數據源（英文），提供跨語言政策洞察 |
+| **🔍 100% 數據可追溯** | 每項數據標註原始來源（UN Comtrade、US Census、World Bank），可自行驗證 |
+| **⚡ 極速載入** | PageSpeed 效能 88/100，比主要競品快 5-9 倍（OEC 38 分、OWID 31 分）|
+| **🔓 開源透明** | 完整原始碼公開於 [GitHub](https://github.com/weiqi-kids/agent.cross-border-trade)，方法論可審核 |
+
+---
+
 ## 本週重點
 
 | 信號 | 重點 | 說明 | 來源 |
@@ -174,6 +190,23 @@ pie showData
 
 ---
 
+## 訂閱更新
+
+{: .note-title }
+> 保持追蹤
+>
+> 訂閱以接收最新報告通知。
+
+| 方式 | 說明 | 連結 |
+|------|------|:----:|
+| **RSS Feed** | 使用 Feedly、Inoreader 等 RSS 閱讀器訂閱 | [訂閱 RSS](/feed.xml) |
+| **GitHub Watch** | 在 GitHub 點擊 Watch 接收更新通知 | [GitHub](https://github.com/weiqi-kids/agent.cross-border-trade) |
+
+{: .fs-2 .text-grey-dk-000 }
+> Email 訂閱功能開發中，敬請期待。
+
+---
+
 ## 覆蓋範圍
 
 **目標經濟體**：台灣、美國、中國、日本、韓國、德國
@@ -183,6 +216,50 @@ pie showData
 - [US Census Bureau](https://www.census.gov/foreign-trade/) — 美國月度貿易
 - [World Bank](https://data.worldbank.org/) — 宏觀經濟指標
 - [中國商務部出口管制網](http://exportcontrol.mofcom.gov.cn/) — 出口管制政策
+
+---
+
+## 方法論
+
+<details>
+<summary><strong>HHI 市場集中度計算</strong></summary>
+
+Herfindahl-Hirschman Index (HHI) 用於衡量出口市場集中度：
+
+```
+HHI = Σ(市場份額²) × 10,000
+```
+
+| HHI 範圍 | 集中度等級 | 風險評估 |
+|----------|-----------|---------|
+| < 1,500 | 低集中度 | 市場分散，風險較低 |
+| 1,500-2,500 | 中度集中 | 需關注主要市場變動 |
+| > 2,500 | 高集中度 | 高度依賴，需多元化策略 |
+
+</details>
+
+<details>
+<summary><strong>數據處理流程</strong></summary>
+
+1. **數據擷取**：每週自動從 UN Comtrade、US Census、World Bank API 擷取最新數據
+2. **NLP 萃取**：使用 Claude 對中國商務部政策文件進行語意分析，萃取關鍵政策訊息
+3. **向量儲存**：萃取結果存入 Qdrant 向量資料庫，支援語意搜尋
+4. **報告產出**：依據各 Mode 框架，整合數據產出結構化報告
+5. **人工審核**：自動化程度標記為 80%，趨勢解讀建議人工審核
+
+</details>
+
+<details>
+<summary><strong>數據時效性</strong></summary>
+
+| 數據源 | 更新頻率 | 時滯 |
+|--------|---------|------|
+| UN Comtrade | 年度/季度 | 約 2 個月 |
+| US Census | 月度 | 約 6 週 |
+| World Bank | 年度 | 約 6 個月 |
+| 中國商務部 | 即時 | 政策公告當日 |
+
+</details>
 
 ---
 

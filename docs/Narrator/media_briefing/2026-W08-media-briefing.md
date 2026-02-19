@@ -183,14 +183,18 @@ seo:
 > 自動化程度：80%（數據彙整自動生成，新聞角度建議人工審核）
 
 ## 本週頭條數據
+{: .article-summary .speakable-content}
 
 {: .highlight }
 > 以下數據可直接引用，每項皆附來源標註。
 
 ### 1. 中國強化對日兩用物項出口管制
+{: .key-answer data-question="中國對日本實施了什麼新的出口管制措施？"}
 
+<div class="key-takeaway" markdown="1">
 **一句話摘要**：
-> 中國商務部於 2026 年 1 月 6 日宣布，禁止所有兩用物項出口至日本軍事用戶及任何有助於提升日本軍事實力的最終用途，為中國首次針對單一國家實施全面兩用物項禁令。
+> 中國商務部於 <span class="data-highlight">2026 年 1 月 6 日</span>宣布，禁止所有兩用物項出口至日本軍事用戶及任何有助於提升日本軍事實力的最終用途，為中國首次針對單一國家實施全面兩用物項禁令。
+</div>
 
 **核心數據**：
 - 管制範圍：所有兩用物項（來源：cn_export_control/enforcement_action）
@@ -209,16 +213,19 @@ seo:
 ---
 
 ### 2. 美中貿易逆差 2025 年顯著收窄
+{: .key-answer data-question="2025年美中貿易逆差出現什麼變化？"}
 
+<div class="key-takeaway" markdown="1">
 **一句話摘要**：
-> 2025 年 11 月美國對中國貿易逆差為 139.4 億美元，較 2024 年同期的 251.7 億美元收窄 44.6%，為近年單月最大跌幅之一。
+> 2025 年 11 月美國對中國貿易逆差為 <span class="data-highlight">139.4 億美元</span>，較 2024 年同期的 <span class="data-highlight">251.7 億美元</span>收窄 <span class="data-highlight">44.6%</span>，為近年單月最大跌幅之一。
+</div>
 
 **核心數據**：
-- 2025 年 11 月：逆差 139.4 億美元（來源：us_trade_census/trade_balance）
-- 2024 年 11 月：逆差 251.7 億美元（來源：us_trade_census/trade_balance）
-- 年減幅度：44.6%（來源：計算值）
-- 2025 年美國對中出口：70.1 億美元（來源：us_trade_census/trade_balance）
-- 2025 年美國自中進口：209.5 億美元（來源：us_trade_census/trade_balance）
+- 2025 年 11 月：逆差 <span class="data-highlight">139.4 億美元</span>（來源：us_trade_census/trade_balance）
+- 2024 年 11 月：逆差 <span class="data-highlight">251.7 億美元</span>（來源：us_trade_census/trade_balance）
+- 年減幅度：<span class="data-highlight">44.6%</span>（來源：計算值）
+- 2025 年美國對中出口：<span class="data-highlight">70.1 億美元</span>（來源：us_trade_census/trade_balance）
+- 2025 年美國自中進口：<span class="data-highlight">209.5 億美元</span>（來源：us_trade_census/trade_balance）
 
 **可用角度**：
 1. **貿易戰效果角度** — 關稅措施與供應鏈重組是否正在改變美中貿易結構？逆差收窄是政策成效還是週期性波動？
@@ -232,16 +239,19 @@ seo:
 ---
 
 ### 3. 台灣出口市場集中度維持低檔
+{: .key-answer data-question="台灣出口市場的集中度如何？"}
 
+<div class="key-takeaway" markdown="1">
 **一句話摘要**：
-> 台灣出口市場 HHI 指數為 1183.15，屬「低集中度」區間，前三大出口夥伴（中國、美國、香港）合計佔比 54.08%，顯示出口市場分散化程度優於多數亞洲經濟體。
+> 台灣出口市場 HHI 指數為 <span class="data-highlight">1183.15</span>，屬「低集中度」區間，前三大出口夥伴（中國、美國、香港）合計佔比 <span class="data-highlight">54.08%</span>，顯示出口市場分散化程度優於多數亞洲經濟體。
+</div>
 
 **核心數據**：
-- HHI 指數：1183.15（低集中度，< 1500）（來源：bilateral_trade_flows/market_concentration）
-- 前三大出口夥伴佔比：54.08%（來源：bilateral_trade_flows/market_concentration）
-- 第一大出口市場：中國，1926 億美元（來源：bilateral_trade_flows/export_flow）
-- 第二大出口市場：美國，1878 億美元（來源：bilateral_trade_flows/export_flow）
-- 貿易夥伴數：221 個（來源：bilateral_trade_flows/market_concentration）
+- HHI 指數：<span class="data-highlight">1183.15</span>（低集中度，< 1500）（來源：bilateral_trade_flows/market_concentration）
+- 前三大出口夥伴佔比：<span class="data-highlight">54.08%</span>（來源：bilateral_trade_flows/market_concentration）
+- 第一大出口市場：中國，<span class="data-highlight">1926 億美元</span>（來源：bilateral_trade_flows/export_flow）
+- 第二大出口市場：美國，<span class="data-highlight">1878 億美元</span>（來源：bilateral_trade_flows/export_flow）
+- 貿易夥伴數：<span class="data-highlight">221 個</span>（來源：bilateral_trade_flows/market_concentration）
 
 **可用角度**：
 1. **地緣風險角度** — 台灣對中、對美出口金額相近，在中美競爭中保持相對平衡，但兩岸緊張升級仍為主要風險
@@ -255,6 +265,7 @@ seo:
 ---
 
 ## 可引用圖表
+{: .key-answer data-question="有哪些圖表可供媒體引用？"}
 
 ### 圖表 1：主要經濟體出口市場集中度比較
 
@@ -273,9 +284,10 @@ xychart-beta
 
 | 貿易夥伴 | 出口（億美元） | 進口（億美元） | 逆差（億美元） | 年變化 |
 |---------|--------------|--------------|--------------|--------|
-| 中國 | 70.1 | 209.5 | -139.4 | -44.6% |
-| 德國 | 68.2 | 134.9 | -66.7 | +2.9% |
-| 韓國 | 54.4 | 87.3 | -32.8 | -34.3% |
+| 中國 | <span class="data-highlight">70.1</span> | <span class="data-highlight">209.5</span> | <span class="data-highlight">-139.4</span> | <span class="data-highlight">-44.6%</span> |
+| 德國 | <span class="data-highlight">68.2</span> | <span class="data-highlight">134.9</span> | <span class="data-highlight">-66.7</span> | <span class="data-highlight">+2.9%</span> |
+| 韓國 | <span class="data-highlight">54.4</span> | <span class="data-highlight">87.3</span> | <span class="data-highlight">-32.8</span> | <span class="data-highlight">-34.3%</span> |
+{: .comparison-table}
 
 > 數據來源：US Census Bureau (us_trade_census/trade_balance)
 
@@ -295,19 +307,22 @@ timeline
 > 數據來源：cn_export_control
 
 ## 本週政策速覽
+{: .key-answer data-question="本週有哪些重要政策值得關注？"}
 
 {: .warning }
 > 基於 cn_export_control Layer，最多 5 條
 
 | 政策 | 日期 | 一句話摘要 | 新聞價值 |
 |------|------|-----------|---------|
-| 對日兩用物項出口管制 | 2026-01-06 | 禁止所有兩用物項出口至日本軍事用戶及有助其軍事實力的用途 | 高 |
-| 安世半導體事件回應 | 2025-11-20 | 商務部批評荷蘭政府托管安世股份，稱其損害全球半導體供應鏈穩定 | 高 |
-| 重稀土出口管制 | 2025-10-13 | 對鈥、鉺、銩、銪、鐿五類重稀土實施出口管制，11月8日生效 | 高 |
-| 鋰電池負極材料管制 | 2025-10-13 | 高密度鋰電池（≥300 Wh/kg）及石墨負極材料納入管制 | 高 |
-| 關鍵礦物管制 | 2025-02-04 | 鎢、碲、鉍、鉬、銦五類戰略礦物即時實施出口管制 | 中 |
+| 對日兩用物項出口管制 | <span class="data-highlight">2026-01-06</span> | 禁止所有兩用物項出口至日本軍事用戶及有助其軍事實力的用途 | <span class="data-highlight">高</span> |
+| 安世半導體事件回應 | <span class="data-highlight">2025-11-20</span> | 商務部批評荷蘭政府托管安世股份，稱其損害全球半導體供應鏈穩定 | <span class="data-highlight">高</span> |
+| 重稀土出口管制 | <span class="data-highlight">2025-10-13</span> | 對鈥、鉺、銩、銪、鐿五類重稀土實施出口管制，11月8日生效 | <span class="data-highlight">高</span> |
+| 鋰電池負極材料管制 | <span class="data-highlight">2025-10-13</span> | 高密度鋰電池（≥300 Wh/kg）及石墨負極材料納入管制 | <span class="data-highlight">高</span> |
+| 關鍵礦物管制 | <span class="data-highlight">2025-02-04</span> | 鎢、碲、鉍、鉬、銦五類戰略礦物即時實施出口管制 | 中 |
+{: .comparison-table}
 
 ## 下週觀察
+{: .key-answer data-question="下週有哪些值得觀察的事件？"}
 
 {: .note }
 > 以下為推測性內容，非確定事實
@@ -321,6 +336,7 @@ timeline
 4. **中國兩會前瞻** — 全國兩會將於 3 月召開，可能預告產業政策與貿易政策方向，本週可能有相關風聲釋出。
 
 ## 引用指南
+{: .key-answer data-question="如何正確引用本報告的數據？"}
 
 ### 建議引用格式
 

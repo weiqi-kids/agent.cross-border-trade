@@ -199,53 +199,65 @@ seo:
 > 報告狀態：基線報告（無歷史參考）
 
 ## 執行摘要
+{: .article-summary .speakable-content}
 
-2026年開年全球貿易格局呈現「分化加劇」態勢。中國對美出口持續下滑，2025年1-11月累計進口額較2024年同期下降超過40%（基於US Census數據），反映貿易脫鉤持續深化。然而，中國對外貿易總體維持強勢順差，對美、港、荷順差合計超過1.38兆美元（2023-2024雙年度累計）。台灣、韓國在全球半導體供應鏈中維持關鍵地位，出口結構高度集中於中、美兩國。值得關注的是，中國自2025年起密集發布關鍵礦物與電池材料出口管制，涵蓋稀土、鎢、碲、銻、鋰電池等，這將對全球科技產業供應鏈產生深遠影響。投資角度而言，供應鏈重組與關鍵材料自主化是本季最重要的主題。
+<div class="key-takeaway" markdown="1">
+2026年開年全球貿易格局呈現「分化加劇」態勢。中國對美出口持續下滑，2025年1-11月累計進口額較2024年同期下降超過<span class="data-highlight">40%</span>（基於US Census數據），反映貿易脫鉤持續深化。然而，中國對外貿易總體維持強勢順差，對美、港、荷順差合計超過<span class="data-highlight">1.38兆美元</span>（2023-2024雙年度累計）。台灣、韓國在全球半導體供應鏈中維持關鍵地位，出口結構高度集中於中、美兩國。值得關注的是，中國自2025年起密集發布關鍵礦物與電池材料出口管制，涵蓋稀土、鎢、碲、銻、鋰電池等，這將對全球科技產業供應鏈產生深遠影響。投資角度而言，供應鏈重組與關鍵材料自主化是本季最重要的主題。
+</div>
 
 ## 一、宏觀貿易格局
+{: .key-answer data-question="2026年Q1全球貿易格局呈現什麼特點？"}
 
 ### 1.1 六大經濟體貿易總覽
+{: .key-answer data-question="六大經濟體的貿易表現如何？"}
 
 | 經濟體 | 出口總額 (USD, 2023-2024累計) | 進口總額 (USD, 2023-2024累計) | 貿易餘額 | 餘額類型 |
 |--------|-------------------------------|-------------------------------|----------|----------|
-| 台灣 | 9,068億 | 8,129億 | +939億 | 順差 |
-| 美國 | 4.1兆 | 6.4兆 | -2.3兆 | 逆差 |
-| 中國 | 6.96兆 | 5.29兆 | +1.67兆 | 順差 |
-| 日本 | 1.43兆 | 1.55兆 | -0.12兆 | 逆差 |
-| 韓國 | 1.32兆 | 1.23兆 | +0.09兆 | 順差 |
-| 德國 | 5,324億 (部分數據) | 498億 (部分數據) | +4,826億 | 順差 |
+| 台灣 | <span class="data-highlight">9,068億</span> | <span class="data-highlight">8,129億</span> | <span class="data-highlight">+939億</span> | 順差 |
+| 美國 | <span class="data-highlight">4.1兆</span> | <span class="data-highlight">6.4兆</span> | <span class="data-highlight">-2.3兆</span> | 逆差 |
+| 中國 | <span class="data-highlight">6.96兆</span> | <span class="data-highlight">5.29兆</span> | <span class="data-highlight">+1.67兆</span> | 順差 |
+| 日本 | <span class="data-highlight">1.43兆</span> | <span class="data-highlight">1.55兆</span> | <span class="data-highlight">-0.12兆</span> | 逆差 |
+| 韓國 | <span class="data-highlight">1.32兆</span> | <span class="data-highlight">1.23兆</span> | <span class="data-highlight">+0.09兆</span> | 順差 |
+| 德國 | <span class="data-highlight">5,324億</span> (部分數據) | <span class="data-highlight">498億</span> (部分數據) | <span class="data-highlight">+4,826億</span> | 順差 |
+{: .comparison-table}
 
 > **數據來源**：bilateral_trade_flows Layer，基於UN Comtrade Preview API 2023-2024年度數據
 > **說明**：德國數據為部分夥伴國數據，總量可能低估
 
 ### 1.2 宏觀經濟背景
+{: .key-answer data-question="主要經濟體的宏觀經濟表現如何？"}
 
 | 經濟體 | GDP成長率(2024) | 貿易/GDP(2024) | 經常帳(2024, USD) | 投資意涵 |
 |--------|-----------------|----------------|-------------------|----------|
-| 中國 | 4.98% | 37.2% | +4,239億 | 出口導向轉型中，內需待提振 |
-| 美國 | 2.79% | 25.4% | -1.19兆 | 消費強勁，貿易赤字擴大 |
-| 日本 | 0.10% | 46.4% | +1,943億 | 弱成長但外部盈餘改善 |
-| 韓國 | 2.00% | 84.6% | +990億 | 高度貿易依存，半導體復甦 |
-| 德國 | -0.50% | 79.1% | +2,704億 | 衰退中，貿易盈餘收窄 |
+| 中國 | <span class="data-highlight">4.98%</span> | <span class="data-highlight">37.2%</span> | <span class="data-highlight">+4,239億</span> | 出口導向轉型中，內需待提振 |
+| 美國 | <span class="data-highlight">2.79%</span> | <span class="data-highlight">25.4%</span> | <span class="data-highlight">-1.19兆</span> | 消費強勁，貿易赤字擴大 |
+| 日本 | <span class="data-highlight">0.10%</span> | <span class="data-highlight">46.4%</span> | <span class="data-highlight">+1,943億</span> | 弱成長但外部盈餘改善 |
+| 韓國 | <span class="data-highlight">2.00%</span> | <span class="data-highlight">84.6%</span> | <span class="data-highlight">+990億</span> | 高度貿易依存，半導體復甦 |
+| 德國 | <span class="data-highlight">-0.50%</span> | <span class="data-highlight">79.1%</span> | <span class="data-highlight">+2,704億</span> | 衰退中，貿易盈餘收窄 |
+{: .comparison-table}
 
 > **數據來源**：world_macro_indicators Layer，基於World Bank 2024年度數據
 
+<div class="key-takeaway" markdown="1">
 **關鍵觀察**：
-- 美國經常帳赤字創歷史新高（-1.19兆美元），反映內需強勁與製造業回流尚未見效
-- 中國經常帳盈餘大幅反彈（+4,239億美元，YoY +61%），出口韌性超預期
-- 韓國經常帳強勁復甦（+990億美元，YoY +202%），半導體週期回升是主因
+- 美國經常帳赤字創歷史新高（<span class="data-highlight">-1.19兆美元</span>），反映內需強勁與製造業回流尚未見效
+- 中國經常帳盈餘大幅反彈（<span class="data-highlight">+4,239億美元，YoY +61%</span>），出口韌性超預期
+- 韓國經常帳強勁復甦（<span class="data-highlight">+990億美元，YoY +202%</span>），半導體週期回升是主因
 - 德國連續兩年GDP負成長，製造業競爭力下滑值得關注
+</div>
 
 ### 1.3 市場集中度觀察
+{: .key-answer data-question="各經濟體的出口市場集中度風險如何？"}
 
 | 經濟體 | 出口HHI | 等級 | 前三大市場占比 | 投資意涵 |
 |--------|---------|------|----------------|----------|
-| 台灣 | 1,183 | 低 | 54.08% | 中、美、港為主，分散度中等 |
-| 美國 | 724 | 低 | 40.41% | 高度分散，加墨中為主 |
-| 中國 | 447 | 低 | 27.34% | 最分散，全球布局 |
-| 日本 | 895 | 低 | 44.26% | 美、中、韓為主 |
-| 韓國 | 911 | 低 | 46.70% | 中、美、越為主 |
-| 德國 | 1,189 | 低 | 53.37% | 中、波、英為主（部分數據） |
+| 台灣 | <span class="data-highlight">1,183</span> | 低 | <span class="data-highlight">54.08%</span> | 中、美、港為主，分散度中等 |
+| 美國 | <span class="data-highlight">724</span> | 低 | <span class="data-highlight">40.41%</span> | 高度分散，加墨中為主 |
+| 中國 | <span class="data-highlight">447</span> | 低 | <span class="data-highlight">27.34%</span> | 最分散，全球布局 |
+| 日本 | <span class="data-highlight">895</span> | 低 | <span class="data-highlight">44.26%</span> | 美、中、韓為主 |
+| 韓國 | <span class="data-highlight">911</span> | 低 | <span class="data-highlight">46.70%</span> | 中、美、越為主 |
+| 德國 | <span class="data-highlight">1,189</span> | 低 | <span class="data-highlight">53.37%</span> | 中、波、英為主（部分數據） |
+{: .comparison-table}
 
 > **數據來源**：bilateral_trade_flows/market_concentration，HHI範圍0-10000
 
@@ -255,8 +267,10 @@ seo:
 - 中國出口分散度最高（HHI僅447），「一帶一路」市場多元化策略見效
 
 ## 二、產業趨勢分析
+{: .key-answer data-question="哪些產業呈現成長趨勢？"}
 
 ### 2.1 成長性產業識別
+{: .key-answer data-question="哪些成長性產業值得關注？"}
 
 基於貿易數據與政策動態，以下產業呈現成長或結構性轉變：
 
@@ -282,22 +296,27 @@ seo:
 - **受益國家/企業類型（推測）**：替代供應源開發商、礦物回收技術、垂直整合製造商
 
 ### 2.2 風險產業識別
+{: .key-answer data-question="哪些產業面臨出口管制風險？"}
 
 基於cn_export_control Layer政策動態，以下產業面臨出口管制或貿易摩擦風險：
 
 | 產業 | 風險類型 | 主要政策 | 影響程度 | 建議關注 |
 |------|---------|---------|---------|---------|
-| 半導體設備/分析 | 實體清單 | 不可靠實體清單（TechInsights等） | 高 | 技術情報與逆向工程服務商 |
-| 電池材料 | 出口管制 | 第58號公告（2025-11-08生效） | 高 | 300Wh/kg以上電池、製造設備 |
-| 重稀土 | 出口管制 | 第57號公告（2025-11-08生效） | 高 | 靶材、光纖材料、永磁材料 |
+| 半導體設備/分析 | 實體清單 | 不可靠實體清單（TechInsights等） | <span class="data-highlight">高</span> | 技術情報與逆向工程服務商 |
+| 電池材料 | 出口管制 | 第58號公告（2025-11-08生效） | <span class="data-highlight">高</span> | 300Wh/kg以上電池、製造設備 |
+| 重稀土 | 出口管制 | 第57號公告（2025-11-08生效） | <span class="data-highlight">高</span> | 靶材、光纖材料、永磁材料 |
 | 超硬材料 | 出口管制 | 第55號公告（2025-11-08生效） | 中高 | 合成金剛石、線鋸、CVD設備 |
-| 關鍵礦物 | 出口管制 | 2025年第10號公告（即時生效） | 高 | 鎢、碲、鉍、鉬、銦相關 |
+| 關鍵礦物 | 出口管制 | 2025年第10號公告（即時生效） | <span class="data-highlight">高</span> | 鎢、碲、鉍、鉬、銦相關 |
+{: .comparison-table}
 
 > **數據來源**：cn_export_control Layer，政策文件萃取
 
 ## 三、區域投資機會
+{: .key-answer data-question="各區域有哪些投資機會？"}
 
+<div class="key-takeaway" markdown="1">
 > **重要聲明**：以下投資觀點為系統推測，不構成投資建議。投資決策需考慮更多因素，建議諮詢專業投資顧問。
+</div>
 
 ### 3.1 台灣
 
@@ -402,16 +421,19 @@ seo:
 - 汽車產業轉型挑戰
 
 ## 四、下季觀察清單
+{: .key-answer data-question="下季應關注哪些指標和事件？"}
 
 ### 可追蹤指標
+{: .key-answer data-question="有哪些可追蹤的關鍵指標？"}
 
 | 指標 | 當前值 | 閾值 | 觸發條件 | 投資意涵 |
 |------|--------|------|---------|---------|
-| 美對中進口月增率 | -42% YTD | -50% | 連續3月低於閾值 | 供應鏈脫鉤加速確認 |
-| 中國經常帳/GDP | 2.4% (est.) | 3% | 超過閾值 | 出口依存度過高警訊 |
-| 台灣對中出口占比 | 21.24% | 25% | 超過閾值 | 地緣風險暴露增加 |
-| 韓國HHI | 911 | 1500 | 超過閾值 | 市場集中度風險 |
-| 德國GDP成長 | -0.50% | 0% | 連續3季負成長 | 歐洲經濟火車頭熄火 |
+| 美對中進口月增率 | <span class="data-highlight">-42% YTD</span> | <span class="data-highlight">-50%</span> | 連續3月低於閾值 | 供應鏈脫鉤加速確認 |
+| 中國經常帳/GDP | <span class="data-highlight">2.4% (est.)</span> | <span class="data-highlight">3%</span> | 超過閾值 | 出口依存度過高警訊 |
+| 台灣對中出口占比 | <span class="data-highlight">21.24%</span> | <span class="data-highlight">25%</span> | 超過閾值 | 地緣風險暴露增加 |
+| 韓國HHI | <span class="data-highlight">911</span> | <span class="data-highlight">1500</span> | 超過閾值 | 市場集中度風險 |
+| 德國GDP成長 | <span class="data-highlight">-0.50%</span> | <span class="data-highlight">0%</span> | 連續3季負成長 | 歐洲經濟火車頭熄火 |
+{: .comparison-table}
 
 ### 待觀察事件
 

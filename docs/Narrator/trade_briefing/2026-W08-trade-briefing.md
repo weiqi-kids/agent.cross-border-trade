@@ -457,3 +457,5 @@ seo:
 - [中國商務部出口管制資訊網](http://exportcontrol.mofcom.gov.cn/) — cn_export_control Layer
   - 本報告引用 8 筆政策文件（詳見「政策更新」章節各項來源標註）
   - 重點追蹤：2026-01-06 對日本兩用物項出口管制、安世半導體爭議、稀土全產業鏈管制
+
+{% include report-nav.html prev="/Narrator/trade_briefing/2026-W07-trade-briefing/" prev_title="2026 年第 07 週" %}

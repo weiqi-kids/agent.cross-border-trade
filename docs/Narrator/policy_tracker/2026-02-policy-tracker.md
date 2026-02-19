@@ -14,20 +14,25 @@ description: "2026年2月中國出口管制政策月報，涵蓋稀土、鋰電�
 > 報告性質：基線報告（無歷史參考）
 
 ## 執行摘要
+{: .article-summary .speakable-content}
 
-本期報告為 policy_tracker Mode 首份月報，涵蓋 2025 年第四季至 2026 年初的重大出口管制政策動態。中國商務部於 2025 年 10 月發布一系列戰略材料管制公告（第 55-62 號），建立了涵蓋稀土、鋰電池、超硬材料的全面出口管制框架。2025 年 11 月，中美吉隆坡經貿磋商達成共識，中方相應調整不可靠實體清單措施，對 15 家美國實體完全解除管制，對另外 16 家延續暫停一年。中歐半導體爭議持續，商務部就安世半導體（Nexperia）問題發表回應。本報告基於 cn_export_control Layer 共 280 份政策文件進行分析，其中執法行動 6 份、管制物項變更 5 份、國際合作 6 份、政策指導 1 份、法規更新 95 份。
+<div class="key-takeaway" markdown="1">
+本期報告為 policy_tracker Mode 首份月報，涵蓋 2025 年第四季至 2026 年初的重大出口管制政策動態。中國商務部於 2025 年 10 月發布一系列戰略材料管制公告（第 55-62 號），建立了涵蓋稀土、鋰電池、超硬材料的全面出口管制框架。2025 年 11 月，中美吉隆坡經貿磋商達成共識，中方相應調整不可靠實體清單措施，對 <span class="data-highlight">15 家美國實體完全解除管制</span>，對另外 <span class="data-highlight">16 家延續暫停一年</span>。中歐半導體爭議持續，商務部就安世半導體（Nexperia）問題發表回應。本報告基於 cn_export_control Layer 共 <span class="data-highlight">280 份政策文件</span>進行分析，其中執法行動 6 份、管制物項變更 5 份、國際合作 6 份、政策指導 1 份、法規更新 95 份。
+</div>
 
 ## 一、政策概覽
+{: .key-answer data-question="2026年2月中國出口管制政策有哪些重要變化？"}
 
 ### 1.1 政策統計（按 category）
 
 | Category | 本月新增 | 重大政策 | 較上月 | YoY |
 |----------|---------|---------|--------|-----|
-| regulation_update | 95 | 《兩用物項出口管制條例》2024-12-01 生效 | N/A | N/A（無歷史資料） |
-| enforcement_action | 6 | 不可靠實體清單調整（2025-11-06）、無人機技術公司列入（2025-10-09） | N/A | N/A |
-| controlled_item_change | 5 | 稀土、鋰電池、超硬材料系列管制（2025-10） | N/A | N/A |
-| policy_guidance | 1 | 安世半導體問題回應（2025-11-11） | N/A | N/A |
-| international_cooperation | 6 | 中歐出口管制對話、韓華海洋反制 | N/A | N/A |
+| regulation_update | <span class="data-highlight">95</span> | 《兩用物項出口管制條例》2024-12-01 生效 | N/A | N/A（無歷史資料） |
+| enforcement_action | <span class="data-highlight">6</span> | 不可靠實體清單調整（2025-11-06）、無人機技術公司列入（2025-10-09） | N/A | N/A |
+| controlled_item_change | <span class="data-highlight">5</span> | 稀土、鋰電池、超硬材料系列管制（2025-10） | N/A | N/A |
+| policy_guidance | <span class="data-highlight">1</span> | 安世半導體問題回應（2025-11-11） | N/A | N/A |
+| international_cooperation | <span class="data-highlight">6</span> | 中歐出口管制對話、韓華海洋反制 | N/A | N/A |
+{: .comparison-table}
 
 **說明**：本報告為首份月報，無前期比較數據。「本月新增」為資料庫中該類別文件總數。
 
@@ -45,8 +50,10 @@ description: "2026年2月中國出口管制政策月報，涵蓋稀土、鋰電�
 | 8 | 無人機技術公司等 14 家外國實體列入不可靠實體清單 | 2025-10-09 | enforcement_action | 中 | 已生效 |
 | 9 | 韓華海洋 5 家美國子公司反制措施 | 2025-10-15 | international_cooperation | 中 | 已生效 |
 | 10 | 安世半導體問題回應 | 2025-11-11 | policy_guidance | 中 | 政策立場聲明 |
+{: .comparison-table}
 
 ## 二、深度分析
+{: .key-answer data-question="戰略材料管制政策對供應鏈有什麼影響？"}
 
 ### 2.1 戰略材料管制
 
@@ -63,14 +70,17 @@ description: "2026年2月中國出口管制政策月報，涵蓋稀土、鋰電�
 
 | 公告編號 | 管制範圍 | 生效日期 |
 |----------|----------|----------|
-| 第 56 號 | 26 類稀土生產設備、萃取劑（P507、P204 等） | 2025-11-08 |
+| 第 56 號 | <span class="data-highlight">26 類</span>稀土生產設備、萃取劑（P507、P204 等） | 2025-11-08 |
 | 第 57 號 | 鈥、鉺、銩、銪、鐿及其衍生物 | 2025-11-08 |
 | 第 62 號 | 稀土開採、冶煉分離、磁材製造、回收技術 | 即日生效 |
+{: .comparison-table}
 
+<div class="key-takeaway" markdown="1">
 **供應鏈影響**（來源：cn_export_control Layer 分析）：
-- 中國控制全球約 90% 中重稀土生產和近 100% 分離加工能力
+- 中國控制全球約 <span class="data-highlight">90% 中重稀土生產</span>和近 <span class="data-highlight">100% 分離加工能力</span>
 - 萃取劑管制（P507、P204）有效阻止非中國地區建立獨立加工能力
 - 影響產業：電動車馬達、風力發電機、光纖通訊（鉺摻雜光纖放大器）、國防（高功率雷射、精密導引）
+</div>
 
 #### 鋰電池材料
 
@@ -79,10 +89,12 @@ description: "2026年2月中國出口管制政策月報，涵蓋稀土、鋰電�
 - 人造石墨負極材料為重點管制項目，中國佔全球 95% 以上產能
 - 磷酸鐵鋰（LFP）比密度 ≥2.5 g/cm³ 納入管制
 
+<div class="key-takeaway" markdown="1">
 **供應鏈影響**：
-- 全球電動車產業高度依賴中國電池供應鏈（約 75% 全球產能）
-- 石墨化技術為關鍵瓶頸，資本密集且耗能，新產能需 6-12 個月
+- 全球電動車產業高度依賴中國電池供應鏈（約 <span class="data-highlight">75% 全球產能</span>）
+- 石墨化技術為關鍵瓶頸，資本密集且耗能，新產能需 <span class="data-highlight">6-12 個月</span>
 - 影響全球電氣化和氣候目標進程
+</div>
 
 #### 超硬材料
 
@@ -90,21 +102,25 @@ description: "2026年2月中國出口管制政策月報，涵蓋稀土、鋰電�
 - 公告第 55 號管制合成金剛石微粉（≤50μm）、單晶、線鋸、砂輪及 DCPCVD 設備技術
 - 金剛石線鋸為半導體晶圓切割關鍵耗材，中國市佔率超過 70%
 
+<div class="key-takeaway" markdown="1">
 **供應鏈影響**：
 - 直接影響全球半導體製造（晶圓切割）
 - 精密加工產業（航太、醫療器材）依賴受限
 - DCPCVD 技術管制阻止競爭產能建立
+</div>
 
 ### 2.2 執法趨勢
+{: .key-answer data-question="近期出口管制執法有哪些重要案例？"}
 
 #### 執法統計
 
 | 類型 | 本期 | 說明 |
 |------|------|------|
-| 不可靠實體清單新增 | 14 家 | 含 Dedrone by Axon、TechInsights、BAE Systems |
-| 不可靠實體清單調整 | 31 家 | 中美吉隆坡共識：15 家解除、16 家暫停延續 |
-| 出口管制管控名單調整 | 31 家 | 同上，兩用物項出口許可申請通道開放 |
-| 反制清單 | 5 家 | 韓華海洋株式會社美國子公司 |
+| 不可靠實體清單新增 | <span class="data-highlight">14 家</span> | 含 Dedrone by Axon、TechInsights、BAE Systems |
+| 不可靠實體清單調整 | <span class="data-highlight">31 家</span> | 中美吉隆坡共識：15 家解除、16 家暫停延續 |
+| 出口管制管控名單調整 | <span class="data-highlight">31 家</span> | 同上，兩用物項出口許可申請通道開放 |
+| 反制清單 | <span class="data-highlight">5 家</span> | 韓華海洋株式會社美國子公司 |
+{: .comparison-table}
 
 #### 重點案例分析
 
@@ -126,6 +142,7 @@ description: "2026年2月中國出口管制政策月報，涵蓋稀土、鋰電�
 - **來源**：`unreliable-entity-list-drone-tech-2025-10-09.md`
 
 ### 2.3 國際協調
+{: .key-answer data-question="中國出口管制政策的國際協調狀況如何？"}
 
 #### 雙邊對話
 
@@ -155,6 +172,7 @@ description: "2026年2月中國出口管制政策月報，涵蓋稀土、鋰電�
 - 來源：`international_cooperation/2025-10-15-中国出口管制信息网.md`
 
 ## 三、合規建議
+{: .key-answer data-question="企業應如何應對新的出口管制政策？"}
 
 > **重要聲明**：以下合規建議為系統推測，不構成法律意見。建議諮詢專業法律顧問。
 
@@ -167,8 +185,10 @@ description: "2026年2月中國出口管制政策月報，涵蓋稀土、鋰電�
 | 超硬材料（金剛石線鋸） | 高 | 公告 55 號 | 半導體製造商評估晶圓切割耗材供應風險 |
 | 不可靠實體清單相關交易 | 中 | 2025-11-06 調整 | 已列入實體需透過申請通道恢復交易 |
 | 對華技術服務 | 中 | 公告 62 號 | 涉及稀土技術服務、維護、培訓需取得出口許可 |
+{: .comparison-table}
 
 ### 3.2 行動清單
+{: .actionable-steps}
 
 #### 進出口商
 

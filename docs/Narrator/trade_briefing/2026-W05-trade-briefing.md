@@ -20,22 +20,26 @@ related_reports:
 ---
 
 ## 摘要
+{: .article-summary .speakable-content}
 
-本週資料更新涵蓋六大報告國（美國、中國、日本、南韓、德國、台灣）的雙邊貿易流量（UN Comtrade 2023-2024 年度彙總）、美國對主要東亞與歐洲貿易夥伴的商品級別進出口明細（US Census Bureau 2025 年 1-10 月累計），以及中國出口管制政策動態（cn_export_control，84 筆萃取結果中擇取最新重要政策 13 筆分析）。中國持續維持對美國 USD 6,971 億的最大貿易順差（來源：bilateral_trade_flows/trade_balance/156-balance-2024.md）；美國對台灣貿易逆差（US Census 口徑）達 USD 1,119 億，其中機械設備（HS84）進口逆差 USD 918 億，反映半導體供應鏈的極端集中性（來源：us_trade_census/trade_balance/us-balance-5830-2026.md）。政策面方面，2024-2025 年間中國系統性擴大關鍵礦物出口管制範圍（覆蓋石墨、鎵鍺、銻、鎢、銦、碲、鉍、鉬、稀土、超硬材料），同時 2025 年 11 月中美雙方在吉隆坡磋商後達成階段性緩和共識，美方暫停穿透性規則（FDPR）一年（來源：cn_export_control）。
+<div class="key-takeaway" markdown="1">
+本週資料更新涵蓋六大報告國（美國、中國、日本、南韓、德國、台灣）的雙邊貿易流量（UN Comtrade 2023-2024 年度彙總）、美國對主要東亞與歐洲貿易夥伴的商品級別進出口明細（US Census Bureau 2025 年 1-10 月累計），以及中國出口管制政策動態（cn_export_control，84 筆萃取結果中擇取最新重要政策 13 筆分析）。中國持續維持對美國 <span class="data-highlight">USD 6,971 億</span>的最大貿易順差（來源：bilateral_trade_flows/trade_balance/156-balance-2024.md）；美國對台灣貿易逆差（US Census 口徑）達 <span class="data-highlight">USD 1,119 億</span>，其中機械設備（HS84）進口逆差 <span class="data-highlight">USD 918 億</span>，反映半導體供應鏈的極端集中性（來源：us_trade_census/trade_balance/us-balance-5830-2026.md）。政策面方面，2024-2025 年間中國系統性擴大關鍵礦物出口管制範圍（覆蓋石墨、鎵鍺、銻、鎢、銦、碲、鉍、鉬、稀土、超硬材料），同時 2025 年 11 月中美雙方在吉隆坡磋商後達成階段性緩和共識，美方暫停穿透性規則（FDPR）一年（來源：cn_export_control）。
+</div>
 
 ---
 
 ## 一、出口重點
+{: .key-answer data-question="2026年第5週各國出口市場有什麼重要變化？"}
 
 ### 主要變化
 
 **美國出口**（來源：bilateral_trade_flows/export_flow/842-export-2024.md、us_trade_census/monthly_export）
 
-美國 2023-2024 年度前三大出口目的地為加拿大（Partner 124，USD 7,012 億）、墨西哥（Partner 484，USD 6,573 億）與中國（Partner 156，USD 2,914 億），三國合計占出口總額 40.41%。US Census 2025 年 1-10 月數據進一步顯示商品結構差異：對中國出口以電子電機設備（HS85，USD 138 億）和航空器（HS88，USD 137 億）為主；對台灣出口的核反應爐與機械（HS84，USD 133 億）為最大單一品項，反映半導體設備需求強勁；對韓國和日本出口則以礦物燃料（HS27）居首，分別達 USD 144 億和 USD 105 億。
+美國 2023-2024 年度前三大出口目的地為加拿大（Partner 124，<span class="data-highlight">USD 7,012 億</span>）、墨西哥（Partner 484，<span class="data-highlight">USD 6,573 億</span>）與中國（Partner 156，<span class="data-highlight">USD 2,914 億</span>），三國合計占出口總額 <span class="data-highlight">40.41%</span>。US Census 2025 年 1-10 月數據進一步顯示商品結構差異：對中國出口以電子電機設備（HS85，<span class="data-highlight">USD 138 億</span>）和航空器（HS88，<span class="data-highlight">USD 137 億</span>）為主；對台灣出口的核反應爐與機械（HS84，<span class="data-highlight">USD 133 億</span>）為最大單一品項，反映半導體設備需求強勁；對韓國和日本出口則以礦物燃料（HS27）居首，分別達 <span class="data-highlight">USD 144 億</span>和 <span class="data-highlight">USD 105 億</span>。
 
 **中國出口**（來源：bilateral_trade_flows/export_flow/156-export-2024.md、bilateral_trade_flows/commodity_structure/156-commodity-2024.md）
 
-中國最大出口市場為美國（USD 1.03 兆，占比 14.76%），其次為香港（Partner 344，USD 5,654 億，占比 8.13%）及日本（USD 3,095 億，占比 4.45%）。中國出口市場的 HHI 為 447.18（低集中度），前三大市場合計僅占 27.34%，為六國中最分散的出口結構。越南（Partner 704，USD 2,995 億）與南韓（USD 2,952 億）為第四、五大出口市場。
+中國最大出口市場為美國（<span class="data-highlight">USD 1.03 兆</span>，占比 <span class="data-highlight">14.76%</span>），其次為香港（Partner 344，<span class="data-highlight">USD 5,654 億</span>，占比 <span class="data-highlight">8.13%</span>）及日本（<span class="data-highlight">USD 3,095 億</span>，占比 <span class="data-highlight">4.45%</span>）。中國出口市場的 HHI 為 <span class="data-highlight">447.18</span>（低集中度），前三大市場合計僅占 <span class="data-highlight">27.34%</span>，為六國中最分散的出口結構。越南（Partner 704，<span class="data-highlight">USD 2,995 億</span>）與南韓（<span class="data-highlight">USD 2,952 億</span>）為第四、五大出口市場。
 
 **日本出口**（來源：bilateral_trade_flows/export_flow/392-export-2024.md）
 
@@ -63,6 +67,7 @@ UN Comtrade Preview API 未回傳台灣（158）出口記錄，confidence 標記
 | 南韓 (410) | 中國、美國、越南 | 46.70% | 911.24 | 越南為第三大市場 |
 | 德國 (276) | 中國、波蘭、英國 | 53.37% | 1188.50 | 接近中度集中，數據覆蓋較窄 |
 | 台灣 (158) | -- | -- | -- | [REVIEW_NEEDED] 無數據 |
+{: .comparison-table}
 
 > 註：出口額為 UN Comtrade 2023-2024 年度彙總數據（2 年累計），非單年度數字。
 > 來源：bilateral_trade_flows/export_flow、bilateral_trade_flows/market_concentration、bilateral_trade_flows/commodity_structure
@@ -70,14 +75,15 @@ UN Comtrade Preview API 未回傳台灣（158）出口記錄，confidence 標記
 ---
 
 ## 二、進口重點
+{: .key-answer data-question="2026年第5週各國進口來源有什麼變化？"}
 
 ### 主要變化
 
 **美國進口**（來源：bilateral_trade_flows/import_flow/842-import-2024.md、us_trade_census/monthly_import）
 
-美國最大進口來源為墨西哥（USD 9,900 億）、中國（USD 9,106 億）和加拿大（USD 8,508 億）。US Census 商品結構數據顯示：從中國進口以電子電機設備（HS85，USD 698 億）和機械設備（HS84，USD 441 億）為最大宗；從台灣進口的機械設備（HS84）達 USD 1,051 億，為所有貿易夥伴中單一 HS 品項最高，主要反映半導體晶片進口；從日韓進口均以汽車（HS87）居首（日本 USD 374 億、南韓 USD 314 億）；從德國進口以機械（HS84，USD 253 億）和汽車（HS87，USD 227 億）為主。
+美國最大進口來源為墨西哥（<span class="data-highlight">USD 9,900 億</span>）、中國（<span class="data-highlight">USD 9,106 億</span>）和加拿大（<span class="data-highlight">USD 8,508 億</span>）。US Census 商品結構數據顯示：從中國進口以電子電機設備（HS85，<span class="data-highlight">USD 698 億</span>）和機械設備（HS84，<span class="data-highlight">USD 441 億</span>）為最大宗；從台灣進口的機械設備（HS84）達 <span class="data-highlight">USD 1,051 億</span>，為所有貿易夥伴中單一 HS 品項最高，主要反映半導體晶片進口；從日韓進口均以汽車（HS87）居首（日本 <span class="data-highlight">USD 374 億</span>、南韓 <span class="data-highlight">USD 314 億</span>）；從德國進口以機械（HS84，<span class="data-highlight">USD 253 億</span>）和汽車（HS87，<span class="data-highlight">USD 227 億</span>）為主。
 
-美國對中國貿易逆差（US Census 2025 年 1-10 月口徑）為 USD 1,754 億，最大逆差商品為電子電機設備（HS85，逆差 USD 561 億）和機械（HS84，逆差 USD 350 億）。美國對台灣逆差 USD 1,119 億中，HS84 機械逆差 USD 918 億占 82%，反映半導體供應鏈的極端集中性。
+美國對中國貿易逆差（US Census 2025 年 1-10 月口徑）為 <span class="data-highlight">USD 1,754 億</span>，最大逆差商品為電子電機設備（HS85，逆差 <span class="data-highlight">USD 561 億</span>）和機械（HS84，逆差 <span class="data-highlight">USD 350 億</span>）。美國對台灣逆差 <span class="data-highlight">USD 1,119 億</span>中，HS84 機械逆差 <span class="data-highlight">USD 918 億</span>占 <span class="data-highlight">82%</span>，反映半導體供應鏈的極端集中性。
 
 *來源：us_trade_census/country_detail/us-detail-5700-2026.md、us_trade_census/country_detail/us-detail-5830-2026.md、us_trade_census/trade_balance/*
 
@@ -106,6 +112,7 @@ UN Comtrade Preview API 未回傳台灣（158）出口記錄，confidence 標記
 | 日本 (392) | 中國 (156) | 3,352 億 | -841 億 (出口 2,511 億 vs 進口 3,352 億) | 能源進口依賴中東 |
 | 南韓 (410) | 中國 (156) | 2,827 億 | -252 億 (出口 2,576 億 vs 進口 2,827 億) | 中間財進口為主 |
 | 德國 (276) | 斯洛伐克 (703) | 218 億 | 數據偏低 | 數據覆蓋可能不完整 |
+{: .comparison-table}
 
 > 註：UN Comtrade 數據為 2023-2024 兩年度彙總。US Census 數據為 2025 年 1-10 月累計。數據口徑差異屬正常現象。
 > 來源：bilateral_trade_flows/import_flow、us_trade_census/monthly_import、us_trade_census/trade_balance、us_trade_census/country_detail
@@ -113,23 +120,26 @@ UN Comtrade Preview API 未回傳台灣（158）出口記錄，confidence 標記
 ---
 
 ## 三、政策更新
+{: .key-answer data-question="中國出口管制政策有什麼最新動態？"}
 
 > **建議人工審核** — 以下政策解讀為系統分析結果，涉及法規詮釋與戰略判斷，建議專業人士覆核。
 
 ### 本週管制政策動態
 
+<div class="key-takeaway" markdown="1">
 基於 cn_export_control Layer 萃取結果（84 筆中擇取 13 筆最新重要政策分析），2024-2025 年間中國已建立一套系統性的關鍵礦物與戰略材料出口管制框架。以下按時間倒序呈現近期最重要的政策動態：
+</div>
 
 **一、中美階段性緩和措施（2025 年 11 月）**
 
 1. **美方暫停穿透性規則（FDPR）一年**（來源：cn_export_control/us-export-control-penetration-rule-suspension-nov2025.md）
-   - 暫停期間：2025-11-10 至 2026-11-09
-   - 範圍：美國出口管制實體清單企業及其 >50% 持股關聯企業不受穿透性規則追加制裁
+   - 暫停期間：<span class="data-highlight">2025-11-10 至 2026-11-09</span>
+   - 範圍：美國出口管制實體清單企業及其 <span class="data-highlight">>50%</span> 持股關聯企業不受穿透性規則追加制裁
    - 中方評價：「美方落實中美吉隆坡經貿磋商共識的重要舉措」
 
 2. **出口管制清單調整**（來源：cn_export_control/mofcom-export-control-list-adjustment-nov2025.md）
-   - 暫停對 15 家美國實體（原第 13 號公告）的出口管制措施，自 2025-11-10 生效
-   - 延長暫停 16 家美國實體（原第 21 號公告）的管制措施一年
+   - 暫停對 <span class="data-highlight">15 家美國實體</span>（原第 13 號公告）的出口管制措施，自 2025-11-10 生效
+   - 延長暫停 <span class="data-highlight">16 家美國實體</span>（原第 21 號公告）的管制措施一年
    - 出口雙用途物項需向商務部申請審核
 
 3. **不可靠實體清單調整**（來源：cn_export_control/mofcom-unreliable-entity-list-adjustment-nov2025.md）
@@ -140,11 +150,11 @@ UN Comtrade Preview API 未回傳台灣（158）出口記錄，confidence 標記
 **二、關鍵礦物與戰略材料出口管制（2024-2025）**
 
 4. **稀土強化管制**（來源：cn_export_control/mofcom-rare-earth-export-control-strengthening-oct2025.md）
-   - 生效日期：2025-10-09
+   - 生效日期：<span class="data-highlight">2025-10-09</span>
    - 第 61 號公告：管制「含中國成分的外國稀土相關物項」，首次確立域外效力
    - 第 62 號公告：限制稀土技術出口
    - 設有人道主義豁免條款和過渡期
-   - 中國占全球稀土生產逾 60% 並主導加工環節
+   - 中國占全球稀土生產逾 <span class="data-highlight">60%</span> 並主導加工環節
 
 5. **超硬材料出口管制**（來源：cn_export_control/superhard-materials-export-control-2025.md）
    - 生效日期：2025-11-08
@@ -152,21 +162,21 @@ UN Comtrade Preview API 未回傳台灣（158）出口記錄，confidence 標記
    - 影響半導體晶圓加工和精密製造產業鏈
 
 6. **鎢、碲、鉍、鉬、銦出口管制**（來源：cn_export_control/critical-minerals-export-control-2025.md）
-   - 生效日期：2025-02-04（發布即生效）
+   - 生效日期：<span class="data-highlight">2025-02-04</span>（發布即生效）
    - 涵蓋原材料、加工品、化合物及相關生產技術
-   - 中國占全球鎢產量約 80%、銦約 60%、鉍約 80%
+   - 中國占全球鎢產量約 <span class="data-highlight">80%</span>、銦約 <span class="data-highlight">60%</span>、鉍約 <span class="data-highlight">80%</span>
    - 生產技術管制限制外國建立替代供應能力
 
 7. **銻及超硬材料設備管制**（來源：cn_export_control/antimony-superhard-materials-export-control-2024.md）
-   - 生效日期：2024-09-15
+   - 生效日期：<span class="data-highlight">2024-09-15</span>
    - 管制銻原礦、金屬銻、高純度有機銻化合物、銻化銦（InSb）
    - 同時管制六面頂壓機、微波等離子 CVD 設備及相關技術
-   - 中國占全球銻產量約 48%，俄羅斯（第二大生產國）受制裁限制
+   - 中國占全球銻產量約 <span class="data-highlight">48%</span>，俄羅斯（第二大生產國）受制裁限制
 
 8. **石墨出口管制優化**（來源：cn_export_control/graphite-export-control-optimization.md）
-   - 生效日期：2023-12-01
-   - 對高純度人造石墨（純度 >99.9%）及天然鱗片石墨（含球化石墨、膨脹石墨）實施出口許可管理
-   - 中國占全球球化石墨產能逾 70%，直接影響鋰電池負極材料供應鏈
+   - 生效日期：<span class="data-highlight">2023-12-01</span>
+   - 對高純度人造石墨（純度 <span class="data-highlight">>99.9%</span>）及天然鱗片石墨（含球化石墨、膨脹石墨）實施出口許可管理
+   - 中國占全球球化石墨產能逾 <span class="data-highlight">70%</span>，直接影響鋰電池負極材料供應鏈
 
 **三、反制裁與執法行動（2025）**
 
@@ -213,6 +223,7 @@ UN Comtrade Preview API 未回傳台灣（158）出口記錄，confidence 標記
 ---
 
 ## 四、市場集中度變化
+{: .key-answer data-question="各國出口市場集中度如何？HHI指數是多少？"}
 
 以下為各報告國出口市場的 HHI（Herfindahl-Hirschman Index）指數，基於 UN Comtrade 2023-2024 年度數據計算。
 
@@ -224,6 +235,7 @@ UN Comtrade Preview API 未回傳台灣（158）出口記錄，confidence 標記
 | 南韓 (410) | 911.24 | 低 | 46.70% | 225 | 越南崛起為第三大市場 |
 | 德國 (276) | 1188.50 | 低（接近中度） | 53.37% | 62 | 前三大市場占逾半，需關注數據完整性 |
 | 台灣 (158) | -- | -- | -- | -- | 無數據 [REVIEW_NEEDED] |
+{: .comparison-table}
 
 > HHI 參考值：<1500 低集中度（分散）；1500-2500 中度集中；>2500 高集中度（依賴）
 > 集中度分析要點：
@@ -235,17 +247,18 @@ UN Comtrade Preview API 未回傳台灣（158）出口記錄，confidence 標記
 ---
 
 ## 五、觀察清單
+{: .key-answer data-question="有哪些重要的貿易風險需要持續關注？"}
 
 以下為基於本週數據更新需持續關注的項目，每項均附數據依據：
 
-1. **美台半導體貿易逆差的集中度風險** — 美國從台灣進口 HS84（含半導體晶片）USD 1,052 億，占美台逆差 82%，為所有雙邊品類逆差中金額最大的單一項目。在地緣政治風險情境下，此極端集中性構成供應鏈脆弱點。
+1. **美台半導體貿易逆差的集中度風險** — 美國從台灣進口 HS84（含半導體晶片）<span class="data-highlight">USD 1,052 億</span>，占美台逆差 <span class="data-highlight">82%</span>，為所有雙邊品類逆差中金額最大的單一項目。在地緣政治風險情境下，此極端集中性構成供應鏈脆弱點。
    *依據：us_trade_census/trade_balance/us-balance-5830-2026.md、us_trade_census/country_detail/us-detail-5830-2026.md*
    *（風險評估為推測，建議人工審核）*
 
 2. **中國關鍵礦物管制的累積效應** — 從石墨（2023.12）、鎵鍺（2024.8）、銻（2024.9）、鎢銦碲鉍鉬（2025.2）、稀土（2025.10）到超硬材料（2025.11），管制範圍持續擴大，形成涵蓋半導體、電池、國防等領域的系統性管制體系。建議建立受管制物項追蹤清單。
    *依據：cn_export_control 多份文件（詳見政策更新章節）*
 
-3. **中美穿透性規則暫停到期關注** — 暫停期至 2026-11-09 屆滿，屆時政策是否恢復具高度不確定性。影響實體清單上中國企業及其 >50% 持股關聯企業的技術取得能力，企業應利用窗口期進行供應鏈調整。
+3. **中美穿透性規則暫停到期關注** — 暫停期至 <span class="data-highlight">2026-11-09</span> 屆滿，屆時政策是否恢復具高度不確定性。影響實體清單上中國企業及其 <span class="data-highlight">>50%</span> 持股關聯企業的技術取得能力，企業應利用窗口期進行供應鏈調整。
    *依據：cn_export_control/us-export-control-penetration-rule-suspension-nov2025.md*
    *（影響評估為推測）*
 
@@ -253,11 +266,11 @@ UN Comtrade Preview API 未回傳台灣（158）出口記錄，confidence 標記
    *依據：cn_export_control/mofcom-rare-earth-export-control-strengthening-oct2025.md*
    *（影響評估為推測，建議人工審核）*
 
-5. **日韓對美中市場的雙重依賴** — 日本與南韓對美國及中國的出口合計占比分別為 37.72% 和 38.20%。在中美出口管制互相升級的背景下，日韓企業面臨供應鏈選邊壓力。日本同時面臨中方對其最終用戶清單新增的外交反應。
+5. **日韓對美中市場的雙重依賴** — 日本與南韓對美國及中國的出口合計占比分別為 <span class="data-highlight">37.72%</span> 和 <span class="data-highlight">38.20%</span>。在中美出口管制互相升級的背景下，日韓企業面臨供應鏈選邊壓力。日本同時面臨中方對其最終用戶清單新增的外交反應。
    *依據：bilateral_trade_flows/commodity_structure/392-commodity-2024.md、410-commodity-2024.md、cn_export_control/mofcom-response-japan-end-user-list-update-sep2025.md*
    *（趨勢判斷為推測，建議人工審核）*
 
-6. **德國出口市場集中度接近中度門檻** — HHI 1188.5 為六國最高。在歐中貿易摩擦背景下，德國對中國出口（占比 19.62%）的波動可能對其整體出口產生較大影響。但數據僅涵蓋 62 個夥伴群組，需確認是否為 API 限制。
+6. **德國出口市場集中度接近中度門檻** — HHI <span class="data-highlight">1188.5</span> 為六國最高。在歐中貿易摩擦背景下，德國對中國出口（占比 <span class="data-highlight">19.62%</span>）的波動可能對其整體出口產生較大影響。但數據僅涵蓋 <span class="data-highlight">62</span> 個夥伴群組，需確認是否為 API 限制。
    *依據：bilateral_trade_flows/market_concentration/276-hhi-2024.md*
    *（趨勢判斷為推測，建議人工審核）*
 
@@ -303,3 +316,5 @@ UN Comtrade Preview API 未回傳台灣（158）出口記錄，confidence 標記
 - 中國商務部出口管制資訊網 (http://exportcontrol.mofcom.gov.cn/) — cn_export_control Layer
   - 共 84 筆萃取結果，本報告引用 13 筆（詳見「政策更新」章節各項來源標註）
   - 2 筆標記 [REVIEW_NEEDED]（customs-announcement-2025-61.md、customs-announcement-2025-62.md）
+
+{% include report-nav.html next="/Narrator/trade_briefing/2026-W06-trade-briefing/" next_title="2026 年第 06 週" %}

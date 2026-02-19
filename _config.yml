@@ -10,9 +10,9 @@ theme: just-the-docs
 # Color scheme
 color_scheme: light
 
-# Mermaid diagrams
-mermaid:
-  version: "10.6.0"
+# Mermaid diagrams - disabled default loading, using lazy-load instead
+# mermaid:
+#   version: "10.6.0"
 
 # Aux links (top right)
 aux_links:
