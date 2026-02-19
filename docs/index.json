@@ -2172,6 +2172,12 @@
     "source": "trade_briefing"
   },
   {
+    "path": "docs/Narrator/trade_compliance_digest/index.md",
+    "title": "---",
+    "category": "Narrator",
+    "source": "trade_compliance_digest"
+  },
+  {
     "path": "docs/explored.md",
     "title": "---",
     "category": "explored.md",
