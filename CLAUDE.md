@@ -71,10 +71,41 @@ Type B 萃取流程：
 
 ### 步驟六：更新網站
 
-1. 更新 `docs/Narrator/{mode}/index.md` 的歷史報告表格
-2. 更新 `docs/index.md` 的最新報告連結
-3. 執行 `git add . && git commit && git push`
-4. GitHub Actions 自動部署到 Pages
+**每個 Mode 報告產出後，必須同步更新以下檔案**：
+
+1. **Mode 導航頁** — 更新 `docs/Narrator/{mode}/index.md` 的歷史報告表格
+   - 將新報告加入表格最上方
+   - 移除「即將推出」或「尚無歷史報告」的佔位行
+
+2. **首頁最新報告區塊** — 更新 `docs/index.md` 的「最新報告」區塊
+   - 更新對應 Mode 的報告表格
+   - 將新報告加入最上方
+   - 保留最近 2-4 筆報告（依 Mode 頻率決定）
+   - 移除「即將推出」的佔位行
+
+3. **首頁本週重點區塊**（僅 trade_briefing）— 更新 `docs/index.md` 的「本週重點」表格
+   - 更新重點信號和連結
+
+4. **首頁風險信號區塊**（僅 trade_briefing / supply_chain_analysis）
+   - 更新 HHI 指數表格
+   - 更新政策動態統計
+
+5. **Git 提交** — 執行 `git add . && git commit && git push`
+
+6. GitHub Actions 自動部署到 Pages
+
+**更新範例**：
+
+```markdown
+# 更新 docs/index.md 中的對應區塊
+
+### 出口管制政策追蹤
+
+| 期別 | 重點 | 連結 |
+|------|------|:----:|
+| 2026-02 | {本期重點摘要} | [查看]({% link Narrator/policy_tracker/2026-02-policy-tracker.md %}) |
+| 2026-01 | {上期重點摘要} | [查看]({% link Narrator/policy_tracker/2026-01-policy-tracker.md %}) |
+```
 
 ### 步驟七：完成品質檢查
 
