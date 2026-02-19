@@ -2208,9 +2208,27 @@
     "source": "trade_compliance_digest"
   },
   {
+    "path": "docs/about.md",
+    "title": "---",
+    "category": "about.md",
+    "source": ""
+  },
+  {
+    "path": "docs/data-timeline.md",
+    "title": "---",
+    "category": "data-timeline.md",
+    "source": ""
+  },
+  {
     "path": "docs/explored.md",
     "title": "---",
     "category": "explored.md",
+    "source": ""
+  },
+  {
+    "path": "docs/faq.md",
+    "title": "---",
+    "category": "faq.md",
     "source": ""
   },
   {
