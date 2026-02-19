@@ -2118,6 +2118,12 @@
     "source": "investment_insight"
   },
   {
+    "path": "docs/Narrator/media_briefing/index.md",
+    "title": "---",
+    "category": "Narrator",
+    "source": "media_briefing"
+  },
+  {
     "path": "docs/Narrator/policy_tracker/index.md",
     "title": "---",
     "category": "Narrator",
