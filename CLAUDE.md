@@ -8,12 +8,13 @@
 > - Narrator 報告規範：`core/Narrator/CLAUDE.md`
 > - 系統維護指令：`core/CLAUDE.md`
 > - 各 Layer / Mode 定義：`core/Extractor/Layers/{layer}/CLAUDE.md`、`core/Narrator/Modes/{mode}/CLAUDE.md`
+> - **網站改版流程**：`revamp/CLAUDE.md`（含 6 階段 + final-review）
 
 ---
 
 ## 執行流程
 
-使用者說「執行完整流程」或「更新資料」時，依序執行以下七步：
+使用者說「執行完整流程」或「更新資料」時，依序執行以下八步：
 
 ### 步驟一：動態發現所有 Layer
 
@@ -113,6 +114,61 @@ Type B 萃取流程：
 
 詳細檢查項目見下方「完成品質關卡」章節。
 
+### 步驟八：網站優化建議
+
+品質檢查通過後，執行網站健檢並產出優化建議：
+
+**1. 執行技術健檢**
+
+```bash
+revamp/tools/site-audit.sh https://your-site.com --output site-audit-$(date +%Y%m%d).json
+```
+
+**2. 分析健檢結果**
+
+讀取 `revamp/1-discovery/CLAUDE.md`，對健檢數據進行分析，產出：
+
+| 項目 | 內容 |
+|------|------|
+| 效能分數變化 | 與上次健檢比較 |
+| Core Web Vitals | LCP、CLS、TBT 是否達標 |
+| SEO 分數 | 是否有退步 |
+| 安全性評級 | SSL、HTTP Headers |
+
+**3. 產出優化建議**
+
+若發現問題，產出優化建議到 `docs/site-audit/` 目錄：
+
+```markdown
+# 網站健檢報告 - {日期}
+
+## 健檢摘要
+| 指標 | 數值 | 評價 | 變化 |
+|------|------|------|------|
+| Performance | | ✅/⚠️/❌ | ↑/↓/→ |
+| SEO | | | |
+| Accessibility | | | |
+
+## 優化建議
+| 優先級 | 問題 | 建議行動 |
+|--------|------|----------|
+| P0 | | |
+| P1 | | |
+
+## 下次健檢追蹤
+- [ ] {追蹤項目}
+```
+
+**4. 觸發深度分析**（可選）
+
+若健檢發現 P0 問題，建議執行完整 revamp 流程：
+
+| 條件 | 建議行動 |
+|------|----------|
+| Performance < 50 | 執行 `revamp 1-discovery` 深度分析 |
+| SEO 退步 > 10% | 執行 `revamp 2-competitive` 競品比較 |
+| 多項 P0 問題 | 執行 `revamp 完整流程` |
+
 ---
 
 ## 模型與子代理指派規則
@@ -129,9 +185,32 @@ Type B 萃取流程：
 | 步驟五 | SEO 優化 | `sonnet` | `general-purpose` |
 | 步驟六 | 更新網站 | `sonnet` | `Bash` |
 | 步驟七 | 品質檢查 | 主執行緒 | 直接執行 |
+| 步驟八 | 網站健檢（site-audit.sh） | `sonnet` | `Bash` |
+| 步驟八 | 優化建議產出 | `sonnet` | `general-purpose` |
+
+### 網站改版流程（revamp）
+
+| 階段 | 任務類型 | 指定模型 | 子代理類型 |
+|------|----------|----------|------------|
+| 0-positioning | Writer | `sonnet` | `general-purpose` |
+| 0-positioning | Reviewer | `sonnet` | `general-purpose` |
+| 1-discovery | 技術健檢（site-audit.sh） | `sonnet` | `Bash` |
+| 1-discovery | Writer | `sonnet` | `general-purpose` |
+| 1-discovery | Reviewer | `sonnet` | `general-purpose` |
+| 2-competitive | 競品健檢（competitive-audit.sh） | `sonnet` | `Bash` |
+| 2-competitive | Writer | `sonnet` | `general-purpose` |
+| 2-competitive | Reviewer | `sonnet` | `general-purpose` |
+| 3-analysis | Writer | `opus` | `general-purpose` |
+| 3-analysis | Reviewer | `sonnet` | `general-purpose` |
+| 4-strategy | Writer | `opus` | `general-purpose` |
+| 4-strategy | Reviewer | `sonnet` | `general-purpose` |
+| 5-content-spec | Writer | `opus` | `general-purpose` |
+| 5-content-spec | Reviewer | `sonnet` | `general-purpose` |
+| final-review | Reviewer | `opus` | `general-purpose` |
 
 **強制規則**：
 - 只有步驟四使用 `opus`，其餘一律 `sonnet`
+- **revamp 例外**：3-analysis、4-strategy、5-content-spec、final-review 的 Writer/Reviewer 使用 `opus`（需深度推理）
 - 需寫檔的 Task 必須用 `general-purpose`，純腳本執行用 `Bash`
 
 **平行策略與背景執行**：
@@ -150,6 +229,7 @@ Type B 萃取流程：
 | 步驟五 SEO 優化 | ❌ | sonnet 依序前台執行（需迭代審核） |
 | 步驟六 | ✅ | 背景執行，主執行緒立即可用 |
 | 步驟七 | ❌ | 必須前台執行，確保全部通過 |
+| 步驟八 | ✅ | 健檢背景執行，建議產出前台 |
 
 **執行範例**：
 
@@ -183,8 +263,75 @@ TaskOutput(task_id="...", block=true)   # 等待完成
 | 「執行 {mode_name}」 | 該 Mode 的報告產出 |
 | 「只跑 fetch」 | 所有 Layer 的 fetch.sh，不做萃取/分析 |
 | 「只跑萃取」 | 假設 raw/ 已有資料，只做萃取/分析 + update |
+| 「執行網站改版」或「revamp」 | 網站改版流程（見下方章節） |
+| 「revamp {階段}」 | 指定階段，如 `revamp 0-positioning` |
+| 「網站健檢」或「site audit」 | 執行 1-discovery 階段的技術健檢 |
 
 指定執行時，模型指派規則仍然生效。
+
+---
+
+## 網站改版流程
+
+使用者說「執行網站改版」、「revamp」、「網站健檢」時，執行以下流程。
+
+> **詳細規範**：`revamp/CLAUDE.md`
+> **自動化工具**：`revamp/tools/site-audit.sh`、`revamp/tools/competitive-audit.sh`
+
+### 流程總覽
+
+```
+0-Positioning → 1-Discovery → 2-Competitive → 3-Analysis → 4-Strategy → 5-Content-Spec → 執行 → Final-Review
+     ↓              ↓             ↓              ↓            ↓              ↓                       ↓
+  Review ✓      Review ✓      Review ✓      Review ✓     Review ✓       Review ✓                Review ✓
+```
+
+### 階段說明
+
+| 階段 | 目的 | 輸出 | 詳細規範 |
+|------|------|------|----------|
+| **0-positioning** | 釐清品牌定位、核心價值 | 定位文件 | `revamp/0-positioning/CLAUDE.md` |
+| **1-discovery** | 盤點現有內容 + 技術健檢 | 健檢報告 + KPI | `revamp/1-discovery/CLAUDE.md` |
+| **2-competitive** | 分析競爭對手 | 競品分析報告 | `revamp/2-competitive/CLAUDE.md` |
+| **3-analysis** | 受眾分析 + 內容差距 | 差距分析報告 | `revamp/3-analysis/CLAUDE.md` |
+| **4-strategy** | 改版計劃 + 優先級排序 | 改版計劃書 | `revamp/4-strategy/CLAUDE.md` |
+| **5-content-spec** | 每頁內容規格 | 內容規格書 | `revamp/5-content-spec/CLAUDE.md` |
+| **final-review** | 驗收執行結果 | 驗收報告 | `revamp/final-review/CLAUDE.md` |
+
+### 執行方式
+
+每個階段依序執行 **Writer → Reviewer** 雙角色：
+
+1. **Writer**：讀取該階段 `CLAUDE.md`，產出文件
+2. **Reviewer**：讀取該階段 `review/CLAUDE.md`，檢查文件品質
+3. 若 Reviewer 回報「需修改」，Writer 修正後重新送審
+4. 通過後進入下一階段
+
+### 快速指令
+
+| 使用者指令 | 執行範圍 |
+|------------|----------|
+| 「網站健檢」 | 僅執行 1-discovery 技術健檢（site-audit.sh） |
+| 「競品分析」 | 執行 2-competitive，需提供競品 URL |
+| 「revamp 0-positioning」 | 執行單一階段 |
+| 「revamp 完整流程」 | 執行全部 6 階段 + final-review |
+
+### 自動化工具
+
+```bash
+# 網站健檢（本地 Lighthouse，不受 API 配額限制）
+revamp/tools/site-audit.sh https://example.com
+
+# 競品比較
+revamp/tools/competitive-audit.sh https://our-site.com https://competitor1.com https://competitor2.com
+```
+
+### 輸出原則
+
+1. **結構化**：使用 Markdown 表格、清單
+2. **可追溯**：標註數據來源（工具、指令、時間）
+3. **可執行**：建議事項具體、可操作
+4. **有優先級**：重要事項標註 P0/P1/P2
 
 ---
 
@@ -305,7 +452,8 @@ TRADE_TARGET_REPORTERS=158,842,156,392,410,276
 ### 5. SOP 完成度檢查
 
 - [ ] 回顧原始任務需求
-- [ ] 步驟一至六每個步驟都已執行
+- [ ] 步驟一至七每個步驟都已執行
+- [ ] 步驟八網站健檢已執行（完整流程時）
 - [ ] 無遺漏的待辦項目
 - [ ] 無「之後再處理」的項目
 
@@ -349,7 +497,8 @@ TRADE_TARGET_REPORTERS=158,842,156,392,410,276
 2. 各 Mode 報告產出狀態
 3. 是否有錯誤或需要人工介入的項目
 4. **完成檢查報告**（步驟七的品質關卡結果）
-5. 若為完整流程，更新 `README.md` 中的健康度儀表板
+5. **網站健檢摘要**（步驟八的優化建議）
+6. 若為完整流程，更新 `README.md` 中的健康度儀表板
 
 **重要**：只有品質關卡全部通過才能說「完成」。未通過時需說明問題並立即修正。
 
