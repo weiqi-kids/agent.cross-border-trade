@@ -53,6 +53,11 @@ back_to_top_text: "Back to top"
 markdown: kramdown
 highlighter: rouge
 
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 # Exclude from build
 exclude:
   - Gemfile
