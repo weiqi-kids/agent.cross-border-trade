@@ -828,6 +828,18 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/mofcom-announcement-2026-no11-japan-entity-list-2026-02-24.md",
+    "title": "商务部公告2026年第11号 公布将20家日本实体列入出口管制管控名单（MOFCOM Announcement No. 11 of 2026: Addition of 20 Japanese Entities to Export Control List）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/mofcom-announcement-2026-no12-japan-watchlist-2026-02-24.md",
+    "title": "商务部公告2026年第12号 公布将20家日本实体列入关注名单（MOFCOM Announcement No. 12 of 2026: Addition of 20 Japanese Entities to Watch List）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/mofcom-countermeasures-hanwha-ocean-subsidiaries-oct2025.md",
     "title": "商务部新闻发言人就对韩华海洋株式会社5家美国相关子公司采取反制措施答记者问 (Ministry of Commerce Spokesperson Responds to Questions on Countermeasures Against Five US Subsidiaries of Hanwha Ocean Corporation)",
     "category": "Extractor",
@@ -872,6 +884,12 @@
   {
     "path": "docs/Extractor/cn_export_control/mofcom-response-uk-sanctions-chinese-companies-oct2025.md",
     "title": "商务部新闻发言人就英制裁中国企业答记者问 (Ministry of Commerce Spokesperson Responds to Questions on UK Sanctions Against Chinese Companies)",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/mofcom-spokesperson-japan-export-controls-2026-02-24.md",
+    "title": "商务部新闻发言人就对日相关出口管制措施答记者问（MOFCOM Spokesperson Responds to Questions on Japan-Related Export Control Measures）",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -2130,6 +2148,12 @@
     "source": "media_briefing"
   },
   {
+    "path": "docs/Narrator/media_briefing/2026-W09-media-briefing.md",
+    "title": "---",
+    "category": "Narrator",
+    "source": "media_briefing"
+  },
+  {
     "path": "docs/Narrator/media_briefing/index.md",
     "title": "---",
     "category": "Narrator",
@@ -2190,6 +2214,12 @@
     "source": "trade_briefing"
   },
   {
+    "path": "docs/Narrator/trade_briefing/2026-W09-trade-briefing.md",
+    "title": "---",
+    "category": "Narrator",
+    "source": "trade_briefing"
+  },
+  {
     "path": "docs/Narrator/trade_briefing/index.md",
     "title": "---",
     "category": "Narrator",
@@ -2197,6 +2227,12 @@
   },
   {
     "path": "docs/Narrator/trade_compliance_digest/2026-W07-W08-trade-compliance-digest.md",
+    "title": "---",
+    "category": "Narrator",
+    "source": "trade_compliance_digest"
+  },
+  {
+    "path": "docs/Narrator/trade_compliance_digest/2026-W09-W10-trade-compliance-digest.md",
     "title": "---",
     "category": "Narrator",
     "source": "trade_compliance_digest"
