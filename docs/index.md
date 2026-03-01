@@ -12,7 +12,7 @@ permalink: /
 Global Trade Intelligence System
 {: .fs-6 .fw-300 }
 
-> 最後更新：{{ site.time | date: "%Y-%m-%d" }} | 資料期間：2026 第 08 週
+> 最後更新：{{ site.time | date: "%Y-%m-%d" }} | 資料期間：2026 第 09 週
 
 <details>
 <summary><strong>📖 符號說明</strong></summary>
@@ -68,10 +68,10 @@ Global Trade Intelligence System
 
 | 信號 | 重點 | 說明 | 來源 |
 |:----:|------|------|:----:|
-| 🔺 | **美台逆差激增** | 2025 全年 USD 1,269 億，較 2024 年 +72% | [W08]({% link Narrator/trade_briefing/2026-W08-trade-briefing.md %}) |
-| ⚠️ | **中日出口管制持續執行** | 禁止雙用物項出口至日本軍事用戶（已執行約 6 週） | [W08]({% link Narrator/trade_briefing/2026-W08-trade-briefing.md %}) |
-| 🔻 | **美中逆差收窄** | 2025 全年 USD 1,894 億，較 2024 年收窄 36% | [W08]({% link Narrator/trade_briefing/2026-W08-trade-briefing.md %}) |
-| 🔄 | **安世半導體爭議** | 中荷磋商進展有限，荷方立場強硬 | [W08]({% link Narrator/trade_briefing/2026-W08-trade-briefing.md %}) |
+| ⚠️ | **中國對日40家實體出口管制** | 管控名單20家（完全禁止）+ 關注名單20家（強化許可） | [W09]({% link Narrator/trade_briefing/2026-W09-trade-briefing.md %}) |
+| 🔺 | **美台逆差激增** | 2025 全年 USD 1,269 億，較 2024 年 +72% | [W09]({% link Narrator/trade_briefing/2026-W09-trade-briefing.md %}) |
+| 🔻 | **美中逆差收窄** | 2025 全年 USD 1,894 億，較 2024 年收窄 36% | [W09]({% link Narrator/trade_briefing/2026-W09-trade-briefing.md %}) |
+| 🔄 | **戰略材料管制持續** | 稀土、鋰電池、超硬材料管制全面運作中 | [W09]({% link Narrator/trade_briefing/2026-W09-trade-briefing.md %}) |
 
 {: .fs-2 .text-grey-dk-000 }
 > 📊 數據來源：[US Census Bureau](https://www.census.gov/foreign-trade/) 貿易統計、[中國商務部](http://exportcontrol.mofcom.gov.cn/) 出口管制政策
@@ -101,12 +101,13 @@ Global Trade Intelligence System
 
 | 類別 | 2026 年新增 | 追蹤中 |
 |------|------------:|-------:|
-| 法規更新 (regulation_update) | 3 | 15 |
-| 執法行動 (enforcement_action) | 2 | 8 |
+| 法規更新 (regulation_update) | 4 | 96 |
+| 執法行動 (enforcement_action) | 4 | 8 |
 | 管制清單變更 (controlled_item_change) | 1 | 5 |
+| 政策指導 (policy_guidance) | 1 | 2 |
 
 {: .fs-2 .text-grey-dk-000 }
-> 📊 數據來源：[中國商務部出口管制資訊網](http://exportcontrol.mofcom.gov.cn/) 統計至 2026-02-19
+> 📊 數據來源：[中國商務部出口管制資訊網](http://exportcontrol.mofcom.gov.cn/) 統計至 2026-02-28
 
 ---
 
@@ -134,40 +135,42 @@ pie showData
 
 | 期別 | 日期範圍 | 重點 | 連結 |
 |------|----------|------|:----:|
+| W09 | 02-24 ~ 02-28 | 中國對日40家實體出口管制雙軌制 | [查看]({% link Narrator/trade_briefing/2026-W09-trade-briefing.md %}) |
 | W08 | 02-17 ~ 02-23 | 美台逆差 +72%、美中逆差收窄 36%、安世爭議 | [查看]({% link Narrator/trade_briefing/2026-W08-trade-briefing.md %}) |
 | W07 | 02-10 ~ 02-16 | 美台逆差 +72%、中日出口管制 | [查看]({% link Narrator/trade_briefing/2026-W07-trade-briefing.md %}) |
 | W06 | 02-03 ~ 02-09 | 重稀土管制生效、FDPR 暫停延長 | [查看]({% link Narrator/trade_briefing/2026-W06-trade-briefing.md %}) |
-| W05 | 01-27 ~ 02-02 | 鋰電池材料出口管制實施 | [查看]({% link Narrator/trade_briefing/2026-W05-trade-briefing.md %}) |
 
 ### 供應鏈月報
 
 | 期別 | 重點 | 連結 |
 |------|------|:----:|
-| 2026-02 | 稀土管制域外效力、中日雙用物項禁令 | [查看]({% link Narrator/supply_chain_analysis/2026-02-supply-chain-analysis.md %}) |
+| 2026-02 | 40家日本實體出口管制雙軌制、稀土管制域外效力 | [查看]({% link Narrator/supply_chain_analysis/2026-02-supply-chain-analysis.md %}) |
 | 2026-01 | 戰略材料管制體系全面運作 | [查看]({% link Narrator/supply_chain_analysis/2026-01-supply-chain-analysis.md %}) |
 
 ### 出口管制政策追蹤
 
 | 期別 | 重點 | 連結 |
 |------|------|:----:|
-| 2026-02 | 日本兩用物項禁令深度分析、稀土境外管制實施 | [查看]({% link Narrator/policy_tracker/2026-02-policy-tracker.md %}) |
+| 2026-02 | 40家日本實體管制雙軌制、稀土境外管制、中美實體清單緩和 | [查看]({% link Narrator/policy_tracker/2026-02-policy-tracker.md %}) |
 
 ### 投資視角貿易分析
 
 | 期別 | 重點 | 連結 |
 |------|------|:----:|
-| 2026-Q1 | 全球貿易分化加劇、關鍵材料管制深化、供應鏈重組投資主題 | [查看]({% link Narrator/investment_insight/2026-Q1-investment-insight.md %}) |
+| 2026-Q1 | 對日40家實體管制、全球貿易分化加劇、關鍵材料管制深化 | [查看]({% link Narrator/investment_insight/2026-Q1-investment-insight.md %}) |
 
 ### 貿易合規摘要
 
 | 期別 | 重點 | 連結 |
 |------|------|:----:|
+| W09-W10 | 日本40家實體管控/關注名單合規指引、行動清單 | [查看]({% link Narrator/trade_compliance_digest/2026-W09-W10-trade-compliance-digest.md %}) |
 | W07-W08 | 日本兩用物項禁令、稀土境外管制、鋰電池材料管制 | [查看]({% link Narrator/trade_compliance_digest/2026-W07-W08-trade-compliance-digest.md %}) |
 
 ### 財經媒體簡報
 
 | 期別 | 頭條數據 | 連結 |
 |------|----------|:----:|
+| W09 | 中國對日40家實體出口管制雙軌制、中日貿易互依矛盾 | [查看]({% link Narrator/media_briefing/2026-W09-media-briefing.md %}) |
 | W08 | 中國對日兩用物項禁令、美中逆差收窄 44.6%、台灣 HHI 1183 | [查看]({% link Narrator/media_briefing/2026-W08-media-briefing.md %}) |
 
 ---

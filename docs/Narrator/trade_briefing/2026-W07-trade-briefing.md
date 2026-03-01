@@ -2,7 +2,7 @@
 layout: default
 title: "2026 年第 07 週"
 parent: 貿易動態週報
-nav_order: 1
+nav_order: 3
 description: "美台貿易逆差激增 72%；中國對日本實施雙用物項出口禁令"
 date: 2026-02-14
 article_section: 週報分析
