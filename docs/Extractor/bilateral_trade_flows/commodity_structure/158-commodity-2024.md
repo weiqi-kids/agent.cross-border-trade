@@ -3,7 +3,7 @@
 - **Source**: UN Comtrade Preview API
 - **Reporter**: Taiwan (158)
 - **Period**: 2023-2024
-- **Fetched**: 2026-02-19T02:38:19Z
+- **Fetched**: 2026-02-28T12:53:03Z
 - **confidence**: 高
 
 > **Note**: HS commodity-level breakdown is not available from the Preview API.

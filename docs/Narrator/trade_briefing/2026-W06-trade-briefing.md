@@ -2,7 +2,7 @@
 layout: default
 title: "2026 年第 06 週"
 parent: 貿易動態週報
-nav_order: 2
+nav_order: 4
 description: "重稀土管制生效；FDPR 暫停期延長至 2026-11-09"
 date: 2026-02-08
 article_section: 週報分析
