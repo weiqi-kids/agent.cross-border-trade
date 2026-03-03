@@ -1,10 +1,12 @@
 ---
+last_modified_at: 2026-03-01
 layout: default
 title: 貿易合規摘要
 nav_order: 6
 has_children: true
 permalink: /trade-compliance-digest/
 ---
+last_modified_at: 2026-03-01
 
 # 貿易合規摘要
 

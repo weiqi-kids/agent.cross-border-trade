@@ -1,10 +1,12 @@
 ---
+last_modified_at: 2026-02-20
 layout: default
 title: 常見問題 FAQ
 nav_order: 10
 description: "全球貿易情報分析系統常見問題解答"
 permalink: /faq/
 ---
+last_modified_at: 2026-02-20
 
 # 常見問題 FAQ
 {: .fs-9 }

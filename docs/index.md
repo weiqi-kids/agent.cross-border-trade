@@ -1,10 +1,12 @@
 ---
+last_modified_at: 2026-03-01
 layout: home
 title: 首頁
 nav_order: 1
 description: "全球貿易與供需智慧分析系統 — 追蹤六大經濟體貿易動態與出口管制政策"
 permalink: /
 ---
+last_modified_at: 2026-03-01
 
 # 全球貿易情報分析
 {: .fs-9 }

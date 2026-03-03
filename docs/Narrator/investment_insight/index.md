@@ -1,10 +1,12 @@
 ---
+last_modified_at: 2026-03-01
 layout: default
 title: 投資視角貿易分析
 nav_order: 5
 has_children: true
 permalink: /investment-insight/
 ---
+last_modified_at: 2026-03-01
 
 # 投資視角貿易分析
 

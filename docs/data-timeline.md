@@ -1,10 +1,12 @@
 ---
+last_modified_at: 2026-02-20
 layout: default
 title: 數據更新時間軸
 nav_order: 8
 description: "查看各數據源更新頻率與報告產出時程"
 permalink: /data-timeline/
 ---
+last_modified_at: 2026-02-20
 
 # 數據更新時間軸
 {: .fs-9 }

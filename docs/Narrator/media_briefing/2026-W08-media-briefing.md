@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-03-01
 layout: default
 title: "2026 年第 08 週"
 parent: 財經媒體簡報
@@ -175,6 +176,7 @@ seo:
       ]
     }
 ---
+last_modified_at: 2026-03-01
 
 # 財經媒體簡報 — 2026 年第 08 週
 

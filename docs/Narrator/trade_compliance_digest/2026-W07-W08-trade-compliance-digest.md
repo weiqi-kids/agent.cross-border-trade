@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-03-03
 layout: default
 title: "2026 年第 07-08 週"
 parent: 貿易合規摘要
@@ -174,6 +175,7 @@ seo:
       ]
     }
 ---
+last_modified_at: 2026-03-03
 
 # 貿易合規摘要 — 2026 年第 07-08 週
 

@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-03-01
 layout: default
 title: "2026 年 2 月"
 parent: 出口管制政策追蹤
@@ -109,6 +110,7 @@ seo:
         about: "日本實體出口管制雙軌制比較"
         description: "管控名單vs關注名單的措施差異"
 ---
+last_modified_at: 2026-03-01
 
 # 出口管制政策追蹤 — 2026 年 02 月
 

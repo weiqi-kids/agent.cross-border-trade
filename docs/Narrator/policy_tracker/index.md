@@ -1,10 +1,12 @@
 ---
+last_modified_at: 2026-03-01
 layout: default
 title: 出口管制政策追蹤
 nav_order: 4
 has_children: true
 permalink: /policy-tracker/
 ---
+last_modified_at: 2026-03-01
 
 # 出口管制政策追蹤
 

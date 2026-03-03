@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-03-01
 layout: default
 title: "2026 年第 06 週"
 parent: 貿易動態週報
@@ -11,6 +12,7 @@ related_reports:
   - "/Narrator/trade_briefing/2026-W07-trade-briefing/"
   - "/Narrator/trade_briefing/2026-W05-trade-briefing/"
 ---
+last_modified_at: 2026-03-01
 
 # 貿易動態簡報 — 2026 年第 06 週
 

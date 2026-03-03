@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-03-01
 layout: default
 title: "2026 年第 08 週"
 parent: 貿易動態週報
@@ -162,6 +163,7 @@ seo:
     description: "2026年第8週全球貿易分析：美台貿易逆差達USD 1,269億（年增72%）、美中逆差收窄36%、中日兩用物項出口管制持續執行、安世半導體爭議磋商進展有限。涵蓋六大經濟體雙邊貿易流量與市場集中度分析。基於UN Comtrade、US Census最新數據。"
     canonical_url: "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W08-trade-briefing"
 ---
+last_modified_at: 2026-03-01
 
 # 貿易動態簡報 — 2026 年第 08 週
 {: .key-answer data-question="2026年第8週全球貿易有哪些重要變化？"}

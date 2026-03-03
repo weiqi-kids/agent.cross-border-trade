@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-03-01
 layout: default
 title: "2026 年第 09 週"
 parent: 貿易動態週報
@@ -166,6 +167,7 @@ seo:
     description: "2026年第9週全球貿易分析：中國商務部發布第11、12號公告，將40家日本實體列入出口管制名單（管控名單20家、關注名單20家），涵蓋三菱重工、川崎重工、IHI、NEC、JAXA等。美台貿易逆差維持USD 1,269億，美中逆差USD 1,894億。"
     canonical_url: "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W09-trade-briefing"
 ---
+last_modified_at: 2026-03-01
 
 # 貿易動態簡報 — 2026 年第 09 週
 {: .key-answer data-question="2026年第9週全球貿易有哪些重要變化？"}

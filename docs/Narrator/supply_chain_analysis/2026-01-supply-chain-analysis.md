@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-02-20
 layout: default
 title: "2026 年 1 月"
 parent: 供應鏈月報
@@ -11,6 +12,7 @@ related_reports:
   - "/Narrator/supply_chain_analysis/2026-02-supply-chain-analysis/"
   - "/Narrator/trade_briefing/2026-W05-trade-briefing/"
 ---
+last_modified_at: 2026-02-20
 
 
 > 報告期間：2026-01

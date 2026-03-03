@@ -1,10 +1,12 @@
 ---
+last_modified_at: 2026-03-01
 layout: default
 title: 供應鏈月報
 nav_order: 3
 has_children: true
 permalink: /supply-chain-analysis/
 ---
+last_modified_at: 2026-03-01
 
 # 供應鏈月報
 

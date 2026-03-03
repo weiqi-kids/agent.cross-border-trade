@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-03-01
 layout: default
 title: "2026 年 2 月"
 parent: 供應鏈月報
@@ -200,6 +201,7 @@ seo:
         about: "管制政策影響評估"
         description: "評估各項中國出口管制政策對不同產業的影響程度與信心水準"
 ---
+last_modified_at: 2026-03-01
 
 # 供應鏈分析報告 — 2026 年 02 月
 

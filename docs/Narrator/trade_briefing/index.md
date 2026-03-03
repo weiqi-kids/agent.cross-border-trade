@@ -1,10 +1,12 @@
 ---
+last_modified_at: 2026-03-01
 layout: default
 title: 貿易動態週報
 nav_order: 2
 has_children: true
 permalink: /trade-briefing/
 ---
+last_modified_at: 2026-03-01
 
 # 貿易動態週報
 
