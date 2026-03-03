@@ -44,9 +44,9 @@ seo:
           "mainEntityOfPage": {
             "@id": "https://trade.weiqi.kids/Narrator/trade_compliance_digest/2026-W07-W08-trade-compliance-digest.html#webpage",
             "significantLink": [
-              "https://trade.weiqi.kids/docs/Extractor/cn_export_control/dual-use-export-control-japan-strengthening.html",
-              "https://trade.weiqi.kids/docs/Extractor/cn_export_control/customs-announcement-2025-61.html",
-              "https://trade.weiqi.kids/docs/Extractor/cn_export_control/superhard-materials-export-control-2025.html"
+              "http://exportcontrol.mofcom.gov.cn/article/gndt/202601/1204.html",
+              "http://exportcontrol.mofcom.gov.cn/article/zcfg/gnzcfg/zcfggzqd/202510/1171.html",
+              "http://exportcontrol.mofcom.gov.cn/article/zcfg/gnzcfg/zcfggzqd/202510/1175.html"
             ]
           },
           "headline": "貿易合規摘要 — 2026 年第 07-08 週",
@@ -217,7 +217,7 @@ seo:
 
 > 此措施依據《出口管制法》和《兩用物項出口管制條例》實施。任何國家和地區組織或個人違規將原產於中國的兩用物項轉移或提供給日本，將依法追究法律責任。「一切有助於提升日本軍事實力的其他最終用戶用途」措辭範圍廣泛，執行中可能涵蓋民用最終用戶。
 
-**來源**：[2026-01-06 商務部新聞發言人答記者問](/docs/Extractor/cn_export_control/dual-use-export-control-japan-strengthening.md)
+**來源**：[2026-01-06 商務部新聞發言人答記者問](http://exportcontrol.mofcom.gov.cn/article/gndt/202601/1204.html)
 
 ---
 
@@ -244,7 +244,7 @@ seo:
 
 > 第 61 號公告首次建立中國稀土出口的域外管轄機制。出口至外國軍事用戶、中國管控名單實體、大規模殺傷性武器或恐怖活動用途的申請將「原則上不予許可」。涉及 14nm 以下邏輯晶片或 256 層以上記憶體晶片研發/生產的申請須逐案審查。
 
-**來源**：[商務部公告 2025 第 61 號](/docs/Extractor/cn_export_control/customs-announcement-2025-61.md)
+**來源**：[商務部公告 2025 第 61 號](http://exportcontrol.mofcom.gov.cn/article/zcfg/gnzcfg/zcfggzqd/202510/1171.html)
 
 ---
 
@@ -270,7 +270,7 @@ seo:
 
 > 中國公民、法人和非法人組織未經許可不得向境外稀土活動提供任何實質性幫助或支持。違者將依據《出口管制法》和《兩用物項出口管制條例》追責。技術定義範圍廣泛，包括設計圖紙、工藝規範、工藝參數、加工程序、模擬數據等。
 
-**來源**：[商務部公告 2025 第 62 號](/docs/Extractor/cn_export_control/customs-announcement-2025-62.md)
+**來源**：[商務部公告 2025 第 62 號](http://exportcontrol.mofcom.gov.cn/article/zcfg/gnzcfg/zcfggzqd/202510/1170.html)
 
 ---
 
@@ -295,7 +295,7 @@ seo:
 
 > 該管制涵蓋半導體製造、精密加工、工業研磨等關鍵領域。未取得許可擅自出口將面臨行政處罰。
 
-**來源**：[超硬材料出口管制公告](/docs/Extractor/cn_export_control/superhard-materials-export-control-2025.md)
+**來源**：[超硬材料出口管制公告](http://exportcontrol.mofcom.gov.cn/article/zcfg/gnzcfg/zcfggzqd/202510/1175.html)
 
 ---
 
@@ -321,7 +321,7 @@ seo:
 
 > 該管制對全球電動車和儲能供應鏈影響重大。電池製造商、設備供應商、材料生產商均需取得出口許可。
 
-**來源**：[商務部海關總署公告 2025 年第 58 號](/docs/Extractor/cn_export_control/regulation_update/2025-10-13-lithium-battery-export-control.md)
+**來源**：[商務部海關總署公告 2025 年第 58 號](http://exportcontrol.mofcom.gov.cn/article/zcfg/gnzcfg/zcfggzqd/202510/1178.html)
 
 ---
 
@@ -345,9 +345,9 @@ seo:
 - **中美關係緩和跡象**：2025 年 11 月吉隆坡會談後，部分不可靠實體清單措施暫停一年，出口管制名單 31 家美國實體措施也有調整，企業可申請交易許可，顯示階段性緩和。
 
 **來源**：
-- [韓華海洋反制措施](/docs/Extractor/cn_export_control/mofcom-countermeasures-hanwha-ocean-subsidiaries-oct2025.md)
-- [不可靠實體清單新增](/docs/Extractor/cn_export_control/mofcom-unreliable-entity-list-additions-oct2025.md)
-- [不可靠實體清單調整](/docs/Extractor/cn_export_control/mofcom-unreliable-entity-list-adjustment-nov2025.md)
+- [韓華海洋反制措施](http://exportcontrol.mofcom.gov.cn/article/gndt/202510/1179.html)
+- [不可靠實體清單新增](http://exportcontrol.mofcom.gov.cn/article/gndt/202510/1174.html)
+- [不可靠實體清單調整](http://exportcontrol.mofcom.gov.cn/article/gndt/202511/1187.html)
 
 ---
 
@@ -378,8 +378,8 @@ seo:
 - **荷蘭安世半導體事件**：中方持續關注並回應荷蘭政府對安世半導體的行政干預，該事件對全球半導體供應鏈穩定性構成持續影響。
 
 **來源**：
-- [美中貿易數據](/docs/Extractor/us_trade_census/trade_balance/us-balance-5700-2026.md)
-- [出口管制名單調整](/docs/Extractor/cn_export_control/mofcom-export-control-list-adjustment-nov2025.md)
+- [美中貿易數據](https://www.census.gov/foreign-trade/balance/c5700.html)
+- [出口管制名單調整](http://exportcontrol.mofcom.gov.cn/article/gndt/202511/1186.html)
 
 ---
 
@@ -395,7 +395,7 @@ seo:
 3. 如不確定，可通過 jingwaizixun@mofcom.gov.cn 向商務部諮詢
 </div>
 
-> 來源：[商務部公告 2025 第 61 號](/docs/Extractor/cn_export_control/customs-announcement-2025-61.md)
+> 來源：[商務部公告 2025 第 61 號](http://exportcontrol.mofcom.gov.cn/article/zcfg/gnzcfg/zcfggzqd/202510/1171.html)
 
 ### Q2: 對日本出口兩用物項是否還有合法途徑？
 
@@ -404,7 +404,7 @@ seo:
 2. 建議暫緩涉敏感行業（電子、航空、精密儀器）的對日出口
 3. 諮詢專業法律顧問評估具體交易風險
 
-> 來源：[2026-01-06 商務部答記者問](/docs/Extractor/cn_export_control/dual-use-export-control-japan-strengthening.md)
+> 來源：[2026-01-06 商務部答記者問](http://exportcontrol.mofcom.gov.cn/article/gndt/202601/1204.html)
 
 ### Q3: 與被列入不可靠實體清單的企業有業務往來怎麼辦？
 
@@ -415,7 +415,7 @@ seo:
 3. 國內企業可申請與相關實體進行交易，由不可靠實體清單工作機制依法審核
 </div>
 
-> 來源：[不可靠實體清單調整](/docs/Extractor/cn_export_control/mofcom-unreliable-entity-list-adjustment-nov2025.md)
+> 來源：[不可靠實體清單調整](http://exportcontrol.mofcom.gov.cn/article/gndt/202511/1187.html)
 
 ---
 
