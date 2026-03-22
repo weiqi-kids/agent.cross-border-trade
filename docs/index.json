@@ -894,6 +894,12 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/mofcom-uk-sanctions-response-2026-03-02.md",
+    "title": "商务部新闻发言人就英制裁中国企业答记者问（MOFCOM Spokesperson Response to UK Sanctions on Chinese Enterprises）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/mofcom-unreliable-entity-list-additions-oct2025.md",
     "title": "商务部新闻发言人就不可靠实体清单有关措施答记者问 (Ministry of Commerce Spokesperson Responds to Questions on Unreliable Entity List Related Measures)",
     "category": "Extractor",
@@ -2154,6 +2160,12 @@
     "source": "media_briefing"
   },
   {
+    "path": "docs/Narrator/media_briefing/2026-W12-media-briefing.md",
+    "title": "---",
+    "category": "Narrator",
+    "source": "media_briefing"
+  },
+  {
     "path": "docs/Narrator/media_briefing/index.md",
     "title": "---",
     "category": "Narrator",
@@ -2161,6 +2173,12 @@
   },
   {
     "path": "docs/Narrator/policy_tracker/2026-02-policy-tracker.md",
+    "title": "---",
+    "category": "Narrator",
+    "source": "policy_tracker"
+  },
+  {
+    "path": "docs/Narrator/policy_tracker/2026-03-policy-tracker.md",
     "title": "---",
     "category": "Narrator",
     "source": "policy_tracker"
@@ -2179,6 +2197,12 @@
   },
   {
     "path": "docs/Narrator/supply_chain_analysis/2026-02-supply-chain-analysis.md",
+    "title": "---",
+    "category": "Narrator",
+    "source": "supply_chain_analysis"
+  },
+  {
+    "path": "docs/Narrator/supply_chain_analysis/2026-03-supply-chain-analysis.md",
     "title": "---",
     "category": "Narrator",
     "source": "supply_chain_analysis"
@@ -2220,6 +2244,12 @@
     "source": "trade_briefing"
   },
   {
+    "path": "docs/Narrator/trade_briefing/2026-W12-trade-briefing.md",
+    "title": "---",
+    "category": "Narrator",
+    "source": "trade_briefing"
+  },
+  {
     "path": "docs/Narrator/trade_briefing/index.md",
     "title": "---",
     "category": "Narrator",
@@ -2233,6 +2263,12 @@
   },
   {
     "path": "docs/Narrator/trade_compliance_digest/2026-W09-W10-trade-compliance-digest.md",
+    "title": "---",
+    "category": "Narrator",
+    "source": "trade_compliance_digest"
+  },
+  {
+    "path": "docs/Narrator/trade_compliance_digest/2026-W11-W12-trade-compliance-digest.md",
     "title": "---",
     "category": "Narrator",
     "source": "trade_compliance_digest"
