@@ -3,13 +3,14 @@
 - **Source**: US Census Bureau (Balance Summary)
 - **Source URL**: https://www.census.gov/foreign-trade/balance/c5830.html
 - **Partner**: Taiwan (5830)
-- **Fetched**: 2026-02-19T02:38:20Z
+- **Fetched**: 2026-03-22T01:57:03Z
 - **confidence**: 高
 
 ## Monthly Trade Balance
 
 | Year | Month | Export (M USD) | Import (M USD) | Balance (M USD) | Type |
 |------|-------|----------------|----------------|-----------------|------|
+| 2026 | January | 4914.2 | 21692.8 | -16778.6 | Deficit |
 | 2025 | September | 4513.2 | 14991.3 | -10478.1 | Deficit |
 | 2025 | October | 4832.0 | 22252.7 | -17420.7 | Deficit |
 | 2025 | November | 5273.8 | 20258.8 | -14985.0 | Deficit |
@@ -19,6 +20,7 @@
 | 2025 | July | 4936.5 | 19505.8 | -14569.3 | Deficit |
 | 2025 | January | 3366.6 | 11069.8 | -7703.2 | Deficit |
 | 2025 | February | 3692.7 | 10588.1 | -6895.4 | Deficit |
+| 2025 | December | 4799.3 | 24696.2 | -19896.9 | Deficit |
 | 2025 | August | 4554.3 | 17735.7 | -13181.5 | Deficit |
 | 2025 | April | 5033.8 | 14613.4 | -9579.6 | Deficit |
 | 2024 | September | 3150.0 | 10556.5 | -7406.5 | Deficit |
@@ -32,8 +34,6 @@
 | 2024 | February | 3104.2 | 6795.9 | -3691.7 | Deficit |
 | 2024 | December | 3605.6 | 10089.9 | -6484.2 | Deficit |
 | 2024 | August | 3716.2 | 11772.0 | -8055.8 | Deficit |
-| 2024 | April | 3942.6 | 9095.0 | -5152.3 | Deficit |
-| 2023 | September | 2872.7 | 8005.0 | -5132.3 | Deficit |
 
 ---
 *Source: U.S. Census Bureau, https://www.census.gov/foreign-trade/*

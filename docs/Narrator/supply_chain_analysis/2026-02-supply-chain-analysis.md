@@ -3,7 +3,7 @@ last_modified_at: 2026-03-01
 layout: default
 title: "2026 年 2 月"
 parent: 供應鏈月報
-nav_order: 1
+nav_order: 2
 description: "40家日本實體出口管制雙軌制；中日雙用物項出口禁令；台灣對美逆差激增；戰略材料管制體系全面運作"
 date: 2026-02-28
 article_section: 月度深度分析

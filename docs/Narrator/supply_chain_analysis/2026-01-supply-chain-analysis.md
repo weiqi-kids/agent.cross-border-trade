@@ -3,7 +3,7 @@ last_modified_at: 2026-02-20
 layout: default
 title: "2026 年 1 月"
 parent: 供應鏈月報
-nav_order: 2
+nav_order: 3
 description: "戰略材料管制體系全面運作；六國 HHI 集中度評估"
 date: 2026-01-29
 article_section: 月度深度分析

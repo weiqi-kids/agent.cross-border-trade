@@ -1,12 +1,12 @@
 ---
-last_modified_at: 2026-03-01
+last_modified_at: 2026-03-22
 layout: home
 title: 首頁
 nav_order: 1
 description: "全球貿易與供需智慧分析系統 — 追蹤六大經濟體貿易動態與出口管制政策"
 permalink: /
 ---
-last_modified_at: 2026-03-01
+last_modified_at: 2026-03-22
 
 # 全球貿易情報分析
 {: .fs-9 }
@@ -14,7 +14,7 @@ last_modified_at: 2026-03-01
 Global Trade Intelligence System
 {: .fs-6 .fw-300 }
 
-> 最後更新：{{ site.time | date: "%Y-%m-%d" }} | 資料期間：2026 第 09 週
+> 最後更新：{{ site.time | date: "%Y-%m-%d" }} | 資料期間：2026 第 12 週
 
 <details>
 <summary><strong>📖 符號說明</strong></summary>
@@ -70,10 +70,10 @@ Global Trade Intelligence System
 
 | 信號 | 重點 | 說明 | 來源 |
 |:----:|------|------|:----:|
-| ⚠️ | **中國對日40家實體出口管制** | 管控名單20家（完全禁止）+ 關注名單20家（強化許可） | [W09]({% link Narrator/trade_briefing/2026-W09-trade-briefing.md %}) |
-| 🔺 | **美台逆差激增** | 2025 全年 USD 1,269 億，較 2024 年 +72% | [W09]({% link Narrator/trade_briefing/2026-W09-trade-briefing.md %}) |
-| 🔻 | **美中逆差收窄** | 2025 全年 USD 1,894 億，較 2024 年收窄 36% | [W09]({% link Narrator/trade_briefing/2026-W09-trade-briefing.md %}) |
-| 🔄 | **戰略材料管制持續** | 稀土、鋰電池、超硬材料管制全面運作中 | [W09]({% link Narrator/trade_briefing/2026-W09-trade-briefing.md %}) |
+| ⚠️ | **英國制裁中國企業／商務部回應** | 英國以涉俄為由制裁中國企業，中國商務部警告將採取必要反制措施 | [W12]({% link Narrator/trade_briefing/2026-W12-trade-briefing.md %}) |
+| 🔺 | **台灣出口 HHI 升至 2522** | 突破高集中度門檻，對美出口佔比 48.68%，高度依賴單一市場 | [W12]({% link Narrator/trade_briefing/2026-W12-trade-briefing.md %}) |
+| 🔺 | **美台貿易逆差翻倍** | 2025 全年 USD 1,468 億，台灣超越日韓德成為美國第二大逆差來源 | [W12]({% link Narrator/trade_briefing/2026-W12-trade-briefing.md %}) |
+| 🔄 | **中日出口管制持續執行** | 40家日本實體雙軌制進入第四週，尚無移除案例 | [W12]({% link Narrator/trade_briefing/2026-W12-trade-briefing.md %}) |
 
 {: .fs-2 .text-grey-dk-000 }
 > 📊 數據來源：[US Census Bureau](https://www.census.gov/foreign-trade/) 貿易統計、[中國商務部](http://exportcontrol.mofcom.gov.cn/) 出口管制政策
@@ -86,7 +86,7 @@ Global Trade Intelligence System
 
 | 經濟體 | HHI | 等級 | 前三大市場占比 | 趨勢 |
 |:------:|----:|:----:|---------------:|:----:|
-| 台灣 | 1,183 | ⚠️ 接近中度 | 54.08% | → |
+| 台灣 | 2,522 | ❗ 高集中 | 72.14% | 🔺 |
 | 德國 | 1,189 | ⚠️ 接近中度 | 53.37% | → |
 | 南韓 | 911 | ✅ 低 | 46.70% | → |
 | 日本 | 895 | ✅ 低 | 44.26% | → |
@@ -94,22 +94,22 @@ Global Trade Intelligence System
 | 中國 | 447 | ✅ 最分散 | 27.34% | → |
 
 {: .note }
-> HHI < 1,500 為低集中度，1,500-2,500 為中度，> 2,500 為高度。台灣與德國接近中度門檻，需關注市場多元化。
+> HHI < 1,500 為低集中度，1,500-2,500 為中度，> 2,500 為高度。台灣 HHI 飆升至 2522，已突破高集中度門檻，對美出口近半，市場多元化風險顯著上升。
 
 {: .fs-2 .text-grey-dk-000 }
-> 📊 數據來源：[UN Comtrade](https://comtradeplus.un.org/) 2024 年度出口數據計算
+> 📊 數據來源：[UN Comtrade](https://comtradeplus.un.org/) 2025 年度出口數據計算
 
 ### 政策動態統計
 
 | 類別 | 2026 年新增 | 追蹤中 |
 |------|------------:|-------:|
-| 法規更新 (regulation_update) | 4 | 96 |
-| 執法行動 (enforcement_action) | 4 | 8 |
+| 法規更新 (regulation_update) | 5 | 97 |
+| 執法行動 (enforcement_action) | 5 | 9 |
 | 管制清單變更 (controlled_item_change) | 1 | 5 |
-| 政策指導 (policy_guidance) | 1 | 2 |
+| 政策指導 (policy_guidance) | 2 | 3 |
 
 {: .fs-2 .text-grey-dk-000 }
-> 📊 數據來源：[中國商務部出口管制資訊網](http://exportcontrol.mofcom.gov.cn/) 統計至 2026-02-28
+> 📊 數據來源：[中國商務部出口管制資訊網](http://exportcontrol.mofcom.gov.cn/) 統計至 2026-03-22
 
 ---
 
@@ -120,7 +120,7 @@ pie showData
     title 美國主要貿易逆差來源 (USD 億)
     "中國 1,894" : 1894
     "墨西哥 1,423" : 1423
-    "台灣 1,268" : 1268
+    "台灣 1,468" : 1468
     "德國 892" : 892
     "日本 685" : 685
     "其他 2,838" : 2838
@@ -137,15 +137,16 @@ pie showData
 
 | 期別 | 日期範圍 | 重點 | 連結 |
 |------|----------|------|:----:|
+| W12 | 03-16 ~ 03-22 | 英國制裁中國企業引發反制警告、台灣 HHI 飆升至 2522 | [查看]({% link Narrator/trade_briefing/2026-W12-trade-briefing.md %}) |
 | W09 | 02-24 ~ 02-28 | 中國對日40家實體出口管制雙軌制 | [查看]({% link Narrator/trade_briefing/2026-W09-trade-briefing.md %}) |
 | W08 | 02-17 ~ 02-23 | 美台逆差 +72%、美中逆差收窄 36%、安世爭議 | [查看]({% link Narrator/trade_briefing/2026-W08-trade-briefing.md %}) |
 | W07 | 02-10 ~ 02-16 | 美台逆差 +72%、中日出口管制 | [查看]({% link Narrator/trade_briefing/2026-W07-trade-briefing.md %}) |
-| W06 | 02-03 ~ 02-09 | 重稀土管制生效、FDPR 暫停延長 | [查看]({% link Narrator/trade_briefing/2026-W06-trade-briefing.md %}) |
 
 ### 供應鏈月報
 
 | 期別 | 重點 | 連結 |
 |------|------|:----:|
+| 2026-03 | 台灣 HHI 飆升至 2522、英國制裁反制風險、美台逆差倍增 | [查看]({% link Narrator/supply_chain_analysis/2026-03-supply-chain-analysis.md %}) |
 | 2026-02 | 40家日本實體出口管制雙軌制、稀土管制域外效力 | [查看]({% link Narrator/supply_chain_analysis/2026-02-supply-chain-analysis.md %}) |
 | 2026-01 | 戰略材料管制體系全面運作 | [查看]({% link Narrator/supply_chain_analysis/2026-01-supply-chain-analysis.md %}) |
 
@@ -153,27 +154,28 @@ pie showData
 
 | 期別 | 重點 | 連結 |
 |------|------|:----:|
+| 2026-03 | 英國涉俄制裁回應、對日40家實體管制持續、戰略材料管制追蹤 | [查看]({% link Narrator/policy_tracker/2026-03-policy-tracker.md %}) |
 | 2026-02 | 40家日本實體管制雙軌制、稀土境外管制、中美實體清單緩和 | [查看]({% link Narrator/policy_tracker/2026-02-policy-tracker.md %}) |
 
 ### 投資視角貿易分析
 
 | 期別 | 重點 | 連結 |
 |------|------|:----:|
-| 2026-Q1 | 對日40家實體管制、全球貿易分化加劇、關鍵材料管制深化 | [查看]({% link Narrator/investment_insight/2026-Q1-investment-insight.md %}) |
+| 2026-Q1 | 對日40家實體管制、全球貿易分化加劇、關鍵材料管制深化（更新：2026-03-22） | [查看]({% link Narrator/investment_insight/2026-Q1-investment-insight.md %}) |
 
 ### 貿易合規摘要
 
 | 期別 | 重點 | 連結 |
 |------|------|:----:|
+| W11-W12 | 英國涉俄制裁納入中國企業、對日雙軌制執行滿月、中美暫停措施倒數 | [查看]({% link Narrator/trade_compliance_digest/2026-W11-W12-trade-compliance-digest.md %}) |
 | W09-W10 | 日本40家實體管控/關注名單合規指引、行動清單 | [查看]({% link Narrator/trade_compliance_digest/2026-W09-W10-trade-compliance-digest.md %}) |
-| W07-W08 | 日本兩用物項禁令、稀土境外管制、鋰電池材料管制 | [查看]({% link Narrator/trade_compliance_digest/2026-W07-W08-trade-compliance-digest.md %}) |
 
 ### 財經媒體簡報
 
 | 期別 | 頭條數據 | 連結 |
 |------|----------|:----:|
+| W12 | 英國制裁中國企業引發反制警告、台灣 HHI 飆升至 2522、美台逆差倍增至 1468 億 | [查看]({% link Narrator/media_briefing/2026-W12-media-briefing.md %}) |
 | W09 | 中國對日40家實體出口管制雙軌制、中日貿易互依矛盾 | [查看]({% link Narrator/media_briefing/2026-W09-media-briefing.md %}) |
-| W08 | 中國對日兩用物項禁令、美中逆差收窄 44.6%、台灣 HHI 1183 | [查看]({% link Narrator/media_briefing/2026-W08-media-briefing.md %}) |
 
 ---
 

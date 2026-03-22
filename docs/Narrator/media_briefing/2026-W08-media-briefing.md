@@ -3,7 +3,7 @@ last_modified_at: 2026-03-01
 layout: default
 title: "2026 年第 08 週"
 parent: 財經媒體簡報
-nav_order: 2
+nav_order: 3
 description: "2026年第8週全球貿易情報：中國對日兩用物項禁令、美中逆差收窄44.6%、台灣出口市場分散化趨勢。提供即時數據、新聞角度與圖表，供財經媒體引用。"
 keywords: "國際貿易, 媒體簡報, 日本, 美國, 中國, 台灣, 2026, W08, 出口管制, 貿易逆差, HHI指數"
 seo:

@@ -1,12 +1,12 @@
 ---
-last_modified_at: 2026-03-01
+last_modified_at: 2026-03-22
 layout: default
 title: 貿易合規摘要
 nav_order: 6
 has_children: true
 permalink: /trade-compliance-digest/
 ---
-last_modified_at: 2026-03-01
+last_modified_at: 2026-03-22
 
 # 貿易合規摘要
 
@@ -16,18 +16,18 @@ last_modified_at: 2026-03-01
 
 ---
 
-## 最新報告重點 (W09-W10)
+## 最新報告重點 (W11-W12)
 
 {: .warning-title }
 > **即將生效與執行中**
 >
-> - ⚠️ **日本40家實體管控/關注名單**（執行中）：管控名單20家完全禁止 + 關注名單20家強化許可
-> - 📜 **稀土境外管制**（執行中）：境外使用亦需申請許可
-> - 🔺 **鋰電池材料管制**（執行中）：鈷酸鋰等需出口許可
+> - ⚠️ **英國涉俄制裁納入中國企業**（新增）：商務部強烈反對並警告將採取反制措施
+> - ⚠️ **日本40家實體管控/關注名單**（執行中）：雙軌制執行滿月，尚無移除案例
+> - ⏰ **中美暫停措施倒數**（追蹤）：16家美國實體暫停措施將於2026-11-10到期
 
-**行動建議**：檢視日本客戶是否在管控/關注名單，調整交易流程
+**行動建議**：評估英國制裁曝險、持續監控對日管制名單、啟動暫停措施到期應變規劃
 
-[查看完整報告 →](2026-W09-W10-trade-compliance-digest)
+[查看完整報告 →](2026-W11-W12-trade-compliance-digest)
 
 ---
 
@@ -44,6 +44,7 @@ last_modified_at: 2026-03-01
 
 | 期別 | 報告 | 重點 |
 |------|------|------|
+| W11-W12 | [2026 年第 11-12 週]({% link Narrator/trade_compliance_digest/2026-W11-W12-trade-compliance-digest.md %}) | 英國涉俄制裁納入中國企業、對日雙軌制執行滿月、中美暫停措施倒數 |
 | W09-W10 | [2026 年第 09-10 週]({% link Narrator/trade_compliance_digest/2026-W09-W10-trade-compliance-digest.md %}) | 日本40家實體管控/關注名單合規指引、行動清單 |
 | W07-W08 | [2026 年第 07-08 週]({% link Narrator/trade_compliance_digest/2026-W07-W08-trade-compliance-digest.md %}) | 日本兩用物項禁令、稀土境外管制、鋰電池材料管制 |
 

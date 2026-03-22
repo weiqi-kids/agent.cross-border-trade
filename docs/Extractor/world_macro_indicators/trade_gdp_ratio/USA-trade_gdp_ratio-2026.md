@@ -3,7 +3,7 @@
 - **Source**: World Bank API v2
 - **Country**: United States (USA)
 - **Indicator**: trade_gdp_ratio
-- **Fetched**: 2026-02-28T12:53:06Z
+- **Fetched**: 2026-03-22T01:56:58Z
 - **confidence**: 高
 
 ## Time Series

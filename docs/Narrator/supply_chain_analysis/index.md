@@ -1,12 +1,12 @@
 ---
-last_modified_at: 2026-03-01
+last_modified_at: 2026-03-22
 layout: default
 title: 供應鏈月報
 nav_order: 3
 has_children: true
 permalink: /supply-chain-analysis/
 ---
-last_modified_at: 2026-03-01
+last_modified_at: 2026-03-22
 
 # 供應鏈月報
 
@@ -16,17 +16,17 @@ last_modified_at: 2026-03-01
 
 ---
 
-## 最新報告重點 (2026-02)
+## 最新報告重點 (2026-03)
 
 {: .highlight }
 > **本月關鍵發現**
 >
-> - ⚠️ **40家日本實體出口管制雙軌制**：管控名單20家 + 關注名單20家
-> - 🔺 台灣 HHI 1,183、德國 HHI 1,189，接近中度集中門檻
-> - ⚠️ 稀土管制域外效力擴大，被列實體面臨雙重限制
-> - 📊 中國出口 HHI 447，為六國中最分散的市場結構
+> - ❗ **台灣出口 HHI 飆升至 2522**：突破高集中度門檻，對美出口佔比 48.68%
+> - ⚠️ **英國制裁中國企業引發反制風險**：商務部警告採取必要措施，供應鏈曝險需評估
+> - 🔺 美台貿易逆差 2025 全年 USD 1,468 億，倍增，台灣超越日韓德
+> - ✅ 南韓出口大幅分散化，HHI 顯著下降，多元化策略見效
 
-[查看完整報告 →](2026-02-supply-chain-analysis)
+[查看完整報告 →](2026-03-supply-chain-analysis)
 
 ---
 
@@ -34,6 +34,7 @@ last_modified_at: 2026-03-01
 
 | 期別 | 報告 |
 |------|------|
+| 2026 年 3 月 | [查看報告](2026-03-supply-chain-analysis) |
 | 2026 年 2 月 | [查看報告](2026-02-supply-chain-analysis) |
 | 2026 年 1 月 | [查看報告](2026-01-supply-chain-analysis) |
 

@@ -3,7 +3,7 @@ last_modified_at: 2026-03-01
 layout: default
 title: "2026 年第 09 週"
 parent: 財經媒體簡報
-nav_order: 1
+nav_order: 2
 description: "2026年第9週全球貿易情報：中國對日本40家實體實施出口管制雙軌制，20家列入管控名單、20家列入關注名單，為近年最大規模對日管制行動。"
 keywords: "國際貿易, 媒體簡報, 日本, 中國, 出口管制, 實體清單, 雙軌制, 2026, W09"
 seo:

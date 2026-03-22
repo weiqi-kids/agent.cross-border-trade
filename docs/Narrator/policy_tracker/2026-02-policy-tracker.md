@@ -3,7 +3,7 @@ last_modified_at: 2026-03-01
 layout: default
 title: "2026 年 2 月"
 parent: 出口管制政策追蹤
-nav_order: 1
+nav_order: 2
 description: "2026年2月中國出口管制政策月報，涵蓋對日40家實體出口管制、稀土鋰電池超硬材料管制及中美不可靠實體清單調整"
 date: 2026-02-28
 article_section: 月報分析
