@@ -28,7 +28,7 @@ last_modified_at: 2026-03-23
 
 **行動建議**：持續監控對日管制名單動態、評估英國制裁供應鏈曝險、規劃中美暫停措施到期應變
 
-[查看完整報告 →](2026-W13-W14-trade-compliance-digest)
+[查看完整報告 →]({% link Narrator/trade_compliance_digest/2026-W13-W14-trade-compliance-digest.md %})
 
 ---
 

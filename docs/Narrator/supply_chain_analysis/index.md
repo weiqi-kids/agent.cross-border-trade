@@ -26,7 +26,7 @@ last_modified_at: 2026-03-23
 > - 🔺 美台貿易逆差 USD 167.8 億創單月高位，YoY +118%；美中逆差 YoY -60%
 > - ✅ 南韓 HHI 354.65，出口高度分散，多元化策略見效
 
-[查看完整報告 →](2026-03-supply-chain-analysis)
+[查看完整報告 →]({% link Narrator/supply_chain_analysis/2026-03-supply-chain-analysis.md %})
 
 ---
 
@@ -34,9 +34,9 @@ last_modified_at: 2026-03-23
 
 | 期別 | 報告 |
 |------|------|
-| 2026 年 3 月 | [查看報告](2026-03-supply-chain-analysis) |
-| 2026 年 2 月 | [查看報告](2026-02-supply-chain-analysis) |
-| 2026 年 1 月 | [查看報告](2026-01-supply-chain-analysis) |
+| 2026 年 3 月 | [查看報告]({% link Narrator/supply_chain_analysis/2026-03-supply-chain-analysis.md %}) |
+| 2026 年 2 月 | [查看報告]({% link Narrator/supply_chain_analysis/2026-02-supply-chain-analysis.md %}) |
+| 2026 年 1 月 | [查看報告]({% link Narrator/supply_chain_analysis/2026-01-supply-chain-analysis.md %}) |
 
 ---
 

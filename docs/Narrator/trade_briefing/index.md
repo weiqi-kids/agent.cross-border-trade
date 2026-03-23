@@ -26,7 +26,7 @@ last_modified_at: 2026-03-23
 > - ⚠️ 英國制裁中國企業反制動態持續，供應鏈曝險需持續評估
 > - 🔻 美中逆差大幅收窄至 USD 127 億，YoY -60%
 
-[查看完整報告 →](2026-W13-trade-briefing)
+[查看完整報告 →]({% link Narrator/trade_briefing/2026-W13-trade-briefing.md %})
 
 ---
 
@@ -34,12 +34,12 @@ last_modified_at: 2026-03-23
 
 | 期別 | 日期範圍 | 報告 |
 |------|----------|------|
-| 2026-W13 | 03-23 ~ 03-29 | [查看報告](2026-W13-trade-briefing) |
-| 2026-W12 | 03-16 ~ 03-22 | [查看報告](2026-W12-trade-briefing) |
-| 2026-W09 | 02-24 ~ 02-28 | [查看報告](2026-W09-trade-briefing) |
-| 2026-W08 | 02-17 ~ 02-23 | [查看報告](2026-W08-trade-briefing) |
-| 2026-W07 | 02-10 ~ 02-16 | [查看報告](2026-W07-trade-briefing) |
-| 2026-W06 | 02-03 ~ 02-09 | [查看報告](2026-W06-trade-briefing) |
+| 2026-W13 | 03-23 ~ 03-29 | [查看報告]({% link Narrator/trade_briefing/2026-W13-trade-briefing.md %}) |
+| 2026-W12 | 03-16 ~ 03-22 | [查看報告]({% link Narrator/trade_briefing/2026-W12-trade-briefing.md %}) |
+| 2026-W09 | 02-24 ~ 02-28 | [查看報告]({% link Narrator/trade_briefing/2026-W09-trade-briefing.md %}) |
+| 2026-W08 | 02-17 ~ 02-23 | [查看報告]({% link Narrator/trade_briefing/2026-W08-trade-briefing.md %}) |
+| 2026-W07 | 02-10 ~ 02-16 | [查看報告]({% link Narrator/trade_briefing/2026-W07-trade-briefing.md %}) |
+| 2026-W06 | 02-03 ~ 02-09 | [查看報告]({% link Narrator/trade_briefing/2026-W06-trade-briefing.md %}) |
 
 ---
 

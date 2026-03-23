@@ -297,4 +297,4 @@ last_modified_at: 2026-03-01
   - 本報告引用 7 筆政策文件（詳見「政策更新」章節各項來源標註）
   - 重點新增：2026-01-06 對日本兩用物項出口管制
 
-{% include report-nav.html prev="/Narrator/trade_briefing/2026-W06-trade-briefing/" prev_title="2026 年第 06 週" next="/Narrator/trade_briefing/2026-W08-trade-briefing/" next_title="2026 年第 08 週" %}
+{% include report-nav.html prev="{% link Narrator/trade_briefing/2026-W06-trade-briefing.md %}" prev_title="2026 年第 06 週" next="{% link Narrator/trade_briefing/2026-W08-trade-briefing.md %}" next_title="2026 年第 08 週" %}

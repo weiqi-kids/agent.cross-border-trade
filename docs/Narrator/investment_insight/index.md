@@ -26,7 +26,7 @@ last_modified_at: 2026-03-23
 > - 🔺 美台逆差 USD 167.8 億創單月高位（YoY +118%），台灣半導體主導力持續
 > - 💡 供應鏈重組受益者：越南、墨西哥、印度，多元化布局窗口期仍開放
 
-[查看完整報告 →](2026-Q1-investment-insight)
+[查看完整報告 →]({% link Narrator/investment_insight/2026-Q1-investment-insight.md %})
 
 ---
 

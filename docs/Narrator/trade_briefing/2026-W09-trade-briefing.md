@@ -495,4 +495,4 @@ last_modified_at: 2026-03-01
     - `mofcom-announcement-2026-no12-japan-watchlist-2026-02-24.md`（關注名單 20 家）
     - `mofcom-spokesperson-japan-export-controls-2026-02-24.md`（發言人答記者問）
 
-{% include report-nav.html prev="/Narrator/trade_briefing/2026-W08-trade-briefing/" prev_title="2026 年第 08 週" %}
+{% include report-nav.html prev="{% link Narrator/trade_briefing/2026-W08-trade-briefing.md %}" prev_title="2026 年第 08 週" %}

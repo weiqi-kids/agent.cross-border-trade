@@ -577,4 +577,4 @@ last_modified_at: 2026-03-01
 - Open Trade Statistics (https://tradestatistics.io/)
 - 中國商務部出口管制資訊網 (http://exportcontrol.mofcom.gov.cn/)
 
-{% include report-nav.html prev="/Narrator/supply_chain_analysis/2026-01-supply-chain-analysis/" prev_title="2026 年 1 月" %}
+{% include report-nav.html prev="{% link Narrator/supply_chain_analysis/2026-01-supply-chain-analysis.md %}" prev_title="2026 年 1 月" %}

@@ -27,7 +27,7 @@ last_modified_at: 2026-03-23
 
 **可引用**：「2026年3月美台貿易逆差飆升118%至USD 167.8億創單月新高，台灣出口HHI達2522.42居六大經濟體之首，對美出口依賴度持續攀升。」
 
-[查看完整報告 →](2026-W13-media-briefing)
+[查看完整報告 →]({% link Narrator/media_briefing/2026-W13-media-briefing.md %})
 
 ---
 

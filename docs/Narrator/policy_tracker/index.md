@@ -26,7 +26,7 @@ last_modified_at: 2026-03-23
 > - 📜 稀土/鋰電池/超硬材料管制體系全面運作中
 > - 📊 2026 年新增法規更新 5 件、執法行動 5 件、政策指導 2 件
 
-[查看完整報告 →](2026-03-policy-tracker)
+[查看完整報告 →]({% link Narrator/policy_tracker/2026-03-policy-tracker.md %})
 
 ---
 
