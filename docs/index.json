@@ -534,6 +534,18 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/enforcement_action/2026-02-24-mofcom-announcement-2026-no11-20-japan-entities-control-list.md",
+    "title": "商务部公告2026年第11号 公布将20家日本实体列入出口管制管控名单（MOFCOM Announcement No. 11 of 2026: Addition of 20 Japanese Entities to Export Control List）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/enforcement_action/2026-02-24-mofcom-announcement-2026-no12-20-japan-entities-watch-list.md",
+    "title": "商务部公告2026年第12号 公布将20家日本实体列入关注名单",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/eu-dual-use-control-list-revision-2024.md",
     "title": "欧盟修订两用物项管制清单 (EU Revises Dual-Use Items Control List)",
     "category": "Extractor",
@@ -1062,6 +1074,12 @@
     "source": "cn_export_control"
   },
   {
+    "path": "docs/Extractor/cn_export_control/policy_guidance/2025-11-11-narcotics-precursor-prevention-notice.md",
+    "title": "国家禁毒委员会办公室发布通告 提醒相关企业和个人防范制毒物品和非列管可制毒化学品及设备流失（National Narcotics Control Commission Office Notice on Preventing Diversion of Drug Precursor Substances, Non-Listed Precursor Chemicals, and Equipment）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
     "path": "docs/Extractor/cn_export_control/prc-export-control-law-2020.md",
     "title": "中华人民共和国出口管制法 (Export Control Law of the People's Republic of China)",
     "category": "Extractor",
@@ -1106,6 +1124,12 @@
   {
     "path": "docs/Extractor/cn_export_control/regulation_update/2020-12-01-export-control-law.md",
     "title": "中华人民共和国出口管制法（Export Control Law of the People's Republic of China）",
+    "category": "Extractor",
+    "source": "cn_export_control"
+  },
+  {
+    "path": "docs/Extractor/cn_export_control/regulation_update/2021-12-30-anti-drug-law-prc.md",
+    "title": "中华人民共和国禁毒法（Anti-Drug Law of the People's Republic of China）",
     "category": "Extractor",
     "source": "cn_export_control"
   },
@@ -2166,6 +2190,12 @@
     "source": "media_briefing"
   },
   {
+    "path": "docs/Narrator/media_briefing/2026-W13-media-briefing.md",
+    "title": "---",
+    "category": "Narrator",
+    "source": "media_briefing"
+  },
+  {
     "path": "docs/Narrator/media_briefing/index.md",
     "title": "---",
     "category": "Narrator",
@@ -2250,6 +2280,12 @@
     "source": "trade_briefing"
   },
   {
+    "path": "docs/Narrator/trade_briefing/2026-W13-trade-briefing.md",
+    "title": "---",
+    "category": "Narrator",
+    "source": "trade_briefing"
+  },
+  {
     "path": "docs/Narrator/trade_briefing/index.md",
     "title": "---",
     "category": "Narrator",
@@ -2269,6 +2305,12 @@
   },
   {
     "path": "docs/Narrator/trade_compliance_digest/2026-W11-W12-trade-compliance-digest.md",
+    "title": "---",
+    "category": "Narrator",
+    "source": "trade_compliance_digest"
+  },
+  {
+    "path": "docs/Narrator/trade_compliance_digest/2026-W13-W14-trade-compliance-digest.md",
     "title": "---",
     "category": "Narrator",
     "source": "trade_compliance_digest"
