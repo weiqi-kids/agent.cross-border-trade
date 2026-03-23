@@ -307,4 +307,6 @@ last_modified_at: 2026-03-01
 - 中國商務部出口管制資訊網 (http://exportcontrol.mofcom.gov.cn/) — cn_export_control Layer
   - 本報告引用 6 筆 2025 年政策文件（詳見「政策更新」章節各項來源標註）
 
-{% include report-nav.html prev="{% link Narrator/trade_briefing/2026-W05-trade-briefing.md %}" prev_title="2026 年第 05 週" next="{% link Narrator/trade_briefing/2026-W07-trade-briefing.md %}" next_title="2026 年第 07 週" %}
+{%- capture prev_url -%}{% link Narrator/trade_briefing/2026-W05-trade-briefing.md %}{%- endcapture -%}
+{%- capture next_url -%}{% link Narrator/trade_briefing/2026-W07-trade-briefing.md %}{%- endcapture -%}
+{% include report-nav.html prev=prev_url prev_title="2026 年第 05 週" next=next_url next_title="2026 年第 07 週" %}

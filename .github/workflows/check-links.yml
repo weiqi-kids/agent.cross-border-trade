@@ -61,8 +61,11 @@ jobs:
               # 移除錨點
               target=$(echo "$target" | sed 's/#.*//')
 
-              # 檢查目標是否存在
-              if [[ ! -f "$target" ]] && [[ ! -f "${target}index.html" ]] && [[ ! -f "${target}/index.html" ]] && [[ ! -d "$target" ]]; then
+              # 移除尾部斜線
+              target=$(echo "$target" | sed 's|/$||')
+
+              # 檢查目標是否存在（含 .html 後綴、目錄、index.html）
+              if [[ ! -f "$target" ]] && [[ ! -f "${target}.html" ]] && [[ ! -f "${target}/index.html" ]] && [[ ! -d "$target" ]]; then
                 echo "BROKEN|$html_file|$link|$target" >> /tmp/broken-links.txt
               fi
             done

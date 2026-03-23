@@ -319,4 +319,5 @@ UN Comtrade Preview API 未回傳台灣（158）出口記錄，confidence 標記
   - 共 84 筆萃取結果，本報告引用 13 筆（詳見「政策更新」章節各項來源標註）
   - 2 筆標記 [REVIEW_NEEDED]（customs-announcement-2025-61.md、customs-announcement-2025-62.md）
 
-{% include report-nav.html next="{% link Narrator/trade_briefing/2026-W06-trade-briefing.md %}" next_title="2026 年第 06 週" %}
+{%- capture next_url -%}{% link Narrator/trade_briefing/2026-W06-trade-briefing.md %}{%- endcapture -%}
+{% include report-nav.html next=next_url next_title="2026 年第 06 週" %}

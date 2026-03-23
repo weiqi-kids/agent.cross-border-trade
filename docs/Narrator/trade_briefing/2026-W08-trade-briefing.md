@@ -460,4 +460,5 @@ last_modified_at: 2026-03-01
   - 本報告引用 8 筆政策文件（詳見「政策更新」章節各項來源標註）
   - 重點追蹤：2026-01-06 對日本兩用物項出口管制、安世半導體爭議、稀土全產業鏈管制
 
-{% include report-nav.html prev="{% link Narrator/trade_briefing/2026-W07-trade-briefing.md %}" prev_title="2026 年第 07 週" %}
+{%- capture prev_url -%}{% link Narrator/trade_briefing/2026-W07-trade-briefing.md %}{%- endcapture -%}
+{% include report-nav.html prev=prev_url prev_title="2026 年第 07 週" %}
