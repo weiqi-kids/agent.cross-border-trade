@@ -47,6 +47,11 @@ jobs:
                 continue
               fi
 
+              # 跳過指向 Jekyll excluded 目錄的連結（Extractor 不在 build 中）
+              if [[ "$link" =~ Extractor/ ]]; then
+                continue
+              fi
+
               # 處理相對路徑
               if [[ "$link" =~ ^/ ]]; then
                 target="_site${link}"
