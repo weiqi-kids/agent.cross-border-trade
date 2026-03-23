@@ -3,7 +3,7 @@
 - **Source**: World Bank API v2
 - **Country**: United States (USA)
 - **Indicator**: gdp_growth
-- **Fetched**: 2026-03-22T01:56:58Z
+- **Fetched**: 2026-03-23T01:05:55Z
 - **confidence**: 高
 
 ## Time Series

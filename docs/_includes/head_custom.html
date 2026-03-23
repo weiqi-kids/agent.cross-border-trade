@@ -148,4 +148,11 @@
 <meta name="twitter:title" content="{{ page.title | escape }} | {{ site.title }}" />
 <meta name="twitter:description" content="{{ page.description | default: site.description | escape }}" />
 <meta name="twitter:image" content="{{ site.url }}/assets/images/og-image.svg" />
+
+{% comment %} Render conditional JSON-LD schemas (ItemList, Table, FAQPage) if defined in front matter {% endcomment %}
+{% if page.seo.json_ld %}
+<script type="application/ld+json">
+{{ page.seo.json_ld }}
+</script>
+{% endif %}
 {% endif %}

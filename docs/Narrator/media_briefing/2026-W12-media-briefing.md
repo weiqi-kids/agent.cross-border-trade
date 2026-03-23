@@ -3,7 +3,7 @@ last_modified_at: 2026-03-22
 layout: default
 title: "2026 年第 12 週"
 parent: 財經媒體簡報
-nav_order: 1
+nav_order: 2
 description: "英國制裁中國企業引發反制警告；台灣出口HHI飆升至2522突破高集中度門檻；美台貿易逆差單月168億美元再創新高；中日出口管制進入第四週"
 date: 2026-03-22
 article_section: 週報分析

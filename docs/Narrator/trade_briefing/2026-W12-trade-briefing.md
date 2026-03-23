@@ -3,7 +3,7 @@ last_modified_at: 2026-03-22
 layout: default
 title: "2026 年第 12 週"
 parent: 貿易動態週報
-nav_order: 1
+nav_order: 2
 description: "英國制裁中國企業引發中方反制警告；美台貿易逆差 2026 年 1 月 USD 168 億再創新高；中日出口管制持續執行"
 date: 2026-03-22
 article_section: 週報分析

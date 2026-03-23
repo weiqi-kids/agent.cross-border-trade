@@ -3,7 +3,7 @@ last_modified_at: 2026-03-01
 layout: default
 title: "2026 年第 09-10 週"
 parent: 貿易合規摘要
-nav_order: 2
+nav_order: 3
 description: "2026年第9-10週貿易合規摘要：中國對40家日本實體實施出口管制雙軌制，含管控名單和關注名單合規要求詳解、行動清單與風險提示。"
 keywords: "貿易合規, 出口管制, 日本, 中國, 管控名單, 關注名單, 雙軌制, 2026"
 seo:

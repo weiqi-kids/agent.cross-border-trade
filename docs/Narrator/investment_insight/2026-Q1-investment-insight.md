@@ -1,13 +1,26 @@
 ---
-last_modified_at: 2026-03-22
+last_modified_at: 2026-03-23
 layout: default
-title: "2026 年 Q1"
+title: "投資視角貿易分析 — 2026 年 Q1"
 parent: 投資視角貿易分析
 nav_order: 1
 description: "2026年Q1全球貿易格局加速重組：台灣對美出口占比躍升至48.7%、出口HHI升至2,522（高集中度），美自中進口全年降至3,084億美元（YoY -29.7%），中國對日40家實體實施出口管制雙軌制，英國對中企擴大制裁。分析六大經濟體貿易數據、產業趨勢及區域投資機會。"
 keywords: "國際貿易, 投資分析, 台灣, 美國, 中國, 日本, 韓國, 德國, 半導體, 稀土, 鋰電池, 供應鏈重組, HHI, 出口管制, 2026, Q1"
-date: 2026-03-22
+date: 2026-03-23
 article_section: 季度投資分析
+og_title: "投資視角貿易分析 — 2026 年 Q1 ｜全球貿易格局重組"
+og_description: "2026年Q1全球貿易格局加速重組：台灣HHI升至2,522、美自中進口降至3,084億美元。中國對日40家實體出口管制，英國擴大制裁。六大經濟體貿易數據與投資機會分析。"
+og_image: "https://trade.weiqi.kids/assets/images/investment-insight-2026-q1.png"
+og_type: "article"
+og_site_name: "全球貿易與供需智慧分析系統"
+og_url: "https://trade.weiqi.kids/Narrator/investment_insight/2026-Q1-investment-insight"
+article_published_time: "2026-02-19"
+article_modified_time: "2026-03-23"
+article_author: "AI 貿易分析師"
+twitter_card: "summary_large_image"
+twitter_title: "投資視角貿易分析 — 2026 年 Q1"
+twitter_description: "台灣HHI 2,522（高集中度）、美自中進口年降29.7%、中對日40家實體出口管制。2026 Q1六大經濟體貿易格局全分析。"
+twitter_image: "https://trade.weiqi.kids/assets/images/investment-insight-2026-q1.png"
 related_reports:
   - "/Narrator/supply_chain_analysis/2026-03-supply-chain-analysis/"
   - "/Narrator/policy_tracker/2026-03-policy-tracker/"
@@ -19,15 +32,15 @@ seo:
       "@graph": [
         {
           "@type": "WebPage",
-          "@id": "https://trade.weiqi.kids/Narrator/investment_insight/2026-Q1-investment-insight.html#webpage",
-          "url": "https://trade.weiqi.kids/Narrator/investment_insight/2026-Q1-investment-insight.html",
+          "@id": "https://trade.weiqi.kids/Narrator/investment_insight/2026-Q1-investment-insight#webpage",
+          "url": "https://trade.weiqi.kids/Narrator/investment_insight/2026-Q1-investment-insight",
           "name": "投資視角貿易分析 — 2026 年 Q1",
           "description": "2026年Q1全球貿易格局加速重組：台灣對美出口占比躍升至48.7%，出口HHI升至2,522（高集中度）。美自中進口全年降至3,084億美元，中國對日40家實體實施出口管制雙軌制。",
           "inLanguage": "zh-TW",
           "isPartOf": { "@id": "https://trade.weiqi.kids/#website" },
           "primaryImageOfPage": { "@type": "ImageObject", "url": "https://trade.weiqi.kids/assets/images/investment-insight-2026-q1.png" },
           "datePublished": "2026-02-19",
-          "dateModified": "2026-03-22",
+          "dateModified": "2026-03-23",
           "speakable": {
             "@type": "SpeakableSpecification",
             "cssSelector": [
@@ -43,12 +56,12 @@ seo:
         },
         {
           "@type": "Article",
-          "@id": "https://trade.weiqi.kids/Narrator/investment_insight/2026-Q1-investment-insight.html#article",
+          "@id": "https://trade.weiqi.kids/Narrator/investment_insight/2026-Q1-investment-insight#article",
           "mainEntityOfPage": {
-            "@id": "https://trade.weiqi.kids/Narrator/investment_insight/2026-Q1-investment-insight.html#webpage",
+            "@id": "https://trade.weiqi.kids/Narrator/investment_insight/2026-Q1-investment-insight#webpage",
             "significantLink": [
               "https://trade.weiqi.kids/Narrator/policy_tracker/",
-              "https://trade.weiqi.kids/Narrator/trade_compliance_digest/"
+              "https://trade.weiqi.kids/Narrator/supply_chain_analysis/"
             ]
           },
           "headline": "投資視角貿易分析 — 2026 年 Q1",
@@ -62,10 +75,10 @@ seo:
           "author": { "@id": "https://trade.weiqi.kids/about#ai-analyst" },
           "publisher": { "@id": "https://trade.weiqi.kids/#organization" },
           "datePublished": "2026-02-19",
-          "dateModified": "2026-03-22",
-          "articleSection": "投資視角分析",
+          "dateModified": "2026-03-23",
+          "articleSection": "季度投資分析",
           "keywords": "國際貿易, 投資分析, 台灣, 美國, 中國, 日本, 韓國, 德國, 半導體, 稀土, 鋰電池, 供應鏈重組, HHI, 出口管制, 2026, Q1",
-          "wordCount": "4200",
+          "wordCount": "4500",
           "inLanguage": "zh-TW",
           "isAccessibleForFree": true,
           "isPartOf": {
@@ -131,16 +144,16 @@ seo:
             {
               "@type": "ListItem",
               "position": 3,
-              "name": "2026 年 Q1",
-              "item": "https://trade.weiqi.kids/Narrator/investment_insight/2026-Q1-investment-insight.html"
+              "name": "投資視角貿易分析 — 2026 年 Q1",
+              "item": "https://trade.weiqi.kids/Narrator/investment_insight/2026-Q1-investment-insight"
             }
           ]
         },
         {
           "@type": "ItemList",
-          "@id": "https://trade.weiqi.kids/Narrator/investment_insight/2026-Q1-investment-insight.html#itemlist-economies",
+          "@id": "https://trade.weiqi.kids/Narrator/investment_insight/2026-Q1-investment-insight#itemlist-economies",
           "name": "六大經濟體貿易總覽",
-          "description": "2023-2024年度六大經濟體貿易數據對比分析（2026-03-22更新）",
+          "description": "2023-2024年度六大經濟體貿易數據對比分析（2026-03-23更新）",
           "numberOfItems": 6,
           "itemListElement": [
             {
@@ -183,15 +196,15 @@ seo:
         },
         {
           "@type": "Table",
-          "@id": "https://trade.weiqi.kids/Narrator/investment_insight/2026-Q1-investment-insight.html#table-macro",
+          "@id": "https://trade.weiqi.kids/Narrator/investment_insight/2026-Q1-investment-insight#table-macro",
           "about": "六大經濟體宏觀經濟指標",
           "description": "2024年GDP成長率、貿易依存度、經常帳餘額及投資意涵對比表"
         },
         {
           "@type": "Table",
-          "@id": "https://trade.weiqi.kids/Narrator/investment_insight/2026-Q1-investment-insight.html#table-hhi",
+          "@id": "https://trade.weiqi.kids/Narrator/investment_insight/2026-Q1-investment-insight#table-hhi",
           "about": "六大經濟體出口市場集中度",
-          "description": "出口HHI指數、前三大市場占比及投資風險評估（2026-03-22更新數據）"
+          "description": "出口HHI指數、前三大市場占比及投資風險評估（2026-03-23更新數據）"
         }
       ]
     }
@@ -200,24 +213,26 @@ seo:
 # 投資視角貿易分析 — 2026 年 Q1
 
 > 報告期間：2026 Q1（基於 2023-2024 年度貿易數據、2025 全年 US Census 數據、2026-03 月政策動態）
-> 產出時間：2026-03-22（第三版更新）
+> 產出時間：2026-03-23（第四版更新）
 > 自動化程度：40%（數據計算自動化，投資觀點建議人工審核）
-> 報告狀態：更新版（整合 2026-03-22 重新擷取數據 + 2026-03-02 英對中制裁 + 2025 全年美中貿易完整數據）
+> 報告狀態：更新版（整合 2026-03-23 重新擷取數據 + 2026-03-02 英對中制裁 + 2025 全年美中貿易完整數據）
 
 ## 執行摘要
 {: .article-summary .speakable-content}
 
 <div class="key-takeaway" markdown="1">
-2026年Q1全球貿易格局呈現「加速重組」態勢，三大結構性變化引人注目。第一，台灣出口市場集中度急劇攀升，HHI從上次報告的1,183躍升至<span class="data-highlight">2,522</span>（高集中度），對美出口占比達<span class="data-highlight">48.7%</span>，反映半導體供應鏈對美高度依賴。第二，美自中進口持續萎縮，2025全年降至<span class="data-highlight">3,084億美元</span>（較2024年的4,387億美元下降29.7%），貿易脫鉤進入新階段。第三，出口管制持續升級，中國對日本40家實體實施出口管制雙軌制（2026-02-24），英國對中企擴大俄羅斯相關制裁（2026-02-24），中國隨即強烈反制（2026-03-02）。
+2026年Q1全球貿易格局呈現「加速重組」態勢，三大結構性變化引人注目。第一，台灣出口市場集中度急劇攀升，HHI達<span class="data-highlight">2,522</span>（高集中度），對美出口占比達<span class="data-highlight">48.7%</span>，反映半導體供應鏈對美高度依賴。第二，美自中進口持續萎縮，2025全年降至<span class="data-highlight">3,084億美元</span>（較2024年的4,387億美元下降29.7%），貿易脫鉤進入深水區。第三，出口管制持續升級，中國對日本40家實體實施出口管制雙軌制（2026-02-24），英國對中企擴大俄羅斯相關制裁（2026-02-24），中國隨即強烈反制（2026-03-02）。
 
 韓國出口市場則呈現顯著分散化，HHI降至<span class="data-highlight">355</span>（六大經濟體中最低），前三大市場占比僅23.4%，全球布局多元化成效突出。從投資角度看，供應鏈重組與材料自主化仍是本季最核心主題，台灣集中度風險值得高度關注。
 </div>
 
 ## 一、宏觀貿易格局
-{: .key-answer data-question="2026年Q1全球貿易格局呈現什麼特點？"}
+
+<p class="key-answer" data-question="2026年Q1全球貿易格局呈現什麼特點？">2026年Q1全球貿易加速重組：台灣出口HHI升至2,522（高集中度），美自中進口年降29.7%至3,084億美元，出口管制體系持續擴大，六大經濟體格局分化加劇。</p>
 
 ### 1.1 六大經濟體貿易總覽
-{: .key-answer data-question="六大經濟體的貿易表現如何？"}
+
+<p class="key-answer" data-question="六大經濟體的貿易表現如何？">六大經濟體中，台灣出口集中度最高（HHI 2,522，高集中度），韓國最低（HHI 355），其餘四國均屬低集中度。台灣對美單一市場依賴達48.7%，為六大經濟體最高。</p>
 
 以下數據基於 UN Comtrade Preview API 2023-2024 年度累計數據（部分國家僅涵蓋部分夥伴國），以及 US Census Bureau 2025 全年數據進行交叉驗證。
 
@@ -231,12 +246,13 @@ seo:
 | 德國 | <span class="data-highlight">48.47%</span>（波、捷、美） | <span class="data-highlight">1,068</span> | 低 | 歐盟內部貿易為主（部分數據） |
 {: .comparison-table}
 
-> **數據來源**：bilateral_trade_flows Layer（export_flow、market_concentration），基於 UN Comtrade Preview API 2023-2024年度數據
-> **重要說明**：台灣 HHI 從前次報告（2026-02-28）的 1,183 升至 2,522，反映本次擷取涵蓋的夥伴國範圍不同（Preview API 回傳的 Top 20 夥伴國組成可能因期間調整而變化）。趨勢方向（集中度上升）具參考價值，但絕對值比較需注意口徑差異。
+> **數據來源**：bilateral_trade_flows Layer（export_flow、market_concentration），基於 UN Comtrade Preview API 2023-2024年度數據，2026-03-23擷取
+> **重要說明**：台灣 HHI 2,522已進入「高集中度」區間（>2500），對美出口占比48.7%為六大經濟體中最高的單一市場依賴。Preview API回傳的夥伴國組成可能因期間調整而有所變化，趨勢方向（集中度上升）具參考價值，但絕對值比較需注意口徑差異。
 > **德國數據注意**：德國僅涵蓋70個夥伴國群組，數據不完整
 
 ### 1.2 宏觀經濟背景
-{: .key-answer data-question="主要經濟體的宏觀經濟表現如何？"}
+
+<p class="key-answer" data-question="主要經濟體的宏觀經濟表現如何？">2024年主要經濟體GDP分化明顯：中國4.98%、美國2.79%、韓國2.00%，日本僅0.10%，德國連續兩年負成長（-0.50%）。中國經常帳盈餘大幅反彈至4,239億美元，美國赤字擴至1.19兆美元創歷史新高。</p>
 
 | 經濟體 | GDP成長率(2024) | 貿易/GDP(2024) | 經常帳(2024, USD) | 投資意涵 |
 |--------|-----------------|----------------|-------------------|----------|
@@ -247,7 +263,7 @@ seo:
 | 德國 | <span class="data-highlight">-0.50%</span> | <span class="data-highlight">79.1%</span> | <span class="data-highlight">+2,704億</span> | 衰退中，但貿易盈餘維持 |
 {: .comparison-table}
 
-> **數據來源**：world_macro_indicators Layer，基於 World Bank 2024年度數據
+> **數據來源**：world_macro_indicators Layer，基於 [World Bank Open Data](https://data.worldbank.org/) 2024年度數據，2026-03-23擷取
 > **注意**：World Bank 未提供台灣數據
 
 <div class="key-takeaway" markdown="1">
@@ -259,7 +275,8 @@ seo:
 </div>
 
 ### 1.3 市場集中度觀察
-{: .key-answer data-question="各經濟體的出口市場集中度風險如何？"}
+
+<p class="key-answer" data-question="各經濟體的出口市場集中度風險如何？">台灣出口HHI 2,522進入高集中度區間，對美單一市場依賴最高（48.7%），地緣風險集中；韓國HHI 355為六大最低，多元化最成功；其餘四國均屬低集中度。</p>
 
 | 經濟體 | 出口HHI | 等級 | 前三大市場占比 | 趨勢 | 投資意涵 |
 |--------|---------|------|----------------|------|---------|
@@ -271,7 +288,7 @@ seo:
 | 韓國 | <span class="data-highlight">355</span> | 低 | <span class="data-highlight">23.43%</span> | ↓ | 最分散，全球多元化成效顯著 |
 {: .comparison-table}
 
-> **數據來源**：bilateral_trade_flows/market_concentration，HHI範圍0-10000，2026-03-22擷取
+> **數據來源**：bilateral_trade_flows/market_concentration，HHI範圍0-10000，[UN Comtrade Database](https://comtradeplus.un.org/) 2026-03-23擷取
 
 **投資角度解讀**（推測性）：
 - **台灣集中度警訊**：HHI 2,522已進入「高集中度」區間（>2500），對美出口占比48.7%為六大經濟體中最高的單一市場依賴。半導體出口驅動下的結構性集中，使台灣極易受美國需求波動或政策變化影響。
@@ -279,59 +296,71 @@ seo:
 - **中國維持全球布局**：儘管面臨多國出口管制，HHI 795仍處低位，對美占比23.4%，東南亞與「一帶一路」市場有效分散風險。
 
 ## 二、產業趨勢分析
-{: .key-answer data-question="哪些產業呈現成長趨勢？"}
+
+<p class="key-answer" data-question="哪些產業呈現成長趨勢？">2026 Q1半導體、新能源材料、國防航太供應鏈及電動車產業呈現明顯結構性變化，均受中國出口管制政策深刻影響，非中國替代供應鏈投資價值持續提升。</p>
 
 ### 2.1 成長性產業識別
-{: .key-answer data-question="哪些成長性產業值得關注？"}
+
+<p class="key-answer" data-question="哪些成長性產業值得關注？">半導體（台灣對美出口2025年成長73.2%）、新能源材料替代供應鏈、日本國防航太在地化、非中國電池製造為本季最值得關注的成長性產業。</p>
 
 基於貿易數據與政策動態，以下產業呈現成長或結構性轉變：
 
 #### 半導體產業
 
-- **貿易數據**：台灣對美出口占比高達48.7%（UN Comtrade 2023-2024），US Census 數據顯示美自台進口2025年達<span class="data-highlight">2,014億美元</span>（較2024年的1,163億美元成長73.2%），AI算力需求驅動的半導體貿易急遽擴大。
-- **政策風險**：中國持續強化對美雙用途物項出口管制，2025年新增半導體相關企業列入不可靠實體清單。日本配合美國對中半導體設備出口限制，引發中國對日40家實體出口管制反制。
+- **貿易數據**：台灣對美出口占比高達48.7%（UN Comtrade 2023-2024），[US Census Bureau](https://www.census.gov/foreign-trade/) 數據顯示美自台進口2025年達<span class="data-highlight">2,014億美元</span>（較2024年的1,163億美元成長73.2%），AI算力需求驅動的半導體貿易急遽擴大。
+- **政策風險**：中國持續強化對美雙用途物項出口管制（鎵、鍺、銻、超硬材料普遍拒絕出口許可），2025年新增半導體相關企業列入不可靠實體清單。日本配合美國對中半導體設備出口限制，引發中國對日40家實體出口管制反制（2026-02-24）。
 - **投資角度（推測）**：台灣半導體對美出口的爆發性成長確認了AI供應鏈的核心地位，但也加劇了單一市場依賴風險。供應鏈重組加速中，設備與材料自主化是重要子主題。
 - **受益國家/企業類型（推測）**：台灣先進製程、韓國記憶體、美國設備商；材料供應鏈為風險暴露點
+- **來源**：`bilateral_trade_flows/commodity_structure/158-commodity-2024.md`、`us_trade_census/country_detail/us-detail-5830-2026.md`
 
 #### 新能源材料（鋰電池、稀土）
 
 - **貿易數據**：中國對全球維持強勢出口，惟2025年起對鋰電池、正極材料、石墨負極實施出口管制（商務部第58號公告，2025-11-08生效）
-- **政策風險**：重稀土（鈥、鉺、銩、銪、鐿）出口管制於2025-11-08生效（第57號公告），涵蓋金屬、合金、靶材、發光材料等。鎢、碲、鉍、鉬、銦出口管制已於2025-02-04即時生效。
-- **投資角度（推測）**：中國關鍵礦物管制體系持續擴大，從稀土到超硬材料到關鍵礦物，形成全面性供應鏈管制網。非中國替代供應源開發的投資價值持續提升。
+- **政策風險**：重稀土（鈥、鉺、銩、銪、鐿）出口管制於2025-11-08生效（第57號公告），涵蓋金屬、合金、靶材、發光材料等。鎢、碲、鉍、鉬、銦出口管制已於2025-02-04即時生效（第10號公告）。此外，稀土技術出口限制（第62號公告）與含中國成分的外國稀土物項管制（第61號公告）進一步擴大管制範圍。
+- **投資角度（推測）**：中國關鍵礦物管制體系持續擴大，從稀土到超硬材料到關鍵礦物，形成全面性供應鏈管制網。非中國替代供應源開發的投資價值持續提升。中國佔全球重稀土產量逾90%、鎢約80%、銦約60%、鉍約80%，替代來源（緬甸、越南、加拿大）產能有限。
 - **受益國家/企業類型（推測）**：鋰電池回收、稀土替代材料研發、區域電池製造（歐美）、礦物回收技術
-- **來源**：`cn_export_control/lithium-battery-graphite-export-control-2025-10-13.md`、`cn_export_control/heavy-rare-earth-elements-export-control-2025-10-13.md`、`cn_export_control/tungsten-tellurium-bismuth-molybdenum-indium-export-control-2025-02-04.md`
+- **來源**：`cn_export_control/lithium-battery-graphite-anode-export-controls.md`、`cn_export_control/heavy-rare-earth-export-controls.md`、`cn_export_control/critical-minerals-export-control-2025.md`、`cn_export_control/mofcom-rare-earth-export-control-strengthening-oct2025.md`
 
 #### 國防航太供應鏈
 
 - **貿易數據**：日本對美出口2025年達<span class="data-highlight">821億美元</span>（US Census），維持穩定。然而中國對日出口管制將直接影響日本國防航太產業的材料與零組件供應。
-- **政策風險**：2026-02-24中國對日20家核心國防航太企業完全禁止兩用物項出口，另20家列入關注名單需強化許可審查。涵蓋三菱重工、川崎重工、IHI、NEC、JAXA等。
+- **政策風險**：2026-01-06中國宣布禁止向日本軍事用戶、軍事用途出口所有兩用物項，2026-02-24進一步對日20家核心國防航太企業完全禁止兩用物項出口，另20家列入關注名單需強化許可審查。涵蓋三菱重工5家子公司、川崎重工航空宇宙、IHI 6家子公司、NEC航空宇宙系統、日本海洋聯合、防衛大學、JAXA等。
 - **投資角度（推測）**：日本國防產業在地化需求急迫提升，材料國產化與替代供應源開發將成為重要投資主題。同時，此管制可能加速日美國防供應鏈整合。
 - **受益國家/企業類型（推測）**：日本本土材料商、國防產業在地化概念股、美日聯合國防供應鏈
-- **來源**：`cn_export_control/mofcom-announcement-2026-no11-japan-entity-list-2026-02-24.md`、`cn_export_control/mofcom-announcement-2026-no12-japan-watchlist-2026-02-24.md`
+- **來源**：`cn_export_control/dual-use-export-control-japan-strengthening.md`、`cn_export_control/mofcom-announcement-2026-no11-japan-entity-list-2026-02-24.md`、`cn_export_control/mofcom-announcement-2026-no12-japan-watchlist-2026-02-24.md`
+
+#### 電動車供應鏈
+
+- **貿易數據**：中國為全球最大電動車出口國，惟鋰電池出口管制（300Wh/kg以上電池、正極材料、負極材料、製造設備）已於2025-11-08生效，直接影響全球EV供應鏈。
+- **政策風險**：出口管制涵蓋高能量密度電池（≥300Wh/kg）、磷酸鐵鋰正極材料（≥2.5g/cm³）、合成石墨負極材料及相關製造設備與技術，意圖減緩技術擴散至競爭者。
+- **投資角度（推測）**：非中國EV電池產能建設的投資價值提升，韓廠已建立較多元供應鏈。歐美本土電池製造與磷酸鐵鋰替代技術研發可能受惠。
+- **受益國家/企業類型（推測）**：韓國電池廠、歐美本土電池製造、固態電池研發
+- **來源**：`cn_export_control/lithium-battery-graphite-anode-export-controls.md`
 
 ### 2.2 風險產業識別
-{: .key-answer data-question="哪些產業面臨出口管制風險？"}
+
+<p class="key-answer" data-question="哪些產業面臨出口管制風險？">對日雙用物項（完全禁令）及對美戰略材料（鎵、鍺、銻普遍拒絕出口）風險最高；電池材料、重稀土、關鍵礦物（鎢碲鉍鉬銦）及中英供應鏈也面臨高風險。</p>
 
 基於 cn_export_control Layer 政策動態，以下產業面臨出口管制或貿易摩擦風險：
 
 | 產業 | 風險類型 | 主要政策 | 影響程度 | 建議關注 |
 |------|---------|---------|---------|---------|
-| 對日雙用物項（實體清單） | 實體清單 | 商務部第11、12號公告（2026-02-24） | <span class="data-highlight">極高</span> | 三菱重工、川崎重工、IHI、NEC等40家實體 |
+| 對日雙用物項（全面禁令） | 軍事用途禁令 | 商務部公告（2026-01-06） | <span class="data-highlight">極高</span> | 所有向日本軍事相關最終用戶出口兩用物項 |
+| 對日實體清單（40家） | 實體清單 | 商務部第11、12號公告（2026-02-24） | <span class="data-highlight">極高</span> | 三菱重工、川崎重工、IHI、NEC等40家實體 |
 | 中英貿易關係 | 制裁/反制裁 | 英對中企制裁（2026-02-24）、中方反制（2026-03-02） | <span class="data-highlight">高</span> | 中英俄三角供應鏈曝險企業 |
-| 半導體設備/分析 | 實體清單 | 不可靠實體清單擴大 | <span class="data-highlight">高</span> | 技術情報與逆向工程服務商 |
-| 電池材料 | 出口管制 | 第58號公告（2025-11-08生效） | <span class="data-highlight">高</span> | 300Wh/kg以上電池、製造設備 |
+| 對美戰略材料 | 出口管制 | 第46號公告（2024-12-03生效） | <span class="data-highlight">高</span> | 鎵、鍺、銻、超硬材料對美普遍拒絕出口 |
+| 電池材料 | 出口管制 | 第58號公告（2025-11-08生效） | <span class="data-highlight">高</span> | 300Wh/kg以上電池、正極負極材料、製造設備 |
 | 重稀土 | 出口管制 | 第57號公告（2025-11-08生效） | <span class="data-highlight">高</span> | 靶材、光纖材料、永磁材料 |
-| 超硬材料 | 出口管制 | 第55號公告（2025-11-08生效） | 中高 | 合成金剛石、線鋸、CVD設備 |
 | 關鍵礦物（鎢碲鉍鉬銦） | 出口管制 | 2025年第10號公告（即時生效） | <span class="data-highlight">高</span> | 半導體（銦）、紅外線（碲）、國防（鎢鉬） |
+| 稀土技術與含中國成分物項 | 出口管制/域外效力 | 第61、62號公告（2025-10） | 中高 | 含中國稀土成分的外國產品需許可 |
 {: .comparison-table}
 
-> **新增說明（2026-03-02）**：英國於2026-02-24宣布新一輪俄羅斯相關制裁，針對多家中國企業。中國商務部發言人於2026-03-02強烈反對，警告將採取「必要措施」保護中企權益。此升級增加了中英雙邊供應鏈中斷的風險。
-> **來源**：`cn_export_control/mofcom-uk-sanctions-response-2026-03-02.md`
-
-> **數據來源**：cn_export_control Layer，政策文件萃取
+> **最新動態（2026-03-02）**：英國於2026-02-24宣布新一輪俄羅斯相關制裁，針對多家中國企業。中國商務部發言人於2026-03-02強烈反對，警告將採取「必要措施」保護中企權益，增加了中英雙邊供應鏈中斷的風險。
+> **數據來源**：cn_export_control Layer，政策文件萃取。來源檔案：`cn_export_control/mofcom-uk-sanctions-response-2026-03-02.md`、`cn_export_control/strengthened-dual-use-export-control-us-2024.md`
 
 ## 三、區域投資機會
-{: .key-answer data-question="各區域有哪些投資機會？"}
+
+<p class="key-answer" data-question="各區域有哪些投資機會？">台灣先進製程半導體、日本國防材料在地化、韓國記憶體與電池、美國關鍵礦物自主化，以及非中國替代供應鏈建設，是2026 Q1最具投資價值的區域主題。</p>
 
 <div class="key-takeaway" markdown="1">
 > **重要聲明**：以下投資觀點為系統推測，不構成投資建議。投資決策需考慮更多因素，建議諮詢專業投資顧問。
@@ -340,7 +369,7 @@ seo:
 ### 3.1 台灣
 
 #### 貿易亮點
-- 對美出口占比高達<span class="data-highlight">48.7%</span>，US Census顯示美自台進口2025年達2,014億美元，較2024年成長73.2%
+- 對美出口占比高達<span class="data-highlight">48.7%</span>，[US Census Bureau](https://www.census.gov/foreign-trade/) 顯示美自台進口2025年達2,014億美元，較2024年成長73.2%
 - 出口HHI升至<span class="data-highlight">2,522</span>（高集中度），為六大經濟體中唯一進入高集中區間者
 - 前三大市場（美、中、港）合計占比61.83%
 
@@ -353,6 +382,7 @@ seo:
 - **集中度風險為首要關注**：HHI 2,522意味高度依賴美國市場，美國需求放緩或政策轉向將造成重大衝擊
 - 地緣政治風險（台海緊張）
 - 稀土與關鍵材料供應鏈依賴中國
+- 來源：`bilateral_trade_flows/market_concentration/158-hhi-2024.md`、`bilateral_trade_flows/commodity_structure/158-commodity-2024.md`、`us_trade_census/country_detail/us-detail-5830-2026.md`
 
 ### 3.2 美國
 
@@ -364,7 +394,7 @@ seo:
 
 #### 投資主題（推測）
 - **製造業回流**：《CHIPS法案》《IRA》推動在地化生產，但2025年對台進口激增顯示短期仍高度依賴亞洲供應鏈
-- **關鍵礦物自主化**：因應中國出口管制，本土開採與回收產業可能受惠
+- **關鍵礦物自主化**：因應中國出口管制（鎵、鍺、銻、超硬材料對美普遍拒絕出口），本土開採與回收產業可能受惠
 - **國防與航太**：供應鏈安全考量下的資本支出增加
 - **對中貿易替代**：自中進口下降的缺口由台灣、越南、印度等替代來源填補
 
@@ -372,25 +402,27 @@ seo:
 - 貿易政策不確定性（關稅政策反覆）
 - 對台灣半導體的高度依賴（自台進口一年內成長73%）
 - 經常帳赤字持續擴大
-- 來源：`us_trade_census/us-detail-5700-2026.md`（美中）、`us_trade_census/us-detail-5830-2026.md`（美台）
+- 來源：`us_trade_census/country_detail/us-detail-5700-2026.md`（美中）、`us_trade_census/country_detail/us-detail-5830-2026.md`（美台）、`world_macro_indicators/current_account/USA-current_account-2026.md`
 
 ### 3.3 中國
 
 #### 貿易亮點
-- 對美出口占比23.4%，仍為最大出口市場，但US Census顯示美自中進口持續下滑（2025年3,084億美元 vs 2024年4,387億美元）
+- 對美出口占比23.4%，仍為最大出口市場，但[US Census Bureau](https://www.census.gov/foreign-trade/) 顯示美自中進口持續下滑（2025年3,084億美元 vs 2024年4,387億美元）
 - 出口市場分散度維持良好（HHI 795），第二大市場馬來西亞占比9.2%，全球布局均衡
-- 經常帳盈餘大幅反彈至+4,239億美元（YoY +61%）
+- 經常帳盈餘大幅反彈至+4,239億美元（YoY +61%），出口韌性超預期
 
 #### 投資主題（推測）
 - **內需消費**：對美出口持續下降，內需市場開拓成為政策重點
 - **高端製造出口**：電動車、電池、光伏領域出口競爭力強，東南亞與中東市場份額持續擴大
 - **「一帶一路」市場**：馬來西亞（9.2%）、越南（3.2%）、泰國（3.1%）等東南亞市場貢獻度提升
+- **出口管制作為外交工具**：中國展現運用出口管制作為地緣政治槓桿的意願，管制領域持續擴大
 
 #### 風險因子
 - 對美出口持續萎縮（US Census 2025年數據確認）
 - 出口管制可能引發更多貿易夥伴反制（英國已採取行動）
 - GDP成長放緩（2024年4.98%），內需提振成效待觀察
 - 中英關係因俄羅斯制裁議題升溫
+- 來源：`bilateral_trade_flows/export_flow/156-export-2024.md`、`us_trade_census/country_detail/us-detail-5700-2026.md`、`world_macro_indicators/gdp_growth/CHN-gdp_growth-2026.md`
 
 ### 3.4 日本
 
@@ -401,15 +433,15 @@ seo:
 
 #### 投資主題（推測）
 - **半導體復興**：熊本晶圓廠等投資帶動設備與材料供應鏈
-- **關鍵材料國產化**：中國 2026-02-24 對日40家實體出口管制雙軌制，TDK、日東電工等電子材料商列入關注名單，材料自主化迫切性顯著提升
+- **關鍵材料國產化**：中國 2026-01-06 全面禁止向日本軍事用戶出口兩用物項、2026-02-24 對日40家實體出口管制雙軌制，TDK、日東電工等電子材料商列入關注名單，材料自主化迫切性顯著提升
 - **國防航太供應鏈重組**：三菱重工、川崎重工、IHI等核心企業列入管控名單，兩用物項完全禁止出口，推動日本國防產業在地化與替代供應源開發
 - **日圓貶值受惠股**：出口導向企業獲利改善
 
 #### 風險因子
 - GDP近乎零成長（0.10%），內需疲弱
-- **中國對日出口管制**：20家核心國防航太企業完全禁止兩用物項出口，20家關注名單企業面臨許可審查風險。涵蓋三菱重工5家子公司、川崎重工航空宇宙、IHI 6家子公司、NEC航空宇宙、日本海洋聯合、防衛大學、JAXA等
+- **中國對日出口管制升級**：2026-01-06全面禁令（所有兩用物項、軍事用途）+ 2026-02-24實體清單（40家），涵蓋三菱重工5家子公司、川崎重工航空宇宙、IHI 6家子公司、NEC航空宇宙系統、日本海洋聯合、富士通防衛、防衛大學、JAXA等。第三方轉移禁令延伸管轄範圍。
 - 人口老化與勞動力短缺
-- 來源：`cn_export_control/mofcom-announcement-2026-no11-japan-entity-list-2026-02-24.md`、`cn_export_control/mofcom-announcement-2026-no12-japan-watchlist-2026-02-24.md`、`cn_export_control/mofcom-spokesperson-japan-export-controls-2026-02-24.md`
+- 來源：`cn_export_control/dual-use-export-control-japan-strengthening.md`、`cn_export_control/mofcom-announcement-2026-no11-japan-entity-list-2026-02-24.md`、`cn_export_control/mofcom-announcement-2026-no12-japan-watchlist-2026-02-24.md`、`us_trade_census/country_detail/us-detail-5880-2026.md`
 
 ### 3.5 韓國
 
@@ -427,7 +459,7 @@ seo:
 #### 風險因子
 - 對中國原材料依賴（中國為第一大進口來源，UN Comtrade數據，23億美元）
 - 地緣政治風險（朝鮮半島）
-- 來源：`us_trade_census/us-detail-5800-2026.md`
+- 來源：`bilateral_trade_flows/market_concentration/410-hhi-2024.md`、`us_trade_census/country_detail/us-detail-5800-2026.md`、`world_macro_indicators/current_account/KOR-current_account-2026.md`
 
 ### 3.6 德國
 
@@ -446,13 +478,15 @@ seo:
 - 能源成本仍高，製造業競爭力下滑
 - 汽車產業電動化轉型挑戰
 - 數據涵蓋範圍僅70個夥伴國群組，可能低估實際貿易規模
-- 來源：`us_trade_census/us-detail-4280-2026.md`
+- 來源：`bilateral_trade_flows/market_concentration/276-hhi-2024.md`、`us_trade_census/country_detail/us-detail-4280-2026.md`、`world_macro_indicators/gdp_growth/DEU-gdp_growth-2026.md`
 
 ## 四、下季觀察清單
-{: .key-answer data-question="下季應關注哪些指標和事件？"}
+
+<p class="key-answer" data-question="下季應關注哪些指標和事件？">下季關鍵指標包括：台灣出口HHI是否持續高於2,500、美自中進口月均值是否跌破200億美元、中英制裁互動是否升級，以及中國對日出口管制對供應鏈的實際影響。</p>
 
 ### 可追蹤指標
-{: .key-answer data-question="有哪些可追蹤的關鍵指標？"}
+
+<p class="key-answer" data-question="有哪些可追蹤的關鍵指標？">六大核心觀察指標：台灣出口HHI（閾值2,500）、台灣對美出口占比（閾值50%）、美自中進口月均值（閾值200億/月）、韓國HHI（維持低位）、德國GDP成長、中國經常帳/GDP比。</p>
 
 | 指標 | 當前值 | 閾值 | 觸發條件 | 投資意涵 |
 |------|--------|------|---------|---------|
@@ -466,15 +500,15 @@ seo:
 
 ### 待觀察事件
 
-<div class="actionable-steps" markdown="1">
-1. **中國對日出口管制後續效應（2026 Q2）**：40家實體管制生效後，日本國防航太產業材料替代進度與日中貿易流量變化是關鍵觀察點
-2. **中英制裁互動（2026 Q2）**：英方2026-02-24制裁、中方2026-03-02反制後，是否進一步升級，影響中英雙邊貿易與在華英企營運
-3. **台灣出口集中度趨勢（2026 Q2）**：HHI是否持續維持在高集中區間，或因市場多元化政策而回落
-4. **中國出口管制生效後供應鏈調整**：鋰電池、重稀土、超硬材料三大管制（2025-11-08生效）的實際影響逐漸浮現
-5. **美國關稅政策動態**：對中關稅是否進一步調整，影響美中貿易流量走勢
-6. **日本半導體投資進度**：熊本晶圓廠量產時程影響亞洲半導體供應鏈佈局
-7. **德國工業生產觸底訊號**：連續衰退是否結束，影響歐洲製造業投資決策
-</div>
+<ol class="actionable-steps" markdown="1">
+<li><strong>中國對日出口管制後續效應（2026 Q2）</strong>：2026-01-06全面禁令與2026-02-24實體清單生效後，日本國防航太產業材料替代進度與日中貿易流量變化是關鍵觀察點</li>
+<li><strong>中英制裁互動（2026 Q2）</strong>：英方2026-02-24制裁、中方2026-03-02反制後，是否進一步升級，影響中英雙邊貿易與在華英企營運</li>
+<li><strong>台灣出口集中度趨勢（2026 Q2）</strong>：HHI是否持續維持在高集中區間，或因市場多元化政策而回落</li>
+<li><strong>中國出口管制生效後供應鏈調整</strong>：鋰電池、重稀土、超硬材料、關鍵礦物四大管制的實際影響逐漸浮現，含中國成分稀土物項的域外管制效力觀察</li>
+<li><strong>美國關稅政策動態</strong>：對中關稅是否進一步調整，影響美中貿易流量走勢</li>
+<li><strong>日本半導體投資進度</strong>：熊本晶圓廠量產時程影響亞洲半導體供應鏈佈局</li>
+<li><strong>德國工業生產觸底訊號</strong>：連續衰退是否結束，影響歐洲製造業投資決策</li>
+</ol>
 
 ## 五、方法論與限制
 
@@ -482,9 +516,9 @@ seo:
 
 | 來源 | 最新期間 | 延遲 | 備註 |
 |------|---------|------|------|
-| bilateral_trade_flows | 2023-2024 | 6-12個月 | UN Comtrade Preview API年度數據，2026-03-22擷取 |
-| world_macro_indicators | 2024 | 1-2年 | World Bank宏觀指標，2026-03-22擷取 |
-| us_trade_census | 2026-01 | 2個月 | 美國對外貿易月度數據，含2025全年，2026-03-22擷取 |
+| bilateral_trade_flows | 2023-2024 | 6-12個月 | UN Comtrade Preview API年度數據，2026-03-23擷取 |
+| world_macro_indicators | 2024 | 1-2年 | World Bank宏觀指標，2026-03-23擷取 |
+| us_trade_census | 2026-01 | 2個月 | 美國對外貿易月度數據，含2025全年，2026-03-23擷取 |
 | cn_export_control | 2026-03 | 即時 | 中國出口管制政策，最新至2026-03-02 |
 
 ### 計算方法
@@ -502,7 +536,8 @@ seo:
 4. **無商品明細**：Comtrade Preview API無HS商品級別數據，無法進行細分產業分析
 5. **德國數據不完整**：德國僅涵蓋70個夥伴國群組，總量可能低估
 6. **台灣宏觀數據缺失**：World Bank未提供台灣GDP、貿易/GDP、經常帳等數據
-7. **首份投資視角報告**：本報告為系統首份投資視角分析的第三次更新，無完整歷史同期比較
+7. **首份投資視角報告**：本報告為系統首份投資視角分析的第四次更新，無完整歷史同期比較
+8. **Qdrant語意搜尋不可用**：本次更新因環境依賴問題未能執行Qdrant語意搜尋，無歷史資料交叉參考
 
 ---
 
@@ -521,7 +556,7 @@ seo:
 
 ## 資料來源
 
-- [UN Comtrade Database](https://comtradeplus.un.org/) — 雙邊貿易流量（2026-03-22擷取）
-- [World Bank Open Data](https://data.worldbank.org/) — 宏觀經濟指標（2026-03-22擷取）
-- [U.S. Census Bureau Foreign Trade](https://www.census.gov/foreign-trade/) — 美國對外貿易（2026-03-22擷取）
+- [UN Comtrade Database](https://comtradeplus.un.org/) — 雙邊貿易流量（2026-03-23擷取）
+- [World Bank Open Data](https://data.worldbank.org/) — 宏觀經濟指標（2026-03-23擷取）
+- [U.S. Census Bureau Foreign Trade](https://www.census.gov/foreign-trade/) — 美國對外貿易（2026-03-23擷取）
 - [中國商務部出口管制資訊網](http://exportcontrol.mofcom.gov.cn/) — 出口管制政策

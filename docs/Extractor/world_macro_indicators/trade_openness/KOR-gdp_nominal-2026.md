@@ -3,7 +3,7 @@
 - **Source**: World Bank API v2
 - **Country**: Korea, Rep. (KOR)
 - **Indicator**: gdp_nominal
-- **Fetched**: 2026-03-22T01:56:58Z
+- **Fetched**: 2026-03-23T01:05:55Z
 - **confidence**: 高
 
 ## Time Series
