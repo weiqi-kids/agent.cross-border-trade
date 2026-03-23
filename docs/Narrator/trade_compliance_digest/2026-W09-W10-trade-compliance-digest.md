@@ -240,7 +240,7 @@ last_modified_at: 2026-03-01
 
 > 依據《出口管制法》及《兩用物項出口管制條例》，違規出口將追究法律責任。本公告具有域外效力 — 任何國家和地區組織或個人將中國原產兩用物項轉移至列名實體，同樣面臨法律責任追究。
 
-**來源**：[商務部公告 2026 年第 11 號](/docs/Extractor/cn_export_control/mofcom-announcement-2026-no11-japan-entity-list-2026-02-24.md)
+**來源**：[商務部公告 2026 年第 11 號](../../Extractor/cn_export_control/mofcom-announcement-2026-no11-japan-entity-list-2026-02-24)
 
 ---
 
@@ -294,7 +294,7 @@ last_modified_at: 2026-03-01
 
 > 關注名單雖非完全禁止出口，但審批標準嚴格。涉軍出口「不予批准」的明確表態顯示，商務部將對最終用途進行嚴格審查。建議諮詢專業法律顧問評估交易可行性。
 
-**來源**：[商務部公告 2026 年第 12 號](/docs/Extractor/cn_export_control/mofcom-announcement-2026-no12-japan-watchlist-2026-02-24.md)
+**來源**：[商務部公告 2026 年第 12 號](../../Extractor/cn_export_control/mofcom-announcement-2026-no12-japan-watchlist-2026-02-24)
 
 ---
 
@@ -317,7 +317,7 @@ last_modified_at: 2026-03-01
 
 > 商務部發言人明確表示，這些措施旨在「制止日本『再軍事化』和擁核企圖」，措施「完全正當、合理、合法」。強調僅針對少數實體和兩用物項，不影響正常中日貿易。
 
-**來源**：[商務部發言人答記者問](/docs/Extractor/cn_export_control/mofcom-spokesperson-japan-export-controls-2026-02-24.md)
+**來源**：[商務部發言人答記者問](../../Extractor/cn_export_control/mofcom-spokesperson-japan-export-controls-2026-02-24)
 
 ---
 
@@ -349,7 +349,7 @@ last_modified_at: 2026-03-01
 - [ ] 確認客戶與日本防衛產業的關聯性
 - [ ] 諮詢法律顧問評估「有助於提升軍事實力」的具體認定標準
 
-**來源**：[2026-01-06 商務部答記者問](/docs/Extractor/cn_export_control/dual-use-export-control-japan-2026-01-06.md)
+**來源**：[2026-01-06 商務部答記者問](../../Extractor/cn_export_control/dual-use-export-control-japan-2026-01-06)
 
 ---
 
@@ -379,7 +379,7 @@ last_modified_at: 2026-03-01
 | **狀態** | 持續追蹤 |
 {: .comparison-table}
 
-**來源**：[不可靠實體清單調整](/docs/Extractor/cn_export_control/mofcom-unreliable-entity-list-adjustment-nov2025.md)
+**來源**：[不可靠實體清單調整](../../Extractor/cn_export_control/mofcom-unreliable-entity-list-adjustment-nov2025)
 
 ---
 
@@ -449,7 +449,7 @@ last_modified_at: 2026-03-01
 - <span class="data-highlight">有移除機制</span>
 </div>
 
-> 來源：[商務部發言人答記者問](/docs/Extractor/cn_export_control/mofcom-spokesperson-japan-export-controls-2026-02-24.md)
+> 來源：[商務部發言人答記者問](../../Extractor/cn_export_control/mofcom-spokesperson-japan-export-controls-2026-02-24)
 
 ### Q2: 對未列名的日本實體出口兩用物項是否受限？
 
@@ -459,7 +459,7 @@ last_modified_at: 2026-03-01
 2. 軍事用途
 3. 一切有助於提升日本軍事實力的其他最終用戶用途
 
-> 來源：[商務部發言人答記者問](/docs/Extractor/cn_export_control/mofcom-spokesperson-japan-export-controls-2026-02-24.md)
+> 來源：[商務部發言人答記者問](../../Extractor/cn_export_control/mofcom-spokesperson-japan-export-controls-2026-02-24)
 
 ### Q3: 關注名單實體如何申請移除？
 
@@ -472,7 +472,7 @@ last_modified_at: 2026-03-01
 4. 諮詢專業法律顧問協助申請程序
 </div>
 
-> 來源：[商務部公告 2026 年第 12 號](/docs/Extractor/cn_export_control/mofcom-announcement-2026-no12-japan-watchlist-2026-02-24.md)
+> 來源：[商務部公告 2026 年第 12 號](../../Extractor/cn_export_control/mofcom-announcement-2026-no12-japan-watchlist-2026-02-24)
 
 ### Q4: 我的產品含有少量中國稀土成分，現在還可以賣給日本客戶嗎？
 
@@ -483,7 +483,7 @@ last_modified_at: 2026-03-01
 
 此外，若最終用途涉及日本軍事能力提升，無論實體是否列名，均可能受限。
 
-> 來源：[商務部公告 2025 第 61 號](/docs/Extractor/cn_export_control/customs-announcement-2025-61.md)
+> 來源：[商務部公告 2025 第 61 號](../../Extractor/cn_export_control/customs-announcement-2025-61)
 
 ---
 
@@ -542,7 +542,7 @@ last_modified_at: 2026-03-01
 ## 資料來源
 
 - 中國商務部出口管制資訊網 (http://exportcontrol.mofcom.gov.cn/)
-- [商務部公告 2026 年第 11 號](/docs/Extractor/cn_export_control/mofcom-announcement-2026-no11-japan-entity-list-2026-02-24.md)
-- [商務部公告 2026 年第 12 號](/docs/Extractor/cn_export_control/mofcom-announcement-2026-no12-japan-watchlist-2026-02-24.md)
-- [商務部發言人答記者問](/docs/Extractor/cn_export_control/mofcom-spokesperson-japan-export-controls-2026-02-24.md)
-- [對日兩用物項全面禁令](/docs/Extractor/cn_export_control/dual-use-export-control-japan-2026-01-06.md)
+- [商務部公告 2026 年第 11 號](../../Extractor/cn_export_control/mofcom-announcement-2026-no11-japan-entity-list-2026-02-24)
+- [商務部公告 2026 年第 12 號](../../Extractor/cn_export_control/mofcom-announcement-2026-no12-japan-watchlist-2026-02-24)
+- [商務部發言人答記者問](../../Extractor/cn_export_control/mofcom-spokesperson-japan-export-controls-2026-02-24)
+- [對日兩用物項全面禁令](../../Extractor/cn_export_control/dual-use-export-control-japan-2026-01-06)

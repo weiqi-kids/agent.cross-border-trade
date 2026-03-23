@@ -283,7 +283,7 @@ seo:
 
 > 依據《出口管制法》及《兩用物項出口管制條例》，違規出口將追究法律責任。第 11 號公告具有域外效力 — 任何國家和地區組織或個人將中國原產兩用物項轉移至管控名單實體，同樣面臨法律責任追究。滿月後企業不得以「政策剛公布」為由主張不知情。
 
-**來源**：[商務部公告 2026 年第 11 號](/docs/Extractor/cn_export_control/mofcom-announcement-2026-no11-japan-entity-list-2026-02-24.md)、[商務部公告 2026 年第 12 號](/docs/Extractor/cn_export_control/mofcom-announcement-2026-no12-japan-watchlist-2026-02-24.md)、[商務部發言人答記者問（2026-02-24）](/docs/Extractor/cn_export_control/mofcom-spokesperson-japan-export-controls-2026-02-24.md)
+**來源**：[商務部公告 2026 年第 11 號](../../Extractor/cn_export_control/mofcom-announcement-2026-no11-japan-entity-list-2026-02-24)、[商務部公告 2026 年第 12 號](../../Extractor/cn_export_control/mofcom-announcement-2026-no12-japan-watchlist-2026-02-24)、[商務部發言人答記者問（2026-02-24）](../../Extractor/cn_export_control/mofcom-spokesperson-japan-export-controls-2026-02-24)
 
 ---
 
@@ -317,7 +317,7 @@ seo:
 - [ ] **反制措施預案**：準備中國可能針對英國實體反制的應對方案
 - [ ] **諮詢法律意見**：涉及中英俄三方業務的企業應持續諮詢專業法律顧問
 
-**來源**：[商務部發言人就英制裁中國企業答記者問（2026-03-02）](/docs/Extractor/cn_export_control/mofcom-uk-sanctions-response-2026-03-02.md)、[商務部發言人就英制裁中國企業答記者問（2025-10-29）](/docs/Extractor/cn_export_control/uk-sanctions-response-2025-10-29.md)
+**來源**：[商務部發言人就英制裁中國企業答記者問（2026-03-02）](../../Extractor/cn_export_control/mofcom-uk-sanctions-response-2026-03-02)、[商務部發言人就英制裁中國企業答記者問（2025-10-29）](../../Extractor/cn_export_control/uk-sanctions-response-2025-10-29)
 
 ---
 
@@ -352,7 +352,7 @@ seo:
 - [ ] **內控系統建設**：建立或完善制毒物品生產、儲存、處置的追蹤系統
 - [ ] **物流合規培訓**：確保物流合作夥伴了解可疑活動報告義務
 
-**來源**：[國家禁毒委員會辦公室通告](/docs/Extractor/cn_export_control/national-narcotics-control-commission-precursor-chemical-diversion-prevention-notice.md)、[易制毒化學品管理條例](/docs/Extractor/cn_export_control/precursor-chemical-management-regulation.md)
+**來源**：[國家禁毒委員會辦公室通告](../../Extractor/cn_export_control/national-narcotics-control-commission-precursor-chemical-diversion-prevention-notice)、[易制毒化學品管理條例](../../Extractor/cn_export_control/precursor-chemical-management-regulation)
 
 ---
 
@@ -368,7 +368,7 @@ seo:
 
 即使日本實體未列入管控名單或關注名單，若出口涉及日本軍事用戶、軍事用途、或有助於提升日本軍事實力的其他最終用途，仍<span class="data-highlight">禁止兩用物項出口</span>。此為對日三級管制體系的基礎層。
 
-**來源**：[2026-01-06 商務部答記者問](/docs/Extractor/cn_export_control/dual-use-export-control-japan-2026-01-06.md)
+**來源**：[2026-01-06 商務部答記者問](../../Extractor/cn_export_control/dual-use-export-control-japan-2026-01-06)
 
 ---
 
@@ -416,7 +416,7 @@ seo:
 - 密切關注中美經貿關係走向
 </div>
 
-**來源**：[不可靠實體清單調整](/docs/Extractor/cn_export_control/enforcement_action/2025-11-06-mofcom-spokesperson-on-adjusting-unreliable-entit.md)、[出口管制管控名單調整](/docs/Extractor/cn_export_control/enforcement_action/2025-11-06-spokesman-adjusts-export-control-list-measures.md)
+**來源**：[不可靠實體清單調整](../../Extractor/cn_export_control/enforcement_action/2025-11-06-mofcom-spokesperson-on-adjusting-unreliable-entit)、[出口管制管控名單調整](../../Extractor/cn_export_control/enforcement_action/2025-11-06-spokesman-adjusts-export-control-list-measures)
 
 ---
 
@@ -501,7 +501,7 @@ seo:
 5. **員工培訓**：確認業務和物流人員了解三級管制體系（管控名單 / 關注名單 / 涉軍用途全面禁止）
 </div>
 
-> 來源：[商務部公告 2026 年第 11 號](/docs/Extractor/cn_export_control/mofcom-announcement-2026-no11-japan-entity-list-2026-02-24.md)、[商務部公告 2026 年第 12 號](/docs/Extractor/cn_export_control/mofcom-announcement-2026-no12-japan-watchlist-2026-02-24.md)
+> 來源：[商務部公告 2026 年第 11 號](../../Extractor/cn_export_control/mofcom-announcement-2026-no11-japan-entity-list-2026-02-24)、[商務部公告 2026 年第 12 號](../../Extractor/cn_export_control/mofcom-announcement-2026-no12-japan-watchlist-2026-02-24)
 
 ### Q2: 我的公司出口化學品到美國，需要擔心制毒物品管控嗎？
 
@@ -512,7 +512,7 @@ seo:
 3. **物流責任連帶**：快遞和物流企業有可疑活動報告義務，若未盡義務同樣擔責
 4. **建議行動**：對照《易制毒化學品管理條例》三類化學品清單進行自查，對高風險化學品出口增設最終用途聲明要求
 
-> 來源：[國家禁毒委員會辦公室通告](/docs/Extractor/cn_export_control/national-narcotics-control-commission-precursor-chemical-diversion-prevention-notice.md)
+> 來源：[國家禁毒委員會辦公室通告](../../Extractor/cn_export_control/national-narcotics-control-commission-precursor-chemical-diversion-prevention-notice)
 
 ### Q3: 暫停措施到期倒數 7.5 個月，現在開始準備算不算太早？
 
@@ -526,7 +526,7 @@ seo:
 5. **政策信號追蹤**（持續）：中美經貿磋商的後續進展是關鍵判斷依據
 </div>
 
-> 來源：[不可靠實體清單調整](/docs/Extractor/cn_export_control/enforcement_action/2025-11-06-mofcom-spokesperson-on-adjusting-unreliable-entit.md)
+> 來源：[不可靠實體清單調整](../../Extractor/cn_export_control/enforcement_action/2025-11-06-mofcom-spokesperson-on-adjusting-unreliable-entit)
 
 ---
 
@@ -588,14 +588,14 @@ seo:
 ## 資料來源
 
 - 中國商務部出口管制資訊網 (http://exportcontrol.mofcom.gov.cn/)
-- [商務部公告 2026 年第 11 號](/docs/Extractor/cn_export_control/mofcom-announcement-2026-no11-japan-entity-list-2026-02-24.md)
-- [商務部公告 2026 年第 12 號](/docs/Extractor/cn_export_control/mofcom-announcement-2026-no12-japan-watchlist-2026-02-24.md)
-- [商務部發言人答記者問（2026-02-24）](/docs/Extractor/cn_export_control/mofcom-spokesperson-japan-export-controls-2026-02-24.md)
-- [商務部發言人就英制裁中國企業答記者問（2026-03-02）](/docs/Extractor/cn_export_control/mofcom-uk-sanctions-response-2026-03-02.md)
-- [商務部發言人就英制裁中國企業答記者問（2025-10-29）](/docs/Extractor/cn_export_control/uk-sanctions-response-2025-10-29.md)
-- [2026-01-06 商務部答記者問](/docs/Extractor/cn_export_control/dual-use-export-control-japan-2026-01-06.md)
-- [國家禁毒委員會辦公室通告](/docs/Extractor/cn_export_control/national-narcotics-control-commission-precursor-chemical-diversion-prevention-notice.md)
-- [易制毒化學品管理條例](/docs/Extractor/cn_export_control/precursor-chemical-management-regulation.md)
-- [不可靠實體清單調整](/docs/Extractor/cn_export_control/enforcement_action/2025-11-06-mofcom-spokesperson-on-adjusting-unreliable-entit.md)
-- [出口管制管控名單調整](/docs/Extractor/cn_export_control/enforcement_action/2025-11-06-spokesman-adjusts-export-control-list-measures.md)
+- [商務部公告 2026 年第 11 號](../../Extractor/cn_export_control/mofcom-announcement-2026-no11-japan-entity-list-2026-02-24)
+- [商務部公告 2026 年第 12 號](../../Extractor/cn_export_control/mofcom-announcement-2026-no12-japan-watchlist-2026-02-24)
+- [商務部發言人答記者問（2026-02-24）](../../Extractor/cn_export_control/mofcom-spokesperson-japan-export-controls-2026-02-24)
+- [商務部發言人就英制裁中國企業答記者問（2026-03-02）](../../Extractor/cn_export_control/mofcom-uk-sanctions-response-2026-03-02)
+- [商務部發言人就英制裁中國企業答記者問（2025-10-29）](../../Extractor/cn_export_control/uk-sanctions-response-2025-10-29)
+- [2026-01-06 商務部答記者問](../../Extractor/cn_export_control/dual-use-export-control-japan-2026-01-06)
+- [國家禁毒委員會辦公室通告](../../Extractor/cn_export_control/national-narcotics-control-commission-precursor-chemical-diversion-prevention-notice)
+- [易制毒化學品管理條例](../../Extractor/cn_export_control/precursor-chemical-management-regulation)
+- [不可靠實體清單調整](../../Extractor/cn_export_control/enforcement_action/2025-11-06-mofcom-spokesperson-on-adjusting-unreliable-entit)
+- [出口管制管控名單調整](../../Extractor/cn_export_control/enforcement_action/2025-11-06-spokesman-adjusts-export-control-list-measures)
 - [U.S. Census Bureau Foreign Trade](https://www.census.gov/foreign-trade/)

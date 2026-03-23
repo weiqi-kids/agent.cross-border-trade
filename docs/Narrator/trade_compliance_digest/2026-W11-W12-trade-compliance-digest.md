@@ -233,7 +233,7 @@ seo:
 
 > 被制裁企業可能無法使用英國金融系統、取得英國貨物與服務。同時，中國商務部明確表示將「採取必要措施」，企業需評估雙向制裁風險。此前 2025 年 10 月英國制裁 11 家中國企業時，中方已發出類似警告，顯示中英在涉俄議題上的對立持續升級。
 
-**來源**：[商務部發言人就英制裁中國企業答記者問（2026-03-02）](/docs/Extractor/cn_export_control/mofcom-uk-sanctions-response-2026-03-02.md)、[商務部發言人就英制裁中國企業答記者問（2025-10-29）](/docs/Extractor/cn_export_control/enforcement_action/2025-10-29-商务部新闻发言人就英制裁中国企业答记者问.md)
+**來源**：[商務部發言人就英制裁中國企業答記者問（2026-03-02）](../../Extractor/cn_export_control/mofcom-uk-sanctions-response-2026-03-02)、[商務部發言人就英制裁中國企業答記者問（2025-10-29）](../../Extractor/cn_export_control/enforcement_action/2025-10-29-商务部新闻发言人就英制裁中国企业答记者问)
 
 ---
 
@@ -267,7 +267,7 @@ seo:
 - [ ] **第三方合規告知**：確認海外合作夥伴已知悉並遵守轉讓限制
 - [ ] **許可申請追蹤**：若已提交關注名單實體的出口許可申請，追蹤審批進度
 
-**來源**：[商務部公告 2026 年第 11 號](/docs/Extractor/cn_export_control/mofcom-announcement-2026-no11-japan-entity-list-2026-02-24.md)、[商務部公告 2026 年第 12 號](/docs/Extractor/cn_export_control/mofcom-announcement-2026-no12-japan-watchlist-2026-02-24.md)
+**來源**：[商務部公告 2026 年第 11 號](../../Extractor/cn_export_control/mofcom-announcement-2026-no11-japan-entity-list-2026-02-24)、[商務部公告 2026 年第 12 號](../../Extractor/cn_export_control/mofcom-announcement-2026-no12-japan-watchlist-2026-02-24)
 
 ---
 
@@ -283,7 +283,7 @@ seo:
 
 即使日本實體未列入管控名單或關注名單，若出口涉及日本軍事用戶、軍事用途、或有助於提升日本軍事實力的其他最終用途，仍<span class="data-highlight">禁止兩用物項出口</span>。
 
-**來源**：[2026-01-06 商務部答記者問](/docs/Extractor/cn_export_control/dual-use-export-control-japan-2026-01-06.md)
+**來源**：[2026-01-06 商務部答記者問](../../Extractor/cn_export_control/dual-use-export-control-japan-2026-01-06)
 
 ---
 
@@ -330,7 +330,7 @@ seo:
 - 密切關注中美經貿關係走向
 </div>
 
-**來源**：[不可靠實體清單調整](/docs/Extractor/cn_export_control/enforcement_action/2025-11-06-mofcom-spokesperson-on-adjusting-unreliable-entit.md)、[出口管制管控名單調整](/docs/Extractor/cn_export_control/enforcement_action/2025-11-06-spokesman-adjusts-export-control-list-measures.md)
+**來源**：[不可靠實體清單調整](../../Extractor/cn_export_control/enforcement_action/2025-11-06-mofcom-spokesperson-on-adjusting-unreliable-entit)、[出口管制管控名單調整](../../Extractor/cn_export_control/enforcement_action/2025-11-06-spokesman-adjusts-export-control-list-measures)
 
 ---
 
@@ -415,7 +415,7 @@ seo:
 4. **中國反制**：中國可能針對英國實體採取反制措施，涉及中英業務的企業需雙向評估
 </div>
 
-> 來源：[商務部發言人答記者問（2026-03-02）](/docs/Extractor/cn_export_control/mofcom-uk-sanctions-response-2026-03-02.md)
+> 來源：[商務部發言人答記者問（2026-03-02）](../../Extractor/cn_export_control/mofcom-uk-sanctions-response-2026-03-02)
 
 ### Q2: 對日出口管制雙軌制已執行一個月，有什麼新的注意事項？
 
@@ -426,7 +426,7 @@ seo:
 3. **第三國轉移風險**：域外效力條款意味著透過第三國繞道出口同樣面臨法律責任
 4. **產業替代效應**：留意日本企業是否轉向其他國家採購，可能帶來新的商機或競爭
 
-> 來源：[商務部公告 2026 年第 11 號](/docs/Extractor/cn_export_control/mofcom-announcement-2026-no11-japan-entity-list-2026-02-24.md)、[第 12 號](/docs/Extractor/cn_export_control/mofcom-announcement-2026-no12-japan-watchlist-2026-02-24.md)
+> 來源：[商務部公告 2026 年第 11 號](../../Extractor/cn_export_control/mofcom-announcement-2026-no11-japan-entity-list-2026-02-24)、[第 12 號](../../Extractor/cn_export_control/mofcom-announcement-2026-no12-japan-watchlist-2026-02-24)
 
 ### Q3: 暫停措施到期前，企業應如何提前準備？
 
@@ -440,7 +440,7 @@ seo:
 5. **持續關注政策信號**：中美經貿磋商的後續進展將是關鍵判斷依據
 </div>
 
-> 來源：[不可靠實體清單調整](/docs/Extractor/cn_export_control/enforcement_action/2025-11-06-mofcom-spokesperson-on-adjusting-unreliable-entit.md)
+> 來源：[不可靠實體清單調整](../../Extractor/cn_export_control/enforcement_action/2025-11-06-mofcom-spokesperson-on-adjusting-unreliable-entit)
 
 ---
 
@@ -499,10 +499,10 @@ seo:
 ## 資料來源
 
 - 中國商務部出口管制資訊網 (http://exportcontrol.mofcom.gov.cn/)
-- [商務部發言人就英制裁中國企業答記者問（2026-03-02）](/docs/Extractor/cn_export_control/mofcom-uk-sanctions-response-2026-03-02.md)
-- [商務部公告 2026 年第 11 號](/docs/Extractor/cn_export_control/mofcom-announcement-2026-no11-japan-entity-list-2026-02-24.md)
-- [商務部公告 2026 年第 12 號](/docs/Extractor/cn_export_control/mofcom-announcement-2026-no12-japan-watchlist-2026-02-24.md)
-- [商務部發言人答記者問](/docs/Extractor/cn_export_control/mofcom-spokesperson-japan-export-controls-2026-02-24.md)
-- [不可靠實體清單調整](/docs/Extractor/cn_export_control/enforcement_action/2025-11-06-mofcom-spokesperson-on-adjusting-unreliable-entit.md)
-- [出口管制管控名單調整](/docs/Extractor/cn_export_control/enforcement_action/2025-11-06-spokesman-adjusts-export-control-list-measures.md)
+- [商務部發言人就英制裁中國企業答記者問（2026-03-02）](../../Extractor/cn_export_control/mofcom-uk-sanctions-response-2026-03-02)
+- [商務部公告 2026 年第 11 號](../../Extractor/cn_export_control/mofcom-announcement-2026-no11-japan-entity-list-2026-02-24)
+- [商務部公告 2026 年第 12 號](../../Extractor/cn_export_control/mofcom-announcement-2026-no12-japan-watchlist-2026-02-24)
+- [商務部發言人答記者問](../../Extractor/cn_export_control/mofcom-spokesperson-japan-export-controls-2026-02-24)
+- [不可靠實體清單調整](../../Extractor/cn_export_control/enforcement_action/2025-11-06-mofcom-spokesperson-on-adjusting-unreliable-entit)
+- [出口管制管控名單調整](../../Extractor/cn_export_control/enforcement_action/2025-11-06-spokesman-adjusts-export-control-list-measures)
 - [U.S. Census Bureau Foreign Trade](https://www.census.gov/foreign-trade/)
