@@ -1,4 +1,4 @@
-name: Check Links & Auto-fix 404
+name: "Check Links and Auto-fix 404"
 
 on:
   workflow_run:
@@ -134,15 +134,7 @@ jobs:
 
               # 計算相對路徑
               source_dir=$(dirname "$md_path")
-              new_link=$(python3 -c "
-import os.path
-source = '$source_dir'
-target = '$found'
-rel = os.path.relpath(target, source)
-# 移除 .md 後綴
-rel = rel.replace('.md', '')
-print(rel)
-")
+              new_link=$(python3 -c "import os.path; rel = os.path.relpath('$found', '$source_dir').replace('.md', ''); print(rel)")
 
               echo "New link: $new_link"
 
