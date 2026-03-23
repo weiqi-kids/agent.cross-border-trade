@@ -11,7 +11,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
   check-links:
@@ -36,18 +35,15 @@ jobs:
 
       - name: Check all internal links
         id: check-links
+        shell: bash
         run: |
           echo "Checking all internal links..."
+          rm -f /tmp/broken-links.txt
 
-          BROKEN_LINKS=""
-          FIXES_APPLIED=""
-
-          # 遍歷所有 HTML 文件
           find _site -name "*.html" -type f | while read -r html_file; do
-            # 提取所有 href 連結
             grep -oE 'href="[^"]*"' "$html_file" 2>/dev/null | sed 's/href="//;s/"$//' | while read -r link; do
-              # 跳過外部連結、錨點、mailto
-              if [[ "$link" =~ ^https?:// ]] || [[ "$link" =~ ^# ]] || [[ "$link" =~ ^mailto: ]] || [[ -z "$link" ]]; then
+              # 跳過外部連結、錨點、mailto、javascript
+              if [[ "$link" =~ ^https?:// ]] || [[ "$link" =~ ^# ]] || [[ "$link" =~ ^mailto: ]] || [[ "$link" =~ ^javascript: ]] || [[ -z "$link" ]]; then
                 continue
               fi
 
@@ -59,8 +55,8 @@ jobs:
                 target="$dir/$link"
               fi
 
-              # 標準化路徑
-              target=$(echo "$target" | sed 's|/\./|/|g' | sed 's|[^/]*/\.\./||g')
+              # 用 Python 正規化路徑（正確處理多層 ..）
+              target=$(python3 -c "import os.path; print(os.path.normpath('$target'))")
 
               # 移除錨點
               target=$(echo "$target" | sed 's/#.*//')
@@ -75,27 +71,20 @@ jobs:
           if [[ -f /tmp/broken-links.txt ]]; then
             echo "Found broken links:"
             cat /tmp/broken-links.txt
-            echo "has_broken_links=true" >> $GITHUB_OUTPUT
+            echo "has_broken_links=true" >> "$GITHUB_OUTPUT"
 
-            # 統計
             count=$(wc -l < /tmp/broken-links.txt | tr -d ' ')
-            echo "broken_count=$count" >> $GITHUB_OUTPUT
+            echo "broken_count=$count" >> "$GITHUB_OUTPUT"
           else
             echo "All links are valid!"
-            echo "has_broken_links=false" >> $GITHUB_OUTPUT
+            echo "has_broken_links=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Attempt auto-fix in source files
         if: steps.check-links.outputs.has_broken_links == 'true'
+        shell: bash
         run: |
           echo "Attempting to fix broken links in source files..."
-
-          # 建立 HTML 到 MD 的映射
-          declare -A html_to_md
-          find docs -name "*.md" -type f | while read -r md; do
-            # 簡化：假設 docs/X/Y.md -> _site/X/Y.html 或 _site/X/Y/index.html
-            echo "$md"
-          done
 
           while IFS='|' read -r status html_file link target; do
             echo "Processing: $link in $html_file"
@@ -103,49 +92,70 @@ jobs:
             # 從 HTML 路徑反推 MD 路徑
             md_path=$(echo "$html_file" | sed 's|^_site/|docs/|' | sed 's|/index\.html$|.md|' | sed 's|\.html$|.md|')
 
-            # 如果 MD 不存在，嘗試其他路徑
             if [[ ! -f "$md_path" ]]; then
               md_path=$(echo "$html_file" | sed 's|^_site/|docs/|' | sed 's|\.html$|/index.md|')
             fi
 
             if [[ ! -f "$md_path" ]]; then
-              echo "Cannot find source MD for $html_file"
+              echo "  Cannot find source MD for $html_file, skipping"
               continue
             fi
 
-            echo "Source file: $md_path"
+            echo "  Source file: $md_path"
 
             # 提取連結的基本名稱
             base_name=$(basename "$link" | sed 's/\.html$//' | sed 's/\.md$//')
 
-            # 搜尋可能的正確目標
-            found=$(find docs -type f -name "${base_name}.md" | head -1)
+            # 搜尋可能的正確目標（排除 index.md 避免誤配）
+            if [[ "$base_name" == "index" ]]; then
+              echo "  Skipping auto-fix for 'index' links (too ambiguous)"
+              continue
+            fi
 
+            # 只在同一 Mode/Layer 目錄下搜尋，避免跨目錄誤配
+            search_dir=$(dirname "$md_path")
+            found=$(find "$search_dir" -maxdepth 3 -type f -name "${base_name}.md" | head -1)
+
+            # 若同目錄找不到，再往 docs/ 全域找（但限定唯一匹配）
             if [[ -z "$found" ]]; then
-              # 嘗試搜尋目錄
-              found=$(find docs -type d -name "$base_name" | head -1)
-              if [[ -n "$found" ]]; then
-                found="$found/index.md"
+              match_count=$(find docs -type f -name "${base_name}.md" | wc -l | tr -d ' ')
+              if [[ "$match_count" -eq 1 ]]; then
+                found=$(find docs -type f -name "${base_name}.md")
+              else
+                echo "  Found $match_count matches for ${base_name}.md, skipping (ambiguous)"
+                continue
               fi
             fi
 
             if [[ -n "$found" ]] && [[ -f "$found" ]]; then
-              echo "Found correct target: $found"
+              echo "  Found correct target: $found"
 
-              # 計算相對路徑
+              # 用 Python 計算相對路徑（避免 shell injection）
               source_dir=$(dirname "$md_path")
-              new_link=$(python3 -c "import os.path; rel = os.path.relpath('$found', '$source_dir').replace('.md', ''); print(rel)")
+              new_link=$(python3 -c "
+          import os.path, sys
+          rel = os.path.relpath(sys.argv[1], sys.argv[2]).replace('.md', '')
+          print(rel)
+          " "$found" "$source_dir")
 
-              echo "New link: $new_link"
+              echo "  New link: $new_link"
 
-              # 在 MD 文件中替換連結
-              if grep -q "$link" "$md_path"; then
-                sed -i.bak "s|]($link)|]($new_link)|g" "$md_path"
-                rm -f "${md_path}.bak"
-                echo "Fixed: $link -> $new_link in $md_path"
-              fi
+              # 使用 Python 做安全替換（避免 sed 特殊字元問題）
+              python3 -c "
+          import sys
+          md_path, old_link, new_link = sys.argv[1], sys.argv[2], sys.argv[3]
+          with open(md_path, 'r') as f:
+              content = f.read()
+          updated = content.replace('](' + old_link + ')', '](' + new_link + ')')
+          if updated != content:
+              with open(md_path, 'w') as f:
+                  f.write(updated)
+              print(f'  Fixed: {old_link} -> {new_link}')
+          else:
+              print(f'  Link pattern not found in source MD')
+          " "$md_path" "$link" "$new_link"
             else
-              echo "No match found for $base_name"
+              echo "  No match found for $base_name"
             fi
           done < /tmp/broken-links.txt
 
@@ -153,9 +163,9 @@ jobs:
         id: check-changes
         run: |
           if git diff --quiet; then
-            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
           else
-            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
             echo "Changes made:"
             git diff --stat
           fi
@@ -165,8 +175,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
+          git add docs/
           git commit -m "fix: auto-fix broken links detected by check-links workflow"
+          git pull --rebase origin main
           git push
 
       - name: Report status
