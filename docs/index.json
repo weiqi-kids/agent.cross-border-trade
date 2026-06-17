@@ -2746,5 +2746,17 @@
     "title": "---",
     "category": "index.md",
     "source": ""
+  },
+  {
+    "path": "docs/site-audit/2026-06-17-site-audit.md",
+    "title": "---",
+    "category": "site-audit",
+    "source": "2026-06-17-site-audit.md"
+  },
+  {
+    "path": "docs/site-audit/index.md",
+    "title": "---",
+    "category": "site-audit",
+    "source": "index.md"
   }
 ]
