@@ -5,6 +5,9 @@ title: 出口管制政策追蹤
 nav_order: 4
 has_children: true
 permalink: /policy-tracker/
+lastReviewed: '2026-06-17'
+reviewedBy: '全球貿易情報 AI 編輯'
+
 ---
 last_modified_at: 2026-06-17
 

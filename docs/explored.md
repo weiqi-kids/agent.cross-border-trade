@@ -5,6 +5,9 @@ title: 資料來源
 nav_order: 4
 description: "本系統使用的公開資料來源與 API"
 permalink: /data-sources/
+lastReviewed: '2026-02-13'
+reviewedBy: '全球貿易情報 AI 編輯'
+
 ---
 last_modified_at: 2026-02-13
 

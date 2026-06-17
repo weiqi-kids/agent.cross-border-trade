@@ -5,6 +5,9 @@ title: 供應鏈月報
 nav_order: 3
 has_children: true
 permalink: /supply-chain-analysis/
+lastReviewed: '2026-06-17'
+reviewedBy: '全球貿易情報 AI 編輯'
+
 ---
 last_modified_at: 2026-06-17
 

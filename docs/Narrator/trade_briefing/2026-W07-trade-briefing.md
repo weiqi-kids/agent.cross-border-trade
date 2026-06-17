@@ -11,6 +11,9 @@ keywords: "國際貿易, 美國, 台灣, 中國, 日本, 貿易逆差, 出口管
 related_reports:
   - "/Narrator/trade_briefing/2026-W06-trade-briefing/"
   - "/Narrator/supply_chain_analysis/2026-02-supply-chain-analysis/"
+lastReviewed: '2026-03-01'
+reviewedBy: '全球貿易情報 AI 編輯'
+
 ---
 last_modified_at: 2026-03-01
 

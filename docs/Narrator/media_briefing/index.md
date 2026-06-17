@@ -5,6 +5,9 @@ title: 財經媒體簡報
 nav_order: 7
 has_children: true
 permalink: /media-briefing/
+lastReviewed: '2026-06-17'
+reviewedBy: '全球貿易情報 AI 編輯'
+
 ---
 last_modified_at: 2026-06-17
 

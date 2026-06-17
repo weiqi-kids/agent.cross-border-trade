@@ -11,6 +11,9 @@ keywords: "國際貿易, 中國, 稀土, 出口管制, FDPR, 2026"
 related_reports:
   - "/Narrator/trade_briefing/2026-W07-trade-briefing/"
   - "/Narrator/trade_briefing/2026-W05-trade-briefing/"
+lastReviewed: '2026-03-01'
+reviewedBy: '全球貿易情報 AI 編輯'
+
 ---
 last_modified_at: 2026-03-01
 

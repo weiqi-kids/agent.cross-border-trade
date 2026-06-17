@@ -6,6 +6,9 @@ parent: 網站健檢
 nav_order: 1
 nav_exclude: true
 description: "2026-06-17 全球貿易情報系統網站健檢：Core Web Vitals 全綠、W3C 零錯誤、待補安全標頭"
+lastReviewed: '2026-06-17'
+reviewedBy: '全球貿易情報 AI 編輯'
+
 ---
 
 # 網站健檢報告 - 2026-06-17

@@ -5,6 +5,9 @@ title: 數據更新時間軸
 nav_order: 8
 description: "查看各數據源更新頻率與報告產出時程"
 permalink: /data-timeline/
+lastReviewed: '2026-02-20'
+reviewedBy: '全球貿易情報 AI 編輯'
+
 ---
 last_modified_at: 2026-02-20
 

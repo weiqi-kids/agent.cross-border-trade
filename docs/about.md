@@ -5,6 +5,9 @@ title: 關於本站
 nav_order: 9
 description: "了解全球貿易情報分析系統的技術架構、數據來源與開源理念"
 permalink: /about/
+lastReviewed: '2026-02-20'
+reviewedBy: '全球貿易情報 AI 編輯'
+
 ---
 last_modified_at: 2026-02-20
 

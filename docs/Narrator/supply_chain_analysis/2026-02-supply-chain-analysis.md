@@ -200,6 +200,9 @@ seo:
         "@id": "https://trade.weiqi.kids/Narrator/supply_chain_analysis/2026-02-supply-chain-analysis#table-impact"
         about: "管制政策影響評估"
         description: "評估各項中國出口管制政策對不同產業的影響程度與信心水準"
+lastReviewed: '2026-03-01'
+reviewedBy: '全球貿易情報 AI 編輯'
+
 ---
 last_modified_at: 2026-03-01
 

@@ -5,6 +5,9 @@ title: 投資視角貿易分析
 nav_order: 5
 has_children: true
 permalink: /investment-insight/
+lastReviewed: '2026-06-17'
+reviewedBy: '全球貿易情報 AI 編輯'
+
 ---
 last_modified_at: 2026-06-17
 

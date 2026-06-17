@@ -91,9 +91,18 @@ Type B 萃取流程：
    - 更新 HHI 指數表格
    - 更新政策動態統計
 
-5. **Git 提交** — 執行 `git add . && git commit && git push`
+5. **YMYL 正規化** — git 提交前對已發布頁面補齊 YMYL 欄位（冪等）：
 
-6. GitHub Actions 自動部署到 Pages
+   ```bash
+   find docs -name '*.md' ! -path '*/Extractor/*' ! -path '*/raw/*' ! -name 'lessons-learned.md' -print0 \
+     | xargs -0 python3 scripts/ensure-ymyl.py
+   ```
+
+   > 僅處理已發布頁面（Narrator 報告 + 頂層頁）。`docs/Extractor/` 為 build-excluded 原始資料、且 update.sh 以 `head -1`/`head -20` 取標題與向量內容，**不可**加 front matter，故排除。
+
+6. **Git 提交** — 執行 `git add . && git commit && git push`
+
+7. GitHub Actions 自動部署到 Pages
 
 **更新範例**：
 

@@ -71,6 +71,7 @@
 3. **方法論說明**：使用了哪些計算方法（YoY、HHI 等）
 4. **信心水準**：對各項結論標註信心程度
 5. **免責聲明**：必須包含使用限制與免責聲明
+6. **Jekyll front matter（含 YMYL）**：報告開頭必須有 front matter，且包含 `layout`、`title`、`parent`、`nav_order`、`description`、`date`，以及 YMYL 欄位 `lastReviewed`（ISO 日期）與 `reviewedBy`。若遺漏，步驟六會由 `scripts/ensure-ymyl.py` 自動補上，但應於產出時即包含。
 
 ### 禁止行為
 

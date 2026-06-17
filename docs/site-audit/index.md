@@ -6,6 +6,9 @@ nav_order: 9
 has_children: true
 nav_exclude: true
 permalink: /site-audit/
+lastReviewed: '2026-06-17'
+reviewedBy: '全球貿易情報 AI 編輯'
+
 ---
 
 # 網站健檢

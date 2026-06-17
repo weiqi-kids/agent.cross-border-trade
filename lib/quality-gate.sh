@@ -50,6 +50,10 @@ qg_check_ymyl() {
     while IFS= read -r file; do
         [[ "$file" == *"/raw/"* ]] && continue
         [[ "$file" == *"lessons-learned.md" ]] && continue
+        # docs/Extractor 為 build-excluded 原始資料（見 _config.yml exclude: Extractor），
+        # 非已發布的 YMYL 網頁；且 update.sh 以 head -1/head -20 取標題與向量內容，
+        # 加 front matter 會破壞管線，故 YMYL 僅檢查已發布頁面。
+        [[ "$file" == *"/Extractor/"* ]] && continue
 
         if ! grep -q "lastReviewed:" "$file" 2>/dev/null; then
             missing_files+=("$file (缺少 lastReviewed)")
@@ -73,31 +77,15 @@ qg_check_ymyl() {
 # === 2. Frontmatter 檢查 ===
 
 qg_check_frontmatter() {
-    echo "=== Frontmatter 必填欄位檢查 ==="
-    local docs_dir="docs/Extractor"
-    local missing_nav_exclude=()
-
-    if [[ ! -d "$docs_dir" ]]; then
-        qg_warn "Frontmatter" "docs/Extractor 目錄不存在"
-        return
-    fi
-
-    while IFS= read -r file; do
-        [[ "$file" == *"/raw/"* ]] && continue
-        [[ "$file" == *"index.md" ]] && continue
-
-        if ! grep -q "nav_exclude: true" "$file" 2>/dev/null; then
-            missing_nav_exclude+=("$file")
-        fi
-    done < <(find "$docs_dir" -name "*.md" -type f 2>/dev/null | grep -v "/raw/")
-
-    if [[ ${#missing_nav_exclude[@]} -eq 0 ]]; then
-        qg_pass "Frontmatter nav_exclude 完整"
+    echo "=== Frontmatter / Extractor 排除檢查 ==="
+    # docs/Extractor 為機器產生的原始資料（每行以 # 標題開頭，無 front matter），
+    # 由 update.sh 以 head -1/head -20 取標題與向量內容。逐檔加 nav_exclude:true 會
+    # 破壞此管線。正確做法是 build-level 排除：_config.yml 的 exclude 含 "Extractor"，
+    # 使這些檔完全不進 Jekyll build，自然不出現在導航。故此處改為驗證 build-level 排除。
+    if grep -qE '^\s*-\s*Extractor\s*$' _config.yml 2>/dev/null; then
+        qg_pass "Extractor 已於 _config.yml build-level 排除（nav 無需逐檔 nav_exclude）"
     else
-        qg_fail "Frontmatter 缺少 nav_exclude" "${#missing_nav_exclude[@]} 個檔案"
-        for f in "${missing_nav_exclude[@]:0:5}"; do
-            echo "  - $f"
-        done
+        qg_fail "Extractor 未排除" "_config.yml exclude 應包含 Extractor，否則原始資料會進入 build"
     fi
 }
 

@@ -174,6 +174,9 @@ seo:
         }
       ]
     }
+lastReviewed: '2026-03-03'
+reviewedBy: '全球貿易情報 AI 編輯'
+
 ---
 last_modified_at: 2026-03-03
 

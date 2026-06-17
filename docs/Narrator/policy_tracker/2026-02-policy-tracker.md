@@ -109,6 +109,9 @@ seo:
       - "@type": "Table"
         about: "日本實體出口管制雙軌制比較"
         description: "管控名單vs關注名單的措施差異"
+lastReviewed: '2026-03-01'
+reviewedBy: '全球貿易情報 AI 編輯'
+
 ---
 last_modified_at: 2026-03-01
 

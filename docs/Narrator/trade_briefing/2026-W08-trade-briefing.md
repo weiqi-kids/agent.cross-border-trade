@@ -162,6 +162,9 @@ seo:
     title: "2026第8週貿易簡報｜美台逆差USD 1,269億（+72%）中日出口管制｜週報"
     description: "2026年第8週全球貿易分析：美台貿易逆差達USD 1,269億（年增72%）、美中逆差收窄36%、中日兩用物項出口管制持續執行、安世半導體爭議磋商進展有限。涵蓋六大經濟體雙邊貿易流量與市場集中度分析。基於UN Comtrade、US Census最新數據。"
     canonical_url: "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W08-trade-briefing"
+lastReviewed: '2026-03-01'
+reviewedBy: '全球貿易情報 AI 編輯'
+
 ---
 last_modified_at: 2026-03-01
 
