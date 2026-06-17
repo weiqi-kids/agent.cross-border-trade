@@ -1,12 +1,12 @@
 ---
-last_modified_at: 2026-03-23
+last_modified_at: 2026-06-17
 layout: default
 title: 財經媒體簡報
 nav_order: 7
 has_children: true
 permalink: /media-briefing/
 ---
-last_modified_at: 2026-03-23
+last_modified_at: 2026-06-17
 
 # 財經媒體簡報
 
@@ -16,18 +16,18 @@ last_modified_at: 2026-03-23
 
 ---
 
-## 最新報告重點 (W13)
+## 最新報告重點 (W25)
 
 {: .highlight }
 > **本週頭條數據**
 >
-> 1. **中日出口管制滿月40家實體無鬆動**：對日管制雙軌制持續運作，三層管制體系穩定執行
-> 2. **台灣出口 HHI 2522.42 為六國最高**：對美依賴近半，美台逆差 YoY +118% 創單月高位
-> 3. **美中逆差 YoY -60% 大幅收窄**：貿易結構轉移持續加速，台灣填補中國份額
+> 1. **中國管制 7 家歐盟國防／航太實體**（FN Herstal、HENSOLDT AG、OMNIPOL 等，2026-04-24 生效）：出口管制戰線首度延伸至歐盟，「軍工從嚴、金融緩和」雙軌
+> 2. **美中 4 月逆差 USD 103.9 億（YoY −39.7%）**：美自台進口 USD 241.1 億超越自中國 USD 197.9 億
+> 3. **美方天價執法對照**：應用材料 BIS USD 2.52 億頂格罰款、GE Aerospace ITAR USD 3,600 萬和解（116 項違規）
 
-**可引用**：「2026年3月美台貿易逆差飆升118%至USD 167.8億創單月新高，台灣出口HHI達2522.42居六大經濟體之首，對美出口依賴度持續攀升。」
+**可引用**：「2026年中國首度將出口管制戰線延伸至歐盟，7家歐盟國防／航太實體遭列管（2026-04-24生效）；同期美自台灣進口USD 241.1億超越自中國USD 197.9億，台灣出口HHI 2522居六國之首，顯示美中脫鉤持續深化。」
 
-[查看完整報告 →]({% link Narrator/media_briefing/2026-W13-media-briefing.md %})
+[查看完整報告 →]({% link Narrator/media_briefing/2026-W25-media-briefing.md %})
 
 ---
 
@@ -44,6 +44,7 @@ last_modified_at: 2026-03-23
 
 | 期別 | 報告 | 頭條數據 |
 |------|------|----------|
+| W25 | [2026 年第 25 週]({% link Narrator/media_briefing/2026-W25-media-briefing.md %}) | 中國管制 7 家歐盟實體、美自台進口超越中國、美方天價執法對照、台灣 HHI 2522 vs 韓國 355 |
 | W13 | [2026 年第 13 週]({% link Narrator/media_briefing/2026-W13-media-briefing.md %}) | 中日出口管制滿月無鬆動、台灣 HHI 2522.42 六國最高、美台逆差 +118% |
 | W12 | [2026 年第 12 週]({% link Narrator/media_briefing/2026-W12-media-briefing.md %}) | 英國制裁中國企業引發反制警告、台灣 HHI 飆升至 2522、美台逆差倍增至 1468 億 |
 | W09 | [2026 年第 09 週]({% link Narrator/media_briefing/2026-W09-media-briefing.md %}) | 中國對日40家實體出口管制雙軌制、中日貿易互依矛盾 |

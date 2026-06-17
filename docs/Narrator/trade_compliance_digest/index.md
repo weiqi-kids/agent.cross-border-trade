@@ -1,12 +1,12 @@
 ---
-last_modified_at: 2026-03-23
+last_modified_at: 2026-06-17
 layout: default
 title: 貿易合規摘要
 nav_order: 6
 has_children: true
 permalink: /trade-compliance-digest/
 ---
-last_modified_at: 2026-03-23
+last_modified_at: 2026-06-17
 
 # 貿易合規摘要
 
@@ -16,19 +16,17 @@ last_modified_at: 2026-03-23
 
 ---
 
-## 最新報告重點 (W13-W14)
+## 最新報告重點 (W24-W25)
 
 {: .warning-title }
 > **即將生效與執行中**
 >
-> - 🔄 **對日40家實體管制雙軌制執行滿月**：三層管制持續運作，尚無移除案例
-> - ⚠️ **英國涉俄制裁中國企業後續觀察**：商務部警告反制措施，供應鏈評估持續
-> - ⏰ **中美暫停措施倒數**（追蹤）：16家美國實體暫停措施將於2026-11-10到期
-> - 📋 **禁毒委制毒物品流失預防通告**：化學品貿易商注意新監管要求
+> - 🆕 篩查清單擴大：須比對 7 家歐盟、8 家台灣、28 家美國實體 + Shield AI 等列不可靠實體清單
+> - ⚠️ 對日兩用物項管制（2026-01-06 生效）：軍事用途禁令具域外效力，須強化日本與第三國轉運篩查
+> - 🧪 易制毒前驅化學品：4-哌啶酮等列管（2025-07-20 生效），化學／物流業新增進出口許可要求
+> - ⚖️ 執法判例：應用材料 USD 2.52 億（經韓轉運）、GE Aerospace USD 3,600 萬 ITAR，轉運與技術資料為查緝重點
 
-**行動建議**：持續監控對日管制名單動態、評估英國制裁供應鏈曝險、規劃中美暫停措施到期應變
-
-[查看完整報告 →]({% link Narrator/trade_compliance_digest/2026-W13-W14-trade-compliance-digest.md %})
+[查看完整報告 →]({% link Narrator/trade_compliance_digest/2026-W24-W25-trade-compliance-digest.md %})
 
 ---
 
@@ -45,6 +43,7 @@ last_modified_at: 2026-03-23
 
 | 期別 | 報告 | 重點 |
 |------|------|------|
+| W24-W25 | [2026 年第 24-25 週]({% link Narrator/trade_compliance_digest/2026-W24-W25-trade-compliance-digest.md %}) | 新增列管實體篩查擴大、對日兩用物項管制、易制毒前驅化學品、美方執法判例 |
 | W13-W14 | [2026 年第 13-14 週]({% link Narrator/trade_compliance_digest/2026-W13-W14-trade-compliance-digest.md %}) | 對日40家實體管制滿月追蹤、英國涉俄制裁後續觀察、禁毒委制毒物品通告 |
 | W11-W12 | [2026 年第 11-12 週]({% link Narrator/trade_compliance_digest/2026-W11-W12-trade-compliance-digest.md %}) | 英國涉俄制裁納入中國企業、對日雙軌制執行滿月、中美暫停措施倒數 |
 | W09-W10 | [2026 年第 09-10 週]({% link Narrator/trade_compliance_digest/2026-W09-W10-trade-compliance-digest.md %}) | 日本40家實體管控/關注名單合規指引、行動清單 |

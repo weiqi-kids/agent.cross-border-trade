@@ -97,7 +97,7 @@ last_modified_at: 2026-02-20
 - US Census：月度，滯後約 6 週
 - 中國商務部：政策公告即時更新
 
-詳見 [數據更新時間軸](/data-timeline/)。
+詳見 [數據更新時間軸]({% link data-timeline.md %})。
 
 ---
 

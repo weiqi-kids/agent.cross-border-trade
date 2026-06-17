@@ -23,6 +23,20 @@ FETCHED_AT="$(date -u '+%Y-%m-%dT%H:%M:%SZ')"
 CURRENT_YEAR="$(date +%Y)"
 DATA_YEAR=$(( CURRENT_YEAR - 2 ))
 
+# Auto-detect available year from raw files (fetch.sh may fall back to year-3)
+DETECTED_YEAR=""
+for probe_file in "$RAW_DIR"/yr-*-*.json; do
+  [[ -f "$probe_file" ]] || continue
+  fname="$(basename "$probe_file")"
+  # Extract year from yr-{country}-{year}.json
+  DETECTED_YEAR="$(echo "$fname" | sed 's/yr-[^-]*-\([0-9]*\)\.json/\1/')"
+  break
+done
+if [[ -n "$DETECTED_YEAR" && "$DETECTED_YEAR" != "$DATA_YEAR" ]]; then
+  echo "INFO: Expected year $DATA_YEAR not found in raw/; using detected year $DETECTED_YEAR"
+  DATA_YEAR="$DETECTED_YEAR"
+fi
+
 # Bash 3.2 compatible — function instead of declare -A
 country_name_for() {
   case "$1" in

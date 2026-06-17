@@ -1,12 +1,12 @@
 ---
-last_modified_at: 2026-03-23
+last_modified_at: 2026-06-17
 layout: default
 title: 投資視角貿易分析
 nav_order: 5
 has_children: true
 permalink: /investment-insight/
 ---
-last_modified_at: 2026-03-23
+last_modified_at: 2026-06-17
 
 # 投資視角貿易分析
 
@@ -16,17 +16,17 @@ last_modified_at: 2026-03-23
 
 ---
 
-## 最新報告重點 (2026-Q1，更新至 W13)
+## 最新報告重點 (2026-Q2)
 
 {: .highlight }
-> **本季投資主題**（更新：2026-03-23）
+> **本季投資主題**
 >
-> - ❗ **台灣 HHI 2522.42**：六國最高，半導體供應鏈高度集中風險持續強化
-> - ⚠️ **英國制裁中國企業反制風險**：供應鏈曝險需重新評估，區域分散化加速
-> - 🔺 美台逆差 USD 167.8 億創單月高位（YoY +118%），台灣半導體主導力持續
-> - 💡 供應鏈重組受益者：越南、墨西哥、印度，多元化布局窗口期仍開放
+> - ❗ 政策風險取代流量成 Q2 主驅動：年度雙邊流量持平，出口管制升級是新結構性變化
+> - 🆕 中日兩用物項斷流（最高衝擊）：2026-01-06 全面禁令 + 日本 40 家實體列管，替代採購需求升溫
+> - 🇪🇺 戰線延伸至歐盟：7 家歐盟實體列管，德國曝險最高（HHI 1,068、貿易/GDP 79%、連兩年負成長）
+> - 💡 美中脫鉤加深：美自中進口 Q1 2026 YoY −40.9%，墨西哥／越南為結構受益者；台灣 HHI 2522 vs 韓國 355
 
-[查看完整報告 →]({% link Narrator/investment_insight/2026-Q1-investment-insight.md %})
+[查看完整報告 →]({% link Narrator/investment_insight/2026-Q2-investment-insight.md %})
 
 ---
 
@@ -43,6 +43,7 @@ last_modified_at: 2026-03-23
 
 | 期別 | 報告 | 重點 |
 |------|------|------|
+| 2026-Q2 | [2026 年 Q2]({% link Narrator/investment_insight/2026-Q2-investment-insight.md %}) | 政策風險成 Q2 主驅動、中日兩用物項斷流、美方天價執法、美中脫鉤加深 |
 | 2026-Q1 | [2026 年 Q1]({% link Narrator/investment_insight/2026-Q1-investment-insight.md %}) | 對日40家實體管制、全球貿易分化加劇、關鍵材料管制深化（更新：2026-03-23） |
 
 ---

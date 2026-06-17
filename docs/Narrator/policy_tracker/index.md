@@ -1,12 +1,12 @@
 ---
-last_modified_at: 2026-03-23
+last_modified_at: 2026-06-17
 layout: default
 title: 出口管制政策追蹤
 nav_order: 4
 has_children: true
 permalink: /policy-tracker/
 ---
-last_modified_at: 2026-03-23
+last_modified_at: 2026-06-17
 
 # 出口管制政策追蹤
 
@@ -16,17 +16,17 @@ last_modified_at: 2026-03-23
 
 ---
 
-## 最新報告重點 (2026-03)
+## 最新報告重點 (2026-06)
 
 {: .highlight }
 > **本月政策動態**
 >
-> - ⚠️ **英國涉俄制裁納入中國企業**：商務部強烈反對並警告將採取必要反制措施
-> - 🔄 **對日40家實體管制持續執行**：雙軌制進入第四週，尚無移除案例
-> - 📜 稀土/鋰電池/超硬材料管制體系全面運作中
-> - 📊 2026 年新增法規更新 5 件、執法行動 5 件、政策指導 2 件
+> - 🆕 首度對歐盟出手：7 家歐盟國防／航太實體列入管制名單（公告 2026 第 20 號，2026-04-24 生效）
+> - ⬆️ 對日國家級升級：所有兩用物項對日軍事用途／用戶全面禁止，具域外連帶責任
+> - 🔄 反制可逆性：韓華海洋反制暫停一年、對 2 家歐盟銀行反制取消；反外國制裁法實施規定（22 條）
+> - ⚖️ 中美執法對照：Shield AI 等列不可靠實體清單；美方開罰 GE Aerospace USD 3,600 萬、應用材料 USD 2.52 億
 
-[查看完整報告 →]({% link Narrator/policy_tracker/2026-03-policy-tracker.md %})
+[查看完整報告 →]({% link Narrator/policy_tracker/2026-06-policy-tracker.md %})
 
 ---
 
@@ -43,6 +43,7 @@ last_modified_at: 2026-03-23
 
 | 期別 | 報告 | 重點 |
 |------|------|------|
+| 2026-06 | [2026 年 6 月]({% link Narrator/policy_tracker/2026-06-policy-tracker.md %}) | 7 家歐盟實體列管、對日兩用物項全面管制、中美「列名單 vs 開罰單」執法對照、稀土通用許可放寬 |
 | 2026-03 | [2026 年 3 月]({% link Narrator/policy_tracker/2026-03-policy-tracker.md %}) | 英國涉俄制裁回應、對日40家實體管制持續、戰略材料管制追蹤 |
 | 2026-02 | [2026 年 2 月]({% link Narrator/policy_tracker/2026-02-policy-tracker.md %}) | 40家日本實體管制雙軌制、稀土境外管制、中美實體清單緩和 |
 

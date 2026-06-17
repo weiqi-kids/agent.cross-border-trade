@@ -1,12 +1,12 @@
 ---
-last_modified_at: 2026-03-23
+last_modified_at: 2026-06-17
 layout: default
 title: 供應鏈月報
 nav_order: 3
 has_children: true
 permalink: /supply-chain-analysis/
 ---
-last_modified_at: 2026-03-23
+last_modified_at: 2026-06-17
 
 # 供應鏈月報
 
@@ -16,17 +16,17 @@ last_modified_at: 2026-03-23
 
 ---
 
-## 最新報告重點 (2026-03，更新至 W13)
+## 最新報告重點 (2026-06)
 
 {: .highlight }
-> **本月關鍵發現**（更新：2026-03-23）
+> **本月關鍵發現**
 >
-> - ❗ **台灣出口 HHI 2522.42**：六國最高，對美出口佔比 48.68%，高度集中風險持續
-> - ⚠️ **英國制裁中國企業引發反制風險**：商務部警告採取必要措施，供應鏈曝險需評估
-> - 🔺 美台貿易逆差 USD 167.8 億創單月高位，YoY +118%；美中逆差 YoY -60%
-> - ✅ 南韓 HHI 354.65，出口高度分散，多元化策略見效
+> - ❗ 台灣出口 HHI 2522.42：六國唯一「高集中度」，半導體對美單點依賴持續
+> - 🆕 中國對日兩用物項軍事用途全面禁令（公告 2026 第 1 號，2026-01-06 生效，具域外效力）
+> - ⚠️ 7 家歐盟國防／航太實體列入管制名單（2026-04-24 生效），進行中出口須立即停止
+> - ✅ 稀土通用許可放寬（2025-12-19）部分紓解磁材／電動車下游瓶頸；南韓 2024 經常帳 +207%
 
-[查看完整報告 →]({% link Narrator/supply_chain_analysis/2026-03-supply-chain-analysis.md %})
+[查看完整報告 →]({% link Narrator/supply_chain_analysis/2026-06-supply-chain-analysis.md %})
 
 ---
 
@@ -34,6 +34,7 @@ last_modified_at: 2026-03-23
 
 | 期別 | 報告 |
 |------|------|
+| 2026 年 6 月 | [查看報告]({% link Narrator/supply_chain_analysis/2026-06-supply-chain-analysis.md %}) |
 | 2026 年 3 月 | [查看報告]({% link Narrator/supply_chain_analysis/2026-03-supply-chain-analysis.md %}) |
 | 2026 年 2 月 | [查看報告]({% link Narrator/supply_chain_analysis/2026-02-supply-chain-analysis.md %}) |
 | 2026 年 1 月 | [查看報告]({% link Narrator/supply_chain_analysis/2026-01-supply-chain-analysis.md %}) |

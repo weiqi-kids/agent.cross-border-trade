@@ -3,37 +3,37 @@
 - **Source**: US Census Bureau (Balance Summary)
 - **Source URL**: https://www.census.gov/foreign-trade/balance/c5800.html
 - **Partner**: South Korea (5800)
-- **Fetched**: 2026-03-23T01:05:48Z
+- **Fetched**: 2026-06-17T05:40:13Z
 - **confidence**: 高
 
 ## Monthly Trade Balance
 
 | Year | Month | Export (M USD) | Import (M USD) | Balance (M USD) | Type |
 |------|-------|----------------|----------------|-----------------|------|
+| 2026 | March | 8181.0 | 12853.1 | -4672.0 | Deficit |
 | 2026 | January | 5572.7 | 11642.0 | -6069.3 | Deficit |
-| 2025 | September | 6065.8 | 9753.5 | -3687.7 | Deficit |
-| 2025 | October | 6349.2 | 9100.7 | -2751.5 | Deficit |
-| 2025 | November | 5444.7 | 8728.2 | -3283.5 | Deficit |
-| 2025 | May | 5422.0 | 11463.3 | -6041.2 | Deficit |
-| 2025 | March | 5804.4 | 12135.7 | -6331.3 | Deficit |
-| 2025 | June | 5574.0 | 11391.5 | -5817.5 | Deficit |
-| 2025 | July | 5891.6 | 11115.3 | -5223.7 | Deficit |
-| 2025 | January | 5262.5 | 10673.6 | -5411.1 | Deficit |
-| 2025 | February | 5345.9 | 9012.5 | -3666.6 | Deficit |
-| 2025 | December | 5894.1 | 11837.0 | -5942.9 | Deficit |
-| 2025 | August | 5734.9 | 10161.5 | -4426.6 | Deficit |
-| 2025 | April | 6016.7 | 9849.0 | -3832.3 | Deficit |
-| 2024 | September | 5384.2 | 11116.3 | -5732.0 | Deficit |
-| 2024 | October | 5355.1 | 10129.7 | -4774.6 | Deficit |
-| 2024 | November | 5146.8 | 10144.5 | -4997.7 | Deficit |
-| 2024 | May | 5871.4 | 12282.2 | -6410.9 | Deficit |
-| 2024 | March | 6393.1 | 11639.8 | -5246.7 | Deficit |
-| 2024 | June | 5757.8 | 11347.7 | -5589.9 | Deficit |
-| 2024 | July | 5294.8 | 11200.5 | -5905.7 | Deficit |
-| 2024 | January | 5208.7 | 10962.9 | -5754.2 | Deficit |
-| 2024 | February | 5052.4 | 9632.9 | -4580.5 | Deficit |
-| 2024 | December | 5228.9 | 11036.4 | -5807.5 | Deficit |
-| 2024 | August | 5771.1 | 10417.2 | -4646.1 | Deficit |
+| 2026 | February | 5201.9 | 11412.1 | -6210.3 | Deficit |
+| 2026 | April | 8131.7 | 13564.0 | -5432.3 | Deficit |
+| 2025 | September | 6069.4 | 10161.8 | -4092.5 | Deficit |
+| 2025 | October | 6399.4 | 9020.9 | -2621.6 | Deficit |
+| 2025 | November | 5429.7 | 8710.5 | -3280.8 | Deficit |
+| 2025 | May | 5457.1 | 11457.8 | -6000.7 | Deficit |
+| 2025 | March | 5861.8 | 12164.7 | -6303.0 | Deficit |
+| 2025 | June | 5547.7 | 11361.3 | -5813.7 | Deficit |
+| 2025 | July | 5957.5 | 11126.7 | -5169.1 | Deficit |
+| 2025 | January | 5253.1 | 10618.7 | -5365.6 | Deficit |
+| 2025 | February | 5316.9 | 9030.4 | -3713.5 | Deficit |
+| 2025 | December | 5844.9 | 11795.2 | -5950.3 | Deficit |
+| 2025 | August | 5789.1 | 10204.8 | -4415.7 | Deficit |
+| 2025 | April | 6142.2 | 9893.1 | -3750.9 | Deficit |
+| 2024 | September | 5366.3 | 11108.6 | -5742.3 | Deficit |
+| 2024 | October | 5384.4 | 10119.3 | -4734.9 | Deficit |
+| 2024 | November | 5163.0 | 10129.6 | -4966.6 | Deficit |
+| 2024 | May | 5889.5 | 12353.0 | -6463.5 | Deficit |
+| 2024 | March | 6411.8 | 11637.2 | -5225.4 | Deficit |
+| 2024 | June | 5769.0 | 11338.2 | -5569.1 | Deficit |
+| 2024 | July | 5302.3 | 11185.1 | -5882.7 | Deficit |
+| 2024 | January | 5215.7 | 10961.5 | -5745.8 | Deficit |
 
 ---
 *Source: U.S. Census Bureau, https://www.census.gov/foreign-trade/*
