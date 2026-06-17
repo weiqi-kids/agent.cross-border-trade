@@ -30,18 +30,22 @@ claude "execute trade_briefing"
 
 | Layer | Last Updated | Records | Qdrant | Status |
 |-------|-------------|---------|--------|--------|
-| bilateral_trade_flows | 2026-02-06 | 30 .md | 30/30 | ✅ (6 countries, no REVIEW_NEEDED) |
-| cn_export_control | 2026-02-06 | 235 .md | 235/235 | ✅ (84 articles fetched, all extracted) |
-| us_trade_census | 2026-02-07 | 20 .md | 20/20 | ✅ (API fallback to balance pages, 491 records/country) |
-| world_macro_indicators | 2026-02-06 | 20 .md | 20/20 | ✅ |
-| open_trade_stats | 2026-02-06 | 2 .md | 2/2 | ✅ (2023 data, 2024 unavailable) |
+| bilateral_trade_flows | 2026-06-17 | 30 .md | 30/30 | ✅ (6 countries, no REVIEW_NEEDED) |
+| cn_export_control | 2026-06-17 | 328 .md | 328/328 | ✅ (88 fetched, 31 new extracted, 3 REVIEW_NEEDED) |
+| us_trade_census | 2026-06-17 | 20 .md | 20/20 | ✅ (API fallback to balance pages) |
+| world_macro_indicators | 2026-06-17 | 20 .md | 20/20 | ✅ |
+| open_trade_stats | 2026-06-17 | 22 .md | 22/22 | ✅ |
 
 ### Modes
 
 | Mode | Last Output | Status |
 |------|------------|--------|
-| trade_briefing | 2026-W06 | ✅ |
-| supply_chain_analysis | 2026-02 | ✅ |
+| trade_briefing | 2026-W25 | ✅ |
+| supply_chain_analysis | 2026-06 | ✅ |
+| policy_tracker | 2026-06 | ✅ |
+| investment_insight | 2026-Q2 | ✅ |
+| media_briefing | 2026-W25 | ✅ |
+| trade_compliance_digest | 2026-W24-W25 | ✅ |
 
 ### Health Legend
 
