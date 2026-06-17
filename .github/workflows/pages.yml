@@ -37,6 +37,25 @@ jobs:
         env:
           JEKYLL_ENV: production
 
+      - name: Validate rendered JSON-LD (pre-deploy gate)
+        shell: bash
+        run: |
+          # 檢查「渲染後」的 _site HTML 是否含有效且完整的結構化資料。
+          # 這是 source-based 檢查抓不到的：head_custom 只對 layout: default 渲染、
+          # jekyll-seo-tag 不渲染自訂 json_ld，唯有驗證 _site 才能確認 schema 真的上線。
+          fail=0
+          echo "== Homepage =="
+          python3 scripts/check-jsonld.py _site/index.html WebSite WebPage Organization || fail=1
+          echo "== Narrator pages =="
+          while IFS= read -r html; do
+            python3 scripts/check-jsonld.py "$html" WebPage Article Person Organization BreadcrumbList || fail=1
+          done < <(find _site/Narrator -name '*.html' -type f 2>/dev/null)
+          if [[ $fail -ne 0 ]]; then
+            echo "::error::Rendered JSON-LD 驗證失敗：結構化資料無效或缺少必填 @type，已阻擋部署。"
+            exit 1
+          fi
+          echo "✅ 所有已發布頁面的 JSON-LD 結構化資料皆有效且完整。"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 

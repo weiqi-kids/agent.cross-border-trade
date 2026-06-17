@@ -12,152 +12,211 @@ related_reports:
   - "/Narrator/trade_briefing/2026-W07-trade-briefing/"
   - "/Narrator/supply_chain_analysis/2026-02-supply-chain-analysis/"
 seo:
-  json_ld:
-    "@context": "https://schema.org"
-    "@graph":
-      - "@type": "WebPage"
-        "@id": "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W08-trade-briefing#webpage"
-        url: "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W08-trade-briefing"
-        name: "貿易動態簡報 — 2026 年第 08 週｜美台貿易逆差達 USD 1,269 億"
-        description: "2026年第8週全球貿易分析：美台貿易逆差達USD 1,269億（年增72%）、美中逆差收窄36%、中日兩用物項出口管制持續執行、安世半導體爭議磋商進展有限。涵蓋六大經濟體雙邊貿易流量與市場集中度分析。"
-        inLanguage: "zh-TW"
-        isPartOf:
-          "@id": "https://trade.weiqi.kids/#website"
-        primaryImageOfPage:
-          "@type": "ImageObject"
-          url: "https://trade.weiqi.kids/assets/images/og-trade-briefing-2026-w08.png"
-        datePublished: "2026-02-18T00:00:00Z"
-        dateModified: "2026-02-18T00:00:00Z"
-        speakable:
-          "@type": "SpeakableSpecification"
-          cssSelector:
-            - ".article-summary"
-            - ".speakable-content"
-            - ".key-takeaway"
-            - ".key-answer"
-            - ".expert-quote"
-            - ".actionable-steps li"
-            - ".data-highlight"
-      - "@type": "Article"
-        "@id": "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W08-trade-briefing#article"
-        mainEntityOfPage:
-          "@id": "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W08-trade-briefing#webpage"
-          significantLink:
-            - "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W07-trade-briefing"
-            - "https://trade.weiqi.kids/Narrator/supply_chain_analysis/2026-02-supply-chain-analysis"
-        headline: "貿易動態簡報 — 2026 年第 08 週｜美台貿易逆差達 USD 1,269 億"
-        description: "2026年第8週全球貿易分析：美台貿易逆差達USD 1,269億（年增72%）、美中逆差收窄36%、中日兩用物項出口管制持續執行、安世半導體爭議磋商進展有限。涵蓋六大經濟體雙邊貿易流量與市場集中度分析。"
-        image:
-          "@type": "ImageObject"
-          url: "https://trade.weiqi.kids/assets/images/og-trade-briefing-2026-w08.png"
-          width: 1200
-          height: 630
-        author:
-          "@id": "https://trade.weiqi.kids/about#ai-analyst"
-        publisher:
-          "@id": "https://trade.weiqi.kids/#organization"
-        datePublished: "2026-02-18T00:00:00Z"
-        dateModified: "2026-02-18T00:00:00Z"
-        articleSection: "週報分析"
-        keywords: "國際貿易, 美國, 台灣, 中國, 日本, 貿易逆差, 出口管制, 半導體, 2026, 雙邊貿易, 市場集中度, 安世半導體, 供應鏈"
-        wordCount: 4800
-        inLanguage: "zh-TW"
-        isAccessibleForFree: true
-        isPartOf:
-          "@type": "WebSite"
-          "@id": "https://trade.weiqi.kids/#website"
-          name: "全球貿易與供需智慧分析系統"
-          potentialAction:
-            "@type": "SearchAction"
-            target: "https://trade.weiqi.kids/search?q={search_term}"
-            query-input: "required name=search_term"
-      - "@type": "Person"
-        "@id": "https://trade.weiqi.kids/about#ai-analyst"
-        name: "AI 貿易分析師"
-        url: "https://trade.weiqi.kids/about"
-        description: "基於 Claude 的智慧貿易分析系統，整合 UN Comtrade、US Census、World Bank 等權威數據源，提供即時貿易情報與趨勢分析。"
-        knowsAbout:
-          - "國際貿易數據分析"
-          - "供應鏈風險評估"
-          - "關稅政策追蹤"
-          - "出口管制法規"
-          - "雙邊貿易流向"
-        affiliation:
-          "@id": "https://trade.weiqi.kids/#organization"
-        sameAs:
-          - "https://github.com/anthropics/claude-code"
-      - "@type": "Organization"
-        "@id": "https://trade.weiqi.kids/#organization"
-        name: "全球貿易與供需智慧分析系統"
-        url: "https://trade.weiqi.kids"
-        logo:
-          "@type": "ImageObject"
-          url: "https://trade.weiqi.kids/assets/images/logo.png"
-          width: 600
-          height: 60
-        description: "自動化貿易情報分析平台，追蹤全球貿易流向、政策變動與供應鏈風險。"
-        sameAs:
-          - "https://github.com/anthropics/claude-code"
-      - "@type": "BreadcrumbList"
-        itemListElement:
-          - "@type": "ListItem"
-            position: 1
-            name: "首頁"
-            item: "https://trade.weiqi.kids/"
-          - "@type": "ListItem"
-            position: 2
-            name: "貿易動態週報"
-            item: "https://trade.weiqi.kids/Narrator/trade_briefing/"
-          - "@type": "ListItem"
-            position: 3
-            name: "2026 年第 08 週"
-            item: "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W08-trade-briefing"
-      - "@type": "ItemList"
-        "@id": "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W08-trade-briefing#watchlist"
-        name: "本週七大觀察清單"
-        description: "基於2026年第8週數據更新的七項持續關注事項"
-        numberOfItems: 7
-        itemListElement:
-          - "@type": "ListItem"
-            position: 1
-            name: "美台貿易逆差持續擴大關注"
-            description: "美國對台灣貿易逆差 USD 1,269 億（2025 全年），較 2024 年增長 72%"
-          - "@type": "ListItem"
-            position: 2
-            name: "中日關係緊張持續"
-            description: "2026-01-06 中國禁止所有兩用物項向日本軍事用戶出口，已執行約 6 週"
-          - "@type": "ListItem"
-            position: 3
-            name: "安世半導體爭議觀察"
-            description: "中荷磋商進展有限，荷方立場強硬，車企仍面臨斷供風險"
-          - "@type": "ListItem"
-            position: 4
-            name: "美國對中貿易逆差收窄趨勢"
-            description: "2025 全年對中逆差 USD 1,894 億，較 2024 年收窄 36%"
-          - "@type": "ListItem"
-            position: 5
-            name: "穿透性規則暫停到期關注"
-            description: "暫停期至 2026-11-09 屆滿，距今約 9 個月"
-          - "@type": "ListItem"
-            position: 6
-            name: "重稀土與鋰電池管制執行情況追蹤"
-            description: "2025-11-08 生效的重稀土管制及鋰電池材料管制已執行約 3.5 個月"
-          - "@type": "ListItem"
-            position: 7
-            name: "德國出口數據覆蓋範圍確認"
-            description: "德國夥伴群組數（62）持續遠低於其他國家（218-225）"
-      - "@type": "Table"
-        "@id": "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W08-trade-briefing#export-table"
-        about: "六大經濟體出口數據比較"
-        description: "美國、中國、日本、南韓、德國、台灣前三大出口市場及市場集中度指標（基於 UN Comtrade 2023-2024 年度數據）"
-      - "@type": "Table"
-        "@id": "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W08-trade-briefing#import-table"
-        about: "六大經濟體進口數據比較"
-        description: "美國、中國、日本、南韓、德國、台灣最大進口來源及對中貿易差額比較"
-      - "@type": "Table"
-        "@id": "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W08-trade-briefing#hhi-table"
-        about: "市場集中度 HHI 指數"
-        description: "六大經濟體出口市場 Herfindahl-Hirschman Index（HHI）指數及集中度分析"
+  json_ld: |
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W08-trade-briefing#webpage",
+          "url": "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W08-trade-briefing",
+          "name": "貿易動態簡報 — 2026 年第 08 週｜美台貿易逆差達 USD 1,269 億",
+          "description": "2026年第8週全球貿易分析：美台貿易逆差達USD 1,269億（年增72%）、美中逆差收窄36%、中日兩用物項出口管制持續執行、安世半導體爭議磋商進展有限。涵蓋六大經濟體雙邊貿易流量與市場集中度分析。",
+          "inLanguage": "zh-TW",
+          "isPartOf": {
+            "@id": "https://trade.weiqi.kids/#website"
+          },
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://trade.weiqi.kids/assets/images/og-trade-briefing-2026-w08.png"
+          },
+          "datePublished": "2026-02-18T00:00:00Z",
+          "dateModified": "2026-02-18T00:00:00Z",
+          "speakable": {
+            "@type": "SpeakableSpecification",
+            "cssSelector": [
+              ".article-summary",
+              ".speakable-content",
+              ".key-takeaway",
+              ".key-answer",
+              ".expert-quote",
+              ".actionable-steps li",
+              ".data-highlight"
+            ]
+          }
+        },
+        {
+          "@type": "Article",
+          "@id": "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W08-trade-briefing#article",
+          "mainEntityOfPage": {
+            "@id": "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W08-trade-briefing#webpage",
+            "significantLink": [
+              "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W07-trade-briefing",
+              "https://trade.weiqi.kids/Narrator/supply_chain_analysis/2026-02-supply-chain-analysis"
+            ]
+          },
+          "headline": "貿易動態簡報 — 2026 年第 08 週｜美台貿易逆差達 USD 1,269 億",
+          "description": "2026年第8週全球貿易分析：美台貿易逆差達USD 1,269億（年增72%）、美中逆差收窄36%、中日兩用物項出口管制持續執行、安世半導體爭議磋商進展有限。涵蓋六大經濟體雙邊貿易流量與市場集中度分析。",
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://trade.weiqi.kids/assets/images/og-trade-briefing-2026-w08.png",
+            "width": 1200,
+            "height": 630
+          },
+          "author": {
+            "@id": "https://trade.weiqi.kids/about#ai-analyst"
+          },
+          "publisher": {
+            "@id": "https://trade.weiqi.kids/#organization"
+          },
+          "datePublished": "2026-02-18T00:00:00Z",
+          "dateModified": "2026-02-18T00:00:00Z",
+          "articleSection": "週報分析",
+          "keywords": "國際貿易, 美國, 台灣, 中國, 日本, 貿易逆差, 出口管制, 半導體, 2026, 雙邊貿易, 市場集中度, 安世半導體, 供應鏈",
+          "wordCount": 4800,
+          "inLanguage": "zh-TW",
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://trade.weiqi.kids/#website",
+            "name": "全球貿易與供需智慧分析系統",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://trade.weiqi.kids/search?q={search_term}",
+              "query-input": "required name=search_term"
+            }
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://trade.weiqi.kids/about#ai-analyst",
+          "name": "AI 貿易分析師",
+          "url": "https://trade.weiqi.kids/about",
+          "description": "基於 Claude 的智慧貿易分析系統，整合 UN Comtrade、US Census、World Bank 等權威數據源，提供即時貿易情報與趨勢分析。",
+          "knowsAbout": [
+            "國際貿易數據分析",
+            "供應鏈風險評估",
+            "關稅政策追蹤",
+            "出口管制法規",
+            "雙邊貿易流向"
+          ],
+          "affiliation": {
+            "@id": "https://trade.weiqi.kids/#organization"
+          },
+          "sameAs": [
+            "https://github.com/anthropics/claude-code"
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://trade.weiqi.kids/#organization",
+          "name": "全球貿易與供需智慧分析系統",
+          "url": "https://trade.weiqi.kids",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://trade.weiqi.kids/assets/images/logo.png",
+            "width": 600,
+            "height": 60
+          },
+          "description": "自動化貿易情報分析平台，追蹤全球貿易流向、政策變動與供應鏈風險。",
+          "sameAs": [
+            "https://github.com/anthropics/claude-code"
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首頁",
+              "item": "https://trade.weiqi.kids/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "貿易動態週報",
+              "item": "https://trade.weiqi.kids/Narrator/trade_briefing/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "2026 年第 08 週",
+              "item": "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W08-trade-briefing"
+            }
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W08-trade-briefing#watchlist",
+          "name": "本週七大觀察清單",
+          "description": "基於2026年第8週數據更新的七項持續關注事項",
+          "numberOfItems": 7,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "美台貿易逆差持續擴大關注",
+              "description": "美國對台灣貿易逆差 USD 1,269 億（2025 全年），較 2024 年增長 72%"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "中日關係緊張持續",
+              "description": "2026-01-06 中國禁止所有兩用物項向日本軍事用戶出口，已執行約 6 週"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "安世半導體爭議觀察",
+              "description": "中荷磋商進展有限，荷方立場強硬，車企仍面臨斷供風險"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "美國對中貿易逆差收窄趨勢",
+              "description": "2025 全年對中逆差 USD 1,894 億，較 2024 年收窄 36%"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "穿透性規則暫停到期關注",
+              "description": "暫停期至 2026-11-09 屆滿，距今約 9 個月"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "重稀土與鋰電池管制執行情況追蹤",
+              "description": "2025-11-08 生效的重稀土管制及鋰電池材料管制已執行約 3.5 個月"
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "name": "德國出口數據覆蓋範圍確認",
+              "description": "德國夥伴群組數（62）持續遠低於其他國家（218-225）"
+            }
+          ]
+        },
+        {
+          "@type": "Table",
+          "@id": "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W08-trade-briefing#export-table",
+          "about": "六大經濟體出口數據比較",
+          "description": "美國、中國、日本、南韓、德國、台灣前三大出口市場及市場集中度指標（基於 UN Comtrade 2023-2024 年度數據）"
+        },
+        {
+          "@type": "Table",
+          "@id": "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W08-trade-briefing#import-table",
+          "about": "六大經濟體進口數據比較",
+          "description": "美國、中國、日本、南韓、德國、台灣最大進口來源及對中貿易差額比較"
+        },
+        {
+          "@type": "Table",
+          "@id": "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W08-trade-briefing#hhi-table",
+          "about": "市場集中度 HHI 指數",
+          "description": "六大經濟體出口市場 Herfindahl-Hirschman Index（HHI）指數及集中度分析"
+        }
+      ]
+    }
   meta:
     title: "2026第8週貿易簡報｜美台逆差USD 1,269億（+72%）中日出口管制｜週報"
     description: "2026年第8週全球貿易分析：美台貿易逆差達USD 1,269億（年增72%）、美中逆差收窄36%、中日兩用物項出口管制持續執行、安世半導體爭議磋商進展有限。涵蓋六大經濟體雙邊貿易流量與市場集中度分析。基於UN Comtrade、US Census最新數據。"

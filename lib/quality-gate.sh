@@ -16,6 +16,15 @@ PASS_COUNT=0
 FAIL_COUNT=0
 RESULTS=()
 
+# 已建置的 _site 目錄（CI 會先 `jekyll build --source docs --destination _site`）。
+# 輸出導向的檢查（Schema/結構化資料）優先驗證「渲染後的 HTML」而非原始碼，
+# 因為 head_custom.html 只對 layout: default 渲染、jekyll-seo-tag 不渲染自訂 json_ld，
+# 唯有檢查 _site 才能確認 schema 真的有上線。本地若無 _site 則以 WARN 略過（於 CI 執行）。
+QG_SITE_DIR="${QG_SITE_DIR:-_site}"
+SCRIPT_BASE="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+
+_qg_site_ready() { [[ -f "$QG_SITE_DIR/index.html" ]]; }
+
 # === 輔助函式 ===
 
 qg_pass() {
@@ -138,30 +147,54 @@ qg_check_git_status() {
     fi
 }
 
-# === 5. Schema 檢查（首頁） ===
+# === 5. Schema 檢查（首頁，驗證渲染後 JSON-LD） ===
 
 qg_check_schema_index() {
     echo "=== Schema 檢查（首頁）==="
-    local index_file="docs/index.md"
-
-    if [[ ! -f "$index_file" ]]; then
-        qg_fail "首頁不存在" "$index_file"
+    # 優先檢查渲染後的 _site/index.html；無 _site 時退而檢查原始 docs/index.md
+    # （首頁 schema 以 inline <script> 內嵌，原始檔即含合法 JSON-LD 區塊）。
+    local target msg
+    if _qg_site_ready; then
+        target="$QG_SITE_DIR/index.html"; msg="（_site 渲染後）"
+    elif [[ -f docs/index.md ]]; then
+        target="docs/index.md"; msg="（原始檔 inline script；_site 未建置）"
+    else
+        qg_fail "首頁不存在" "docs/index.md / $QG_SITE_DIR/index.html"
         return
     fi
 
-    local required_schemas=("WebSite" "WebPage")
-    local missing_schemas=()
-
-    for schema in "${required_schemas[@]}"; do
-        if ! grep -q "'@type': '$schema'" "$index_file" 2>/dev/null; then
-            missing_schemas+=("$schema")
-        fi
-    done
-
-    if [[ ${#missing_schemas[@]} -eq 0 ]]; then
-        qg_pass "首頁 Schema 完整"
+    if python3 "$SCRIPT_BASE/scripts/check-jsonld.py" "$target" WebSite WebPage Organization >/tmp/qg_jsonld_index.txt 2>&1; then
+        qg_pass "首頁 Schema 完整 $msg"
     else
-        qg_fail "首頁缺少 Schema" "${missing_schemas[*]}"
+        qg_fail "首頁 Schema 不完整/無效" "$(cat /tmp/qg_jsonld_index.txt)"
+    fi
+}
+
+# === 5b. Schema 檢查（已發布報告頁，僅 _site） ===
+
+qg_check_schema_reports() {
+    echo "=== Schema 檢查（報告頁，渲染後 _site）==="
+    if ! _qg_site_ready; then
+        qg_warn "報告頁 Schema" "未偵測到 ${QG_SITE_DIR} (需先 jekyll build)；此檢查於 CI 執行"
+        return
+    fi
+
+    local bad=0 checked=0
+    rm -f /tmp/qg_jsonld_reports.txt
+    while IFS= read -r html; do
+        checked=$((checked + 1))
+        if ! python3 "$SCRIPT_BASE/scripts/check-jsonld.py" "$html" \
+            WebPage Article Person Organization BreadcrumbList >>/tmp/qg_jsonld_reports.txt 2>&1; then
+            bad=$((bad + 1))
+        fi
+    done < <(find "$QG_SITE_DIR/Narrator" -name "*.html" -type f 2>/dev/null)
+
+    if [[ $checked -eq 0 ]]; then
+        qg_warn "報告頁 Schema" "$QG_SITE_DIR/Narrator 下無 HTML（build 範圍異常？）"
+    elif [[ $bad -eq 0 ]]; then
+        qg_pass "報告頁 Schema 完整（$checked 頁，5 種必填 + JSON 有效）"
+    else
+        qg_fail "報告頁 Schema 有問題" "$bad/$checked 頁缺必填或 JSON 無效（見 /tmp/qg_jsonld_reports.txt）"
     fi
 }
 
@@ -247,6 +280,8 @@ qg_run_all() {
     qg_check_git_status
     echo ""
     qg_check_schema_index
+    echo ""
+    qg_check_schema_reports
     echo ""
     qg_check_content_updated
     echo ""

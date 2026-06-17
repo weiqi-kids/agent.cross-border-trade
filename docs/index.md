@@ -5,70 +5,72 @@ title: 首頁
 nav_order: 1
 description: "全球貿易與供需智慧分析系統 — 追蹤六大經濟體貿易動態與出口管制政策"
 permalink: /
-seo:
-  meta:
-    title: '全球貿易與供需智慧分析系統 — 六大經濟體貿易與出口管制情報'
-    description: '運用 AI 自動彙整 UN Comtrade、US Census、World Bank 與中國商務部出口管制資訊，提供六大經濟體（台美中日韓德）貿易動態、市場集中度與政策追蹤的結構化情報。免費開源。'
-  json_ld:
-    '@context': 'https://schema.org'
-    '@graph':
-      - '@type': 'WebSite'
-        '@id': 'https://trade.weiqi.kids#website'
-        url: 'https://trade.weiqi.kids'
-        name: '全球貿易與供需智慧分析系統'
-        description: 'AI 驅動的全球貿易與出口管制情報分析'
-        inLanguage: 'zh-TW'
-        potentialAction:
-          '@type': 'SearchAction'
-          target: 'https://trade.weiqi.kids/search?q={search_term_string}'
-          query-input: 'required name=search_term_string'
-        publisher:
-          '@id': 'https://trade.weiqi.kids#organization'
-      - '@type': 'WebPage'
-        '@id': 'https://trade.weiqi.kids#webpage'
-        url: 'https://trade.weiqi.kids'
-        name: '全球貿易情報分析'
-        description: '追蹤六大經濟體貿易動態與出口管制政策'
-        inLanguage: 'zh-TW'
-        isPartOf:
-          '@id': 'https://trade.weiqi.kids#website'
-        primaryImageOfPage:
-          '@type': 'ImageObject'
-          url: 'https://trade.weiqi.kids/assets/images/logo.png'
-        datePublished: '2026-01-01T00:00:00Z'
-        dateModified: '2026-06-17T18:00:00+08:00'
-        speakable:
-          '@type': 'SpeakableSpecification'
-          cssSelector:
-            - '.article-summary'
-            - '.speakable-content'
-            - '.key-takeaway'
-            - '.key-answer'
-            - '.data-highlight'
-            - 'h1'
-            - 'h2'
-      - '@type': 'Organization'
-        '@id': 'https://trade.weiqi.kids#organization'
-        name: '全球貿易與供需智慧分析系統'
-        url: 'https://trade.weiqi.kids'
-        logo:
-          '@type': 'ImageObject'
-          url: 'https://trade.weiqi.kids/assets/images/logo.png'
-          width: 600
-          height: 60
-        description: 'AI 驅動的全球貿易與出口管制情報分析系統'
-        sameAs:
-          - 'https://github.com/weiqi-kids/agent.cross-border-trade'
-        contactPoint:
-          '@type': 'ContactPoint'
-          contactType: 'technical support'
-          url: 'https://github.com/weiqi-kids/agent.cross-border-trade/issues'
-  ymyl:
-    lastReviewed: '2026-06-17'
-    reviewedBy: '全球貿易情報 AI 編輯'
-    disclaimer: '本網站內容僅供參考，不構成投資、法律或合規建議。貿易與政策決策請諮詢專業顧問並查核官方原始來源。'
+lastReviewed: '2026-06-17'
+reviewedBy: '全球貿易情報 AI 編輯'
 ---
 last_modified_at: 2026-06-17
+
+<!-- 首頁為 layout: home，head_custom.html 僅對 layout: default 渲染 JSON-LD，
+     故首頁的 WebSite/WebPage/Organization schema 以 inline script 直接輸出，確保上線 HTML 含完整結構化資料。 -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://trade.weiqi.kids/#website",
+      "url": "https://trade.weiqi.kids/",
+      "name": "全球貿易與供需智慧分析系統",
+      "description": "AI 驅動的全球貿易與出口管制情報分析",
+      "inLanguage": "zh-TW",
+      "publisher": { "@id": "https://trade.weiqi.kids/#organization" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://trade.weiqi.kids/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://trade.weiqi.kids/#webpage",
+      "url": "https://trade.weiqi.kids/",
+      "name": "全球貿易情報分析",
+      "description": "追蹤六大經濟體貿易動態與出口管制政策",
+      "inLanguage": "zh-TW",
+      "isPartOf": { "@id": "https://trade.weiqi.kids/#website" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://trade.weiqi.kids/assets/images/logo.png"
+      },
+      "datePublished": "2026-01-01T00:00:00Z",
+      "dateModified": "2026-06-17T18:00:00+08:00",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".article-summary", ".speakable-content", ".key-takeaway", ".key-answer", ".data-highlight", "h1", "h2"]
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://trade.weiqi.kids/#organization",
+      "name": "全球貿易與供需智慧分析系統",
+      "url": "https://trade.weiqi.kids/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://trade.weiqi.kids/assets/images/logo.png",
+        "width": 600,
+        "height": 60
+      },
+      "description": "AI 驅動的全球貿易與出口管制情報分析系統",
+      "sameAs": ["https://github.com/weiqi-kids/agent.cross-border-trade"],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "technical support",
+        "url": "https://github.com/weiqi-kids/agent.cross-border-trade/issues"
+      }
+    }
+  ]
+}
+</script>
 
 # 全球貿易情報分析
 {: .fs-9 }

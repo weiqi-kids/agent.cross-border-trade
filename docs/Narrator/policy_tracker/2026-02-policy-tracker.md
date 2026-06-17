@@ -12,103 +12,144 @@ related_reports:
   - "/Narrator/supply_chain_analysis/2026-02-supply-chain-analysis/"
   - "/Narrator/trade_compliance_digest/2026-W09-W10-trade-compliance-digest/"
 seo:
-  json_ld:
-    "@context": "https://schema.org"
-    "@graph":
-      - "@type": "WebPage"
-        "@id": "https://trade.weiqi.kids/Narrator/policy_tracker/2026-02-policy-tracker#webpage"
-        url: "https://trade.weiqi.kids/Narrator/policy_tracker/2026-02-policy-tracker"
-        name: "出口管制政策追蹤 — 2026 年 2 月｜對日40家實體出口管制雙軌制"
-        description: "2026年2月中國出口管制政策月報：商務部發布第11、12號公告，將40家日本實體分別列入管控名單（20家，完全禁止）和關注名單（20家，強化許可）。稀土、鋰電池、超硬材料管制持續運作。"
-        inLanguage: "zh-TW"
-        isPartOf:
-          "@id": "https://trade.weiqi.kids/#website"
-        primaryImageOfPage:
-          "@type": "ImageObject"
-          url: "https://trade.weiqi.kids/assets/images/og-policy-tracker-2026-02.png"
-        datePublished: "2026-02-28T00:00:00Z"
-        dateModified: "2026-02-28T00:00:00Z"
-        speakable:
-          "@type": "SpeakableSpecification"
-          cssSelector:
-            - ".article-summary"
-            - ".speakable-content"
-            - ".key-takeaway"
-            - ".key-answer"
-            - "h1"
-            - "h2"
-            - ".data-highlight"
-      - "@type": "Article"
-        "@id": "https://trade.weiqi.kids/Narrator/policy_tracker/2026-02-policy-tracker#article"
-        headline: "出口管制政策追蹤 — 2026 年 2 月"
-        description: "對日40家實體出口管制雙軌制、稀土境外管制、中美不可靠實體清單調整"
-        datePublished: "2026-02-28T00:00:00Z"
-        dateModified: "2026-02-28T00:00:00Z"
-        author:
-          "@type": "Person"
-          name: "全球貿易情報分析系統"
-          url: "https://trade.weiqi.kids"
-          knowsAbout:
-            - "國際貿易分析"
-            - "出口管制政策"
-          sameAs:
-            - "https://github.com/weiqi-kids/agent.cross-border-trade"
-        publisher:
-          "@type": "Organization"
-          name: "全球貿易情報分析系統"
-          url: "https://trade.weiqi.kids"
-          logo:
-            "@type": "ImageObject"
-            url: "https://trade.weiqi.kids/assets/images/logo.png"
-            width: 200
-            height: 200
-        isAccessibleForFree: true
-        isPartOf:
-          "@type": "WebSite"
-          "@id": "https://trade.weiqi.kids/#website"
-          name: "全球貿易情報分析系統"
-          url: "https://trade.weiqi.kids"
-          potentialAction:
-            "@type": "SearchAction"
-            target: "https://trade.weiqi.kids/search?q={search_term_string}"
-            query-input: "required name=search_term_string"
-        significantLink:
-          - "http://exportcontrol.mofcom.gov.cn/"
-          - "https://comtradeplus.un.org/"
-          - "https://www.census.gov/foreign-trade/"
-      - "@type": "BreadcrumbList"
-        itemListElement:
-          - "@type": "ListItem"
-            position: 1
-            name: "首頁"
-            item: "https://trade.weiqi.kids/"
-          - "@type": "ListItem"
-            position: 2
-            name: "出口管制政策追蹤"
-            item: "https://trade.weiqi.kids/policy-tracker/"
-          - "@type": "ListItem"
-            position: 3
-            name: "2026 年 2 月"
-            item: "https://trade.weiqi.kids/Narrator/policy_tracker/2026-02-policy-tracker"
-      - "@type": "ItemList"
-        name: "2026年2月重點政策"
-        description: "本月最重要的出口管制政策變更"
-        itemListElement:
-          - "@type": "ListItem"
-            position: 1
-            name: "公告第11號：20家日本實體列入管控名單"
-          - "@type": "ListItem"
-            position: 2
-            name: "公告第12號：20家日本實體列入關注名單"
-          - "@type": "ListItem"
-            position: 3
-            name: "稀土三層管制體系持續運作"
-          - "@type": "ListItem"
-            position: 4
-            name: "鋰電池材料和人造石墨出口管制"
-      - "@type": "Table"
-        about: "日本實體出口管制雙軌制比較"
-        description: "管控名單vs關注名單的措施差異"
+  json_ld: |
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://trade.weiqi.kids/Narrator/policy_tracker/2026-02-policy-tracker#webpage",
+          "url": "https://trade.weiqi.kids/Narrator/policy_tracker/2026-02-policy-tracker",
+          "name": "出口管制政策追蹤 — 2026 年 2 月｜對日40家實體出口管制雙軌制",
+          "description": "2026年2月中國出口管制政策月報：商務部發布第11、12號公告，將40家日本實體分別列入管控名單（20家，完全禁止）和關注名單（20家，強化許可）。稀土、鋰電池、超硬材料管制持續運作。",
+          "inLanguage": "zh-TW",
+          "isPartOf": {
+            "@id": "https://trade.weiqi.kids/#website"
+          },
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://trade.weiqi.kids/assets/images/og-policy-tracker-2026-02.png"
+          },
+          "datePublished": "2026-02-28T00:00:00Z",
+          "dateModified": "2026-02-28T00:00:00Z",
+          "speakable": {
+            "@type": "SpeakableSpecification",
+            "cssSelector": [
+              ".article-summary",
+              ".speakable-content",
+              ".key-takeaway",
+              ".key-answer",
+              "h1",
+              "h2",
+              ".data-highlight"
+            ]
+          }
+        },
+        {
+          "@type": "Article",
+          "@id": "https://trade.weiqi.kids/Narrator/policy_tracker/2026-02-policy-tracker#article",
+          "headline": "出口管制政策追蹤 — 2026 年 2 月",
+          "description": "對日40家實體出口管制雙軌制、稀土境外管制、中美不可靠實體清單調整",
+          "datePublished": "2026-02-28T00:00:00Z",
+          "dateModified": "2026-02-28T00:00:00Z",
+          "author": {
+            "@type": "Person",
+            "name": "全球貿易情報分析系統",
+            "url": "https://trade.weiqi.kids",
+            "knowsAbout": [
+              "國際貿易分析",
+              "出口管制政策"
+            ],
+            "sameAs": [
+              "https://github.com/weiqi-kids/agent.cross-border-trade"
+            ]
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "全球貿易情報分析系統",
+            "url": "https://trade.weiqi.kids",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://trade.weiqi.kids/assets/images/logo.png",
+              "width": 200,
+              "height": 200
+            }
+          },
+          "isAccessibleForFree": true,
+          "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://trade.weiqi.kids/#website",
+            "name": "全球貿易情報分析系統",
+            "url": "https://trade.weiqi.kids",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://trade.weiqi.kids/search?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          },
+          "significantLink": [
+            "http://exportcontrol.mofcom.gov.cn/",
+            "https://comtradeplus.un.org/",
+            "https://www.census.gov/foreign-trade/"
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "首頁",
+              "item": "https://trade.weiqi.kids/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "出口管制政策追蹤",
+              "item": "https://trade.weiqi.kids/policy-tracker/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "2026 年 2 月",
+              "item": "https://trade.weiqi.kids/Narrator/policy_tracker/2026-02-policy-tracker"
+            }
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "name": "2026年2月重點政策",
+          "description": "本月最重要的出口管制政策變更",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "公告第11號：20家日本實體列入管控名單"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "公告第12號：20家日本實體列入關注名單"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "稀土三層管制體系持續運作"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "鋰電池材料和人造石墨出口管制"
+            }
+          ]
+        },
+        {
+          "@type": "Table",
+          "about": "日本實體出口管制雙軌制比較",
+          "description": "管控名單vs關注名單的措施差異"
+        }
+      ]
+    }
 lastReviewed: '2026-03-01'
 reviewedBy: '全球貿易情報 AI 編輯'
 
