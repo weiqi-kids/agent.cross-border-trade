@@ -14,6 +14,9 @@ node_modules/
 *.tmp
 *.swp
 
+# Site-audit raw artifacts (健檢報告本身放 docs/site-audit/*.md，原始 json 不入庫)
+site-audit-*.json
+
 # Claude CLI
 .claude/
 

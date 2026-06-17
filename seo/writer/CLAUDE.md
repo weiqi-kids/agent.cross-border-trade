@@ -82,19 +82,35 @@
 
 ### 階段 3：產出 JSON-LD Schema
 
-產出以下 Schema（使用 `@graph` 整合）：
+> **重要（避免重複輸出）**：5 種**必填 Schema 由 `docs/_includes/head_custom.html` 依 front matter 自動渲染**（適用所有 `layout: default` 頁面），Writer **不要**再把它們放進 `seo.json_ld`，否則上線 HTML 會出現兩份相同 schema。Writer 的職責是：
+> 1. 確保 front matter 具備 head_custom 所需欄位（`title`、`description`、`date`、`parent`、`article_section`、`keywords`、`related_reports`）。
+> 2. **`seo.json_ld` 只放「條件式 Schema」**（head_custom 不會產生的部分），且必須是 `| ` 區塊字串的合法 JSON（YAML mapping 會被渲染成無效的 Ruby-hash）。
 
-**必填 Schema（5 種）**：
+**必填 Schema（5 種，由 head_custom 自動渲染，Writer 不重複產出）**：
 1. WebPage（含 Speakable）
 2. Article（含 SearchAction）
-3. Person（固定值 — 直接引用）
-4. Organization（固定值 — 直接引用）
+3. Person（固定值）
+4. Organization（固定值）
 5. BreadcrumbList
 
-**條件式 Schema（依偵測結果）**：
+**條件式 Schema（依偵測結果，放入 `seo.json_ld` 的 `@graph`）**：
 - FAQPage（若有 Q&A）
 - ItemList（若有排序清單）
 - Table（若有比較表格）
+
+`seo.json_ld` 範例（條件式 only）：
+
+```yaml
+seo:
+  json_ld: |
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        { "@type": "FAQPage", "mainEntity": [ ... ] },
+        { "@type": "ItemList", "@id": "{{URL}}#itemlist", ... }
+      ]
+    }
+```
 
 ### 階段 4：產出 SGE 標記建議
 

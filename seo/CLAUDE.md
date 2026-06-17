@@ -10,7 +10,9 @@
 
 ## 一、JSON-LD Schema 類型定義
 
-### 必填 Schema（5 種 + 1 內嵌）
+> **渲染機制（務必理解）**：以下 5 種必填 Schema **由 `docs/_includes/head_custom.html` 依 front matter 自動渲染**到每個 `layout: default` 頁面。報告的 `seo.json_ld` **只應放條件式 Schema**（FAQPage/ItemList/Table）；若把必填 5 種也寫進 `seo.json_ld`，上線 HTML 會輸出**兩份重複** schema。必填 Schema 的定義在此僅供參考（了解 head_custom 產出什麼），Writer 不需重複產生。`seo.json_ld` 必須是 `| ` 區塊字串的合法 JSON（YAML mapping 會被 `{{ page.seo.json_ld }}` 渲染成無效的 Ruby-hash）。
+
+### 必填 Schema（5 種 + 1 內嵌，由 head_custom 自動渲染）
 
 > **注意**：WebSite Schema 透過 Article.isPartOf 內嵌，包含 SearchAction 網站搜尋功能。
 

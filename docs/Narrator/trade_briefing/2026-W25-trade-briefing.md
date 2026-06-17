@@ -35,128 +35,6 @@ seo:
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "WebPage",
-          "@id": "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W25-trade-briefing#webpage",
-          "url": "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W25-trade-briefing",
-          "name": "2026 年第 25 週貿易動態：中國管制7家歐盟國防實體、美中逆差收窄",
-          "description": "中國商務部公告2026年第20號將7家歐盟國防實體列入出口管制名單（4/24生效）；美中4月逆差USD 103.9億、YoY收窄39.7%；美台逆差USD 186.6億續居高位；台灣出口HHI 2522高集中度。",
-          "inLanguage": "zh-TW",
-          "isPartOf": {
-            "@id": "https://trade.weiqi.kids/#website",
-            "@type": "WebSite",
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": "https://trade.weiqi.kids/search?q={search_term_string}",
-              "query-input": "required name=search_term_string"
-            }
-          },
-          "primaryImageOfPage": {
-            "@type": "ImageObject",
-            "url": "https://trade.weiqi.kids/assets/images/og-trade-briefing.png",
-            "width": 1200,
-            "height": 630
-          },
-          "datePublished": "2026-06-17T00:00:00Z",
-          "dateModified": "2026-06-17T00:00:00Z",
-          "speakable": {
-            "@type": "SpeakableSpecification",
-            "cssSelector": [
-              ".article-summary",
-              ".speakable-content",
-              ".key-takeaway",
-              ".key-answer",
-              "h1",
-              "h2",
-              ".data-highlight"
-            ]
-          }
-        },
-        {
-          "@type": "Article",
-          "@id": "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W25-trade-briefing#article",
-          "headline": "2026 年第 25 週貿易動態：中國管制7家歐盟國防實體、美中逆差收窄",
-          "description": "中國商務部公告2026年第20號將7家歐盟國防實體列入出口管制名單（4/24生效）；美中4月逆差USD 103.9億、YoY收窄39.7%；美台逆差USD 186.6億續居高位；台灣出口HHI 2522高集中度。",
-          "datePublished": "2026-06-17T00:00:00Z",
-          "dateModified": "2026-06-17T00:00:00Z",
-          "isAccessibleForFree": true,
-          "inLanguage": "zh-TW",
-          "articleSection": "週報分析",
-          "keywords": "國際貿易, 出口管制, 中國, 歐盟, 商務部, 兩用物項, 美中貿易逆差, 美台逆差, 日本, HHI, 市場集中度, 2026",
-          "wordCount": 2400,
-          "author": {
-            "@id": "https://trade.weiqi.kids/about#ai-analyst"
-          },
-          "publisher": {
-            "@id": "https://trade.weiqi.kids/#organization"
-          },
-          "mainEntityOfPage": {
-            "@id": "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W25-trade-briefing#webpage",
-            "significantLink": [
-              "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W13-trade-briefing/",
-              "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W12-trade-briefing/"
-            ]
-          },
-          "isPartOf": {
-            "@type": "WebSite",
-            "@id": "https://trade.weiqi.kids/#website",
-            "url": "https://trade.weiqi.kids",
-            "name": "全球貿易與供需智慧分析系統",
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": "https://trade.weiqi.kids/search?q={search_term_string}",
-              "query-input": "required name=search_term_string"
-            }
-          },
-          "about": [
-            { "@type": "Thing", "name": "中國出口管制" },
-            { "@type": "Thing", "name": "美中貿易逆差" },
-            { "@type": "Thing", "name": "台灣出口集中度" }
-          ]
-        },
-        {
-          "@type": "Person",
-          "@id": "https://trade.weiqi.kids/about#ai-analyst",
-          "name": "AI 貿易分析師",
-          "url": "https://trade.weiqi.kids/about",
-          "description": "基於 Claude 的智慧貿易分析系統，整合 UN Comtrade、US Census、World Bank 等權威數據源，提供即時貿易情報與趨勢分析。",
-          "knowsAbout": [
-            "國際貿易數據分析",
-            "供應鏈風險評估",
-            "關稅政策追蹤",
-            "出口管制法規",
-            "雙邊貿易流向"
-          ],
-          "affiliation": { "@id": "https://trade.weiqi.kids/#organization" },
-          "sameAs": [
-            "https://github.com/anthropics/claude-code"
-          ]
-        },
-        {
-          "@type": "Organization",
-          "@id": "https://trade.weiqi.kids/#organization",
-          "name": "全球貿易與供需智慧分析系統",
-          "url": "https://trade.weiqi.kids",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://trade.weiqi.kids/assets/images/logo.png",
-            "width": 600,
-            "height": 60
-          },
-          "description": "自動化貿易情報分析平台，追蹤全球貿易流向、政策變動與供應鏈風險。",
-          "sameAs": [
-            "https://github.com/anthropics/claude-code"
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "@id": "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W25-trade-briefing#breadcrumb",
-          "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "首頁", "item": "https://trade.weiqi.kids/" },
-            { "@type": "ListItem", "position": 2, "name": "貿易動態週報", "item": "https://trade.weiqi.kids/Narrator/trade_briefing/" },
-            { "@type": "ListItem", "position": 3, "name": "2026 年第 25 週", "item": "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W25-trade-briefing" }
-          ]
-        },
-        {
           "@type": "FAQPage",
           "@id": "https://trade.weiqi.kids/Narrator/trade_briefing/2026-W25-trade-briefing#faq",
           "mainEntity": [
@@ -209,12 +87,42 @@ seo:
           "description": "UN Comtrade 2023-2024年度數據：六大經濟體出口HHI指數排行，台灣為唯一高集中度經濟體",
           "numberOfItems": 6,
           "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "台灣 (158) — HHI 2522（高集中度）", "description": "前3大夥伴佔比61.83%，對美依賴顯著" },
-            { "@type": "ListItem", "position": 2, "name": "德國 (276) — HHI 1068（低集中度）", "description": "偏向歐盟內部夥伴，前3大佔比48.47%" },
-            { "@type": "ListItem", "position": 3, "name": "日本 (392) — HHI 801（低集中度）", "description": "分散，前3大佔比41.68%" },
-            { "@type": "ListItem", "position": 4, "name": "中國 (156) — HHI 795（低集中度）", "description": "高度分散，215個夥伴群，前3大佔比36.58%" },
-            { "@type": "ListItem", "position": 5, "name": "美國 (842) — HHI 584（低集中度）", "description": "最分散，223個夥伴群，前3大佔比31.2%" },
-            { "@type": "ListItem", "position": 6, "name": "韓國 (410) — HHI 355（低集中度）", "description": "最低集中度，前3大佔比23.43%" }
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "台灣 (158) — HHI 2522（高集中度）",
+              "description": "前3大夥伴佔比61.83%，對美依賴顯著"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "德國 (276) — HHI 1068（低集中度）",
+              "description": "偏向歐盟內部夥伴，前3大佔比48.47%"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "日本 (392) — HHI 801（低集中度）",
+              "description": "分散，前3大佔比41.68%"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "中國 (156) — HHI 795（低集中度）",
+              "description": "高度分散，215個夥伴群，前3大佔比36.58%"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "美國 (842) — HHI 584（低集中度）",
+              "description": "最分散，223個夥伴群，前3大佔比31.2%"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "韓國 (410) — HHI 355（低集中度）",
+              "description": "最低集中度，前3大佔比23.43%"
+            }
           ]
         },
         {

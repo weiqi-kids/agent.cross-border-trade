@@ -32,119 +32,40 @@ seo:
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "WebPage",
-          "@id": "https://trade.weiqi.kids/Narrator/investment_insight/2026-Q2-investment-insight#webpage",
-          "url": "https://trade.weiqi.kids/Narrator/investment_insight/2026-Q2-investment-insight",
-          "name": "投資視角貿易分析 — 2026 年 Q2",
-          "description": "2026年Q2全球貿易格局：中國對日雙軌出口管制升級並對7家歐盟國防實體列管；美自中進口Q1再降40.9%、台灣對美出口占比48.7%（HHI 2,522）。六大經濟體貿易數據與政策風險投資解讀。",
-          "inLanguage": "zh-TW",
-          "isPartOf": { "@id": "https://trade.weiqi.kids/#website" },
-          "primaryImageOfPage": { "@type": "ImageObject", "url": "https://trade.weiqi.kids/assets/images/investment-insight-2026-q2.png" },
-          "datePublished": "2026-06-17",
-          "dateModified": "2026-06-17",
-          "speakable": {
-            "@type": "SpeakableSpecification",
-            "cssSelector": [
-              ".article-summary",
-              ".speakable-content",
-              ".key-takeaway",
-              ".key-answer",
-              ".expert-quote",
-              ".actionable-steps li",
-              ".data-highlight"
-            ]
-          }
-        },
-        {
-          "@type": "Article",
-          "@id": "https://trade.weiqi.kids/Narrator/investment_insight/2026-Q2-investment-insight#article",
-          "mainEntityOfPage": {
-            "@id": "https://trade.weiqi.kids/Narrator/investment_insight/2026-Q2-investment-insight#webpage",
-            "significantLink": [
-              "https://trade.weiqi.kids/Narrator/policy_tracker/",
-              "https://trade.weiqi.kids/Narrator/supply_chain_analysis/"
-            ]
-          },
-          "headline": "投資視角貿易分析 — 2026 年 Q2",
-          "description": "2026年Q2：中國對日兩用物項全面禁令＋40家實體列管、對7家歐盟國防實體列管；美自中進口Q1再降40.9%。國防航太與半導體設備供應鏈合規風險升高。",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://trade.weiqi.kids/assets/images/investment-insight-2026-q2.png",
-            "width": 1200,
-            "height": 630
-          },
-          "author": { "@id": "https://trade.weiqi.kids/about#ai-analyst" },
-          "publisher": { "@id": "https://trade.weiqi.kids/#organization" },
-          "datePublished": "2026-06-17",
-          "dateModified": "2026-06-17",
-          "articleSection": "季度投資分析",
-          "keywords": "國際貿易, 投資分析, 台灣, 美國, 中國, 日本, 韓國, 德國, 半導體, 稀土, 國防航太, 兩用物項, 出口管制, 供應鏈重組, HHI, 2026, Q2",
-          "wordCount": "4800",
-          "inLanguage": "zh-TW",
-          "isAccessibleForFree": true,
-          "isPartOf": {
-            "@type": "WebSite",
-            "@id": "https://trade.weiqi.kids/#website",
-            "name": "全球貿易與供需智慧分析系統",
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": "https://trade.weiqi.kids/search?q={search_term}",
-              "query-input": "required name=search_term"
-            }
-          }
-        },
-        {
-          "@type": "Person",
-          "@id": "https://trade.weiqi.kids/about#ai-analyst",
-          "name": "AI 貿易分析師",
-          "description": "由 Claude 編排的自動化貿易情報分析系統",
-          "knowsAbout": ["國際貿易", "出口管制", "供應鏈分析", "半導體產業", "宏觀經濟"],
-          "sameAs": ["https://trade.weiqi.kids/about"]
-        },
-        {
-          "@type": "Organization",
-          "@id": "https://trade.weiqi.kids/#organization",
-          "name": "全球貿易與供需智慧分析系統",
-          "url": "https://trade.weiqi.kids/",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://trade.weiqi.kids/assets/images/logo.png",
-            "width": 512,
-            "height": 512
-          }
-        },
-        {
-          "@type": "BreadcrumbList",
-          "@id": "https://trade.weiqi.kids/Narrator/investment_insight/2026-Q2-investment-insight#breadcrumb",
-          "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "首頁", "item": "https://trade.weiqi.kids/" },
-            { "@type": "ListItem", "position": 2, "name": "投資視角貿易分析", "item": "https://trade.weiqi.kids/investment-insight/" },
-            { "@type": "ListItem", "position": 3, "name": "2026 年第 2 季", "item": "https://trade.weiqi.kids/Narrator/investment_insight/2026-Q2-investment-insight" }
-          ]
-        },
-        {
           "@type": "FAQPage",
           "@id": "https://trade.weiqi.kids/Narrator/investment_insight/2026-Q2-investment-insight#faq",
           "mainEntity": [
             {
               "@type": "Question",
               "name": "2026年Q2中國對日本的出口管制有何升級？",
-              "acceptedAnswer": { "@type": "Answer", "text": "中國於2026-01-06宣布全面禁止對日本軍事用戶與提升日本軍事能力之用途出口兩用物項，並具域外效力；2026-02-24進一步以第11號公告將20家日本國防航太實體列入管控名單（禁運）、以第12號公告將20家日本汽車材料電子實體列入關注名單（個案許可），雙軌合計40家。資料來源：cn_export_control，2026年1-2月。" }
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "中國於2026-01-06宣布全面禁止對日本軍事用戶與提升日本軍事能力之用途出口兩用物項，並具域外效力；2026-02-24進一步以第11號公告將20家日本國防航太實體列入管控名單（禁運）、以第12號公告將20家日本汽車材料電子實體列入關注名單（個案許可），雙軌合計40家。資料來源：cn_export_control，2026年1-2月。"
+              }
             },
             {
               "@type": "Question",
               "name": "美國自中國進口在2026年第一季衰退多少？",
-              "acceptedAnswer": { "@type": "Answer", "text": "依US Census月度數據，美國自中國進口2026年Q1（1-3月）累計約608.7億美元，較2025年Q1的1,029.4億美元下降40.9%；同期美國對中國出口約273.8億美元，年減13.9%。資料來源：us_trade_census，2026 Q1。" }
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "依US Census月度數據，美國自中國進口2026年Q1（1-3月）累計約608.7億美元，較2025年Q1的1,029.4億美元下降40.9%；同期美國對中國出口約273.8億美元，年減13.9%。資料來源：us_trade_census，2026 Q1。"
+              }
             },
             {
               "@type": "Question",
               "name": "本季半導體設備供應鏈面臨哪些政策風險？",
-              "acceptedAnswer": { "@type": "Answer", "text": "美國商務部BIS對Applied Materials經由南韓轉運離子注入機至中國未取得許可，處以2.52億美元（為貨值兩倍）罰款，為BIS史上次高；同時中國對日本IHI、川崎重工等國防航太實體禁運兩用物項，半導體設備與國防航太供應鏈的轉運與技術數據合規風險顯著升高。資料來源：cn_export_control enforcement_action，2026年2-4月。" }
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "美國商務部BIS對Applied Materials經由南韓轉運離子注入機至中國未取得許可，處以2.52億美元（為貨值兩倍）罰款，為BIS史上次高；同時中國對日本IHI、川崎重工等國防航太實體禁運兩用物項，半導體設備與國防航太供應鏈的轉運與技術數據合規風險顯著升高。資料來源：cn_export_control enforcement_action，2026年2-4月。"
+              }
             },
             {
               "@type": "Question",
               "name": "六大經濟體中哪一個出口集中度最高，投資意涵為何？",
-              "acceptedAnswer": { "@type": "Answer", "text": "台灣出口HHI為2,522.42（高集中度），對美單一市場占比達48.68%，反映半導體供應鏈對美高度依賴與單一客戶風險；韓國HHI僅354.65（六者最低）顯示出口最分散。資料來源：bilateral_trade_flows market_concentration，2023-2024。" }
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "台灣出口HHI為2,522.42（高集中度），對美單一市場占比達48.68%，反映半導體供應鏈對美高度依賴與單一客戶風險；韓國HHI僅354.65（六者最低）顯示出口最分散。資料來源：bilateral_trade_flows market_concentration，2023-2024。"
+              }
             }
           ]
         }
